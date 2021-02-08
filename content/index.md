@@ -1,12 +1,9 @@
 ---
-# NEW: Comments for new repos start with "NEW". Please delete the NEW comments. Leave the other comments for translators. Also, search for @@s to replace. For multi-page resources and other frontmatter info, see: https://wai-website-theme.netlify.app/writing/frontmatter/
-
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Page Title"
-title_html: "Main Title:<br>Other Part" # NEW: only needed if you need <br> or other in title. Otherwise, delete.
-nav_title: "Short Title" # NEW: (I think not used yet, but in place for possible future use.)
+title: "Accessibility Roles and Responsibilities (ARRM) Overview"
+nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -19,31 +16,27 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-resource-template
+  repository: w3c/wai-arrm
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /link/to/page/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /path/to/previous/file/
   # next: /path/to/next/file/
-# @@SLH To Do: figure out if need to add lang here, too, and if this replaces "order" from older resources?
 
-ref: /link/to/page/   # Translators, do not change this
-changelog: /@@/changelog/
-acknowledgements: /@@/acknowledgements/  # NEW: delete if don"t have a separate acknowledgements page. And delete it in the footer below.
-license: creative-commons   # NEW: delete if not creative-commons
+ref: /planning/arrm/    # Translators, do not change this
+# changelog: /@@/changelog/
+# acknowledgements: /@@/acknowledgements/
+license: creative-commons
 
-description:  # NEW: add a 150ish-character-description for social media   # translate the description
-image: /content-images/wai-@@repo/social.png  # NEW: image for social media
-feedbackmail: wai@w3.org  # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
-
-# NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
+# description:  @@ a 150ish-character-description for social media   # translate the description
+# image: /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. CHANGELOG.</p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
-   <p>Developed by the @@ Working Group (<a href="http://www.w3.org/WAI/@@/">@@WG</a>). Developed as part of the <a href="https://www.w3.org/WAI/@@/">WAI-@@ project</a>, @@co-funded by the European Commission.</p>
+   <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
+   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>.<!-- ACKNOWLEDGEMENTS lists additional contributors. --></p>
+   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
 ---
 
@@ -51,7 +44,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto excepturi incidunt, odit modi quidem deserunt doloremque molestias saepe. Iste dolor non repellendus laudantium. Nihil velit mollitia voluptatem ullam libero.
+[@@ don’t need summary if this stays so short, and not TOC either]
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -68,38 +61,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto except
 {% include toc.html type="end" %}
 {:/}
 
-## Heading Level 2
+## Introduction to ARRM
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. **Assumenda aut, praesentium (bold)** commodi _nesciunt natus (italic)_ ipsum fugiat with **link markdown**:
-* [[Exact Title of Page on WAI website - uses double brackets and permalink]](/permalink/to/page/)
-* [link to WAI website that's not exact title of page - uses single brackets and permalink](/permalink/to/page/)
-* [link to page off the WAI website - uses single brackets and full URI](https://example.com)
+The ARRM Introduction takes users through the steps they will follow to apply the ARRM methodology. Using the multi-step ARRM tool, users will be able to map specific accessibility tasks within their development life cycle to identified roles within the product team.
 
-### Heading Level 3
+## Role-Based Decision Tree
 
-1. This is 
-2. a nice
-3. ordered
-4. list.
+The Decision Tree is a customizable framework to help teams define a matrix of their own within their organization. Use it to assign primary, secondary, or contributor level accountability for task-related responsibilities.
 
-#### Heading Level 4
+## Role Definitions
 
+To avoid confusion around role-naming conventions, Role Definitions are provided as a baseline to identify common stakeholders in a typical web development lifecycle.
 
-* And this is a
-* bullet list
+## Responsibilities Matrix
 
-- You can use asterisks
-- or dashes. Whatever floats
-- your boat :-)
-
-##### Heading Level 5
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam
-
-## Heading Level 2
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam
-
-### Heading Level 3
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam
+Using the roles defined and agreed upon, the Matrix provides:
+* A set of role-specific grids for each role
+* A set of ownership assignments for every WCAG Success Criteria
+* A set of sample considerations prioritizing responsibilities
