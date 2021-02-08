@@ -6,11 +6,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
-
-    - name: Publish
+    - uses: actions/checkout@v2
+    - name: Set up Ruby 2.6
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.6.x
+    - name: Install bundler and bundle install 
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+    - name: Create Site
       uses: netlify/actions/build@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NETLIFY_CMD: git submodule update --init --remote && bundle exec jekyll build --config '_config.yml,_config_staging.yml'
         NETLIFY_DIR: _site
+        NETLIFY_BASE: /
