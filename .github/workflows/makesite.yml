@@ -1,5 +1,5 @@
 on: workflow_dispatch
-name: Initial publish on Netlify
+name: Create Netlify site
 
 jobs:
   publish:
@@ -11,6 +11,11 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
+    - name: Get submodules
+      run: |
+        git submodule update --init --remote _external/data
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Install bundler and bundle install 
       run: |
         gem install bundler
