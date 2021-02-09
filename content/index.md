@@ -40,27 +40,6 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-{::nomarkdown}
-{% include box.html type="start" title="Summary" class="" %}
-{:/}
-
-[@@ don’t need summary if this stays so short, and not TOC either]
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
-{::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
-{:/}
-
-- This will be replaced by an automatically generated TOC when using Markdown formatting.
-{:toc}
-
-{::nomarkdown}
-{% include toc.html type="end" %}
-{:/}
-
 ## Introduction to ARRM
 
 The ARRM Introduction takes users through the steps they will follow to apply the ARRM methodology. Using the multi-step ARRM tool, users will be able to map specific accessibility tasks within their development life cycle to identified roles within the product team.
