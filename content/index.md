@@ -2,7 +2,7 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Accessibility Roles and Responsibilities Mapping (ARRM) Overview"
+title: "[Draft] Accessibility Roles and Responsibilities Mapping (ARRM) Overview"
 nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -42,31 +42,32 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles (designer, developer, writer, etc.) have which responsibilities for meeting which aspects of the Web Content Accessibility Guidelines (WCAG) requirements. It assigns primary, secondary, and contributor level responsibilities for tasks.
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles (designer, developer, writer, etc.) have which responsibilities for meeting which aspects of the Web Content Accessibility Guidelines (WCAG) requirements.
 
-As a simplified example, for meeting WCAG success criteria X.X:
-* Designers are responsible for XYZ
-* Developers are responsible for XYZ
-* Writers are responsible for XYZ
+Here’s a simplified example. For meeting the WCAG requirement on headings:
+* Writers are responsible for the writing the heading text
+* Designers are responsible for defining how the headings look
+* Developers are responsible for coding or marking up the headings
 
-ARRM is also a tool for project managers to assign different responsibility for accessibility tasks across roles within their team.
+ARRM assigns primary, secondary, and contributor level responsibilities for tasks.
+
+ARRM provides an example of typical roles and mapping. It is also a tool for project managers to assign different responsibilities across roles within their team.
 
 ## Typical Roles and Mapping
 
-ARRM provides one approach for defining roles and responsibilities in:
-* **[ARRM Role Definitions](https://www@@)**
-* **[ARRM Accessibility Responsibilities Mapping - All](https://www@@)**
+ARRM provides one approach for defining roles and responsibilities.
+
+You can use these as they are, without doing any more work to customize them.
+
+* **[Role Definitions](https://www@@)**
+* **[Accessibility Roles and Responsibilities Mapping Table](https://www@@)**
   * [UX Designer Responsibilities Mapping](https://www@@)
   * [Visual Designer Responsibilities Mapping](https://www@@)
   * [Content Author Responsibilities Mapping](https://www@@)
   * [Front-End Developer Responsibilities Mapping](https://www@@)
 
-You can use these examples as they are, without doing any more work to customize them.
-
-[… briefly explain that you can filter for… and other tips for using it …]
-
 ## Customizing ARRM for Your Situation
 
-ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping.
+ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on the roles and considerations in their organizations.
 * **[Customizing ARRM for Your Situation](https://www@@)** explains how to use the Role Definitions and the Decision Tree to create your customized Accessibility Responsibilities Mapping.
 * **[ARRM Decision Tree](https://www@@)** provides the steps for deciding which roles have which level responsibilities for accessibility tasks.
