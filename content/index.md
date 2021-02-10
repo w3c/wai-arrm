@@ -51,15 +51,15 @@ As a simplified example, for meeting WCAG success criteria X.X:
 
 ARRM is also a tool for project managers to assign different responsibility for accessibility tasks across roles within their team.
 
-## Example Roles and Mapping
+## Typical Roles and Mapping
 
 ARRM provides one approach for defining roles and responsibilities in:
-* **[ARRM Example Role Definitions](https://www@@)**
-* **[ARRM Example Accessibility Responsibilities Mapping](https://www@@)**
-  * UX Designer Responsibilities Mapping
-  * Visual Designer Responsibilities Mapping
-  * Content Author Responsibilities Mapping
-  * Front-End Developer Responsibilities Mapping
+* **[ARRM Role Definitions](https://www@@)**
+* **[ARRM Accessibility Responsibilities Mapping - All](https://www@@)**
+  * [UX Designer Responsibilities Mapping](https://www@@)
+  * [Visual Designer Responsibilities Mapping](https://www@@)
+  * [Content Author Responsibilities Mapping](https://www@@)
+  * [Front-End Developer Responsibilities Mapping](https://www@@)
 
 You can use these examples as they are, without doing any more work to customize them.
 
