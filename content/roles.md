@@ -48,14 +48,27 @@ Each role description includes areas of focus in decision making, decision owner
 
 These roles were defined as part of the [Accessibility Roles and Responsibilities Mapping (ARRM)](/planning/arrm/) project. You are welcome to use them and change them for your organization.
 
-The groups of roles covered in this document are:
+The roles in this document are:
 
 1. [**Analysis** Role Group](#analysis)
+    * Business Analysis
 2. [**Author** Role Group](#author)
+    * Content Authoring
+    * Content Publishing
 3. [**Designer** Role Group](#designer)
+    * Visual Design
+    * User Experience (UX) Design
 4. [**Development** Role Group](#development)
+    * Front-End Development
+    * Back-End Development
 5. [**Testing** Role Group](#testing)
+    * QA Testing Roles (overall)
+    * Automated QA Testing
+    * Manual QA Testing
 6. [**Administration** Role Group](#admin)
+    * Product Ownership
+    * Project Management
+    * Governance
 
 ## Analysis Role Group {#analysis}
 
