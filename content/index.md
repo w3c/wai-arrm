@@ -67,18 +67,23 @@ ARRM provides one approach for defining roles and responsibilities.
 
 You can use these as they are, without doing any more work to customize them.
 
-* **[Role Definitions](https://www@@)**
-* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](https://www@@)**<br>which is also available as separate lists:
-  * [UX Designer Responsibilities &mdash; List of Success Criteria](https://www@@)
-  * [Visual Designer Responsibilities &mdash; List of Success Criteria](https://www@@)
-  * [Content Author Responsibilities &mdash; List of Success Criteria](https://www@@)
-  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](https://www@@)
+* **[Role Definitions](planning/arrm/roles/)**
+* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](planning/arrm/sc-map/)**<br>which is also available as separate lists:
+  * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
 
 ## Customizing ARRM for Your Situation
 
-ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on the roles and considerations in their organizations.
-* **[Customizing ARRM for Your Situation](https://www@@)** explains how to use the Role Definitions and the Decision Tree to create your customized Accessibility Responsibilities Mapping.
-* **[ARRM Decision Tree](https://www@@)** provides the steps for deciding which roles have which level responsibilities for success criteria or your organization’s accessibility checkpoints.
+ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
+
+* **[ARRM Decision Tree](planning/arrm/decision-tree/)** provides steps for deciding which roles have which level responsibilities.
+
+First, decide if you want to use the example **[role definitions](planning/arrm/roles/)** or use different roles for your project team.
+
+Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
 
 ## Future Work
+
 Future work on ARRM includes breaking down success criteria into multiple sub-points, and assigning those sub-points to roles.
