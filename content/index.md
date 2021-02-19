@@ -74,8 +74,8 @@ ARRM provides one approach for defining roles and responsibilities.
 
 You can use these as they are, without doing any more work to customize them.
 
-* **[Role Definitions](roles)**
-* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](sc-map)**<br>which is also available as separate lists:
+* **[Roles with Responsibilities for Accessibility](roles)**
+* **[WCAG Success Criteria ARRM](sc-map)**<br>which is also available as separate lists:
   * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
   * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
   * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
