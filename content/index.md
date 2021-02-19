@@ -2,7 +2,7 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "[Draft] Accessibility Roles and Responsibilities Mapping (ARRM) Overview"
+title: "Accessibility Roles and Responsibilities Mapping (ARRM) Overview"
 nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -34,11 +34,17 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
+   <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
    <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>.<!-- ACKNOWLEDGEMENTS lists additional contributors. --></p>
    <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
 ---
+
+## Background
+
+When responsibilities for accessibility are not clearly defined and communicated, they are often left until too late in the lifecycle. For example, developers are sometimes left to address issues like color selection, image description, and heading identification that are not really in their purview. Such responsibilities more appropriately fall to other roles earlier in the process, such as user experience (UX) designers, visual designers, and content authors.
+
+ARRM helps the right roles address their appropriate responsibilities.
 
 ## What is ARRM
 
@@ -67,8 +73,8 @@ ARRM provides one approach for defining roles and responsibilities.
 
 You can use these as they are, without doing any more work to customize them.
 
-* **[Role Definitions](planning/arrm/roles/)**
-* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](planning/arrm/sc-map/)**<br>which is also available as separate lists:
+* **[Role Definitions](planning/arrm/roles)**
+* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](planning/arrm/sc-map)**<br>which is also available as separate lists:
   * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
   * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
   * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
@@ -78,9 +84,9 @@ You can use these as they are, without doing any more work to customize them.
 
 ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
 
-* **[ARRM Decision Tree](planning/arrm/decision-tree/)** provides steps for deciding which roles have which level responsibilities.
+* **[ARRM Decision Tree](planning/arrm/decision-tree)** provides steps for deciding which roles have which level responsibilities.
 
-First, decide if you want to use the example **[role definitions](planning/arrm/roles/)** or use different roles for your project team.
+First, decide if you want to use the example **[role definitions](planning/arrm/roles)**, or use different roles for your project team.
 
 Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
 
