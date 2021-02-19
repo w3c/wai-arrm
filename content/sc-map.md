@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "ARRM Table of Success Criteria (Accessibility Roles and Responsibilities Mapping)"
-title_html: "ARRM Table of Success Criteria<br>Accessibility Roles and Responsibilities Mapping"
+title: "ARRM (Accessibility Roles and Responsibilities Mapping) of WCAG Success Criteria"
+title_html: "ARRM (Accessibility Roles and Responsibilities Mapping) of <br>WCAG Success Criteria"
 nav_title: "ARRM Success Criteria"
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -41,7 +41,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-For background and context on this table, and alterntive views of the information, see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/).
+This page shows what roles have primary, secondary, or contributor responsbilities for Web Content Accessibility Guielines (WCAG) 2 requirements, called "success criteria". For background and context on this table, a description of the roles, and alternative views of the information, **see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/)**.
 
 <table style="text-align:center; font-size:75%; width:100%" class="dense">
   <tr>
