@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "AARRM Overview: Accessibility Roles and Responsibilities Mapping"
-title_html: "ARRM Overview<br>Accessibility Roles and Responsibilities Mapping"
+title: "ARRM Overview: Accessibility Roles and Responsibilities Mapping"
+title_html: "ARRM Overview:<br>Accessibility Roles and Responsibilities Mapping"
 nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -74,8 +74,8 @@ ARRM provides one approach for defining roles and responsibilities.
 
 You can use these as they are, without doing any more work to customize them.
 
-* **[Role Definitions](planning/arrm/roles/)**
-* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](planning/arrm/sc-map)**<br>which is also available as separate lists:
+* **[Role Definitions](roles)**
+* **[Accessibility Roles and Responsibilities Mapping &mdash; Table of Success Criteria](sc-map)**<br>which is also available as separate lists:
   * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
   * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
   * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
@@ -85,9 +85,9 @@ You can use these as they are, without doing any more work to customize them.
 
 ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
 
-* **[ARRM Decision Tree](planning/arrm/decision-tree)** provides steps for deciding which roles have which level responsibilities.
+* **[ARRM Decision Tree](decision-tree)** provides steps for deciding which roles have which level responsibilities.
 
-First, decide if you want to use the example [role definitions](planning/arrm/roles/), or use different roles for your project team.
+First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
 
 Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
 
