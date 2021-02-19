@@ -41,9 +41,9 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-For background and context on this table, see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/).
+For background and context on this table, and alterntive views of the information, see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/).
 
-<table  style="text-align:center">
+<table style="text-align:center; font-size:75%; width:100%" class="dense">
   <tr>
     <th>WCAG SC</th>
     <th>Level</th>
@@ -62,12 +62,12 @@ For background and context on this table, see [ARRM Overview: Accessibility Role
   <tr>
     <th>1.1.1 Non-text Content</th>
     <td>A</td>
-    <td style="font-size:85%; background:#CCC">Contributor</td>
-    <td style="font-size:85%; background:#9CF;font-weight:bold">Primary</td>
+    <td style="background:#CCC">Contributor</td>
+    <td style="background:#9CF;font-weight:bold">Primary</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    <td style="font-size:85%; background:#CFC">Secondary</td>
-    <td style="font-size:85%; background:#9CF;font-weight:bold">Primary</td>
+    <td style="background:#CFC">Secondary</td>
+    <td style="background:#9CF;font-weight:bold">Primary</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
