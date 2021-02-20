@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "ARRM Overview: Accessibility Roles and Responsibilities Mapping"
-title_html: "ARRM Overview:<br>Accessibility Roles and Responsibilities Mapping"
+title_html: "ARRM Overview:<br><span style='font-size:75%'>Accessibility Roles and Responsibilities Mapping</span>"
 nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
