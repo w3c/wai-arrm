@@ -62,12 +62,12 @@ This page shows what roles have primary, secondary, or contributor responsbiliti
   <tr>
     <th>1.1.1 Non-text Content</th>
     <td>A</td>
-    <td style="background:#CCC">Contributor</td>
-    <td style="background:#9CF;font-weight:bold">Primary</td>
+    <td style="background:#ddd">Contributor</td>
+    <td style="background:#f1d0e1;font-weight:bold">Primary</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
-    <td style="background:#CFC">Secondary</td>
-    <td style="background:#9CF;font-weight:bold">Primary</td>
+    <td style="background:#d0e1f1">Secondary</td>
+    <td style="background:#f1d0e1;font-weight:bold">Primary</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
