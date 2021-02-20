@@ -3,7 +3,7 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "WCAG Success Criteria ARRM - Accessibility Roles and Responsibilities Mapping"
-title_html: "WCAG Success Criteria ARRM<br>Accessibility Roles and Responsibilities Mapping"
+title_html: "WCAG Success Criteria ARRM<br><span style='font-size:75%'>Accessibility Roles and Responsibilities Mapping</span>"
 nav_title: "WCAG Success Criteria"
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
@@ -45,8 +45,16 @@ This page shows what roles have primary, secondary, or contributor responsbiliti
 
 <table style="text-align:center; font-size:75%; width:100%" class="dense">
   <tr>
-    <th>WCAG SC</th>
-    <th>Level</th>
+    <th rowspan="2">WCAG SC</th>
+    <th rowspan="2">Level</th>
+    <th style="font-weight: normal">Analysis</th>
+    <th colspan="2" style="font-weight: normal">Authoring</th>
+    <th colspan="2" style="font-weight: normal">Design</th>
+    <th colspan="2" style="font-weight: normal">Development</th>
+    <th colspan="3" style="font-weight: normal">Testing</th>
+    <th style="font-weight: normal">Admin</th>
+  </tr>
+  <tr>
     <th>Business Analysis</th>
     <th>Content Authoring</th>
     <th>Content Publishing</th>
@@ -57,7 +65,7 @@ This page shows what roles have primary, secondary, or contributor responsbiliti
     <th>QA Testing Roles (overall)</th>
     <th>Automated QA Testing</th>
     <th>Manual QA Testing</th>
-    <th>Administration</th>
+    <th>Owner, Manager</th>
   </tr>
   <tr>
     <th>1.1.1 Non-text Content</th>
