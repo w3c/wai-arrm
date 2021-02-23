@@ -38,7 +38,13 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
    <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
    <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>.<!-- ACKNOWLEDGEMENTS lists additional contributors. --></p>
    <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-
+inline_css: | 
+  .sidenav { 
+    display: none; 
+  } 
+  #main { 
+    grid-column: navigation-start / content-end; 
+  }
 ---
 
 This page shows what roles have primary, secondary, or contributor responsbilities for Web Content Accessibility Guielines (WCAG) 2 requirements, called "success criteria". To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/). For background and context on this table, a description of the roles, and alternative views of the information, **see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/)**.
