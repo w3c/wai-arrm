@@ -45,6 +45,9 @@ inline_css: |
   #main { 
     grid-column: navigation-start / content-end; 
   }
+  #main > *:not(table, header) {
+    /* max-width: 50em; */
+  }
 ---
 
 This page shows what roles have primary, secondary, or contributor responsbilities for Web Content Accessibility Guielines (WCAG) 2 requirements, called "success criteria". To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/). For background and context on this table, a description of the roles, and alternative views of the information, **see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/)**.
