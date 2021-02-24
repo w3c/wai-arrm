@@ -40,6 +40,30 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
+{::nomarkdown}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
+{:/}
+
+Accessibility Roles and Responsibilities Mapping (ARRM) defines which roles have which responsibilities for meeting accessibility requirements.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+{::options toc_levels="2" /}
+
+{::nomarkdown}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
+{:/}
+
+-   TOC is created automatically.
+{:toc}
+
+{::nomarkdown}
+{% include_cached toc.html type="end" %}
+{:/}
+
+
 ## Background
 
 When responsibilities for accessibility are not clearly defined and communicated, they are often left until too late in the lifecycle. For example, developers are sometimes left to address issues like color selection, image description, and heading identification that are not really in their purview. Such responsibilities more appropriately fall to other roles earlier in the process, such as user experience (UX) designers, visual designers, and content authors.
