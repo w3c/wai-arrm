@@ -44,7 +44,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Accessibility Roles and Responsibilities Mapping (ARRM) defines which roles have which responsibilities for meeting accessibility requirements.
+ARRM defines which roles have which responsibilities for meeting accessibility requirements.
 
 {::nomarkdown}
 {% include box.html type="end" %}
