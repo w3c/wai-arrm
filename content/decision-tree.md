@@ -41,6 +41,6 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, **see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/)**.
+This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**.
 
 ...
