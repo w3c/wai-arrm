@@ -50,7 +50,7 @@ inline_css: |
   }
 ---
 
-This page shows what roles have primary, secondary, or contributor responsbilities for Web Content Accessibility Guielines (WCAG) 2 requirements, called "success criteria". To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/). For background and context on this table, a description of the roles, and alternative views of the information, **see [ARRM Overview: Accessibility Roles and Responsibilities Mapping](/planning/arrm/)**.
+This page shows what roles have primary, secondary, or contributor responsbilities for Web Content Accessibility Guielines (WCAG) 2 requirements, called "success criteria". To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/). For background and context on this table, a description of the roles, and alternative views of the information, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**.
 
 <table style="text-align:center; font-size:75%; width:100%" class="dense">
   <tr>
