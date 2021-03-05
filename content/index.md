@@ -1,12 +1,9 @@
 ---
-# NEW: Comments for new repos start with "NEW". Please delete the NEW comments. Leave the other comments for translators. Also, search for @@s to replace. For multi-page resources and other frontmatter info, see: https://wai-website-theme.netlify.app/writing/frontmatter/
-
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Page Title"
-title_html: "Main Title:<br>Other Part" # NEW: only needed if you need <br> or other in title. Otherwise, delete.
-nav_title: "Short Title" # NEW: (I think not used yet, but in place for possible future use.)
+title: "ARRM: Accessibility Roles and Responsibilities Mapping"
+nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -19,87 +16,105 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-resource-template
+  repository: w3c/wai-arrm
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /link/to/page/   # Add the language shortcode to the end, with no slash at end, for example: /link/to/page/fr
+permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /path/to/previous/file/
   # next: /path/to/next/file/
-# @@SLH To Do: figure out if need to add lang here, too, and if this replaces "order" from older resources?
 
-ref: /link/to/page/   # Translators, do not change this
-changelog: /@@/changelog/
-acknowledgements: /@@/acknowledgements/  # NEW: delete if don"t have a separate acknowledgements page. And delete it in the footer below.
-license: creative-commons   # NEW: delete if not creative-commons
+ref: /planning/arrm/    # Translators, do not change this
+# changelog: /@@/changelog/
+# acknowledgements: /@@/acknowledgements/
+license: creative-commons
 
-description:  # NEW: add a 150ish-character-description for social media   # translate the description
-image: /content-images/wai-@@repo/social.png  # NEW: image for social media
-feedbackmail: wai@w3.org  # NEW: delete this line if it’s an EOWG resource (the default is wai-eo-editors@w3.org)
-
-# NEW: Footer below has several options, and not all will be relevant for specific pages. (Ask Shawn if questions.)
+# description:  @@ a 150ish-character-description for social media   # translate the description
+# image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. CHANGELOG.</p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>. ACKNOWLEDGEMENTS lists contributors and credits.</p>
-   <p>Developed by the @@ Working Group (<a href="http://www.w3.org/WAI/@@/">@@WG</a>). Developed as part of the <a href="https://www.w3.org/WAI/@@/">WAI-@@ project</a>, @@co-funded by the European Commission.</p>
+   <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
+   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>.<!-- ACKNOWLEDGEMENTS lists additional contributors. --></p>
+   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
 ---
 
 {::nomarkdown}
-{% include box.html type="start" title="Summary" class="" %}
+{% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod architecto excepturi incidunt, odit modi quidem deserunt doloremque molestias saepe. Iste dolor non repellendus laudantium. Nihil velit mollitia voluptatem ullam libero.
+ARRM defines which roles have which responsibilities for meeting accessibility requirements.
 
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
 
+{::options toc_levels="2" /}
+
 {::nomarkdown}
-{% include toc.html type="start" title="Page Contents" %}
+{% include_cached toc.html type="start" title="Page Contents" class="full" %}
 {:/}
 
-- This will be replaced by an automatically generated TOC when using Markdown formatting.
+-   TOC is created automatically.
 {:toc}
 
 {::nomarkdown}
-{% include toc.html type="end" %}
+{% include_cached toc.html type="end" %}
 {:/}
 
-## Heading Level 2
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. **Assumenda aut, praesentium (bold)** commodi _nesciunt natus (italic)_ ipsum fugiat with **link markdown**:
-* [[Exact Title of Page on WAI website - uses double brackets and permalink]](/permalink/to/page/)
-* [link to WAI website that's not exact title of page - uses single brackets and permalink](/permalink/to/page/)
-* [link to page off the WAI website - uses single brackets and full URI](https://example.com)
+## Background
 
-### Heading Level 3
+When responsibilities for accessibility are not clearly defined and communicated, they are often left until too late in the lifecycle. For example, developers are sometimes left to address issues like color selection, image description, and heading identification that are not really in their purview. Such responsibilities more appropriately fall to other roles earlier in the process, such as user experience (UX) designers, visual designers, and content authors.
 
-1. This is 
-2. a nice
-3. ordered
-4. list.
+ARRM helps the right roles address their appropriate responsibilities.
 
-#### Heading Level 4
+## What is ARRM
 
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles (designer, developer, writer, etc.) have which responsibilities for meeting which aspects of the Web Content Accessibility Guidelines (WCAG) requirements.
 
-* And this is a
-* bullet list
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-- You can use asterisks
-- or dashes. Whatever floats
-- your boat :-)
+For meeting the WCAG requirement on headings:
+* Writers are responsible for the writing the heading text.
+* Designers are responsible for defining how the headings look.
+* Developers are responsible for coding or marking up the headings.
 
-##### Heading Level 5
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam
+ARRM assigns primary, secondary, and contributor level responsibilities for tasks.
 
-## Heading Level 2
+ARRM currently provides an example of typical roles and responsibilities for WCAG success criteria. It is also a tool for project managers to assign different responsibilities across roles within their team.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam
+## Typical Roles and Mapping
 
-### Heading Level 3
+ARRM provides one approach for defining roles and responsibilities.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione placeat ab laboriosam. Assumenda aut, praesentium commodi nesciunt natus ipsum fugiat voluptates nisi ipsam voluptas recusandae, a. Sunt eos veritatis numquam
+You can use these as they are, without doing any more work to customize them.
+
+* **[Roles Involved in Accessibility](roles)**
+* **[WCAG Success Criteria ARRM](sc-map)** table of all success criteria<br>which is also available as separate lists:
+  * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
+  * ...
+
+## Customizing ARRM for Your Situation
+
+ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
+
+* **[ARRM Decision Tree](decision-tree)** provides steps for deciding which roles have which level responsibilities.
+
+First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
+
+Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
+
+## Future Work
+
+Future work on ARRM includes breaking down success criteria into multiple sub-points, and assigning those sub-points to roles. We may also provide a tool for organizations that want to development their own ARRM.
