@@ -4,7 +4,7 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Page Title"
+title: "Page Title - Test Preview"
 title_html: "Main Title:<br>Other Part" # NEW: only needed if you need <br> or other in title. Otherwise, delete.
 nav_title: "Short Title" # NEW: (I think not used yet, but in place for possible future use.)
 
