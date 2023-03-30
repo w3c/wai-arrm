@@ -115,6 +115,10 @@ First, decide if you want to use the example [role definitions](roles), or use d
 
 Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
 
+<!-- @@not likely any time soon, so suggest we delete this section
+
 ## Future Work
 
 Future work on ARRM includes breaking down success criteria into multiple sub-points, and assigning those sub-points to roles. We may also provide a tool for organizations that want to development their own ARRM.
+
+-->
