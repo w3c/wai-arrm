@@ -83,11 +83,11 @@ While familiarity the Web Content Accessibility Guidelines is useful, a team doe
 
 ### Role-Based Decision Tree
 
-The Decision Tree is a [framework to define accessibility ownership](https://www.w3.org/WAI/EO/wiki/Role-Based_Decision_Tree "Role-Based Decision Tree") in a cross-functional product team (primary, secondary, contributor levels). It will walk users through a process to distribute the many responsibilities of Web accessibility across your entire team. Whether your team is counting dozens of people or just a handful, identifying key stakeholders by roles will soon allow you to start allocating specific responsibilities in a way that leverages the natural skills and expertise of each individual. After all, while it makes sense for a QA Tester to ensure that color contrast ratios are being met, doesn't it make more sense that such a responsibility be attributed to a Visual Designer instead?
+The Decision Tree is a [framework to define accessibility ownership](/planning/arrm/decision-tree/ "Role-Based Decision Tree") in a cross-functional product team (primary, secondary, contributor levels). It will walk users through a process to distribute the many responsibilities of Web accessibility across your entire team. Whether your team is counting dozens of people or just a handful, identifying key stakeholders by roles will soon allow you to start allocating specific responsibilities in a way that leverages the natural skills and expertise of each individual. After all, while it makes sense for a QA Tester to ensure that color contrast ratios are being met, doesn't it make more sense that such a responsibility be attributed to a Visual Designer instead?
 
 ### Role Definition
 
-Of course, job titles are not universal and may not even be very descriptive. What they actually mean in terms of responsibilities also varies greatly from one organization or team to the next. To support the effectiveness of the Decision Tree, ARRM provides a [Role definition document](https://www.w3.org/WAI/EO/wiki/Role_definition_document "Role definition document") to help provide context and better frame what is meant by reference to the various members of the cross-functional team identified with various roles in the process.
+Of course, job titles are not universal and may not even be very descriptive. What they actually mean in terms of responsibilities also varies greatly from one organization or team to the next. To support the effectiveness of the Decision Tree, ARRM provides a [Role definition document](/planning/arrm/roles/ "Role definition document") to help provide context and better frame what is meant by reference to the various members of the cross-functional team identified with various roles in the process.
 
 ### The Matrix
 
