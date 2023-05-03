@@ -47,11 +47,11 @@ The role-based decision tree is a framework to help anyone define an accessibili
 
 The framework defines three levels of ownership for accessibility requirements, based on commonly agreed upon [RACI matrix principles](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#Key_responsibility_roles_(RACI_model)):
 
-1.  **[Primary ownership](https://www.w3.org/WAI/EO/wiki/Role-Based_Decision_Tree#Can_this_role_be_involved_as_a_Primary_Owner.3F "Role-Based Decision Tree")**  
+1.  **[Primary ownership](#Can_this_role_be_involved_as_a_Primary_Owner.3F "Role-Based Decision Tree")**  
     Those who are **accountable** for an accessibility task. Primary owners typically drive the decision-making process, have direct interaction with the secondary owner(s) discussing issues, delegate the work to other roles or team members (as needed), lead the task to completion, have final sign-off authority (if/when used), and are ultimately accountable for the outcome of checkpoint or design decisions regardless of when they occur in the process. The last few points emphasize that the primary role is ultimately accountable. This is why there can only be **one primary owner for each checkpoint**.
-2.  **[Secondary ownership](https://www.w3.org/WAI/EO/wiki/Role-Based_Decision_Tree#Can_this_role_be_involved_as_a_Secondary_Owner.3F "Role-Based Decision Tree")**  
+2.  **[Secondary ownership](#Can_this_role_be_involved_as_a_Secondary_Owner.3F "Role-Based Decision Tree")**  
     Those who are **responsible** to help complete an accessibility task. Secondary owners typically directly support the primary owner, are actively involved in the decision-making process, have active interest and participation in the outcomes, may work to complete the task, but ultimately defer final decisions to the primary owner.
-3.  **[Contributors](https://www.w3.org/WAI/EO/wiki/Role-Based_Decision_Tree#Can_this_role_be_involved_as_a_Contributor.3F "Role-Based Decision Tree")**  
+3.  **[Contributors](#Can_this_role_be_involved_as_a_Contributor.3F "Role-Based Decision Tree")**  
     Those who need to be **consulted** in order to successfully complete an accessibility task. Contributors are typically not actively involved in the decision-making process, will typically provide initial input or requirements, and may be asked to provide additional information as needed to ensure successful task completion. Contributors may have limited participation by providing initial design input (such as branding guidance or business requirements) with little or no subsequent interaction. In those cases, the communication may be input only with little or no concern of being kept "informed" of the result (relying on the expertise of other owners).
 
 ### Ownership to RACI Role Mapping
@@ -79,7 +79,7 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 A.
 
 Step A.  
-Is this checkpoint driven by [Business](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Business_Analysis "Role definition document") or non-functional requirements?
+Is this checkpoint driven by [Business](/planning/arrm/roles/#Business_Analysis "Role definition document") or non-functional requirements?
 
 -   If **"Yes"**, then primary ownership should be **Business** - Business Analysis
 -   If **"No"**, then move on to step B.
@@ -98,7 +98,7 @@ The Business Analyst role is the primary owner for items dictated by business re
 B.
 
 Step B.  
-Is this checkpoint about [Content Authoring](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Content_Authoring "Role definition document")?
+Is this checkpoint about [Content Authoring](/planning/arrm/roles/#Content_Authoring "Role definition document")?
 
 -   If **"Yes"**, then primary ownership of this checkpoint should be **Design** - Content Authoring
 -   If **"No"**, then move on to step C.
@@ -117,7 +117,7 @@ Content Authors are involved any time there is text or text-based content. This 
 C.
 
 Step D.  
-Is this checkpoint about [UX Design](https://www.w3.org/WAI/EO/wiki/Role_definition_document#User_Experience_Design "Role definition document")?
+Is this checkpoint about [UX Design](/planning/arrm/roles/#User_Experience_Design "Role definition document")?
 
 -   If **"Yes"**, then primary ownership of this checkpoint should be **Design** - User Experience Design
 -   If **"No"**, then move on to step D.
@@ -136,7 +136,7 @@ UX Designers are often primary owners for accessibility tasks that relate to int
 D.
 
 Step C.  
-Is this checkpoint about [Visual Design](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Visual_Design "Role definition document")?
+Is this checkpoint about [Visual Design](/planning/arrm/roles/#Visual_Design "Role definition document")?
 
 -   If **"Yes"**, then primary ownership of this checkpoint should be **Design** - Visual Design
 -   If **"No"**, then move on to step E.
@@ -155,7 +155,7 @@ Nearly any decision about final presentation design is likely to have the visual
 E.
 
 Step E.  
-Is this checkpoint about [Development](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Front_End_Development "Role definition document")?
+Is this checkpoint about [Development](/planning/arrm/roles/#Front_End_Development "Role definition document")?
 
 -   If **"Yes"**, then primary ownership of this checkpoint should be **Development** - Front-End Development
 -   If **"No"**, then move on to step F.
@@ -175,7 +175,7 @@ It's a frequent misconception that front-end developers should own most, if not 
 F.
 
 Step F.  
-Is this checkpoint about [Testing](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Testing_roles "Role definition document")?
+Is this checkpoint about [Testing](/planning/arrm/roles/#Testing_roles "Role definition document")?
 
 -   If **"Yes"**, confirm that one or more of the following is true before assigning to the tester:
     -   Checkpoint is about running testing tools,
@@ -198,7 +198,7 @@ QA Testers are not typically part of the design or implementation process. Thoug
 G.
 
 Step G.  
-IF NONE OF THE ABOVE, then it becomes a [Administrative](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Administrative_Roles "Role definition document") concern.
+IF NONE OF THE ABOVE, then it becomes a [Administrative](/planning/arrm/roles/#Administrative_Roles "Role definition document") concern.
 
 If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the checkpoint and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
 
