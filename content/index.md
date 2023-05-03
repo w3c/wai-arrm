@@ -68,15 +68,15 @@ ARRM defines which roles have which responsibilities for meeting accessibility r
 
 The Accessibility Roles and Responsibilities Matrix (ARRM) is a tool to help digital development project managers assign responsibility for various accessibility tasks across roles within the team. This page links to resources that comprise the ARRM.
 
-The [ARRM Introduction](https://www.w3.org/WAI/EO/wiki/ARRM_framework_introduction "ARRM framework introduction") takes users through the steps they will follow to apply the ARRM methodology. Using the multi-step ARRM tool, users will be able to map specific accessibility tasks within their development life cycle to identified roles within the product team.
+The [ARRM Introduction](/planning/arrm/introduction "ARRM framework introduction") takes users through the steps they will follow to apply the ARRM methodology. Using the multi-step ARRM tool, users will be able to map specific accessibility tasks within their development life cycle to identified roles within the product team.
 
 ### Role-Based Decision Tree
 
-The [Decision Tree](https://www.w3.org/WAI/EO/wiki/Role-Based_Decision_Tree "Role-Based Decision Tree") is a customizable framework to help teams define a matrix of their own within their organization. Use it to assign primary, secondary, or contributor level accountability for task-related responsibilities.
+The [Decision Tree](/planning/arrm/decision-tree "Role-Based Decision Tree") is a customizable framework to help teams define a matrix of their own within their organization. Use it to assign primary, secondary, or contributor level accountability for task-related responsibilities.
 
 ### Role Definitions
 
-To avoid confusion around role-naming conventions, [Role Definitions](https://www.w3.org/WAI/EO/wiki/Role_definition_document "Role definition document") are provided as a baseline to identify common stakeholders in a typical web development lifecycle.
+To avoid confusion around role-naming conventions, [Role Definitions](/planning/arrm/roles "Role definition document") are provided as a baseline to identify common stakeholders in a typical web development lifecycle.
 
 ### Responsibilities Matrix
 
