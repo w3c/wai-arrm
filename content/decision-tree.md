@@ -76,134 +76,160 @@ It is vital that in determining primary ownership, the team either ensures that 
 
 The steps in the decision tree assume evaluation of checkpoints (or checkpoints in a checklist) used to evaluate the accessibility of an existing product. In such cases, many design decisions have already been made, possibly documented and implemented. There are significant ownership differences when assigning ownership when reviewing design documents or even WCAG success criteria.
 
-A.
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Step A.  
-Is this checkpoint driven by [Business](/planning/arrm/roles/#Business_Analysis "Role definition document") or non-functional requirements?
 
--   If **"Yes"**, then primary ownership should be **Business** - Business Analysis
--   If **"No"**, then move on to step B.
+<div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">A.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step A.</span><br> Is this checkpoint driven by <a href="/WAI/EO/wiki/Role_definition_document#Business_Analysis" title="Role definition document">Business</a> or non-functional requirements?</p>
+<ul>
+<li>If <strong>"Yes"</strong>, then primary ownership should be <strong>Business</strong> - Business Analysis</li>
+<li>If <strong>"No"</strong>, then move on to step B.</li>
+</ul>
+<p><strong>Business analysis examples include:</strong></p>
+<ul>
+<li>Providing functional business requirements and features,</li>
+<li>Specifying additional technical requirements (legal, financial, security, etc.),</li>
+<li>Administering branding guidance and standards,</li>
+<li>Defining core features and high-level product functionalities,</li>
+<li>Etc.</li>
+</ul>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p><span style="font-weight: bold;">Business Analysis as Primary Owner</span><br>The Business Analyst role is the primary owner for items dictated by business requirements including branding guidance, core features and high-level product functionality, and contractual or legal requirements. After initiating the project, the role is typically hands-off.</p>
+</div>
+</div>
+<div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">B.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step B.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Content_Authoring" title="Role definition document">Content Authoring</a>?</p>
+<ul>
+<li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Design</strong> - Content Authoring</li>
+<li>If <strong>"No"</strong>, then move on to step C.</li>
+</ul>
+<p><strong>Content authoring examples include:</strong></p>
+<ul>
+<li>Authoring copydecks and other related documents that manage content,</li>
+<li>Composing content semantics and general document structure,</li>
+<li>Defining static content such as taxonomy or labels and main body copy,</li>
+<li>Writing multimedia alternatives such as text transcripts, captions, descriptive audio, etc.</li>
+<li>Etc.</li>
+</ul>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p><span style="font-weight: bold;">Content Authoring as Primary Owner</span><br>Content Authors are involved any time there is text or text-based content. This includes the spoken part of a video or audio media as well as downloadable documents (such as PDFs). This often includes checkpoints derived from writing guidelines and standards, taxonomies and terminology, translations and body copy.</p>
+</div>
+</div>
+<div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">C.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step D.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#User_Experience_Design" title="Role definition document">UX Design</a>?</p>
+<ul>
+<li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Design</strong> - User Experience Design</li>
+<li>If <strong>"No"</strong>, then move on to step D.</li>
+</ul>
+<p><strong>UX Design examples include:</strong></p>
+<ul>
+<li>Design lo-fidelity wireframes and structural decisions related to templates, data visualizations, etc.,</li>
+<li>Making decisions related to UI component interactions and product features,</li> 
+<li>Define general page regions such as header, navigation, footer, etc.,</li>
+<li>Improving interactions based on usability testing with users with disabilities,</li>
+<li>Etc.</li>
+</ul>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p><span style="font-weight: bold;">UX Design as Primary Owner</span><br>UX Designers are often primary owners for accessibility tasks that relate to interactions since they define many of the features and operation of the product. Interaction-related checkpoints that come before implementation typically live within the UX Designers' set of responsibilities.</p>
+</div>
+</div>
+<div style="clear: both; padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">D.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step C.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Visual_Design" title="Role definition document">Visual Design</a>?</p>
+<ul>
+<li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Design</strong> - Visual Design</li>
+<li>If <strong>"No"</strong>, then move on to step E.</li>
+</ul>
+<p><strong>Visual design examples include:</strong></p>
+<ul>
+<li>Making presentation choices such as color, font, layout, spacing, etc.,</li>
+<li>Adapting branding guidelines and related brand variations,</li>
+<li>Documenting and defining presentation through styleguides,</li>
+<li>Designing hi-fidelity mock ups and comprehensive layouts (comps),</li>
+<li>Etc.</li>
+</ul>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p><span style="font-weight: bold;">Visual Design as Primary Owner</span><br>Nearly any decision about final presentation design is likely to have the visual designer as a primary owner. The more they purely design (such as color selection), the more likely they are to be the primary owner. The most overlap for primary ownership tends to be with the UX Designer. In such cases, the final choice should be made on how essential the visual aspect is to the checkpoint.</p>
+</div>
+</div>
+<div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">E.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step E.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Front_End_Development" title="Role definition document">Development</a>?</p>
+<ul>
+<li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Development</strong> - Front-End Development</li>
+<li>If <strong>"No"</strong>, then move on to step F.</li>
+</ul>
+<p><strong>Development examples include:</strong></p>
+<ul>
+<li>Making document structure decisions related to HTML and the use of WAI-ARIA,</li>
+<li>Defining visual content layout, related to the use of CSS presentation,</li>
+<li>Scripting interaction behaviors related to features and functionalities,</li>
+<li>Etc.</li>
+</ul>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p><span style="font-weight: bold;">Front-End Development as Primary Owner</span><br>Front-End Developers are typically the primary owners when the tasks relate to implementation or the coding of the page. They typically are not primary owners when they follow instructions defined in requirements created by other stakeholders in early design phases.</p> 
+<p>It's a frequent misconception that front-end developers should own most, if not all checkpoints. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input. For more details, consult the ARRM's <a href="/WAI/EO/wiki/ARRM_Frequently_Asked_Questions" title="ARRM Frequently Asked Questions">Frequently Asked Questions</a> page.</p>
+</div>
+</div>
+<div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">F.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step F.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Testing_roles" title="Role definition document">Testing</a>?</p>
+<ul>
+<li>If <strong>"Yes"</strong>, confirm that one or more of the following is true before assigning to the tester:
+<ul>
+<li>Checkpoint is about running testing tools,</li>
+<li>Checkpoint is related to test protocols, or</li>
+<li>Resolution of the checkpoint can be done directly and completely by the tester alone.</li>
+</ul>
+</li>
+<li>Otherwise, the answer is <strong>"No"</strong>. Move on to step G.</li>
+</ul>
+<p><strong>Testing examples include:</strong></p>
+<ul>
+<li>Running automated testing tools to discover accessibility issues that are easier to identify,</li>
+<li>Running standard QA or feature testing to dive deeper into accessibility issues,</li>
+<li>Executing test scripts and protocols to validate accessibility conformance.</li>
+</ul>
+<p><strong>Note:</strong><br>Testing is not a role that makes or owns decisions that directly impact accessibility in the delivered product. The testing role is meant to confirm that the design or implementation meets accessibility requirements; however, the tester could be defined as a Contributor since they are responsible for providing the outcomes from validation of a design or implementation that takes place through testing.</p>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p><span style="font-weight: bold;">QA Testing as Primary Owner</span><br>QA Testers are not typically part of the design or implementation process. Though they are essential or key to returning findings or feedback to respective owners for remediation, they are not likely to be identified as primary owners for any specific accessibility task, except actual testing.</p>
+</div>
+</div>
+<div style="padding: 1em 2em; background: #f7f7f7; margin: 1em 0; border-radius: 0.5em;">
+<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">G.</div>
+<div style="overflow: auto;">
+<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step G.</span><br> IF NONE OF THE ABOVE, then it becomes a 
+<a href="/WAI/EO/wiki/Role_definition_document#Administrative_Roles" title="Role definition document">Administrative</a> concern.</p>
+<p>If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the checkpoint and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.</p>
+</div>
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #ffffff; margin: 0.5em 0; border-radius: 0.5em;">
+<p><strong>Note:</strong><br>Business Administration is not a role that makes or owns decisions that directly impact accessibility in the delivered product, but is meant to oversee the delivery process and that the product meets accessibility requirements.</p>
+</div>
+</div>
 
-**Business analysis examples include:**
 
--   Providing functional business requirements and features,
--   Specifying additional technical requirements (legal, financial, security, etc.),
--   Administering branding guidance and standards,
--   Defining core features and high-level product functionalities,
--   Etc.
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
-Business Analysis as Primary Owner  
-The Business Analyst role is the primary owner for items dictated by business requirements including branding guidance, core features and high-level product functionality, and contractual or legal requirements. After initiating the project, the role is typically hands-off.
 
-B.
-
-Step B.  
-Is this checkpoint about [Content Authoring](/planning/arrm/roles/#Content_Authoring "Role definition document")?
-
--   If **"Yes"**, then primary ownership of this checkpoint should be **Design** - Content Authoring
--   If **"No"**, then move on to step C.
-
-**Content authoring examples include:**
-
--   Authoring copydecks and other related documents that manage content,
--   Composing content semantics and general document structure,
--   Defining static content such as taxonomy or labels and main body copy,
--   Writing multimedia alternatives such as text transcripts, captions, descriptive audio, etc.
--   Etc.
-
-Content Authoring as Primary Owner  
-Content Authors are involved any time there is text or text-based content. This includes the spoken part of a video or audio media as well as downloadable documents (such as PDFs). This often includes checkpoints derived from writing guidelines and standards, taxonomies and terminology, translations and body copy.
-
-C.
-
-Step D.  
-Is this checkpoint about [UX Design](/planning/arrm/roles/#User_Experience_Design "Role definition document")?
-
--   If **"Yes"**, then primary ownership of this checkpoint should be **Design** - User Experience Design
--   If **"No"**, then move on to step D.
-
-**UX Design examples include:**
-
--   Design lo-fidelity wireframes and structural decisions related to templates, data visualizations, etc.,
--   Making decisions related to UI component interactions and product features,
--   Define general page regions such as header, navigation, footer, etc.,
--   Improving interactions based on usability testing with users with disabilities,
--   Etc.
-
-UX Design as Primary Owner  
-UX Designers are often primary owners for accessibility tasks that relate to interactions since they define many of the features and operation of the product. Interaction-related checkpoints that come before implementation typically live within the UX Designers' set of responsibilities.
-
-D.
-
-Step C.  
-Is this checkpoint about [Visual Design](/planning/arrm/roles/#Visual_Design "Role definition document")?
-
--   If **"Yes"**, then primary ownership of this checkpoint should be **Design** - Visual Design
--   If **"No"**, then move on to step E.
-
-**Visual design examples include:**
-
--   Making presentation choices such as color, font, layout, spacing, etc.,
--   Adapting branding guidelines and related brand variations,
--   Documenting and defining presentation through styleguides,
--   Designing hi-fidelity mock ups and comprehensive layouts (comps),
--   Etc.
-
-Visual Design as Primary Owner  
-Nearly any decision about final presentation design is likely to have the visual designer as a primary owner. The more they purely design (such as color selection), the more likely they are to be the primary owner. The most overlap for primary ownership tends to be with the UX Designer. In such cases, the final choice should be made on how essential the visual aspect is to the checkpoint.
-
-E.
-
-Step E.  
-Is this checkpoint about [Development](/planning/arrm/roles/#Front_End_Development "Role definition document")?
-
--   If **"Yes"**, then primary ownership of this checkpoint should be **Development** - Front-End Development
--   If **"No"**, then move on to step F.
-
-**Development examples include:**
-
--   Making document structure decisions related to HTML and the use of WAI-ARIA,
--   Defining visual content layout, related to the use of CSS presentation,
--   Scripting interaction behaviors related to features and functionalities,
--   Etc.
-
-Front-End Development as Primary Owner  
-Front-End Developers are typically the primary owners when the tasks relate to implementation or the coding of the page. They typically are not primary owners when they follow instructions defined in requirements created by other stakeholders in early design phases.
-
-It's a frequent misconception that front-end developers should own most, if not all checkpoints. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input. For more details, consult the ARRM's [Frequently Asked Questions](https://www.w3.org/WAI/EO/wiki/ARRM_Frequently_Asked_Questions "ARRM Frequently Asked Questions") page.
-
-F.
-
-Step F.  
-Is this checkpoint about [Testing](/planning/arrm/roles/#Testing_roles "Role definition document")?
-
--   If **"Yes"**, confirm that one or more of the following is true before assigning to the tester:
-    -   Checkpoint is about running testing tools,
-    -   Checkpoint is related to test protocols, or
-    -   Resolution of the checkpoint can be done directly and completely by the tester alone.
--   Otherwise, the answer is **"No"**. Move on to step G.
-
-**Testing examples include:**
-
--   Running automated testing tools to discover accessibility issues that are easier to identify,
--   Running standard QA or feature testing to dive deeper into accessibility issues,
--   Executing test scripts and protocols to validate accessibility conformance.
-
-**Note:**  
-Testing is not a role that makes or owns decisions that directly impact accessibility in the delivered product. The testing role is meant to confirm that the design or implementation meets accessibility requirements; however, the tester could be defined as a Contributor since they are responsible for providing the outcomes from validation of a design or implementation that takes place through testing.
-
-QA Testing as Primary Owner  
-QA Testers are not typically part of the design or implementation process. Though they are essential or key to returning findings or feedback to respective owners for remediation, they are not likely to be identified as primary owners for any specific accessibility task, except actual testing.
-
-G.
-
-Step G.  
-IF NONE OF THE ABOVE, then it becomes a [Administrative](/planning/arrm/roles/#Administrative_Roles "Role definition document") concern.
-
-If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the checkpoint and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
-
-**Note:**  
-Business Administration is not a role that makes or owns decisions that directly impact accessibility in the delivered product, but is meant to oversee the delivery process and that the product meets accessibility requirements.
 
 ### Decision tree application examples
 
@@ -214,11 +240,22 @@ To understand how to apply the steps in the decision tree, examples are helpful.
 
 The resulting body of ownership guidance using this framework can then compiled in a role-specific master list, for all three levels of ownership (primary, secondary, contributor). This, in turn, can help create accessibility roles and responsibility mappings that can better help teams break down accessibility by roles. For an example, see this [Accessibility Checkpoint Master List](https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Master_List "Accessibility Checkpoint Master List").
 
-[![Pdf.png](https://www.w3.org/WAI/EO/wiki/images/thumb/6/6b/Pdf.png/75px-Pdf.png)](https://www.w3.org/WAI/EO/wiki/File:Pdf.png)
-
 ### Role-Based Decision Tree Visual Representation
 
-The following is a [visual representation of the ARRM Role-Based Decision Tree (version 1.0)](https://drive.google.com/file/d/1kUstLR6DwLOgIro3WwO_TcNLQVuIN-YJ/view?usp=sharing), to help teams better understand how to approach this resource (PDF, xx-kb).
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
+
+<div style="background: #eee; margin: 2em 0 3em; padding: 1em; border-radius: 0.5em;">
+<div style="float: left; padding: 0.25em 0 0 0.25em; margin-right: 1em; text-decoration: none;"><div class="floatleft"><a href="https://www.w3.org/WAI/EO/wiki/File:Pdf.png" class="image"><img alt="Pdf.png" src="https://www.w3.org/WAI/EO/wiki/File:Pdf.png" width="75" height="75" srcset="/WAI/EO/wiki/images/thumb/6/6b/Pdf.png/113px-Pdf.png 1.5x, /WAI/EO/wiki/images/thumb/6/6b/Pdf.png/150px-Pdf.png 2x"></a></div></div>
+<h3><span class="mw-headline" id="Role-Based_Decision_Tree_Visual_Representation">Role-Based Decision Tree Visual Representation</span></h3>
+<p>The following is a <a rel="nofollow" class="external text" href="https://drive.google.com/file/d/1kUstLR6DwLOgIro3WwO_TcNLQVuIN-YJ/view?usp=sharing">visual representation of the ARRM Role-Based Decision Tree (version 1.0)</a>, to help teams better understand how to approach this resource (PDF, xx-kb).</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 ## STEP 2: Secondary ownership
 
@@ -229,27 +266,48 @@ This section identifies the steps in identifying those roles who, after the prim
 -   If the answer is "yes," add the role as a Secondary Owner.
 -   If the answer is "no," consider this role as a potential Contributor to the checkpoint (covered in Step 3.)
 
-  
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Business Analysis as Secondary Owner  
-Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. After initiating the project, the role is typically hands-off.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Business Analysis as Secondary Owner</span><br>Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. After initiating the project, the role is typically hands-off.</p>
+</div>
 
-Content Authoring as Secondary Owner  
-Unless they are already involved on a given checkpoint as primary owners, it is fair to assume that whenever text is involved, Content Authors will be identified as secondary owners to support in that capacity. This typically occurs when the Visual or UX Designers are the primary owners, but need considerable input from the Content Author.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Content Authoring as Secondary Owner</span><br>Unless they are already involved on a given checkpoint as primary owners, it is fair to assume that whenever text is involved, Content Authors will be identified as secondary owners to support in that capacity. This typically occurs when the Visual or UX Designers are the primary owners, but need considerable input from the Content Author.</p>
+</div>
 
-UX Design as Secondary Owner  
-As a secondary owner, the UX Designer may be needed by the primary owner to answer questions about the intended use or purpose of items in the requirements, specifications, user stories or other documentation provided. Since UX Designers oversee the entire design, they are likely to want to review any decisions that may affect the final experience.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">UX Design as Secondary Owner</span><br>As a secondary owner, the UX Designer may be needed by the primary owner to answer questions about the intended use or purpose of items in the requirements, specifications, user stories or other documentation provided. Since UX Designers oversee the entire design, they are likely to want to review any decisions that may affect the final experience.</p>
+</div>
 
-Visual Design as Secondary Owner  
-It's rare for Visual Designers to be a secondary owner as they are typically involved as primary owners of presentation tasks, or simply informed about any variations to their work. This typically occurs when the UX Designer is the primary owner, but needs considerable input from the Visual Designer.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Visual Design as Secondary Owner</span><br>It's rare for Visual Designers to be a secondary owner as they are typically involved as primary owners of presentation tasks, or simply informed about any variations to their work. This typically occurs when the UX Designer is the primary owner, but needs considerable input from the Visual Designer.</p>
+</div>
 
-Front-End Development as Secondary Owner  
-In early design phases Developers are most likely to be secondary owners working with the primary to identify what is possible to implement (when the requirements are vague or challenging). In testing and remediation work this situation may reoccur where the primary owner needs to work with Development to identify which implementations are possible to make a final decision. As a result, it's not uncommon for the Developer role to be a secondary owner.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Front-End Development as Secondary Owner</span><br>In early design phases Developers are most likely to be secondary owners working with the primary to identify what is possible to implement (when the requirements are vague or challenging). In testing and remediation work this situation may reoccur where the primary owner needs to work with Development to identify which implementations are possible to make a final decision. As a result, it's not uncommon for the Developer role to be a secondary owner.</p>
+</div>
 
-QA Testing as Secondary Owner  
-QA Testers are not typically part of the design or implementation processes. This extends to secondary ownership, where secondary ownership might apply if testing is tightly integrated into the design or implementation processes.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">QA Testing as Secondary Owner</span><br>QA Testers are not typically part of the design or implementation processes. This extends to secondary ownership, where secondary ownership might apply if testing is tightly integrated into the design or implementation processes.</p>
+</div>
 
-  
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
+
+
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 ## STEP 3: Contributor
 
@@ -260,22 +318,35 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 -   If the answer is "yes," to either question, add the role as a Contributor.
 -   If the answer is "no", then the role may not be involved at all.
 
-  
 
-Business Analysis as a Contributor  
-In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Content Authoring as a Contributor  
-When not a primary or secondary owner, Content Authors are usually not involved. The few cases where they might be an impact owner and need to be informed about decisions are in checkpoints where the management or presentation of text changes.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Business Analysis as a Contributor</span><br>In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.</p>
+</div>
 
-UX Design as a Contributor  
-Due to the UX Designer's typical involvement in overseeing the overarching design and structure of a project or product to ensure the final design meets the intended goals, it is rarer, though possible, for UX Designers to find themsleves involved as Contributors. One such example might be video content, where the UX Designer might be critical in defining the page structure and features of the video player, but would not be much involved in the content itself.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Content Authoring as a Contributor</span><br>When not a primary or secondary owner, Content Authors are usually not involved. The few cases where they might be an impact owner and need to be informed about decisions are in checkpoints where the management or presentation of text changes.</p>
+</div>
 
-Visual Design as a Contributor  
-A Visual Designer is likely to want to know the outcomes of decisions that impact the final presentation when they are not the primary owner. Examples of this are when simple text or operation changes lead to cases not be clearly covered in style guides or comps.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">UX Design as a Contributor</span><br>Due to the UX Designer's typical involvement in overseeing the overarching design and structure of a project or product to ensure the final design meets the intended goals, it is rarer, though possible, for UX Designers to find themsleves involved as Contributors. One such example might be video content, where the UX Designer might be critical in defining the page structure and features of the video player, but would not be much involved in the content itself.</p>
+</div>
 
-Front-End Development as a Contributor  
-Since Developers are so integral to the final delivered product they are typically primary and secondary owners. There are fewer cases where the Developer is an impact owner. These cases are where a decision may require additional information beyond the standard updated requirements, user stories or specifications.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Visual Design as a Contributor</span><br>A Visual Designer is likely to want to know the outcomes of decisions that impact the final presentation when they are not the primary owner. Examples of this are when simple text or operation changes lead to cases not be clearly covered in style guides or comps.</p>
+</div>
 
-QA Testing as a Contributor  
-Many teams will view QA Testers as obvious Contributors on every single requirement since they are so deeply involved with all aspects of validating the deliverable. However, if the details affecting accessibility are fully covered with other stakeholders in the lifecycle, they are likely to simply be identified as an additional step in the process, beyond the scope of the roles and responsibility mapping. With that said, QA Testers are likely to still be identified as Contributors when it comes to testing tool capabilities, testing protocols and methodologies, or changes to the details needed by the QA tester to complete the tests.
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Front-End Development as a Contributor</span><br>Since Developers are so integral to the final delivered product they are typically primary and secondary owners. There are fewer cases where the Developer is an impact owner. These cases are where a decision may require additional information beyond the standard updated requirements, user stories or specifications.</p>
+</div>
+
+<div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">QA Testing as a Contributor</span><br>Many teams will view QA Testers as obvious Contributors on every single requirement since they are so deeply involved with all aspects of validating the deliverable. However, if the details affecting accessibility are fully covered with other stakeholders in the lifecycle, they are likely to simply be identified as an additional step in the process, beyond the scope of the roles and responsibility mapping. With that said, QA Testers are likely to still be identified as Contributors when it comes to testing tool capabilities, testing protocols and methodologies, or changes to the details needed by the QA tester to complete the tests.</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
