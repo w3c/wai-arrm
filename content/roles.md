@@ -67,9 +67,20 @@ Writes business requirements and/or initial user stories, are concerned with ens
 
 Business analysts are involved in the design or modification of business systems or IT systems. They interact with business stakeholders and subject matter experts in order to understand their problems and needs. They gather, document and analyze business needs and requirements to help steer the team towards an end result that meets the organization's needs and expectations.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Business Analyst, Client Sponsor, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Business Analyst, Client Sponsor, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 ### 2\. Author Role Group
 
@@ -83,17 +94,30 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 Content Creation extends to roles specific audio and video media production. These begin with the writing of scripts but can extend to the production of the media files or support of live streaming content.
 
-**Key Deliverables**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
--   Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video, etc.
+<div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Key Deliverables</b>
+</p>
+<ul><li> Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Tasks include</b>
+</p>
+<ul><li> Content authoring, media and documentation creation, content strategies definition, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host etc.
+</p>
+</div>
 
-**Tasks include**
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
--   Content authoring, media and documentation creation, content strategies definition, etc.
-
-**Example job titles for this role**
-
-Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host etc.
 
 #### Content Publishing
 
@@ -101,19 +125,30 @@ Description (not a definition, needs a more polished “Definition” statement)
 
 Content Publishers may perform some tasks that are a part of the front end web developer skillset, however they are not web developers and are often applying this markup using proprietary tools and widget.
 
-**Key Deliverables**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
--   TBD
+<div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Key Deliverables</b>
+</p>
+<ul><li> TBD</li></ul>
+</div>
+<div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Tasks include</b>
+</p>
+<ul><li> Advanced tagging in a PDF document, adjusting timing of captions, creating and editing transcripts, conversion to ePUB documentation, applying tags though a proprietary software to generate heading structure, SSML, etc. </li></ul>
+</div>
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.
+</p>
+</div>
 
-**Tasks include**
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
--   Advanced tagging in a PDF document, adjusting timing of captions, creating and editing transcripts, conversion to ePUB documentation, applying tags though a proprietary software to generate heading structure, SSML, etc.
-
-**Example job titles for this role**
-
-Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.
-
-  
 
 ### 3\. Design Role Group
 
@@ -125,33 +160,59 @@ These roles define the general "look and feel" of the products covering presenta
 
 The role of UX Design can potentially cover a large number of related areas: from exploratory user research (like user interviews, ethnographic research, etc.) to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), creating prototypes that define interactions, or testing designs for usability.
 
-**Key Deliverables**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
--   Wireframes, prototypes, interaction guidelines, information architecture, etc.
+<div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Key Deliverables</b>
+</p>
+<ul><li> Wireframes, prototypes, interaction guidelines, information architecture, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Tasks include</b>
+</p>
+<ul><li> User workflow / process maps, usability testing, user interviews and analysis, user task and workflow mapping, creating and maintaining user personas, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.
+</p>
+</div>
 
-**Tasks include**
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
--   User workflow / process maps, usability testing, user interviews and analysis, user task and workflow mapping, creating and maintaining user personas, etc.
-
-**Example job titles for this role**
-
-User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.
 
 #### Visual Design
 
 Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
-**Key Deliverables include**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
--   Style guides, Page comps, Design mockups, Image files, etc.
+<div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Key Deliverables include</b>
+</p>
+<ul><li> Style guides, Page comps, Design mockups, Image files, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Tasks include</b>
+</p>
+<ul><li> Visual styling, logos and branding, animation and iconography design, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.
+</p>
+</div>
 
-**Tasks include**
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
--   Visual styling, logos and branding, animation and iconography design, etc.
-
-**Example job titles for this role**
-
-Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.
 
 ### 4\. Development Role Group
 
@@ -163,25 +224,49 @@ Oversees the creation, coding and delivery of the product based upon the require
 
 Front end development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
 
-**Key Deliverables**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
--   HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.
+<div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Key Deliverables</b>
+</p>
+<ul><li> HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Tasks include</b>
+</p>
+<ul><li> Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.</li></ul>
+</div>
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Front-End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer, etc.
+</p>
+</div>
 
-**Tasks include**
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
--   Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.
-
-**Example job titles for this role**
-
-Front-End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer, etc.
 
 #### Back-End Development
 
 Back end developers have a smaller, more indirect involvement with accessibility work, but still play a critical role in delivering accessible products, as the underlying product architecture can inform accessibility solutions. It’s important for back end developers to be involved in accessibility discussions so that any potential issues stemming from how the database is organized can be caught and fixed, or better yet, avoided altogether.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Back-End Developer, Middleware Developer, Database Architect, Data Engineer, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Back-End Developer, Middleware Developer, Database Architect, Data Engineer, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 ### 5\. Testing Role Group
 
@@ -197,17 +282,39 @@ Quality Assurance (QA) Testers typically don’t contribute directly to the desi
 
 Quality Assurance (QA) automation frameworks typically run against products in order to test features and functionality that would otherwise fall to a manual QA tester. For the purpose of this resource, a QA Tester performing automated tests is responsible for running tests within an automation framework that covers accessibility features and requirements. This can be accomplished either through automation of functional tests, and/or the inclusion of an accessibility testing library within the framework. QA Testers responsible for automated testing may also typically run automated accessibility testing tools, such as browser extensions or add-ons. It is expected that automated tools will uncover about 30 to 35% of potential accessibility issues on a screen. The rest will be identified through the team's manual accessibility testing methodology.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-QA Automation Engineer, Quality Engineer, Automation Engineer, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>QA Automation Engineer, Quality Engineer, Automation Engineer, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 #### Manual QA Testing
 
 Quality Assurance Testers responsible for manual testing will typically handle the testing that cannot be covered through the use of automated tools. They will typically be resources that are more knowledgeable about accessibility, with a deeper understanding of the requirements, and some experience operating assistive technologies for testing, such as screen readers. They will typically run a series of test cases to validate the degree of inclusion of the components of a screen and will be charged with making sure that the overall user experience is positive for people with disabilities. It is expected that manual testing will build on top of an automated testing process, in order to cover the remaining 65 to 70% of potential accessibility issues on any given screen.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 ### 6\. Administration Role Group
 
@@ -219,22 +326,53 @@ The roles in this section cover managing the product and project, as well as oth
 
 Product owners own individual products and define their features and are key to defining the importance of accessibility on a project. It is their job to make sure that products are built and delivered in a way that meets business needs and user needs. They should have some basic understanding of the accessibility implications of the UI requirements they request, such as cost and required infrastructure. But, as with features in general, they delegate design and implementation decisions to other roles. As a result, they are typically not directly involved and do not have ownership in the ARRM model.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Product Manager, Product Owner, Release Manager, Business Owner, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Product Manager, Product Owner, Release Manager, Business Owner, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 
 #### Project Management
 
 Project managers are primarily responsible for keeping everything about the process of building a product organized and on track. They have little decision-making power directly impacting accessibility. The person managing the project should make sure that accessibility is built into estimates, user stories (if Agile), and requirements documents. In smaller teams, the roles of product owners and project managers often overlap.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Project Manager, Scrum Master (Agile), Team Lead, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Project Manager, Scrum Master (Agile), Team Lead, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
 
 #### Governance
 
 Unlike most other administrative roles, governance is not part of an individual project team. Their mandate focuses on the big picture, often enterprise-wide initiatives. Most importantly to individual projects, governance roles are deliberative (often committee-based) and are not bound to the deadlines of a singular project without outside, executive influence to encourage higher-velocity decision making.
 
-**Example job titles for this role**
+{::nomarkdown}
+{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
+{:/}
 
-Legal, procurement, conformance, administrative, governance, branding, etc.
+<div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
+<p><b>Example job titles for this role</b>
+</p><p>Legal, procurement, conformance, administrative, governance, branding, etc.
+</p>
+</div>
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
