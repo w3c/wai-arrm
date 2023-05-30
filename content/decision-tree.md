@@ -41,6 +41,8 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
+This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/).
+
 ## Ownership levels
 
 The role-based decision tree is a framework to help anyone define an accessibility matrix of their own within their organization. It is a process to help teams define and distribute ownership and responsibility of accessibility requirements in the project lifecycle. Using this framework, a team should more easily define who ultimately owns specific requirements and who else is actively involved (those that contribute to the successful implementation of the checkpoints in the lifecycle).
