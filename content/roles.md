@@ -46,7 +46,7 @@ This document defines typical roles that have responsibilities for ensuring web 
 
 Each role description includes areas of focus in decision making, decision ownership, notes on the primary tasks of that role, a shortlist of common job titles, and a general description of the accessibility responsibilities of that role.
 
-These roles were defined as part of the Accessibility Roles and Responsibilities Mapping (ARRM) project. You are welcome to use them and change them for your organization.
+These roles were defined as part of the [Accessibility Roles and Responsibilities Mapping (ARRM)](/planning/arrm/) project. You are welcome to use them and change them for your organization.
 
 The four main groups (categories) of roles covered in this document include:
 
