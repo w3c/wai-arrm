@@ -48,15 +48,32 @@ Each role description includes areas of focus in decision making, decision owner
 
 These roles were defined as part of the [Accessibility Roles and Responsibilities Mapping (ARRM)](/planning/arrm/) project. You are welcome to use them and change them for your organization.
 
-The four main groups (categories) of roles covered in this document include:
+The six main groups (categories) of roles covered in this document include:
 
 1.  [Business roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Business_Role_Group "Role definition document")
-2.  [Author roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Author_Role_Group "Role definition document")
-3.  [Design roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Design_Role_Group "Role definition document")
-4.  [Development roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Development_Role_Group "Role definition document")
-5.  [Testing roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#QA_Role_Group "Role definition document")
-6.  [Administration roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Administration_Role_Group "Role definition document")
+* Business Analysis
 
+2.  [Author roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Author_Role_Group "Role definition document")
+* Content Authoring
+* Content Publishing
+
+3.  [Design roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Design_Role_Group "Role definition document")
+* Visual Design
+* User Experience (UX) Design
+
+4.  [Development roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Development_Role_Group "Role definition document")
+* Front-End Development
+* Back-End Development
+
+5.  [Testing roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#QA_Role_Group "Role definition document")
+* QA Testing Roles (overall)
+° Automated QA Testing
+* Manual QA Testing
+
+6.  [Administration roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Administration_Role_Group "Role definition document")
+* Product Ownership
+* Project Management
+* Governance
   
 
 ### 1\. Business Role Group
