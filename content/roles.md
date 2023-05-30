@@ -67,7 +67,7 @@ The six main groups (categories) of roles covered in this document include:
 
 5.  [Testing roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#QA_Role_Group "Role definition document")
 * QA Testing Roles (overall)
-° Automated QA Testing
+* Automated QA Testing
 * Manual QA Testing
 
 6.  [Administration roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Administration_Role_Group "Role definition document")
