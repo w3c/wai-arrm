@@ -58,8 +58,8 @@ The six main groups (categories) of roles covered in this document include:
 * Content Publishing
 
 3.  [Design roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Design_Role_Group "Role definition document")
-* Visual Design
 * User Experience (UX) Design
+* Visual Design
 
 4.  [Development roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Development_Role_Group "Role definition document")
 * Front-End Development
