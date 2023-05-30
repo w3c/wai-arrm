@@ -40,11 +40,13 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-## Accessibility Lifecycle Cross-Functional Team Roles
+## Introduction
 
-This document acts as contextual support to the [Role-Based Decision Tree](https://www.w3.org/WAI/EO/wiki/Role-Based_Decision_Tree "Role-Based Decision Tree") document and focuses on providing a baseline to define the typical roles and responsibilities of common stakeholders in a typical web development lifecycle. It covers a list of the most common roles found within a cross-functional product team, specifically when it comes to building websites and web applications. These roles descriptions are generalized on purpose. A person on a team may identify with more than one role. Anyone who uses this resource is welcome to adapt this list to the reality of their own team or organization.
+This document defines typical roles that have responsibilities for ensuring web accessibility. These role descriptions are generalized on purpose. A individual may fill with more than one role.
 
-For consistency, each role description includes areas of focus in decision making, decision ownership, notes on the primary tasks of that role, a shortlist of common job titles, as well as a general description of the responsibilities assumed by that role in terms of accessibility.
+Each role description includes areas of focus in decision making, decision ownership, notes on the primary tasks of that role, a shortlist of common job titles, and a general description of the accessibility responsibilities of that role.
+
+These roles were defined as part of the Accessibility Roles and Responsibilities Mapping (ARRM) project. You are welcome to use them and change them for your organization.
 
 The four main groups (categories) of roles covered in this document include:
 
