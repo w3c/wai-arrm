@@ -79,9 +79,10 @@ It is vital that in determining primary ownership, the team either ensures that 
 The steps in the decision tree assume evaluation of checkpoints (or checkpoints in a checklist) used to evaluate the accessibility of an existing product. In such cases, many design decisions have already been made, possibly documented and implemented. There are significant ownership differences when assigning ownership when reviewing design documents or even WCAG success criteria.
 
 <div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
-<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;" role="presentation">A.</div>
+<div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">A.</div>
 <div style="overflow: auto;">
-<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step A.</span><br> Is this checkpoint driven by <a href="/WAI/EO/wiki/Role_definition_document#Business_Analysis" title="Role definition document">Business</a> or non-functional requirements?</p>
+<H4>Step A.</H4>
+  <p>Is this checkpoint driven by <a href="/WAI/EO/wiki/Role_definition_document#Business_Analysis" title="Role definition document">Business</a> or non-functional requirements?</p>
 <ul>
 <li>If <strong>"Yes"</strong>, then primary ownership should be <strong>Business</strong> - Business Analysis</li>
 <li>If <strong>"No"</strong>, then move on to step B.</li>
@@ -100,9 +101,10 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 </div>
 </div>
 <div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
-<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;" role="presentation">B.</div>
+<div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">B.</div>
 <div style="overflow: auto;">
-<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step B.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Content_Authoring" title="Role definition document">Content Authoring</a>?</p>
+<H4>Step B.</H4> 
+  <p>Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Content_Authoring" title="Role definition document">Content Authoring</a>?</p>
 <ul>
 <li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Design</strong> - Content Authoring</li>
 <li>If <strong>"No"</strong>, then move on to step C.</li>
@@ -121,9 +123,10 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 </div>
 </div>
 <div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
-<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;" role="presentation">C.</div>
+<div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">C.</div>
 <div style="overflow: auto;">
-<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step C.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#User_Experience_Design" title="Role definition document">UX Design</a>?</p>
+<H4>Step C.</H4>
+  <p>Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#User_Experience_Design" title="Role definition document">UX Design</a>?</p>
 <ul>
 <li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Design</strong> - User Experience Design</li>
 <li>If <strong>"No"</strong>, then move on to step D.</li>
@@ -142,9 +145,10 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 </div>
 </div>
 <div style="clear: both; padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
-<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;" role="presentation">D.</div>
+<div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">D.</div>
 <div style="overflow: auto;">
-<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step D.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Visual_Design" title="Role definition document">Visual Design</a>?</p>
+<H4>Step D.</H4>
+  <p>Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Visual_Design" title="Role definition document">Visual Design</a>?</p>
 <ul>
 <li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Design</strong> - Visual Design</li>
 <li>If <strong>"No"</strong>, then move on to step E.</li>
@@ -163,9 +167,10 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 </div>
 </div>
 <div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
-<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;" role="presentation">E.</div>
+<div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">E.</div>
 <div style="overflow: auto;">
-<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step E.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Front_End_Development" title="Role definition document">Development</a>?</p>
+<H4>Step E.</H4>
+  <p>Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Front_End_Development" title="Role definition document">Development</a>?</p>
 <ul>
 <li>If <strong>"Yes"</strong>, then primary ownership of this checkpoint should be <strong>Development</strong> - Front-End Development</li>
 <li>If <strong>"No"</strong>, then move on to step F.</li>
@@ -184,9 +189,10 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 </div>
 </div>
 <div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
-<div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;" role="presentation">F.</div>
+<div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">F.</div>
 <div style="overflow: auto;">
-<p style="padding-top: 0; margin-top: 0; font-weight: bold;"><span style="font-size: 90%; font-weight: normal;">Step F.</span><br> Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Testing_roles" title="Role definition document">Testing</a>?</p>
+<H4>Step F.</H4>
+  <p>Is this checkpoint about <a href="/WAI/EO/wiki/Role_definition_document#Testing_roles" title="Role definition document">Testing</a>?</p>
 <ul>
 <li>If <strong>"Yes"</strong>, confirm that one or more of the following is true before assigning to the tester:
 <ul>
