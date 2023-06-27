@@ -151,7 +151,7 @@ Content Publishers may perform some tasks that are a part of the front end web d
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 <p><b>Key Deliverables</b>
 </p>
-<ul><li>Content Editing and Formatting, Metadata and SEO Optimization, Content Publishing Schedule, Cross-Platform Compatibility, and Quality Assurance and Testing</li></ul>
+<ul><li>Content editing and formatting, metadata and SEO optimization, content publishing schedule, cross-platform compatibility, and quality assurance and testing</li></ul>
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 <p><b>Tasks include</b>
