@@ -311,7 +311,7 @@ Quality Assurance (QA) automation frameworks typically run against products in o
 
 <h5>Example job titles for this role</h5>
 
-QA Automation Engineer, Quality Engineer, Automation Engineer, etc.
+<p>QA Automation Engineer, Quality Engineer, Automation Engineer, etc.</p>
 
 </div>
 
