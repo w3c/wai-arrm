@@ -90,7 +90,7 @@ Business analysts are involved in the design or modification of business systems
 
 <h5>Example job titles for this role</h5>
 
-<p>Business Analyst, Client Sponsor, etc.
+<p>Business Analyst, Client Sponsor, etc.</p>
 
 </div>
 
@@ -129,7 +129,7 @@ Content Creation extends to roles specific audio and video media production. The
 
 <h5>Example job titles for this role</h5>
 
-<p>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host etc.
+<p>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host etc.</p>
 
 </div>
 
@@ -162,7 +162,7 @@ Content Publishers may perform some tasks that are a part of the front end web d
 
 <h5>Example job titles for this role</h5>
 
-<p>Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.
+<p>Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.</p>
 
 </div>
 
@@ -199,7 +199,7 @@ The role of UX Design can potentially cover a large number of related areas: fro
 
 <h5>Example job titles for this role</h5>
 
-<p>User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.
+<p>User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.</p>
 
 </div>
 
@@ -230,7 +230,7 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 
 <h5>Example job titles for this role</h5>
 
-<p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.
+<p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.</p>
 
 </div>
 
@@ -267,7 +267,7 @@ Front end development typically builds the parts of a product that will be inter
 
 <h5>Example job titles for this role</h5>
 
-Front-End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer, etc.
+<p>Front-End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer, etc.</p>
 
 </div>
 
@@ -284,7 +284,7 @@ Back end developers have a smaller, more indirect involvement with accessibility
 
 <h5>Example job titles for this role</h5>
 
-Back-End Developer, Middleware Developer, Database Architect, Data Engineer, etc.
+<p>Back-End Developer, Middleware Developer, Database Architect, Data Engineer, etc.</p>
 
 </div>
 
@@ -328,7 +328,7 @@ Quality Assurance Testers responsible for manual testing will typically handle t
 
 <h5>Example job titles for this role</h5>
 
-<p>QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.
+<p>QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.</p>
 
 </div>
 
@@ -351,7 +351,7 @@ Product owners own individual products and define their features and are key to 
 
 <h5>Example job titles for this role</h5>
 
-<p>Product Manager, Product Owner, Release Manager, Business Owner, etc.
+<p>Product Manager, Product Owner, Release Manager, Business Owner, etc.</p>
 
 </div>
 
@@ -368,7 +368,7 @@ Project managers are primarily responsible for keeping everything about the proc
 
 <h5>Example job titles for this role</h5>
 
-<p>Project Manager, Scrum Master (Agile), Team Lead, etc.
+<p>Project Manager, Scrum Master (Agile), Team Lead, etc.</p>
 
 </div>
 
@@ -384,7 +384,7 @@ Unlike most other administrative roles, governance is not part of an individual 
 
 <h5>Example job titles for this role</h5>
 
-<p>Legal, procurement, conformance, administrative, governance, branding, etc.
+<p>Legal, procurement, conformance, administrative, governance, branding, etc.</p>
 
 </div>
 
