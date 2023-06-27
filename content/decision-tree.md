@@ -222,12 +222,6 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 </div>
 
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
-
-
 ### Decision tree application examples
 
 To understand how to apply the steps in the decision tree, examples are helpful. The following are step-by-step examples using the Decision Tree framework to assign primary ownership for several checkpoints for two roles:
@@ -242,11 +236,6 @@ The resulting body of ownership guidance using this framework can then compiled 
 <div style="background: #eee; margin: 2em 0 3em; padding: 1em; border-radius: 0.5em;">
 <p>The following is a <a rel="nofollow" class="external text" href="https://drive.google.com/file/d/1kUstLR6DwLOgIro3WwO_TcNLQVuIN-YJ/view?usp=sharing">visual representation of the ARRM Role Map (version 1.0)</a> to help teams better understand how to approach this resource.</p>
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 ## STEP 2: Secondary ownership
 
@@ -280,15 +269,6 @@ This section identifies the steps in identifying those roles who, after the prim
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
 <p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">QA Testing as Secondary Owner</span><br>QA Testers are not typically part of the design or implementation processes. This extends to secondary ownership, where secondary ownership might apply if testing is tightly integrated into the design or implementation processes.</p>
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
 
 
 ## STEP 3: Contributor
@@ -324,6 +304,4 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 <p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">QA Testing as a Contributor</span><br>Many teams will view QA Testers as obvious Contributors on every single requirement since they are so deeply involved with all aspects of validating the deliverable. However, if the details affecting accessibility are fully covered with other stakeholders in the lifecycle, they are likely to simply be identified as an additional step in the process, beyond the scope of the roles and responsibility mapping. With that said, QA Testers are likely to still be identified as Contributors when it comes to testing tool capabilities, testing protocols and methodologies, or changes to the details needed by the QA tester to complete the tests.</p>
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
+
