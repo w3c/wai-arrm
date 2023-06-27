@@ -129,10 +129,6 @@ Content Creation extends to roles specific audio and video media production. The
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 #### Content Publishing
 
@@ -161,10 +157,6 @@ Content Publishers may perform some tasks that are a part of the front end web d
 <p>Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.</p>
 
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
 
 
 ### 3\. Design Role Group
@@ -199,10 +191,6 @@ The role of UX Design can potentially cover a large number of related areas: fro
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 #### Visual Design
 
@@ -229,11 +217,6 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 <p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.</p>
 
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 ### 4\. Development Role Group
 
@@ -267,11 +250,6 @@ Front end development typically builds the parts of a product that will be inter
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
-
 #### Back-End Development
 
 Back end developers have a smaller, more indirect involvement with accessibility work, but still play a critical role in delivering accessible products, as the underlying product architecture can inform accessibility solutions. It’s important for back end developers to be involved in accessibility discussions so that any potential issues stemming from how the database is organized can be caught and fixed, or better yet, avoided altogether.
@@ -283,10 +261,6 @@ Back end developers have a smaller, more indirect involvement with accessibility
 <p>Back-End Developer, Middleware Developer, Database Architect, Data Engineer, etc.</p>
 
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
 
 
 ### 5\. Testing Role Group
@@ -311,10 +285,6 @@ Quality Assurance (QA) automation frameworks typically run against products in o
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 #### Manual QA Testing
 
@@ -327,11 +297,6 @@ Quality Assurance Testers responsible for manual testing will typically handle t
 <p>QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.</p>
 
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 ### 6\. Administration Role Group
 
@@ -351,9 +316,6 @@ Product owners own individual products and define their features and are key to 
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
 
 
 #### Project Management
@@ -368,9 +330,7 @@ Project managers are primarily responsible for keeping everything about the proc
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
+
 
 #### Governance
 
@@ -383,7 +343,3 @@ Unlike most other administrative roles, governance is not part of an individual 
 <p>Legal, procurement, conformance, administrative, governance, branding, etc.</p>
 
 </div>
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
