@@ -88,9 +88,9 @@ Business analysts are involved in the design or modification of business systems
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-Business Analyst, Client Sponsor, etc.
+<p>Business Analyst, Client Sponsor, etc.
 
 </div>
 
@@ -113,22 +113,23 @@ Content Creation extends to roles specific audio and video media production. The
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Key Deliverables
+<h5>Key Deliverables</h5>
 
 <ul><li> Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
-##### Tasks include
+
+<h5>Tasks include</h5>
 
 <ul><li> Content authoring, media and documentation creation, content strategies definition, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host etc.
+<p>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host etc.
 
 </div>
 
@@ -145,23 +146,23 @@ Content Publishers may perform some tasks that are a part of the front end web d
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Key Deliverables
+<h5>Key Deliverables</h5>
 
 <ul><li>Content editing and formatting, metadata and SEO optimization, content publishing schedule, cross-platform compatibility, and quality assurance and testing</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Tasks include
+<h5>Tasks include</h5>
 
 <ul><li> Advanced tagging in a PDF document, adjusting timing of captions, creating and editing transcripts, conversion to ePUB documentation, applying tags though a proprietary software to generate heading structure, SSML, etc. </li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.
+<p>Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager, etc.
 
 </div>
 
@@ -182,23 +183,23 @@ The role of UX Design can potentially cover a large number of related areas: fro
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Key Deliverables
+<h5>Key Deliverables</h5>
 
 <ul><li> Wireframes, prototypes, interaction guidelines, information architecture, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Tasks include
+<h5>Tasks include</h5>
 
 <ul><li> User workflow / process maps, usability testing, user interviews and analysis, user task and workflow mapping, creating and maintaining user personas, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.
+<p>User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.
 
 </div>
 
@@ -213,23 +214,23 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Key Deliverables include
+<h5>Key Deliverables include</h5>
 
 <ul><li> Style guides, Page comps, Design mockups, Image files, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Tasks include
+<h5>Tasks include</h5>
 
 <ul><li> Visual styling, logos and branding, animation and iconography design, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.
+<p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.
 
 </div>
 
@@ -250,21 +251,21 @@ Front end development typically builds the parts of a product that will be inter
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Key Deliverables
+<h5>Key Deliverables</h5>
 
 <ul><li> HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Tasks include
+<h5>Tasks include</h5>
 
 <ul><li> Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
 Front-End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer, etc.
 
@@ -281,7 +282,7 @@ Back end developers have a smaller, more indirect involvement with accessibility
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
 Back-End Developer, Middleware Developer, Database Architect, Data Engineer, etc.
 
@@ -308,7 +309,7 @@ Quality Assurance (QA) automation frameworks typically run against products in o
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
 QA Automation Engineer, Quality Engineer, Automation Engineer, etc.
 
@@ -325,9 +326,9 @@ Quality Assurance Testers responsible for manual testing will typically handle t
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.
+<p>QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester, etc.
 
 </div>
 
@@ -348,9 +349,9 @@ Product owners own individual products and define their features and are key to 
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-Product Manager, Product Owner, Release Manager, Business Owner, etc.
+<p>Product Manager, Product Owner, Release Manager, Business Owner, etc.
 
 </div>
 
@@ -365,9 +366,9 @@ Project managers are primarily responsible for keeping everything about the proc
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
+<h5>Example job titles for this role</h5>
 
-Project Manager, Scrum Master (Agile), Team Lead, etc.
+<p>Project Manager, Scrum Master (Agile), Team Lead, etc.
 
 </div>
 
@@ -381,8 +382,9 @@ Unlike most other administrative roles, governance is not part of an individual 
 
 <div style="border: 1px solid #ccc; background: #eee; margin: 1em 0; padding: 1em; border-left: 10px solid #ddd;">
 
-##### Example job titles for this role
-Legal, procurement, conformance, administrative, governance, branding, etc.
+<h5>Example job titles for this role</h5>
+
+<p>Legal, procurement, conformance, administrative, governance, branding, etc.
 
 </div>
 
