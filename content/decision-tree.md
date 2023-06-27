@@ -78,11 +78,6 @@ It is vital that in determining primary ownership, the team either ensures that 
 
 The steps in the decision tree assume evaluation of checkpoints (or checkpoints in a checklist) used to evaluate the accessibility of an existing product. In such cases, many design decisions have already been made, possibly documented and implemented. There are significant ownership differences when assigning ownership when reviewing design documents or even WCAG success criteria.
 
-{::nomarkdown}
-{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
-{:/}
-
-
 <div style="padding: 1em 2em; border: 1px solid #ccc; background: #ffffff; margin: 1em 0; border-radius: 0.5em;">
 <div style="float: left; font-size: 500%; color: #ccc; padding: 0; margin: 0 0.3em 0 0;">A.</div>
 <div style="overflow: auto;">
@@ -244,14 +239,8 @@ The resulting body of ownership guidance using this framework can then compiled 
 
 ### Role-Based Decision Tree Visual Representation
 
-{::nomarkdown}
-{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
-{:/}
-
 <div style="background: #eee; margin: 2em 0 3em; padding: 1em; border-radius: 0.5em;">
-<div style="float: left; padding: 0.25em 0 0 0.25em; margin-right: 1em; text-decoration: none;"><div class="floatleft"><a href="https://www.w3.org/WAI/EO/wiki/File:Pdf.png" class="image"><img alt="Pdf.png" src="https://www.w3.org/WAI/EO/wiki/File:Pdf.png" width="75" height="75" srcset="/WAI/EO/wiki/images/thumb/6/6b/Pdf.png/113px-Pdf.png 1.5x, /WAI/EO/wiki/images/thumb/6/6b/Pdf.png/150px-Pdf.png 2x"></a></div></div>
-<h3><span class="mw-headline" id="Role-Based_Decision_Tree_Visual_Representation">Role-Based Decision Tree Visual Representation</span></h3>
-<p>The following is a <a rel="nofollow" class="external text" href="https://drive.google.com/file/d/1kUstLR6DwLOgIro3WwO_TcNLQVuIN-YJ/view?usp=sharing">visual representation of the ARRM Role-Based Decision Tree (version 1.0)</a>, to help teams better understand how to approach this resource (PDF, xx-kb).</p>
+<p>The following is a <a rel="nofollow" class="external text" href="https://drive.google.com/file/d/1kUstLR6DwLOgIro3WwO_TcNLQVuIN-YJ/view?usp=sharing">visual representation of the ARRM Role Map (version 1.0)</a> to help teams better understand how to approach this resource.</p>
 </div>
 
 {::nomarkdown}
@@ -267,10 +256,6 @@ This section identifies the steps in identifying those roles who, after the prim
 
 -   If the answer is "yes," add the role as a Secondary Owner.
 -   If the answer is "no," consider this role as a potential Contributor to the checkpoint (covered in Step 3.)
-
-{::nomarkdown}
-{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
-{:/}
 
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
 <p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Business Analysis as Secondary Owner</span><br>Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. After initiating the project, the role is typically hands-off.</p>
@@ -301,11 +286,6 @@ This section identifies the steps in identifying those roles who, after the prim
 {:/}
 
 
-
-{::nomarkdown}
-{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
-{:/}
-
 {::nomarkdown}
 {% include_cached box.html type="end" %}
 {:/}
@@ -319,11 +299,6 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 
 -   If the answer is "yes," to either question, add the role as a Contributor.
 -   If the answer is "no", then the role may not be involved at all.
-
-
-{::nomarkdown}
-{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
-{:/}
 
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
 <p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Business Analysis as a Contributor</span><br>In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.</p>
