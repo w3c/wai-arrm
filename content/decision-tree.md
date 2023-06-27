@@ -240,7 +240,6 @@ The resulting body of ownership guidance using this framework can then compiled 
 ### Role-Based Decision Tree Visual Representation
 
 <div style="background: #eee; margin: 2em 0 3em; padding: 1em; border-radius: 0.5em;">
-<div style="float: left; padding: 0.25em 0 0 0.25em; margin-right: 1em; text-decoration: none;"><div class="floatleft">
 <p>The following is a <a rel="nofollow" class="external text" href="https://drive.google.com/file/d/1kUstLR6DwLOgIro3WwO_TcNLQVuIN-YJ/view?usp=sharing">visual representation of the ARRM Role Map (version 1.0)</a> to help teams better understand how to approach this resource.</p>
 </div>
 
