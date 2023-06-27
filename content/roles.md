@@ -94,10 +94,6 @@ Business analysts are involved in the design or modification of business systems
 
 </div>
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 
 ### 2\. Author Role Group
 
