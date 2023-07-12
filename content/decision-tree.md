@@ -45,7 +45,7 @@ This tool guides organizations that want to customize their own accessibility ro
 
 ## Ownership levels
 
-The role-based decision tree is a framework to help anyone define an accessibility matrix of their own within their organization. It is a process to help teams define and distribute ownership and responsibility of accessibility requirements in the project lifecycle. Using this framework, a team should more easily define who ultimately owns specific requirements and who else is actively involved (those that contribute to the successful implementation of the checkpoints in the lifecycle).
+The role-based decision tree is a framework to help anyone define a Responsibility Matrix of their own within their organization. It is a process to help teams define and distribute ownership and responsibility of accessibility requirements in the project lifecycle. Using this framework, a team should more easily define who ultimately owns specific requirements and who else is actively involved (those that contribute to the successful implementation of the checkpoints in the lifecycle).
 
 The framework defines three levels of ownership for accessibility requirements, based on commonly agreed upon [RACI matrix principles](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#Key_responsibility_roles_(RACI_model)):
 
