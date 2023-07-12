@@ -89,7 +89,7 @@ The Decision Tree is a [framework to define accessibility ownership](/planning/a
 
 Of course, job titles are not universal and may not even be very descriptive. What they actually mean in terms of responsibilities also varies greatly from one organization or team to the next. To support the effectiveness of the Decision Tree, ARRM provides a [Role definition document](/planning/arrm/roles/ "Role definition document") to help provide context and better frame what is meant by reference to the various members of the cross-functional team identified with various roles in the process.
 
-### The Matrix
+### Responsibilities Matrix
 
-Once the decision has been made about which role on your team has responsibility for certain aspects of product development, product managers can use the Matrix to map the responsibilities related to specific WCAG Success Criteria to the appropriate team member or members based on primary, secondary, or contributor levels of responsibility. The Matrix contains that mapping and can be sorted for a clear checklist of responsibilities for each role.
+Once the decision has been made about which role on your team has responsibility for certain aspects of product development, product managers can use the Responsibilities Matrix to map the responsibilities related to specific WCAG Success Criteria to the appropriate team member or members based on primary, secondary, or contributor levels of responsibility. The Matrix contains that mapping and can be sorted for a clear checklist of responsibilities for each role.
 
