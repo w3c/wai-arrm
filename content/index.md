@@ -80,7 +80,7 @@ To avoid confusion around role-naming conventions, [Role Definitions](/planning/
 
 ### Responsibilities Matrix
 
-Using the roles defined and agreed upon, the Matrix provides:
+Using the roles defined and agreed upon, the Responsibilities Matrix provides:
 
 -   A set of role-specific grids for each role,
 -   A set of ownership assignments for every WCAG Success Criteria
