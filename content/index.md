@@ -80,7 +80,7 @@ To avoid confusion around role-naming conventions, [Role Definitions](/planning/
 
 ### Responsibilities Matrix
 
-Using the roles defined and agreed upon, the Responsibilities Matrix provides:
+Using the roles defined and agreed upon, the [Responsibilities Matrix](/planning/arrm/matrix/ "Responsibilities Matrix") provides:
 
 -   A set of role-specific grids for each role,
 -   A set of ownership assignments for every WCAG Success Criteria
@@ -88,7 +88,7 @@ Using the roles defined and agreed upon, the Responsibilities Matrix provides:
 
 ### ARRM FAQ
 
-Provides background on how accessibility ownership is assigned and answers frequently asked questions like, does each ownership level need a role?
+Provides background on how accessibility ownership is assigned and answers [frequently asked questions](/planning/arrm/faq/ "Frequently asked question") like, does each ownership level need a role?
 
 ### Help improve this page
 
