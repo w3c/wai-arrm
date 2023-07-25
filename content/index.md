@@ -86,6 +86,10 @@ Using the roles defined and agreed upon, the Responsibilities Matrix provides:
 -   A set of ownership assignments for every WCAG Success Criteria
 -   A set of sample considerations prioritizing responsibilities.
 
+### ARRM FAQ
+
+Provides background on how accessibility ownership is assigned and answers frequently asked questions like, does each ownership level need a role?
+
 ### Help improve this page
 
 Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list wai@w3.org or via GitHub.
