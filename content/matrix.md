@@ -18,15 +18,15 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 
 github:
   repository: w3c/wai-arrm
-  path: content/sc-map.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /planning/arrm/sc-map/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
+  path: content/matrix.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+permalink: /planning/arrm/matrix/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /path/to/previous/file/
   # next: /path/to/next/file/
 
-ref: /planning/arrm/sc-map/    # Translators, do not change this
+ref: /planning/arrm/matrix/    # Translators, do not change this
 # changelog: /@@/changelog/
 # acknowledgements: /@@/acknowledgements/
 license: creative-commons
