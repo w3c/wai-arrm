@@ -91,9 +91,9 @@ Of course, job titles are not universal and may not even be very descriptive. Wh
 
 ### ARRM FAQ
 
-Provides background on how accessibility ownership is assigned and answers frequently asked questions like, does each ownership level need a role?
+Provides background on how accessibility ownership is assigned and answers [frequently asked questions](/planning/arrm/faq/ "Frequently asked question") like, does each ownership level need a role?
 
 ### Responsibilities Matrix
 
-Once the decision has been made about which role on your team has responsibility for certain aspects of product development, product managers can use the Responsibilities Matrix to map the responsibilities related to specific WCAG Success Criteria to the appropriate team member or members based on primary, secondary, or contributor levels of responsibility. The Matrix contains that mapping and can be sorted for a clear checklist of responsibilities for each role.
+Once the decision has been made about which role on your team has responsibility for certain aspects of product development, product managers can use the [Responsibilities Matrix](/planning/arrm/matrix/ "Responsibilities Matrix") to map the responsibilities related to specific WCAG Success Criteria to the appropriate team member or members based on primary, secondary, or contributor levels of responsibility. The Matrix contains that mapping and can be sorted for a clear checklist of responsibilities for each role.
 
