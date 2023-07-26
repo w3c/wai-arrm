@@ -53,58 +53,733 @@ inline_css: |
 
 This page shows what roles have primary, secondary, or contributor responsbilities for Web Content Accessibility Guielines (WCAG) 2 requirements, called "success criteria". To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/). For background and context on this table, a description of the roles, and alternative views of the information, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**.
 
-<table style="text-align:center; font-size:75%; width:100%" class="dense">
-  <tr>
-    <th rowspan="2">WCAG SC</th>
-    <th rowspan="2">Level</th>
-    <th style="font-weight: normal">Analysis</th>
-    <th colspan="2" style="font-weight: normal">Authoring</th>
-    <th colspan="2" style="font-weight: normal">Design</th>
-    <th colspan="2" style="font-weight: normal">Development</th>
-    <th colspan="3" style="font-weight: normal">Testing</th>
-    <th style="font-weight: normal">Admin</th>
-  </tr>
-  <tr>
-    <th>Business Analysis</th>
-    <th>Content Authoring</th>
-    <th>Content Publishing</th>
-    <th>Visual Design</th>
-    <th>User Experience (UX) Design</th>
-    <th>Front-End Development</th>
-    <th>Back-End Development</th>
-    <th>QA Testing Roles (overall)</th>
-    <th>Automated QA Testing</th>
-    <th>Manual QA Testing</th>
-    <th>Owner, Manager</th>
-  </tr>
-  <tr>
-    <th>1.1.1 Non-text Content</th>
-    <td>A</td>
-    <td style="background:#ddd">Contributor</td>
-    <td style="background:#f1d0e1;font-weight:bold">Primary</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td style="background:#d0e1f1">Secondary</td>
-    <td style="background:#f1d0e1;font-weight:bold">Primary</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th>&nbsp;</th>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
+  <table style="text-align:center; font-size:75%; width:100%" class="dense">
+    <thead>
+            <tr>
+                <td>WCAG</td>
+                <td>Level</td>
+                <td colspan="6">Role Ownership</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2"></td>
+                <td>Analysis Role Group</td>
+                <td>Author Role Group</td>
+                <td colspan="2">Design Role Group</td>
+                <td>Development Role Group</td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td>Business</td>
+                <td>Content Authoring</td>
+                <td>Visual Design</td>
+                <td>UX Design</td>
+                <td>Front-End Development</td>
+            </tr>
+            <tr>
+                <td>1.1.1</td>
+                <td>A</td>
+                <td>C</td>
+                <td>P, S, C</td>
+                <td>P, S, C</td>
+                <td>P, S, C</td>
+                <td>P, C</td>
+            </tr>
+            <tr>
+                <td>1.2.1</td>
+                <td>A</td>
+                <td></td>
+                <td>P, S</td>
+                <td>S, </td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.2</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.3</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.4</td>
+                <td>AA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.5</td>
+                <td>AA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.6</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.7</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.8</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P, S</td>
+                <td></td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.2.9</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.3.1</td>
+                <td>A</td>
+                <td></td>
+                <td>P, S, C</td>
+                <td>P, S, C</td>
+                <td>P, S, C</td>
+                <td>P, S</td>
+            </tr>
+            <tr>
+                <td>1.3.2</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P, S</td>
+                <td>P, S</td>
+            </tr>
+            <tr>
+                <td>1.3.3</td>
+                <td>A</td>
+                <td>P</td>
+                <td>P, S, C</td>
+                <td>P, S</td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>1.3.4</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.3.5</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P, C</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>1.3.6</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>C</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>1.4.1</td>
+                <td>A</td>
+                <td></td>
+                <td>S, </td>
+                <td>P, S</td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.2</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.3</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.4</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>C</td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>1.4.5</td>
+                <td>AA</td>
+                <td></td>
+                <td>S, C</td>
+                <td>P, S</td>
+                <td></td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>1.4.6</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.7</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>C</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>1.4.8</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>1.4.9</td>
+                <td>AAA</td>
+                <td></td>
+                <td>S, </td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1.4.10</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>1.4.11</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+
+                <td>1.4.12</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>1.4.13</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>2.1.1</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>2.1.2</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>2.1.3</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>2.1.4</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.1</td>
+                <td>A</td>
+                <td>S, </td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.2</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.3</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.4</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.5</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.2.6</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.3.1</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.3.2</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.3.3</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.1</td>
+                <td>A</td>
+                <td></td>
+                <td>P, S, C</td>
+                <td></td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>2.4.2</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.3</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td>S, C</td>
+                <td>P, S, C</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>2.4.4</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>2.4.5</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.6</td>
+                <td>AA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>P, S</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>2.4.7</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td>S, </td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>2.4.8</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.9</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.4.10</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>2.5.1</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.5.2</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.5.3</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.5.4</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.5.5</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2.5.6</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>3.1.1</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>3.1.2</td>
+                <td>AA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>3.1.3</td>
+                <td>AAA</td>
+                <td></td>
+                <td>S, C</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1.4</td>
+                <td>AAA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>3.1.5</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P, S</td>
+                <td>P, S</td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.1.6</td>
+                <td>AAA</td>
+                <td></td>
+                <td>C</td>
+                <td></td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>3.2.1</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>S, </td>
+            </tr>
+            <tr>
+                <td>3.2.2</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td>P, S</td>
+            </tr>
+            <tr>
+                <td>3.2.3</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td>S, </td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.2.4</td>
+                <td>AA</td>
+                <td></td>
+                <td>P</td>
+                <td>P</td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.2.5</td>
+                <td>AAA</td>
+                <td></td>
+                <td>S, </td>
+                <td>S, </td>
+                <td>P</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>3.3.1</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td>P, S</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.3.2</td>
+                <td>A</td>
+                <td></td>
+                <td>P</td>
+                <td>P, S, C</td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>3.3.3</td>
+                <td>AA</td>
+                <td></td>
+                <td>P, S, C</td>
+                <td>S, </td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>3.3.4</td>
+                <td>AA</td>
+                <td>S, </td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>3.3.5</td>
+                <td>AAA</td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+                <td>S, </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3.3.6</td>
+                <td>AAA</td>
+                <td>S, </td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4.1.1</td>
+                <td>A</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>4.1.2</td>
+                <td>A</td>
+                <td></td>
+                <td>C</td>
+                <td></td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>4.1.3</td>
+                <td>AA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>P, S</td>
+                <td>P</td>
+            </tr>
+        </tbody>
+    </table>
+
