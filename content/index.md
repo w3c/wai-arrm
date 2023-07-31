@@ -2,11 +2,11 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "ARRM: Accessibility Roles and Responsibilities Mapping"
+title: "Accessibility Roles and Responsibilities Matrix (ARRM) Overview"
 nav_title: "Roles and Responsibilities (ARRM)" 
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2021-05-03   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -64,61 +64,34 @@ ARRM defines which roles have which responsibilities for meeting accessibility r
 {:/}
 
 
-## Background
+### Summary
 
-When responsibilities for accessibility are not clearly defined and communicated, they are often left until too late in the lifecycle. For example, developers are sometimes left to address issues like color selection, image description, and heading identification that are not really in their purview. Such responsibilities more appropriately fall to other roles earlier in the process, such as user experience (UX) designers, visual designers, and content authors.
+The Accessibility Roles and Responsibilities Matrix (ARRM) is a tool to help digital development project managers assign responsibility for various accessibility tasks across roles within the team. This page links to resources that comprise the ARRM.
 
-ARRM helps the right roles address their appropriate responsibilities.
+The [ARRM Introduction](/planning/arrm/introduction "ARRM framework introduction") takes users through the steps they will follow to apply the ARRM methodology. Using the multi-step ARRM tool, users will be able to map specific accessibility tasks within their development life cycle to identified roles within the product team.
 
-## What is ARRM
+### Role-Based Decision Tree
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles (designer, developer, writer, etc.) have which responsibilities for meeting which aspects of the Web Content Accessibility Guidelines (WCAG) requirements.
+The [Decision Tree](/planning/arrm/decision-tree "Role-Based Decision Tree") is a customizable framework to help teams define a matrix of their own within their organization. Use it to assign primary, secondary, or contributor level accountability for task-related responsibilities.
 
-{::nomarkdown}
-{% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
-{:/}
+### Role Definitions
 
-For meeting the WCAG requirement on headings:
-* Writers are responsible for the writing the heading text.
-* Designers are responsible for defining how the headings look.
-* Developers are responsible for coding or marking up the headings.
+To avoid confusion around role-naming conventions, [Role Definitions](/planning/arrm/roles "Role definition document") are provided as a baseline to identify common stakeholders in a typical web development lifecycle.
 
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
+### Responsibilities Matrix
 
-ARRM assigns primary, secondary, and contributor level responsibilities for tasks.
+Using the roles defined and agreed upon, the [Responsibilities Matrix](/planning/arrm/matrix/ "Responsibilities Matrix") provides:
 
-ARRM currently provides an example of typical roles and responsibilities for WCAG success criteria. It is also a tool for project managers to assign different responsibilities across roles within their team.
+-   A set of role-specific grids for each role,
+-   A set of ownership assignments for every WCAG Success Criteria
+-   A set of sample considerations prioritizing responsibilities.
 
-## Typical Roles and Mapping
+### ARRM FAQ
 
-ARRM provides one approach for defining roles and responsibilities.
+Provides background on how accessibility ownership is assigned and answers [frequently asked questions](/planning/arrm/faq/ "Frequently asked question") like, does each ownership level need a role?
 
-You can use these as they are, without doing any more work to customize them.
+### Help improve this page
 
-* **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria ARRM](sc-map)** table of all success criteria<br>which is also available as separate lists:
-  * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * ...
+Please share your ideas, suggestions, or comments via e-mail to the publicly-archived list wai@w3.org or via GitHub.
 
-## Customizing ARRM for Your Situation
 
-ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
-
-* **[ARRM Decision Tree](decision-tree)** provides steps for deciding which roles have which level responsibilities.
-
-First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
-
-Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
-
-<!-- @@not likely any time soon, so suggest we delete this section
-
-## Future Work
-
-Future work on ARRM includes breaking down success criteria into multiple sub-points, and assigning those sub-points to roles. We may also provide a tool for organizations that want to development their own ARRM.
-
--->
