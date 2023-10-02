@@ -6,6 +6,9 @@ title: "WCAG Success Criteria ARRM - Accessibility Roles and Responsibilities Ma
 title_html: "WCAG Success Criteria ARRM<br><span style='font-size:75%'>Accessibility Roles and Responsibilities Mapping</span>"
 nav_title: "WCAG Success Criteria"
 
+doc-note-type: draft
+doc-note-message-md: This is a placeholder page, without any data in the table yet.
+
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
