@@ -50,27 +50,27 @@ These roles were defined as part of the [Accessibility Roles and Responsibilitie
 
 The six main groups (categories) of roles covered in this document include:
 
-1.  [Business roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Business_Role_Group "Role definition document")
+1.  [Business roles](1-business-role-group)
 * Business Analysis
 
-2.  [Author roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Author_Role_Group "Role definition document")
+2.  [Author roles](#2-author-role-group)
 * Content Authoring
 * Content Publishing
 
-3.  [Design roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Design_Role_Group "Role definition document")
+3.  [Design roles](#3-design-role-group)
 * User Experience (UX) Design
 * Visual Design
 
-4.  [Development roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Development_Role_Group "Role definition document")
+4.  [Development roles](#4-development-role-group)
 * Front-End Development
 * Back-End Development
 
-5.  [Testing roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#QA_Role_Group "Role definition document")
+5.  [Testing roles](#5-testing-role-group)
 * QA Testing Roles (overall)
 * Automated QA Testing
 * Manual QA Testing
 
-6.  [Administration roles](https://www.w3.org/WAI/EO/wiki/Role_definition_document#Administration_Role_Group "Role definition document")
+6.  [Administration roles](#6-administration-role-group)
 * Product Ownership
 * Project Management
 * Governance
