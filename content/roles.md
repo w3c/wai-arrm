@@ -111,14 +111,14 @@ Content Creation extends to roles specific audio and video media production. The
 
 <h5>Key Deliverables</h5>
 
-<ul><li> Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video, etc.</li></ul>
+<ul><li>Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Tasks include</h5>
 
-<ul><li> Content authoring, media and documentation creation, content strategies definition, etc.</li></ul>
+<ul><li>Content authoring, media and documentation creation, content strategies definition, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
@@ -147,7 +147,7 @@ Content Publishers may perform some tasks that are a part of the front end web d
 
 <h5>Tasks include</h5>
 
-<ul><li> Advanced tagging in a PDF document, adjusting timing of captions, creating and editing transcripts, conversion to ePUB documentation, applying tags though a proprietary software to generate heading structure, SSML, etc. </li></ul>
+<ul><li>Advanced tagging in a PDF document, adjusting timing of captions, creating and editing transcripts, conversion to ePUB documentation, applying tags though a proprietary software to generate heading structure, SSML, etc. </li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
@@ -161,62 +161,90 @@ Content Publishers may perform some tasks that are a part of the front end web d
 
 ### 3\. Design Role Group
 
-Main focus: User Experience (UX) **and** Presentation **decisions**
+Main focus: **User research**, **User experience (UX)**, and **Presentation decisions**
 
-These roles define the general "look and feel" of the products covering presentation, functionality, features, operation. They translate input from business roles into user stories, requirements, specifications, documentation, guidelines used by other roles (mainly Development) to build the finish product. This includes applying research and understanding of the intended audiences for a quality experience.
+Some roles within this group define the user experience of a product, designing its behaviours and interactions with the end user and/or their assistive technologies. Some roles provide the general "look and feel" of the products and features, covering presentation, fonts and colors. Others outline the functionality of features, and their operation through assistive technologies (ATs). They translate input from business roles into user stories, requirements, specifications, documentation, and guidelines used by other roles (mainly Development) to build the finished product.
 
-#### User Experience Design
+This includes applying user research that has been conducted and an understanding of the intended audiences for a quality experience.
 
-The role of UX Design can potentially cover a large number of related areas: from exploratory user research (like user interviews, ethnographic research, etc.) to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), creating prototypes that define interactions, or testing designs for usability.
+#### User Experience Researcher (UXR)
+
+UX Researchers conduct both exploratory and generative research with end users (e.g. user interviews, ethnographic research, etc.) to gather their feedback. The responsibility of this role is to continuously feed user feedback to those creating products. They test existing concepts and summarize user insights to inform the assets that will be built by the roles in UX Design, Visual Design, Front-end Development and Content Authoring.
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Key Deliverables</h5>
 
-<ul><li> Wireframes, prototypes, interaction guidelines, information architecture, etc.</li></ul>
+<ul><li>Findings from moderated and unmoderated versions of user research studies, usability testing and user interviews (i.e. a moderator or facilitator was present during the test, or the end user was alone).</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Tasks include</h5>
 
-<ul><li> User workflow / process maps, usability testing, user interviews and analysis, user task and workflow mapping, creating and maintaining user personas, etc.</li></ul>
+<ul><li>Conducting user research with a partial prototype, concept, or completed product.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Example job titles for this role</h5>
 
-<p>User Experience (UX) Designer, Service Designer, Interaction Designer, Information Architect, User Researcher, UX Researcher, User Experience Analyst, Usability Specialist, etc.</p>
+<p>User Researcher, UXR (User Experience Researcher), Usability Analyst.</p>
 
 </div>
 
+#### User Experience Design (UXD)
 
-#### Visual Design
+UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
 
-Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
+<div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+
+<h5>Key Deliverables</h5>
+
+<ul><li>User journeys, wireframes, prototypes, interaction guidelines, information architecture, etc.</li></ul>
+
+</div>
+<div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
+
+<h5>Tasks include</h5>
+
+<ul><li>User workflow / process maps, designing user experiences, user task and workflow mapping, creating and maintaining user personas, etc.</li></ul>
+
+</div>
+<div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
+
+<h5>Example job titles for this role</h5>
+
+<p>User Experience (UX) Designer, Product Designer, Web Designer, Service Designer</p>
+
+</div>
+
+#### Visual Design (VD)
+
+Visual Designers focus largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
 <div style="border: 1px solid #ccc; margin: 1em 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Key Deliverables include</h5>
 
-<ul><li> Style guides, Page comps, Design mockups, Image files, etc.</li></ul>
+<ul><li>Style guides, Page comps, Design mockups, Image files, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Tasks include</h5>
 
-<ul><li> Visual styling, logos and branding, animation and iconography design, etc.</li></ul>
+<ul><li>Visual styling, logos and branding, animation, and iconography design, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Example job titles for this role</h5>
 
-<p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer, etc.</p>
+<p>Visual Designer, User Interface (UI) Designer, Interaction Designer, Graphic Designer, etc.</p>
 
 </div>
+
 
 ### 4\. Development Role Group
 
@@ -232,14 +260,14 @@ Front end development typically builds the parts of a product that will be inter
 
 <h5>Key Deliverables</h5>
 
-<ul><li> HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.</li></ul>
+<ul><li>HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; margin: 0 0 0.5em; padding: 1em; border-left: 10px solid #ddd;">
 
 <h5>Tasks include</h5>
 
-<ul><li> Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.</li></ul>
+<ul><li>Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.</li></ul>
 
 </div>
 <div style="border: 1px solid #ccc; background: #eee; margin: 0 0 1em; padding: 1em; border-left: 10px solid #ddd;">
