@@ -58,7 +58,8 @@ The six main groups (categories) of roles covered in this document include:
 * Content Publishing
 
 3.  [Design roles](#3-design-role-group)
-* User Experience (UX) Design
+* User Experience Researcher
+* User Experience Design
 * Visual Design
 
 4.  [Development roles](#4-development-role-group)
