@@ -97,3 +97,9 @@ Provides background on how accessibility ownership is assigned and answers [freq
 
 Once the decision has been made about which role on your team has responsibility for certain aspects of product development, product managers can use the [Responsibilities Matrix](/planning/arrm/matrix/ "Responsibilities Matrix") to map the responsibilities related to specific WCAG Success Criteria to the appropriate team member or members based on primary, secondary, or contributor levels of responsibility. The Matrix contains that mapping and can be sorted for a clear checklist of responsibilities for each role.
 
+### Example Responsibilities Mapping
+
+- [Content Author Responsibilities Mapping](/planning/arrm/content-author/ "Content Author")
+- [Front-End Developer Responsibilities Mapping](/planning/arrm/front-end/ "Front-End Developer")
+- [User eXperience (UX) Designer Responsibilities Mapping](/planning/arrm/user-experience/ "User eXperience (UX) Designer")
+- [Visual Designer Responsibilities Mapping](/planning/arrm/visual-designer/ "Visual Designer")
