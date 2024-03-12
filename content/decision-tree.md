@@ -265,7 +265,8 @@ This section identifies the steps in identifying those roles who, after the prim
 </div>
 
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
-<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Visual Design as Secondary Owner</span><br>It's rare for Visual Designers to be a secondary owner as they are typically involved as primary owners of presentation tasks, or simply informed about any variations to their work. This typically occurs when the UX Designer is the primary owner, but needs considerable input from the Visual Designer.</p>
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Visual Design as Secondary Owner</span><br />It's rare for Visual Designers to be a secondary owner as they are typically involved as primary owners of presentation tasks, or simply informed about any variations to their work. This typically occurs when the UX Designer is the primary owner, but needs considerable input from the Visual Designer.</p>
+
 </div>
 
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
@@ -299,7 +300,8 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 </div>
 
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
-<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Visual Design as a Contributor</span><br>A Visual Designer is likely to want to know the outcomes of decisions that impact the final presentation when they are not the primary owner. Examples of this are when simple text or operation changes lead to cases not be clearly covered in style guides or comps.</p>
+<p style="padding-top: 0; margin-top: 0;"><span style="font-weight: bold;">Visual Design as a Contributor</span><br />A Visual Designer is likely to want to know the outcomes of decisions that impact the final presentation when they are not the primary owner. Examples of this are when simple text or operation changes lead to cases not be clearly covered in style guides or comps.</p>
+  
 </div>
 
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
