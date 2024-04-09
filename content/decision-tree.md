@@ -219,7 +219,7 @@ The steps in the decision tree assume evaluation of checkpoints (or checkpoints 
 <div style="float: left; font-size: 500%; color: #989494; padding: 0; margin: 0 0.3em 0 0;">G.</div>
 <div style="overflow: auto;">
 <H4>Step G.</H4>
-  <p>IF NONE OF THE ABOVE, then it becomes a <a href="/WAI/EO/wiki/Role_definition_document#Administrative_Roles" title="Role definition document">Administrative</a> concern.</p>
+  <p>IF NONE OF THE ABOVE, then it escalates to an <a href="/WAI/EO/wiki/Role_definition_document#Administrative_Roles" title="Role definition document">Administrative</a> concern.</p>
 <p>If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the checkpoint and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.</p>
 </div>
 <div style="border: 0; border-left: 10px solid #ccc; padding: 1em 2em; background: #f7f7f7; margin: 0.5em 0; border-radius: 0.5em;">
