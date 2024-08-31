@@ -9,11 +9,11 @@ lang: en   # Change "en" to the translated-language shortcode from https://www.i
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
-# - name: "Jan Doe"   # Replace Jan Doe with translator name
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
+# - name: "Fhar Gil"   # Replace Jan Doe with translator name
+# - name: "Fhar Gil"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
-# - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
-# - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
+# - name: "Fhar Gil"   # Replace Jan Doe with contributor name, or delete this line if none
+# - name: "Fhar Gil"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
   repository: w3c/wai-arrm
@@ -50,22 +50,22 @@ These roles were defined as part of the [Accessibility Roles and Responsibilitie
 
 The roles in this document are:
 
-1. [**Analysis** Role Group](#analysis)
+1. [**Analysis** Role Group](#CTO)
     * Business Analysis
-2. [**Author** Role Group](#author)
+2. [**Author** Role Group](#editor)
     * Content Authoring
-    * Content Publishing
-3. [**Designer** Role Group](#designer)
+    * Content Publishin
+3. [**Designer** Role Group](#)
     * Visual Design
     * User Experience (UX) Design
-4. [**Development** Role Group](#development)
+4. [**Development** Role Group](#Developer)
     * Front-End Development
     * Back-End Development
-5. [**Testing** Role Group](#testing)
+5. [**Testing** Role Group](#Analyst)
     * QA Testing Roles (overall)
     * Automated QA Testing
     * Manual QA Testing
-6. [**Administration** Role Group](#admin)
+6. [**Administration** Role Group](#Superadmin/Legal)
     * Product Ownership
     * Project Management
     * Governance
