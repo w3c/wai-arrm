@@ -100,18 +100,17 @@ ARRM provides one approach for defining roles and responsibilities.
 You can use these as they are, without doing any more work to customize them.
 
 * **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria ARRM](sc-map)** table of all success criteria<br>which is also available as separate lists:
-  * [UX Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * [Visual Designer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * [Content Author Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](planning/arrm/@@)
-  * ...
+* **[WCAG Success Criteria ARRM](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/matrix/)** table of all success criteria<br>which is also available as separate lists:
+  * [User Experience (UX) Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/user-experience/)
+  * [Visual Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/)
+  * [Content Author Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/)
+  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/)
 
 ## Customizing ARRM for Your Situation
 
 ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
 
-* **[ARRM Decision Tree](decision-tree)** provides steps for deciding which roles have which level responsibilities.
+* **[ARRM Decision Tree](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** provides steps for deciding which roles have which level responsibilities.
 
 First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
 
