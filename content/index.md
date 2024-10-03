@@ -100,7 +100,8 @@ ARRM provides one approach for defining roles and responsibilities.
 You can use these as they are, without doing any more work to customize them.
 
 * **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria ARRM](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/matrix/)** table of all success criteria<br>which is also available as separate lists:
+* **[WCAG Success Criteria ARRM](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/matrix/)** table of all success criteria.
+* Additional guideance for roles:
   * [User Experience (UX) Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/user-experience/)
   * [Visual Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/)
   * [Content Author Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/)
