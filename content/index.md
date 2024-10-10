@@ -38,7 +38,7 @@ license: creative-commons
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
    <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
    <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>.<!-- ACKNOWLEDGEMENTS lists additional contributors. --></p>
-   <p>Developed by the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+   <p>Developed with the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
 ---
 
@@ -46,7 +46,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-ARRM defines which roles have which responsibilities for meeting accessibility requirements.
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of Web Content Accessibility Guidelines (WCAG).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -68,19 +68,21 @@ ARRM defines which roles have which responsibilities for meeting accessibility r
 
 ## Background
 
-When responsibilities for accessibility are not clearly defined and communicated, they are often left until too late in the lifecycle. For example, developers are sometimes left to address issues like color selection, image description, and heading identification that are not really in their purview. Such responsibilities more appropriately fall to other roles earlier in the process, such as user experience (UX) designers, visual designers, and content authors.
+Different aspects of accessibility are the responsibility of different project roles, such as writers, designers, and developers. It is best to clearly define and communicate the responsibilities for accessibility early in projects.
+
+When accessibility is left until late in a project, the responsibility often falls on developers and they are tasked with addressing aspects that are not their skillset. For example, selecting colors, describing images, and writing headings.
 
 ARRM helps the right roles address their appropriate responsibilities.
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles (designer, developer, writer, etc.) have which responsibilities for meeting which aspects of the Web Content Accessibility Guidelines (WCAG) requirements.
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of Web Content Accessibility Guidelines (WCAG) requirements, called "success criteria".
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
 {:/}
 
-For meeting the WCAG requirement on headings:
+Roles that contribute to meeting WCAG requirements on headings:
 * Writers are responsible for the writing the heading text.
 * Designers are responsible for defining how the headings look.
 * Developers are responsible for coding or marking up the headings.
@@ -91,7 +93,8 @@ For meeting the WCAG requirement on headings:
 
 ARRM assigns primary, secondary, and contributor level responsibilities for tasks.
 
-ARRM currently provides an example of typical roles and responsibilities for WCAG success criteria. It is also a tool for project managers to assign different responsibilities across roles within their team.
+ARRM provides examples of typical responsibilities that each role has in helping to meet WCAG success criteria. It is a tool for project managers to assign different responsibilities across roles within their team.
+
 
 ## Typical Roles and Mapping
 
@@ -107,20 +110,13 @@ You can use these as they are, without doing any more work to customize them.
   * [Content Author Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/)
   * [Front-End Developer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/)
 
+
 ## Customizing ARRM for Your Situation
 
 ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. The key tool for this is the:
 
-* **[ARRM Decision Tree](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** provides steps for deciding which roles have which level responsibilities.
+* **[ARRM Decision Tree@@](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** provides steps for deciding which roles have which level responsibilities.
 
 First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
 
-Next, for each success criteria (or your organization’s accessibility checkpoints), walk through the ARRM Decision Tree to assign responsibilities.
-
-<!-- @@not likely any time soon, so suggest we delete this section
-
-## Future Work
-
-Future work on ARRM includes breaking down success criteria into multiple sub-points, and assigning those sub-points to roles. We may also provide a tool for organizations that want to development their own ARRM.
-
--->
+Next, for each success criteria (or your organization’s accessibility @@checkpoints), walk through the ARRM Decision Tree@@ to assign responsibilities.
