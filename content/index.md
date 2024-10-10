@@ -107,11 +107,10 @@ You can use these as they are, without doing any more work to customize them.
 * **[Roles Involved in Accessibility](roles)**
 * **[WCAG Success Criteria ARRM](wcag-sc)** table of all success criteria.
 * Additional guideance for roles:
-  * [User Experience (UX) Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/user-experience/)
-  * [Visual Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/)
-  * [Content Author Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/)
-  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/)
-
+  * [User Experience (UX) Designer Responsibilities &mdash; List of Success Criteria](user-experience) {in-progress WAI site update}
+  * [Visual Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/) {preview 9}
+  * [Content Author Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/) {preview 9}
+  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/) {preview 9}
 
 ## Customizing ARRM for Your Situation
 
