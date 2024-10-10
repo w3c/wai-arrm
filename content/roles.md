@@ -44,7 +44,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-@@ summary
+This page defines typical roles that have responsibilities for ensuring accessibility. 
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -64,15 +64,13 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ## Introduction
 
-This document defines typical roles that have responsibilities for ensuring web accessibility. These role descriptions are generalized on purpose. An individual may fulfill more than one role.
+This page defines typical roles that have responsibilities for ensuring accessibility. These role descriptions are generalized on purpose. An individual may fulfill more than one role.
 
 Each role description includes areas of focus in decision making, decision ownership, notes on the primary tasks of that role, a shortlist of common job titles, and a general description of the accessibility responsibilities of that role.
 
-You are welcome to use this information as is, or change it for your organization.
+You are welcome to use this information as is, or change it for your situation.
 
 ## 1\. Business Role Group
-
-Main focus: **Business Vision, Rules & Requirements**
 
 Writes business requirements and/or initial user stories, are concerned with ensuring that the project delivers the agreed-upon business benefits.
 
@@ -87,7 +85,7 @@ Business analysts are involved in the design or modification of business systems
 
 ## 2\. Author Role Group
 
-Main focus: Content Strategy **and** Content Authoring (including audio/video production)
+This role includes content strategy and content authoring, including audio/video production.
 
 Responsible for creating all text presented by the deliverable in all forms (HTML, audio, video). Defines or selects the standards the content should meet and processes for its review and preparation.
 
@@ -121,7 +119,7 @@ Content Publishers may perform some tasks that are a part of the front end web d
 
 ## 3\. Design Role Group
 
-Main focus: **User research**, **User experience (UX)**, and **Presentation decisions**
+This group includes user research, user experience (UX), and presentation decisions.
 
 Some roles within this group define the user experience of a product, designing its behaviours and interactions with the end user and/or their assistive technologies. Some roles provide the general "look and feel" of the products and features, covering presentation, fonts and colors. Others outline the functionality of features, and their operation through assistive technologies (ATs). They translate input from business roles into user stories, requirements, specifications, documentation, and guidelines used by other roles (mainly Development) to build the finished product.
 
@@ -166,8 +164,6 @@ Visual Designers focus largely on the look and feel of an application, as an end
 
 ## 4\. Development Role Group
 
-Main focus: **Development**
-
 Oversees the creation, coding and delivery of the product based upon the requirements provided. Responsible for all user-facing and supporting systems, along with all related infrastructure selection, setup and deployment.
 
 ### Front-End Development
@@ -192,15 +188,13 @@ Back end developers have a smaller, more indirect involvement with accessibility
 
 ## 5\. Testing Role Group
 
-Main focus: **Testing**
-
 QA Testers run automated test frameworks or manually test products to confirm correct operation based upon provided requirement.
 
- ### QA Testing Roles (overall)
+### QA Testing Roles (overall)
 
 Quality Assurance (QA) Testers typically don’t contribute directly to the design and development phases of a product. They may have the opportunity to review and sign off on designs before they are implemented. The main accessibility role of a QA Tester in the accessibility lifecycle is to understand the accessibility requirements that exist and to run tests to ensure the product or feature conforms to those requirements. The testing roles have been split between automated and manual, but a number of QA professionals will do both.
 
- ### Automated QA Testing
+### Automated QA Testing
 
 Quality Assurance (QA) automation frameworks typically run against products in order to test features and functionality that would otherwise fall to a manual QA tester. For the purpose of this resource, a QA Tester performing automated tests is responsible for running tests within an automation framework that covers accessibility features and requirements. This can be accomplished either through automation of functional tests, and/or the inclusion of an accessibility testing library within the framework. QA Testers responsible for automated testing may also typically run automated accessibility testing tools, such as browser extensions or add-ons. It is expected that automated tools will uncover about 30 to 35% of potential accessibility issues on a screen. The rest will be identified through the team's manual accessibility testing methodology.
 
@@ -219,8 +213,6 @@ Quality Assurance Testers responsible for manual testing will typically handle t
 </dl>
 
 ## 6\. Administration Role Group
-
-Main focus: **Business Vision, Rules & Requirements**
 
 The roles in this section cover managing the product and project, as well as other bureaucratic functions of the broader organization that often have a larger mandate than any individual project. Most administrative roles, as defined in this resource, have very little, if anything, to do with the design, the implementation, or the testing of accessibility principles to create more inclusive applications and websites. These roles, however, are still instrumental in ensuring that the team members who are actively taking part in making content accessible and conformant with WCAG can be successful at doing so. This begins with project managers and product owners working hand in hand with the design, development and testing teams, but also other governance roles contributing to steering the organization's culture in a direction that is aligned with the goals pursued by accessibility guidelines.
 
