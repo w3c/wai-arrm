@@ -4,6 +4,8 @@
 
 title: "ARRM: Accessibility Roles and Responsibilities Mapping"
 nav_title: "Roles and Responsibilities (ARRM)"
+doc-note-type: draft
+doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
 
 doc-note-type: draft
 
@@ -29,7 +31,7 @@ permalink: /planning/arrm/  # Add the language shortcode to the end, with no sla
 
 ref: /planning/arrm/    # Translators, do not change this
 # changelog: /@@/changelog/
-# acknowledgements: /@@/acknowledgements/
+acknowledgements: /arrm/acknowledgements/
 license: creative-commons
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
@@ -37,7 +39,7 @@ license: creative-commons
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
    <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong><strong>Date:</strong> Updated @@ Month 2021. First published Month 20@@. <!-- CHANGELOG. --></p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>.<!-- ACKNOWLEDGEMENTS lists additional contributors. --></p>
+   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>. ACKNOWLEDGEMENTS lists additional contributors.</p>
    <p>Developed with the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
 ---
