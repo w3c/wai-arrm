@@ -31,7 +31,7 @@ permalink: /planning/arrm/  # Add the language shortcode to the end, with no sla
 
 ref: /planning/arrm/    # Translators, do not change this
 # changelog: /@@/changelog/
-acknowledgements: /arrm/acknowledgements/
+acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
