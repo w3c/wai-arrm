@@ -30,7 +30,7 @@ permalink: /planning/arrm/wcag-sc/  # Add the language shortcode to the end, wit
 
 ref: /planning/arrm/wcag-sc/    # Translators, do not change this
 # changelog: /@@/changelog/
-acknowledgements: /arrm/acknowledgements/
+acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
