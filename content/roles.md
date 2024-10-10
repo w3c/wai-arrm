@@ -125,7 +125,7 @@ Some roles within this group define the user experience of a product, designing 
 
 This includes applying user research that has been conducted and an understanding of the intended audiences for a quality experience.
 
-### User Experience Researcher (UXR)
+### User Experience Researcher
 
 UX Researchers conduct both exploratory and generative research with end users (e.g. user interviews, ethnographic research, etc.) to gather their feedback. The responsibility of this role is to continuously feed user feedback to those creating products. They test existing concepts and summarize user insights to inform the assets that will be built by the roles in UX Design, Visual Design, Front-end Development and Content Authoring.
 
@@ -137,7 +137,7 @@ UX Researchers conduct both exploratory and generative research with end users (
 <dd>User Researcher, UXR (User Experience Researcher), Usability Analyst</dd>
 </dl>
 
-### User Experience Design (UXD)
+### User Experience Design
 
 UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
 
@@ -149,7 +149,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 <dd>User Experience (UX) Designer, Product Designer, Web Designer, Service Designer</dd>
 </dl>
 
-### Visual Design (VD)
+### Visual Design
 
 Visual Designers focus largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
