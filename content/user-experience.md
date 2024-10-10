@@ -42,8 +42,6 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-# User Experience (UX) Design
-
 ## Role summary
 
 UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
