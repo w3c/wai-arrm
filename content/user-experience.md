@@ -1,5 +1,5 @@
----
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
+---
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "User Experience (UX) Designer Responsibilities Mapping"
@@ -83,6 +83,37 @@ Below is a list of <s><s>checkpoint</s>activitys</s>activities for UX designers 
 
 @@ This list is taken from the full list of UX Design <s><s>checkpoint</s>activitys</s>activities.
 For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility"><s>Checkpoint</s>Activity Full List</a>]. 
+
+### Input Methods
+
+<table>
+  <thead>
+    <tr>
+      <th>Activity</th>
+      <th>Helps with</th>
+      <th>Ownership</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Keyboard focus states are planned for every active element.</td>
+      <td><a class="external text" href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1</a></td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <td>
+        Behaviors for hover and focus states are planned and included with the design assets.
+      </td>
+      <td><a class="external text" href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1</a></td>
+      <td>Primary</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+  </tbody>
+</table>
 
 <table>
    <tbody><tr>
