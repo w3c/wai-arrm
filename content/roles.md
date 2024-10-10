@@ -3,7 +3,9 @@
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
 title: "Roles Involved in Accessibility"
-nav_title: "Roles" 
+nav_title: "Roles"
+doc-note-type: draft
+doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -27,7 +29,7 @@ permalink: /planning/arrm/roles/  # Add the language shortcode to the end, with 
 
 ref: /planning/arrm/roles/    # Translators, do not change this
 # changelog: /@@/changelog/
-# acknowledgements: /planning/arrm/acknowledgements/
+acknowledgements: /arrm/acknowledgements/
 license: creative-commons
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
