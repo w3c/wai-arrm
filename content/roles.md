@@ -29,7 +29,7 @@ permalink: /planning/arrm/roles/  # Add the language shortcode to the end, with 
 
 ref: /planning/arrm/roles/    # Translators, do not change this
 # changelog: /@@/changelog/
-acknowledgements: /arrm/acknowledgements/
+acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
