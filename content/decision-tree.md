@@ -5,7 +5,6 @@
 title: "ARRM Decision Tree for Accessibility Roles and Responsibilities Mapping"
 title_html: "ARRM Decision Tree <br><span style='font-size:75%'>for Accessibility Roles and Responsibilities Mapping</span>"
 nav_title: "Decision Tree"
-
 doc-note-type: draft
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
