@@ -95,7 +95,6 @@ ARRM assigns primary, secondary, and contributor level responsibilities for task
 
 ARRM provides examples of typical responsibilities that each role has in helping to meet WCAG success criteria. It is a tool for project managers to assign different responsibilities across roles within their team.
 
-
 ## Typical Roles and Mapping
 
 ARRM provides one approach for defining roles and responsibilities.
@@ -103,12 +102,13 @@ ARRM provides one approach for defining roles and responsibilities.
 You can use these as they are, without doing any more work to customize them.
 
 * **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria ARRM](wcag-sc)** table of all success criteria.
-* Additional guideance for roles:
-  * [User Experience (UX) Designer Responsibilities &mdash; List of Success Criteria](user-experience) {in-progress WAI site update}
-  * [Visual Designer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/) {preview 9}
-  * [Content Author Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/) {preview 9}
-  * [Front-End Developer Responsibilities &mdash; List of Success Criteria](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/) {preview 9}
+* **[WCAG Success Criteria ARRM](wcag-sc)** is a table of WCAG success criteria (SC) with which roles have responsbilities for each SC
+* **[ARRM Accessibility Task List](tasks)** has one option for tasks to meet WCAG with which roles have responsbilities for each task
+* These role pages list the tasks:
+  * [User Experience (UX) Designer Responsibilities](user-experience) {in-progress WAI site update}
+  * [Visual Designer Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/) {preview 9}
+  * [Content Author Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/) {preview 9}
+  * [Front-End Developer Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/) {preview 9}
 
 ## Customizing ARRM for Your Situation
 
@@ -118,4 +118,4 @@ ARRM also guides organizations that want to customize their own accessibility ro
 
 First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
 
-Next, for each success criteria (or your organization’s accessibility tasks), walk through the steps in 'Deciding who is responsible' to assign responsibilities.
+Next, for each success criteria or accessibility task, walk through the steps in 'Deciding who is responsible' to assign responsibilities.
