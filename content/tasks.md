@@ -69,7 +69,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 @@ ... wording to make it clear that this is not a complete nor definitive list nor official list ... @@
 
 <h2>Images and Graphs</h2>
-<table style="vertical-align: top; text-align: left">
+<table class="dense">
   <tr>
     <th>Number</th>
     <th>SC</th>
