@@ -37,9 +37,9 @@ It is being further refined through the ARRM Community Group @@link.
 
 ### ARRM Project Team
 
-* Project lead:
+* **Project lead:**
   * Denis Boudreau
-* Major project contributors:
+* **Major project contributors:**
   * Mike Gifford
   * Jennifer Chadwick
   * ...
@@ -51,7 +51,7 @@ It is being further refined through the ARRM Community Group @@link.
 * EOWG Co-Chairs:
   * Sharron Rush, Knowbility
   * Brent Bakken, Pearson
-* EOWG Staff Contacts:
+* W3C Staff Contact for EOWG:
   * Shawn Lawton Henry, W3C WAI
 
 ### Additional Contributors
