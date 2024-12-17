@@ -1,5 +1,9 @@
 _site
-.sass-cache
+.*-cache
 .jekyll-metadata
 .DS_Store
-
+.netlify
+.bundle/
+.vscode/
+node_modules/
+vendor/
