@@ -247,7 +247,6 @@ SCT-014,1.3.3,A,Objects that rely on visual location to be properly perceived ar
 SCT-015,1.3.3,A,Objects that rely on orientation to be properly perceived are supported with additional text information.,Design,,UX Design,Visual Design,Content Authoring
 SCT-016,1.3.3,A,Objects that rely on sound to be properly perceived are supported with additional text information.,Design,,UX Design,Content Authoring,none
 SCT-017,1.4.5,AA,Mathematical formulas are marked up using MathML.,Development,,Front-End Development,Content Authoring,none
-,,,,,,,,
 SCT-018,1.4.8,AAA,Text content in design assets such as content blocks is left-aligned in left-to-right languages.,Design,,Visual Design,UX Design,none
 SCT-019,1.4.8,AAA,Fully justified text can easily be changed to ragged right text with a simple action.,Design,,UX Designer,Front-End Development,none
 SCT-020,3.1.1,A,The primary language used in the document is properly identified using the lang attribute.,Development,,Front-End Development,none,none
