@@ -25,9 +25,9 @@ license: creative-commons
 Accessibility Roles and Responsibilities Mapping (ARRM) was initially developed in a sub-group of the Accessibility Education and Outeach Working Group (EOWG).
 It is being further refined through the [ARRM W3C Community Group](https://www.w3.org/groups/cg/arrm/).
 
-## Contributors
+## Editors and major contributors
 
-Recent contributors (in alphabetical order):
+Editors and recent contributors (in alphabetical order):
 * Denis Boudreau
 * Jennifer Chadwick
 * Sean Kelly
@@ -43,15 +43,7 @@ Past contributors:
 * Caitlin Geier
 * Julianna Rowsell
 
-### EOWG Leadership
-
-* EOWG Co-Chairs:
-  * Sharron Rush, Knowbility
-  * Brent Bakken, Pearson
-* W3C Staff Contact for EOWG:
-  * Shawn Lawton Henry, W3C WAI
-
-### Additional Contributors
+### Additional contributors
 
 * Shawn Lawton Henry
 * Sharron Rush
@@ -59,3 +51,11 @@ Past contributors:
 * [EOWG participants](https://www.w3.org/groups/wg/eowg/former-participants/)
 
 Additional contributors may be be listed in the [ARRM Community Group participants list](https://www.w3.org/groups/cg/arrm/participants/) or have contributed through the [ARRM GitHub repository](https://github.com/w3c/wai-arrm).
+
+## EOWG leadership
+
+* EOWG Co-Chairs:
+  * Sharron Rush, Knowbility
+  * Brent Bakken, Pearson
+* W3C Staff Contact for EOWG:
+  * Shawn Lawton Henry, W3C WAI
