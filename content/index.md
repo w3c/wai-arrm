@@ -5,7 +5,7 @@
 title: "ARRM: Accessibility Roles and Responsibilities Mapping"
 nav_title: "Roles and Responsibilities (ARRM)"
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove). You are also welsome to join the ARRM Community Group @@link to contribute.
+doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove). You are also welsome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -21,11 +21,6 @@ github:
   repository: w3c/wai-arrm
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
-
-# NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
-# navigation:
-  # previous: /path/to/previous/file/
-  # next: /path/to/next/file/
 
 ref: /planning/arrm/    # Translators, do not change this
 # changelog: /@@/changelog/
@@ -76,7 +71,7 @@ ARRM helps the right roles address their appropriate responsibilities.
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of Web Content Accessibility Guidelines (WCAG) requirements, called "success criteria".
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of [Web Content Accessibility Guidelines (WCAG)[(https://www.w3.org/WAI/standards-guidelines/wcag/) requirements, called "success criteria".
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
