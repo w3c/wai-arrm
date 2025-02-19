@@ -41,8 +41,6 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
    Developed with the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
 
 ---
-title: Table test
----
 
 <table>
   {% for row in site.data.Full_Checklist_v0.3 %}
