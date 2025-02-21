@@ -100,7 +100,7 @@ For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofol
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm_full_checklist %}
+    {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign main = row["Main Role"] %}
