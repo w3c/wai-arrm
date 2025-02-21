@@ -85,218 +85,40 @@ Below is a list of <s><s>checkpoint</s>activitys</s>activities for UX designers 
 For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility"><s>Checkpoint</s>Activity Full List</a>]. 
 
 ### Input Methods
-
 <table>
   <thead>
     <tr>
-      <th>Activity</th>
-      <th>Helps with</th>
-      <th>Ownership</th>
+      <!-- Only include specific columns in the header - exclude: Starter List -->
+      <th>ID</th>
+      <th>WCAG SC</th>
+      <th>Level</th>
+      <th>Task</th>
+      <th>Main Role</th>
+      <th>Primary Ownership</th>
+      <th>Secondary Ownership</th>
+      <th>Contributor</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Keyboard focus states are planned for every active element.</td>
-      <td><a class="external text" href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1</a></td>
-      <td>Primary</td>
-    </tr>
-    <tr>
-      <td>
-        Behaviors for hover and focus states are planned and included with the design assets.
-      </td>
-      <td><a class="external text" href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1</a></td>
-      <td>Primary</td>
-    </tr>
-    <tr>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
+    {% for row in site.data.arrm_full_checklist %}
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+      {% assign main = row["Main Role"] %}
+      {% if starter and starter != "" and main == "Design" %}
+        <tr>
+          <td>{{ row["ID"] }}</td>
+          <td>{{ row["WCAG SC"] }}</td>
+          <td>{{ row["Level"] }}</td>
+          <td>{{ row["Task"] }}</td>
+          <td>{{ row["Main Role"] }}</td>
+          <td>{{ row["Primary Ownership"] }}</td>
+          <td>{{ row["Secondary Ownership"] }}</td>
+          <td>{{ row["Contributor"] }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
   </tbody>
 </table>
-
-<table>
-   <tbody><tr>
-    <th rowspan="2" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top;">ID</th>
-    <th rowspan="2" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top; white-space: nowrap;">WCAG SC</th>
-    <th rowspan="2" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top;">Conformance Level</th>
-    <th rowspan="2" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top;">Content Type</th>
-    <th rowspan="2" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top; white-space: nowrap;"><s>Checkpoint</s>Activity</th>
-    <th rowspan="2" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top;">Main Role</th>
-    <th colspan="3" style="background: #555; color: #fff; text-align: left; padding: 0.25em 0.5em; vertical-align: top;">Role Ownership</th>
-  </tr>
-  <tr>
-    <th style="border: 1px solid #aaa; background: #ccc; vertical-align: top; text-align: left; padding: 0.25em 0.5em;">Primary</th>
-    <th style="border: 1px solid #aaa; background: #ccc; vertical-align: top; text-align: left; padding: 0.25em 0.5em;">Secondary</th>
-    <th style="border: 1px solid #aaa; background: #ccc; vertical-align: top; text-align: left; padding: 0.25em 0.5em;">Contributor(s)</th>
-  </tr>
- <tr>
-    <td id="INP-008" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#INP-008" title="Accessibility Checkpoint Full List">INP-008</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Input Methods</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Keyboard focus states are planned for every active element.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Visual Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-  <tr>
-    <td id="INP-007" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#INP-007" title="Accessibility Checkpoint Full List">INP-007</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#keyboard">2.1.1</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Input Methods</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Behaviors for hover and focus states are planned and included with the design assets.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Visual Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>  
-
-<tr>
-    <td id="NAV-014" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#NAV-014" title="Accessibility Checkpoint Full List">NAV-014</a></td> 
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#focus-order">2.4.3</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Navigation</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A logical and predictable focus order is defined for complex interactions.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-<tr>
-    <td id="INP-024" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#INP-024" title="Accessibility Checkpoint Full List">INP-024</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Input Methods</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Keyboard focus does not move automatically from one form control to the next.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; white-space: nowrap; text-align: left;">Front-End Development</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-<tr>
-    <td id="NAV-024" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#NAV-024" title="Accessibility Checkpoint Full List">NAV-024</a></td> 
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#on-focus">3.2.1</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Navigation</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Setting the focus to a new element doesn't automatically trigger a context change, such as content updates or the opening of new windows.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Front-End Development</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-<tr>
-    <td id="DYN-002" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#DYN-002" title="Accessibility Checkpoint Full List">DYN-002</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">4.1.3</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">AA</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Dynamic Interactions</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Status messages are announced by assistive technologies without affecting the focus.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Front-End Development</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-<tr>
-    <td id="NAV-006" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#NAV-006" title="Accessibility Checkpoint Full List">NAV-006</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#pause-stop-hide">2.2.2</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Navigation</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Users are given means to pause, stop or hide content that automatically updates.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Visual Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">None</td>
-  </tr>
- <tr>
-    <td id="ANM-022" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#ANM-022" title="Accessibility Checkpoint Full List">ANM-022</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#audio-control">1.4.2</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Audio Controls</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Multimedia player controls are provided to turn sound on and off.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; white-space: nowrap; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
- <tr>
-    <td id="NAV-009" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#NAV-009" title="Accessibility Checkpoint Full List">NAV-009</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#bypass-blocks">2.4.1</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Navigation</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Users can bypass blocks of content using skip links or similar mechanisms.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr> 
-<tr>
-    <td id="NAV-020" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#NAV-020" title="Accessibility Checkpoint Full List">NAV-020</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#multiple-ways">2.4.5</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">AA</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; white-space: nowrap; text-align: left;">Navigation</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Multiple mechanisms are provided for wayfinding, such as navigation menus, breadcrumbs, search features, site map, progress bar, steps, etc.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-<tr>
-    <td id="NAV-026" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#NAV-026" title="Accessibility Checkpoint Full List">NAV-026</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#consistent-navigation">3.2.3</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">AA</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Navigation</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Navigation mechanisms are repeated consistently throughout the site or application in the same relative order.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Visual Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">None</td>
-  </tr>
-<tr>
-    <td id="FRM-029" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#FRM-029" title="Accessibility Checkpoint Full List">FRM-029</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">3.3.2</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Form Interactions</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Form controls are designed to have persistent visual labels.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Visual Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
- <tr>
-    <td id="FRM-020" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#FRM-020" title="Accessibility Checkpoint Full List">FRM-020</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#on-input">3.2.2</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">A</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; white-space: nowrap; text-align: left;">Form Interactions</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Form interactions are not designed to include automatic changes of context upon input that would otherwise require explicit user action unless previously communicated.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Front-End Development</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
- <tr>
-    <td id="FRM-036" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#FRM-036" title="Accessibility Checkpoint Full List">FRM-036</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#labels-or-instructions">3.3.4</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">AA</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Form Interactions</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Users are provided with means to prevent and correct form errors when legal, financial, or data information is involved.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Business Analyst</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-<tr>
-    <td id="FRM-035" style="border: 1px solid #aaa; background: #eee; white-space: nowrap; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Accessibility_Checkpoint_Full_List#FRM-035" title="Accessibility Checkpoint Full List">FRM-035</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a rel="nofollow" class="external text" href="https://www.w3.org/TR/WCAG21/#error-suggestion">3.3.3</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">AA</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Form Interactions</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Text-based instructions are provided to help users correct errors.</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;"><a href="/WAI/EO/wiki/Role_definition_document#Design_Role_Group" title="Role definition document">Design</a></td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">UX Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">Content Authoring <br />Visual Design</td>
-    <td style="border: 1px solid #aaa; padding: 0.25em 0.5em; vertical-align: top; text-align: left;">none</td>
-  </tr>
-</tbody></table>
 
 
 ## Case Study: How to use the Starter List
