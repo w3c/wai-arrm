@@ -43,17 +43,35 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 ---
 
 <table>
-  {% for row in site.data.full_checklist %}
-    {% if forloop.first %}
+  <thead>
     <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
+      <!-- Only include specific columns in the header - exclude: Starter List -->
+      <th>ID</th>
+      <th>WCAG SC</th>
+      <th>Level</th>
+      <th>Task</th>
+      <th>Main Role</th>
+      <th>Primary Ownership</th>
+      <th>Secondary Ownership</th>
+      <th>Contributor</th>
     </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
+  </thead>
+  <tbody>
+    {% for row in site.data.full_checklist %}
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+      {% if starter and starter != "" %}
+        <tr>
+          <td>{{ row["ID"] }}</td>
+          <td>{{ row["WCAG SC"] }}</td>
+          <td>{{ row["Level"] }}</td>
+          <td>{{ row["Task"] }}</td>
+          <td>{{ row["Main Role"] }}</td>
+          <td>{{ row["Primary Ownership"] }}</td>
+          <td>{{ row["Secondary Ownership"] }}</td>
+          <td>{{ row["Contributor"] }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
 </table>
