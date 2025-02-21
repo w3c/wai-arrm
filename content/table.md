@@ -43,7 +43,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 ---
 
 <table>
-  {% for row in site.data.Full_Checklist_v0.3 %}
+  {% for row in site.data.full_checklist %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
