@@ -57,7 +57,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.full_checklist %}
+    {% for row in site.data.arrm_full_checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% if starter and starter != "" %}
