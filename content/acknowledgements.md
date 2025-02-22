@@ -57,5 +57,6 @@ Additional contributors may be be listed in the [ARRM Community Group participan
 EOWG Co-Chairs:
 * Sharron Rush, Knowbility
 * Brent Bakken, Pearson
+ 
 W3C Staff Contact for EOWG:
 * Shawn Lawton Henry, W3C WAI
