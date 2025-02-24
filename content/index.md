@@ -101,9 +101,9 @@ You can use these as they are, without doing any more work to customize them.
 * **[ARRM Accessibility Task List](tasks)** has one option for tasks to meet WCAG with which roles have responsbilities for each task
 * These role pages list the tasks:
   * [User Experience (UX) Designer Responsibilities](user-experience) {in-progress WAI site update}
-  * [Visual Designer Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/) {preview 9}
-  * [Content Author Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/) {preview 9}
-  * [Front-End Developer Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/) {preview 9}
+  * [Visual Designer Responsibilities](visual-designer) {in-progress WAI site update}
+  * [Content Author Responsibilities](content-author) {in-progress WAI site update}
+  * [Front-End Developer Responsibilities](front-end) {in-progress WAI site update}
 
 ## Customizing ARRM for Your Situation
 
