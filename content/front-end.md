@@ -6,6 +6,9 @@ title: "Front-End Developer Responsibilities Mapping"
 title_html: "Front-End Developer <br><span style='font-size:75%'>Responsibilities Mapping</span>"
 nav_title: "Front-End Developer"
 
+doc-note-type: draft
+doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
+
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2022-02-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
