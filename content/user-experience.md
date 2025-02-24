@@ -103,8 +103,8 @@ For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofol
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
-      {% assign main = row["Main Role"] %}
-      {% if starter and starter != "" and main == "Design" %}
+      {% assign primary = row["Primary Ownership"] %}
+      {% if starter and starter != "" and primary == "UX Design" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
