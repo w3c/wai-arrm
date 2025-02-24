@@ -70,35 +70,34 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
-<p><b>Key Deliverables include</b>
-</p>
-<ul><li>Style guides</li>
-<li>Page comps</li>
-<li>Design mockups</li>
-<li>Image files</li>
-<li>Etc.</li></ul>
-</div>
+**Key Deliverables include**
 
-<p><b>Tasks include</b>
-</p>
-<ul><li>Visual styling</li>
-<li>Logos and branding</li>
-<li>Animation and iconography design</li>
-<li>Etc.</li></ul>
-</div>
+*   Style guides
+*   Page comps
+*   Design mockups
+*   Image files
+*   Etc.
 
-<p><b>Example job titles for this role</b>
-</p><p>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer
-</p>
-</div>
-<p><br />
-</p>
+**Tasks include**
 
-## Visual Design Checkpoints: Starter List
-<p>Here is a list of checkpoints for Visual designers to get started.  If these design checkpoints aren't met, your design can cause significant barriers to users.
-</p><p>This list is taken from the full list of Visual Design checkpoints.
-</p><p>For all role checkpoints, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Checkpoint Full List</a>].
-</p>
+*   Visual styling
+*   Logos and branding
+*   Animation and iconography design
+*   Etc.
+
+**Example job titles for this role**
+
+Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer
+
+  
+
+## Visual Design Tasks: Starter List
+
+Here is a list of tasks for Visual designers to get started. If these design tasks aren't met, your design can cause significant barriers to users.
+
+This list is taken from the full list of Visual Design tasks
+
+For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
 
 ### Input Methods
 <table>
@@ -138,17 +137,17 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 
 
 ## Case Study: How to use the Starter List
-A good way to get familiar with the checkpoints is to do a short case study.  Think about how you might tackle the checkpoint in your role. 
+A good way to get familiar with the tasks is to do a short case study.  Think about how you might tackle the task in your role. 
 
-Then, think of how meeting this checkpoint impacts an end user. 
+Then, think of how meeting this task impacts an end user. 
 
-### Checkpoint:
+### Task:
 
 IMG-018: Charts, graphs, infographics and other visual representations of information don't rely on color alone to convey information.
 
 ### Primary Role: Visual Designer
 
-"As the primary owner of this checkpoint, I will ensure I don't use color alone when I'm creating a highly visual graphical representation of data (numbers, relationships between items, etc.) - for example a pie chart, line graph, bar graph or any other infographic that relies heavily on symbols or color. 
+"As the primary owner of this task, I will ensure I don't use color alone when I'm creating a highly visual graphical representation of data (numbers, relationships between items, etc.) - for example a pie chart, line graph, bar graph or any other infographic that relies heavily on symbols or color. 
 
 I will work with the content author or stakeholder to ensure there's an alternative way of perceiving the data and relationships between the data sets. This could be a matrix/ table, or bullet list, or simple text format. 
 
@@ -160,7 +159,7 @@ Then the text alternative for the data will provide full details."
 
 
 ### Secondary Role: UX Designer
-The secondary owner of the checkpoint is the UX Designer. They design the page layout, functionality and interactions with the content on the web page or screen. 
+The secondary owner of the task is the UX Designer. They design the page layout, functionality and interactions with the content on the web page or screen. 
 
 The UX designer should support the Visual Designer when they create both the visual representation of data and the text alternative.   They ensure that all users can access both through navigation.
 
@@ -169,7 +168,7 @@ Lee is colorblind and encounters barriers when shopping online. He has one of th
 
 When red and green color combinations are used, Lee cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
 
-<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/people-use-web/user-stories/#shopper">Read Lees's full story</a> and learn about other design checkpoints that benefit users like him.
+<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/people-use-web/user-stories/#shopper">Read Lees's full story</a> and learn about other design tasks that benefit users like him.
 
 ### Resources
 * <li>Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.
