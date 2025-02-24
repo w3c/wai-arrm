@@ -123,11 +123,11 @@ For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofol
 
 ## Case Study: How to use the Starter List
 
-A good way to get familiar with the task is to do a short case study.  Think about how you might tackle the task in your role. 
+A good way to get familiar with the tasks is to do a short case study.  Think about how you might tackle the task in your role. 
 
 Then, think of how meeting this task impacts an end user. 
 
-### Activity:
+### Task:
 
 NAV-024: Setting the focus to a new element doesn't automatically trigger a context change, such as content updates or the opening of new windows.
 
@@ -153,7 +153,7 @@ The intent of the task is to ensure that functionality is predictable as visitor
 
 This task helps people with visual disabilities, cognitive limitations, and motor impairments by reducing the chance that a change of context will occur unexpectedly.
 
-Read [Ilya's full story](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)@@update with new User Story}} and learn about other design task that benefit users like her.
+Read [Ilya's full story](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)@@update with new User Story}} and learn about other design tasks that benefit users like her.
 
 ### Resources
 
