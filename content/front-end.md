@@ -120,7 +120,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
-      {% if starter and starter != "" and primary == "Front End Development" %}
+      {% if starter and starter != "" and primary == "Front-End Development" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
