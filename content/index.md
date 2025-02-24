@@ -100,10 +100,10 @@ You can use these as they are, without doing any more work to customize them.
 * **[WCAG Success Criteria ARRM](wcag-sc)** is a table of WCAG success criteria (SC) with which roles have responsbilities for each SC
 * **[ARRM Accessibility Task List](tasks)** has one option for tasks to meet WCAG with which roles have responsbilities for each task
 * These role pages list the tasks:
-  * [User Experience (UX) Designer Responsibilities](user-experience) {in-progress WAI site update}
-  * [Visual Designer Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/visual-designer/) {preview 9}
-  * [Content Author Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/content-author/) {preview 9}
-  * [Front-End Developer Responsibilities](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/front-end/) {preview 9}
+  * [User Experience (UX) Designer Responsibilities](user-experience)
+  * [Visual Designer Responsibilities](visual-designer)
+  * [Content Author Responsibilities](content-author)
+  * [Front-End Developer Responsibilities](front-end)
 
 ## Customizing ARRM for Your Situation
 

@@ -2,9 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "WCAG Success Criteria - Accessibility Roles and Responsibilities Mapping (ARRM)"
-title_html: "WCAG Success Criteria<br>Accessibility Roles and Responsibilities Mapping (ARRM)"
-nav_title: "Responsibilities Matrix"
+title: "Table Test"
+nav_title: "Table Test"
 doc-note-type: draft
 doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
 
@@ -20,15 +19,15 @@ last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with m
 
 github:
   repository: w3c/wai-arrm
-  path: content/wcag-sc.md    # Add the language shortcode to the middle of the filename, for example: content/wcag-sc.fr.md
-permalink: /planning/arrm/wcag-sc/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/wcag-sc/fr
+  path: content/table.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+permalink: /planning/arrm/table/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
 # NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
 # navigation:
   # previous: /path/to/previous/file/
   # next: /path/to/next/file/
 
-ref: /planning/arrm/wcag-sc/    # Translators, do not change this
+ref: /planning/arrm/table/    # Translators, do not change this
 # changelog: /@@/changelog/
 acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
@@ -37,40 +36,42 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong></p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>. ACKNOWLEDGEMENTS lists additional contributors.</p>
-   <p>Developed with the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
-   
-inline_css: | 
-  .sidenav { 
-    display: none; 
-  } 
-  #main { 
-    grid-column: navigation-start / content-end; 
-  }
-  #main > *:not(table, header) {
-    /* max-width: 50em; */
-  }
+   <strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong></p>
+   <strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href=”https://www.w3.org/groups/wg/@@wg/participants”>participants of the @@WG</a>. ACKNOWLEDGEMENTS lists additional contributors. </p>
+   Developed with the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+
 ---
 
-This page shows what roles have primary (P), secondary (S), or contributor (C) responsibilities for Web Content Accessibility Guidelines (WCAG) 2 success criteria (SC).
-
-To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/).
-
-For background and context on this table, description of the roles, and additional information for each role, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**.
-
 <table>
-  {% for row in site.data.arrm-matrix %}
-    {% if forloop.first %}
+  <thead>
     <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
+      <!-- Only include specific columns in the header - exclude: Starter List -->
+      <th>ID</th>
+      <th>WCAG SC</th>
+      <th>Level</th>
+      <th>Task</th>
+      <th>Main Role</th>
+      <th>Primary Ownership</th>
+      <th>Secondary Ownership</th>
+      <th>Contributor</th>
     </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
+  </thead>
+  <tbody>
+    {% for row in site.data.arrm-full-checklist %}
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+      {% if starter and starter != "" %}
+        <tr>
+          <td>{{ row["ID"] }}</td>
+          <td>{{ row["WCAG SC"] }}</td>
+          <td>{{ row["Level"] }}</td>
+          <td>{{ row["Task"] }}</td>
+          <td>{{ row["Main Role"] }}</td>
+          <td>{{ row["Primary Ownership"] }}</td>
+          <td>{{ row["Secondary Ownership"] }}</td>
+          <td>{{ row["Contributor"] }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
 </table>
