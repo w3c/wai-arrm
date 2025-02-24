@@ -123,9 +123,9 @@ For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofol
 
 ## Case Study: How to use the Starter List
 
-A good way to get familiar with the <s>checkpoint</s>activity is to do a short case study.  Think about how you might tackle the <s>checkpoint</s>activity in your role. 
+A good way to get familiar with the task is to do a short case study.  Think about how you might tackle the task in your role. 
 
-Then, think of how meeting this <s>checkpoint</s>activity impacts an end user. 
+Then, think of how meeting this task impacts an end user. 
 
 ### Activity:
 
@@ -133,13 +133,13 @@ NAV-024: Setting the focus to a new element doesn't automatically trigger a cont
 
 ### Primary Role: UX Designer
 
-"As the primary owner of this <s>checkpoint</s>activity, I will add annotations to my design document(s).  They will identify which elements on the page receive keyboard focus.
+"As the primary owner of this task, I will add annotations to my design document(s).  They will identify which elements on the page receive keyboard focus.
 
 I will include this instruction for Front-end developers: implement the interactive elements in a way that, when the element receives focus, it doesn't automatically trigger a context change on the page."
 
 ### Secondary Role: Visual Designer
 
-The secondary owner of the <s>checkpoint</s>activity is the Visual Designer. They may have designed content to appear on the screen once a button receives focus and is selected. 
+The secondary owner of the task is the Visual Designer. They may have designed content to appear on the screen once a button receives focus and is selected. 
 
 Explain the behaviour and functionality that you intend as the UX Designer and primary owner. For example, if the button receives focus, it shouldn't automatically show the content. It should be user-controlled; the user needs to select the button for it to display. 
 
@@ -147,13 +147,13 @@ Collaborating on the design together ensures that it's optimized for multiple en
 
 ### End user persona: Ilya, a senior staff member who is blind
 @@update with new User Story}}
-Ilya is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design <s>checkpoint</s>activity ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page. 
+Ilya is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design task ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page. 
 
-The intent of the <s>checkpoint</s>activity is to ensure that functionality is predictable as visitors navigate their way through a document.
+The intent of the task is to ensure that functionality is predictable as visitors navigate their way through a document.
 
-This <s>checkpoint</s>activity helps people with visual disabilities, cognitive limitations, and motor impairments by reducing the chance that a change of context will occur unexpectedly.
+This task helps people with visual disabilities, cognitive limitations, and motor impairments by reducing the chance that a change of context will occur unexpectedly.
 
-Read [Ilya's full story](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)@@update with new User Story}} and learn about other design <s>checkpoint</s>activities that benefit users like her.
+Read [Ilya's full story](https://www.w3.org/WAI/people-use-web/user-stories/#accountant)@@update with new User Story}} and learn about other design task that benefit users like her.
 
 ### Resources
 
