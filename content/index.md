@@ -100,10 +100,10 @@ You can use these as they are, without doing any more work to customize them.
 * **[WCAG Success Criteria ARRM](wcag-sc)** is a table of WCAG success criteria (SC) with which roles have responsbilities for each SC
 * **[ARRM Accessibility Task List](tasks)** has one option for tasks to meet WCAG with which roles have responsbilities for each task
 * These role pages list the tasks:
-  * [User Experience (UX) Designer Responsibilities](user-experience) {in-progress WAI site update}
-  * [Visual Designer Responsibilities](visual-designer) {in-progress WAI site update}
-  * [Content Author Responsibilities](content-author) {in-progress WAI site update}
-  * [Front-End Developer Responsibilities](front-end) {in-progress WAI site update}
+  * [User Experience (UX) Designer Responsibilities](user-experience)
+  * [Visual Designer Responsibilities](visual-designer)
+  * [Content Author Responsibilities](content-author)
+  * [Front-End Developer Responsibilities](front-end)
 
 ## Customizing ARRM for Your Situation
 
