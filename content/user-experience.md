@@ -79,10 +79,11 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 ## Activities Starter List
 
-Below is a list of <s><s>checkpoint</s>activitys</s>activities for UX designers to get started. If these design <s><s>checkpoint</s>activitys</s>activities aren't met, your design can cause significant barriers to users with disabilities.
+Below is a list of tasks for UX designers to get started. If these design tasks aren't met, your design can cause significant barriers to users with disabilities.
 
-@@ This list is taken from the full list of UX Design <s><s>checkpoint</s>activitys</s>activities.
-For all role <s><s>checkpoint</s>activitys</s>activities, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility"><s>Checkpoint</s>Activity Full List</a>]. 
+@@ This list is taken from the full list of UX Designtasks.
+
+For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility"><s>Checkpoint</s>Activity Full List</a>]. 
 
 ### Input Methods
 <table>
