@@ -88,7 +88,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "IMG-" %}
+      {% if content_type contains "IMG-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -124,7 +124,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "SEM-" %}
+      {% if content_type contains "SEM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -160,7 +160,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "INP-" %}
+      {% if content_type contains "INP-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -196,7 +196,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "FRM-" %}
+      {% if content_type contains "FRM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -232,7 +232,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "CSS-" %}
+      {% if content_type contains "CSS-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -269,7 +269,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "NAV-" %}
+      {% if content_type contains "NAV-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -306,7 +306,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "TAB-" %}
+      {% if content_type contains "TAB-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -343,7 +343,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "ANM-" %}
+      {% if content_type contains "ANM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -380,7 +380,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "SCT-" %}
+      {% if content_type contains "SCT-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -417,7 +417,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
     {% for row in site.data.arrm-full-checklist %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
-      {% if content_type | slice: 0, 4 == "DYN-" %}
+      {% if content_type contains "DYN-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
