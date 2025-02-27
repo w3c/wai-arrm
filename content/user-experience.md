@@ -85,7 +85,6 @@ Below is a list of tasks for UX designers to get started. If these design tasks 
 
 For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility"><s>Checkpoint</s>Activity Full List</a>]. 
 
-### Input Methods
 <table>
   <thead>
     <tr>
