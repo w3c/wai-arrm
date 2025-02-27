@@ -100,8 +100,6 @@ This list is taken from the full list of Content Author tasks.
 
 For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
 
-### Input Methods
-
 <table>
   <thead>
     <tr>
