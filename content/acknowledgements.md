@@ -22,7 +22,7 @@ license: creative-commons
 
 ---
 
-Accessibility Roles and Responsibilities Mapping (ARRM) was initially developed in a sub-group of the Accessibility Education and Outeach Working Group (EOWG).
+Accessibility Roles and Responsibilities Model (ARRM) was initially developed in a sub-group of the Accessibility Education and Outeach Working Group (EOWG).
 It is being further refined through the [ARRM W3C Community Group](https://www.w3.org/groups/cg/arrm/).
 
 ## Editors and major contributors
