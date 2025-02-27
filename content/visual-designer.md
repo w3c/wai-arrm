@@ -101,7 +101,6 @@ This list is taken from the full list of Visual Design tasks
 
 For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
 
-### Input Methods
 <table>
   <thead>
     <tr>
@@ -173,5 +172,5 @@ When red and green color combinations are used, Lee cannot distinguish between t
 <a rel="nofollow" class="external text" href="https://www.w3.org/WAI/people-use-web/user-stories/#shopper">Read Lees's full story</a> and learn about other design tasks that benefit users like him.
 
 ### Resources
-* <li>Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.
+* Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.
 * Use the [Resources for Designers](https://www.w3.org/WAI/roles/designers/).
