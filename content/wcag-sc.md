@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "WCAG Success Criteria - Accessibility Roles and Responsibilities Mapping (ARRM)"
-title_html: "WCAG Success Criteria<br>Accessibility Roles and Responsibilities Mapping (ARRM)"
+title: "WCAG Success Criteria - Accessibility Roles and Responsibilities Model (ARRM)"
+title_html: "WCAG Success Criteria<br>Accessibility Roles and Responsibilities Model (ARRM)"
 nav_title: "Responsibilities Matrix"
 doc-note-type: draft
 doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
@@ -57,7 +57,7 @@ This page shows what roles have primary (P), secondary (S), or contributor (C) r
 
 To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/).
 
-For background and context on this table, description of the roles, and additional information for each role, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**.
+For background and context on this table, description of the roles, and additional information for each role, **see [ARRM: Accessibility Roles and Responsibilities Model main page](/planning/arrm/)**.
 
 <table>
   {% for row in site.data.arrm-matrix %}
