@@ -159,7 +159,7 @@ There is no additional contributor for this task.
 
 ### End user persona: Ilya, a senior staff member who is blind
 
-Ilya is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design checkpoint ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page.
+Ilya is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design task ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page.
 
 The intent of the task is to ensure that functionality is predictable as visitors navigate their way through a document.
 
