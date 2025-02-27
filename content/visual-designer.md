@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Visual Designer Responsibilities Mapping"
-title_html: "Visual Designer <br><span style='font-size:75%'>Responsibilities Mapping</span>"
+title: "Visual Designer Responsibilities Model"
+title_html: "Visual Designer <br><span style='font-size:75%'>Responsibilities Model</span>"
 nav_title: "Visual Designer"
 
 doc-note-type: draft
