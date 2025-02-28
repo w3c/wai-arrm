@@ -68,7 +68,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 
 @@ ... wording to make it clear that this is not a complete nor definitive list nor official list ... @@
 
-### Images and Graphs
+## Images and Graphs
 
 <table>
   <thead>
@@ -104,7 +104,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
   </tbody>
 </table>
 
-### Semantic Structure
+## Semantic Structure
 
 <table>
   <thead>
@@ -140,7 +140,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
   </tbody>
 </table>
 
-### Input Modalities
+## Input Modalities
 
 <table>
   <thead>
@@ -176,7 +176,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
   </tbody>
 </table>
 
-### Form Interactions
+## Form Interactions
 
 <table>
   <thead>
@@ -212,7 +212,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
   </tbody>
 </table>
 
-### CSS and Presentation
+## CSS and Presentation
 
 <table>
   <thead>
@@ -249,7 +249,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 </table>
 
 
-### Navigation
+## Navigation
 
 <table>
   <thead>
@@ -286,7 +286,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 </table>
 
 
-### Data Tables
+## Data Tables
 
 <table>
   <thead>
@@ -323,7 +323,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 </table>
 
 
-### Animation and Movement
+## Animation and Movement
 
 <table>
   <thead>
@@ -360,7 +360,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 </table>
 
 
-### Static Content
+## Static Content
 
 <table>
   <thead>
@@ -397,7 +397,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 </table>
 
 
-### Dynamic Interactions
+## Dynamic Interactions
 
 <table>
   <thead>
