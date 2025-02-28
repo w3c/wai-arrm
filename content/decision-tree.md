@@ -2,8 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "ARRM Decision Tree for Accessibility Roles and Responsibilities Model"
-title_html: "ARRM Decision Tree <br><span style='font-size:75%'>for Accessibility Roles and Responsibilities Model</span>"
+title: "ARRM Decision Tree for Accessibility Roles and Responsibilities Mapping"
+title_html: "ARRM Decision Tree <br><span style='font-size:75%'>for Accessibility Roles and Responsibilities Mapping</span>"
 nav_title: "Decision Tree"
 doc-note-type: draft
 
@@ -42,6 +42,6 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-This tool guides organizations that want to customize their own accessibility roles and Responsibilities Model, based on considerations in their organizations. For background and context on this decision tree, **see [ARRM: Accessibility Roles and Responsibilities Model main page](/planning/arrm/)**.
+This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**.
 
 ...
