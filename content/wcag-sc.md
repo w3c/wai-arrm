@@ -57,7 +57,7 @@ This page shows what roles have primary (P), secondary (S), or contributor (C) r
 
 To learn about WCAG, see the [WCAG Overview](standards-guidelines/wcag/).
 
-For background and context on this table, description of the roles, and additional information for each role, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**. [Download as a CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+For background and context on this table, description of the roles, and additional information for each role, **see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/)**. [Download as a CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-matrix.csv).
 
 <table>
   {% for row in site.data.arrm-matrix %}
