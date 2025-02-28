@@ -66,7 +66,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 
 ## Introduction
 
-@@ ... wording to make it clear that this is not a complete nor definitive list nor official list ... @@
+This is not a complete, definitive, nor official list of roles and criteria. It represents a starting point for those looking for a role-based approach to addressing WCAG SC. People are encouraged to build on and extend this to better meet their needs. We offer the full list as a table here, or to [download as a single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 ## Images and Graphs
 
