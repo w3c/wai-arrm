@@ -2,7 +2,7 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "ARRM: Accessibility Roles and Responsibilities Model"
+title: "ARRM: Accessibility Roles and Responsibilities Mapping"
 nav_title: "Roles and Responsibilities (ARRM)"
 doc-note-type: draft
 doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
@@ -41,7 +41,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Accessibility Roles and Responsibilities Model (ARRM) helps define which roles have responsibilities for meeting which aspects of Web Content Accessibility Guidelines (WCAG).
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of Web Content Accessibility Guidelines (WCAG).
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -71,7 +71,7 @@ ARRM helps the right roles address their appropriate responsibilities.
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Model (ARRM) helps define which roles have responsibilities for meeting which aspects of [Web Content Accessibility Guidelines (WCAG)[(https://www.w3.org/WAI/standards-guidelines/wcag/) requirements, called "success criteria".
+Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of [Web Content Accessibility Guidelines (WCAG)[(https://www.w3.org/WAI/standards-guidelines/wcag/) requirements, called "success criteria".
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
@@ -107,7 +107,7 @@ You can use these as they are, without doing any more work to customize them.
 
 ## Customizing ARRM for Your Situation
 
-ARRM also guides organizations that want to customize their own accessibility roles and Responsibilities Model, based on considerations in their organizations. To facilitate this, ARRM includes:
+ARRM also guides organizations that want to customize their own accessibility roles and Responsibilities Mapping, based on considerations in their organizations. To facilitate this, ARRM includes:
 
 * **[Deciding who is responsible](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** that provides steps for deciding which roles have which level responsibilities.
 
