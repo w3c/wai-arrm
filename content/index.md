@@ -5,10 +5,10 @@
 title: "ARRM: Accessibility Roles and Responsibilities Mapping"
 nav_title: "Roles and Responsibilities (ARRM)"
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove). You are also welsome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -31,9 +31,8 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Status: Editors' DRAFT that is incomplete, unapproved, in progress </strong></p>
-   <p><strong>Editors:</strong> @@name, @@name. <strong>Contributors:</strong> @@name, @@name, and <a href="https://www.w3.org/groups/wg/@@wg/participants">participants of the @@WG</a>. ACKNOWLEDGEMENTS lists additional contributors.</p>
-   <p>Developed with the Accessibility Education and Outreach Working Group (<a href="http://www.w3.org/WAI/EO/">EOWG</a>).</p>
+   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
 
@@ -107,7 +106,7 @@ You can use these as they are, without doing any more work to customize them.
 
 ## Customizing ARRM for Your Situation
 
-ARRM also guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. To facilitate this, ARRM includes:
+ARRM also guides organizations that want to customize their own Accessibility Roles and Responsibilities Mapping, based on considerations in their organizations. To facilitate this, ARRM includes:
 
 * **[Deciding who is responsible](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** that provides steps for deciding which roles have which level responsibilities.
 

@@ -7,7 +7,7 @@ doc-note-type: draft
 doc-note-message-md: This is an in-progress draft.
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2021-@@-@@   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
 
 github:
   repository: w3c/wai-arrm
@@ -19,6 +19,10 @@ license: creative-commons
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
 # image: @@ /content-images/wai-arrm/social.png
+
+footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
+   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
 
