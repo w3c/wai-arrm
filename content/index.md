@@ -92,8 +92,8 @@ You can use the ARRM roles and tasks as is. Or you can customize it for your pro
 ARRM provides one approach for defining roles, tasks, and responsibilities. You can use these as they are, without any work to customize them.
 
 * **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria](wcag-sc)** is a table with which roles have primary, secondary, and contributor responsibilities
-* **[Tasks Involved in Accessibility](tasks)** lists tasks to meet WCAG with which roles have responsibilities for each task<br>&dash; A subset of the tasks are listed in these role pages:
+* **[WCAG Success Criteria](wcag-sc)** is a table of roles with primary, secondary, and contributor responsibilities
+* **[Tasks Involved in Accessibility](tasks)** lists tasks to meet WCAG and role responsibilities<br>— a subset of the tasks are listed in these role pages:
   * [User Experience (UX) Designer Responsibilities](user-experience)
   * [Visual Designer Responsibilities](visual-designer)
   * [Content Author Responsibilities](content-author)
@@ -101,12 +101,13 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
 
 ## Customizing ARRM for your situation
 
-ARRM includes guidance for customizing accessibility roles and responsibilities mapping based on considerations in your project and organization. 
+ARRM includes guidance for customizing accessibility roles and responsibilities mapping based on considerations in your project and organization.
 
-* First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
-* Next, for each success criteria or accessibility task, walk through the steps for deciding who is responsible in the **[ARRM Decision Tree](decision-tree)**.
+* You can define different roles for your project team or use the example [role definitions](roles)
+* You can assign responsibilities at the success criteria level or at the task level
+	* If at the task level, you can define different tasks or use the example [tasks involved in accessibility](tasks)
+* For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](decision-tree)**
 
 ## Accessibility is about people
 
 While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](https://www.w3.org/WAI/people/) and to [include people with disabilities in your project](https://www.w3.org/WAI/planning/involving-users/).
-
