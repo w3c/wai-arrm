@@ -107,7 +107,7 @@ You can use these as they are, without doing any more work to customize them.
 
 ## Customizing ARRM for Your Situation
 
-ARRM also guides organizations that want to customize their own accessibility roles and Responsibilities Mapping, based on considerations in their organizations. To facilitate this, ARRM includes:
+ARRM also guides organizations that want to customize their own Accessibility Roles and Responsibilities Mapping, based on considerations in their organizations. To facilitate this, ARRM includes:
 
 * **[Deciding who is responsible](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** that provides steps for deciding which roles have which level responsibilities.
 
