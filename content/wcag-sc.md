@@ -37,7 +37,6 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Date:</strong> Draft updated 6 March 2025.</p>
    <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
    
