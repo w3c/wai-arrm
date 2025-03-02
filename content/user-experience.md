@@ -63,22 +63,6 @@ This page lists some digital accessibility tasks that are usually the responsibi
 {% include_cached toc.html type="end" %}
 {:/}
 
-
-{::nomarkdown}
-{% include box.html type="start" title="Draft notes" icon="comments" h="2" %}
-{:/}
-
-For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ...like the full [Tasks page](/WAI/planning/arrm/tasks)
-- Provide all the tasks, in addition to the tasks to get started
-- Provide filters to select what to show
-
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software?
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
-
 ## Role summary
 
 UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
@@ -168,3 +152,22 @@ Read [Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/s
 
 * Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started
 * See the [WAI Tutorials](https://www.w3.org/WAI/tutorials/) for common web components and how to make them accessible
+
+## Draft review questions
+
+{::nomarkdown}
+{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
+{:/}
+
+For the later iterations of this page, we could:
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ...like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide all the tasks, in addition to the tasks to get started
+- Provide filters to select what to show
+
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
