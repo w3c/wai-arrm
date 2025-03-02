@@ -24,7 +24,7 @@ last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with m
 github:
   repository: w3c/wai-arrm
   path: content/decision-tree.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /planning/arrm/tdecision-tree/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
+permalink: /planning/arrm/decision-tree/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
 ref: /planning/arrm/decision-tree/    # Translators, do not change this
 # changelog: /@@/changelog/
