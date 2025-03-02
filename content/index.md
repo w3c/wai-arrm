@@ -111,3 +111,20 @@ ARRM includes guidance for customizing accessibility roles and responsibilities 
 ## Accessibility is about people
 
 While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](https://www.w3.org/WAI/people/) and to [include people with disabilities in your project](https://www.w3.org/WAI/planning/involving-users/).
+
+## Draft review questions
+{::nomarkdown}
+{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
+{:/}
+
+- Do you have input on the [Role descriptions](roles)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
+- Please review the tasks in the role(s) that you know best — [UX Designer](user-experience), [Visual Designer](visual-designer), [Content Author](content-author), [Front-End Developer](front-end). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
+- How would you like to use this resource?
+  - Are you comfortable downloading the CVS files and using spreadsheet or other software to sort and filter it for your needs?
+  - How might we make this resource more useful for you?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
