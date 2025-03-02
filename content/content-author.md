@@ -114,7 +114,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
