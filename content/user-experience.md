@@ -86,7 +86,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th>WCAG</th>
       <th>Level</th>
       <th>Task</th>
     </tr>
