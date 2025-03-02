@@ -5,7 +5,11 @@
 title: "Roles Involved in Accessibility"
 nav_title: "Roles"
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
+doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+
+parent_in_h1:
+  - ref: /planning/arrm/
+    name: nav_title
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -22,11 +26,6 @@ github:
   path: content/roles.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /planning/arrm/roles/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
-# NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
-# navigation:
-  # previous: /path/to/previous/file/
-  # next: /path/to/next/file/
-
 ref: /planning/arrm/roles/    # Translators, do not change this
 # changelog: /@@/changelog/
 acknowledgements: /planning/arrm/acknowledgements/
@@ -36,7 +35,7 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---

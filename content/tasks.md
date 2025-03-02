@@ -2,10 +2,14 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "[draft title] Tasks Involved in Accessibility"
+title: "Tasks Involved in Accessibility"
 nav_title: "Tasks"
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
+doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+
+parent_in_h1:
+  - ref: /planning/arrm/
+    name: nav_title
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -22,12 +26,7 @@ github:
   path: content/tasks.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /planning/arrm/tasks/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
-# NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
-# navigation:
-  # previous: /path/to/previous/file/
-  # next: /path/to/next/file/
-
-ref: /planning/arrm/tasls/    # Translators, do not change this
+ref: /planning/arrm/tasks/    # Translators, do not change this
 # changelog: /@@/changelog/
 acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
@@ -36,8 +35,19 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+
+inline_css: | 
+  .sidenav { 
+    display: none; 
+  } 
+  #main { 
+    grid-column: navigation-start / content-end; 
+  }
+  #main > *:not(table, header) {
+    /* max-width: 50em; */
+  }
 
 ---
 
@@ -63,9 +73,13 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 {% include toc.html type="end" %}
 {:/}
 
-## Introduction
+## Important introduction
 
-This is not a complete, definitive, nor official list of roles and criteria. It represents a starting point for those looking for a role-based approach to addressing WCAG SC. People are encouraged to build on and extend this to better meet their needs. We offer the full list as a table here, or to [download as a single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+**This is not a complete, definitive, or official list of accessibility tasks.**
+
+It offers a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) success criteria.
+
+This information is also available to download as a [single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/aarrm-all-tasks.csv).
 
 ## Images and Graphs
 
@@ -84,7 +98,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "IMG-" %}
@@ -120,7 +134,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SEM-" %}
@@ -156,7 +170,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "INP-" %}
@@ -192,7 +206,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "FRM-" %}
@@ -228,7 +242,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "CSS-" %}
@@ -265,7 +279,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "NAV-" %}
@@ -302,7 +316,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "TAB-" %}
@@ -339,7 +353,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "ANM-" %}
@@ -376,7 +390,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SCT-" %}
@@ -413,7 +427,7 @@ This is not a complete, definitive, nor official list of roles and criteria. It 
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "DYN-" %}

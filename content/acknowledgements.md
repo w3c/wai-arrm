@@ -3,31 +3,32 @@
 
 title: "Acknowledgements for ARRM"
 nav_title: "Acknowledgements"
-doc-note-type: draft
-doc-note-message-md: This is an in-progress draft.
 
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+parent_in_h1:
+  - ref: /planning/arrm/
+    name: nav_title
+
+lang: en
+last_updated: 2025-03-06
 
 github:
   repository: w3c/wai-arrm
-  path: content/acknowledgements.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /planning/arrm/acknowledgements/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
+  path: content/acknowledgements.md 
+permalink: /planning/arrm/acknowledgements/
 
-ref: /planning/arrm/acknowledgements/    # Translators, do not change this
-license: creative-commons
+ref: /planning/arrm/acknowledgements/
 
 # description:  @@ a 150ish-character-description for social media   # translate the description
 # image: @@ /content-images/wai-arrm/social.png
 
-footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+footer: > 
+   <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
 
-Accessibility Roles and Responsibilities Mapping (ARRM) was initially developed in a sub-group of the Accessibility Education and Outeach Working Group (EOWG).
-It is being further refined through the [ARRM W3C Community Group](https://www.w3.org/groups/cg/arrm/).
+Accessibility Roles and Responsibilities Mapping (ARRM) was initially developed in a sub-group of the Accessibility Education and Outeach Working Group ([EOWG](https://www.w3.org/WAI/about/groups/eowg/)).
+ARRM is being refined through the [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C.
 
 ## Editors and major contributors
 

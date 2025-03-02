@@ -2,10 +2,10 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "ARRM: Accessibility Roles and Responsibilities Mapping"
+title: "Accessibility Roles and Responsibilities Mapping (ARRM)"
 nav_title: "Roles and Responsibilities (ARRM)"
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -31,7 +31,7 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
@@ -40,7 +40,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of Web Content Accessibility Guidelines (WCAG).
+ARRM helps you assign responsibilities for digital accessibility to appropriate roles early in projects.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -62,22 +62,20 @@ Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles
 
 ## Background
 
-Different aspects of accessibility are the responsibility of different project roles, such as writers, designers, and developers. It is best to clearly define and communicate the responsibilities for accessibility early in projects.
+Different aspects of accessibility are the responsibility of different roles, such as writers, designers, and developers. It is best to clearly define each role's responsibilities early in projects.
 
-When accessibility is left until late in a project, the responsibility often falls on developers and they are tasked with addressing aspects that are not their skillset. For example, selecting colors, describing images, and writing headings.
-
-ARRM helps the right roles address their appropriate responsibilities.
+When accessibility is left until late in a project, the responsibility often falls on developers. Then they end up handling tasks that are not in their skillset; for example, selecting colors, describing images, and writing headings.
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps define which roles have responsibilities for meeting which aspects of [Web Content Accessibility Guidelines (WCAG)[(https://www.w3.org/WAI/standards-guidelines/wcag/) requirements, called "success criteria".
+Accessibility Roles and Responsibilities Mapping (ARRM) helps you meet Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)). ARRM defines which roles have responsibilities for meeting which aspects of WCAG.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
 {:/}
 
-Roles that contribute to meeting WCAG requirements on headings:
-* Writers are responsible for the writing the heading text.
+Roles that contribute to meeting WCAG requirements for headings:
+* Writers are responsible for writing the heading text and communicating the heading levels.
 * Designers are responsible for defining how the headings look.
 * Developers are responsible for coding or marking up the headings.
 
@@ -85,31 +83,48 @@ Roles that contribute to meeting WCAG requirements on headings:
 {% include_cached box.html type="end" %}
 {:/}
 
-ARRM assigns primary, secondary, and contributor level responsibilities for tasks.
+ARRM includes a high-level table of WCAG requirements — called "success criteria" — and a list of tasks that address the WCAG success criteria. It defines primary, secondary, and contributor responsibilities.
 
-ARRM provides examples of typical responsibilities that each role has in helping to meet WCAG success criteria. It is a tool for project managers to assign different responsibilities across roles within their team.
+You can use the ARRM roles and tasks as is. Or you can customize it for your project.
 
-## Typical Roles and Mapping
+## Typical roles and responsibilities
 
-ARRM provides one approach for defining roles and responsibilities.
-
-You can use these as they are, without doing any more work to customize them.
+ARRM provides one approach for defining roles, tasks, and responsibilities. You can use these as they are, without any work to customize them.
 
 * **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria ARRM](wcag-sc)** is a table of WCAG success criteria (SC) with which roles have responsbilities for each SC
-* **[ARRM Accessibility Task List](tasks)** has one option for tasks to meet WCAG with which roles have responsbilities for each task
-* These role pages list the tasks:
+* **[WCAG Success Criteria](wcag-sc)** is a table of roles with primary, secondary, and contributor responsibilities
+* **[Tasks Involved in Accessibility](tasks)** lists tasks to meet WCAG and role responsibilities<br>— a subset of the tasks are listed in these role pages:
   * [User Experience (UX) Designer Responsibilities](user-experience)
   * [Visual Designer Responsibilities](visual-designer)
   * [Content Author Responsibilities](content-author)
   * [Front-End Developer Responsibilities](front-end)
 
-## Customizing ARRM for Your Situation
+## Customizing ARRM for your situation
 
-ARRM also guides organizations that want to customize their own Accessibility Roles and Responsibilities Mapping, based on considerations in their organizations. To facilitate this, ARRM includes:
+ARRM includes guidance for customizing accessibility roles and responsibilities mapping based on considerations in your project and organization.
 
-* **[Deciding who is responsible](https://deploy-preview-9--wai-arrm.netlify.app/planning/arrm/decision-tree/)** that provides steps for deciding which roles have which level responsibilities.
+* You can define different roles for your project team or use the example [role definitions](roles)
+* You can assign responsibilities at the success criteria level or at the task level
+	* If at the task level, you can define different tasks or use the example [tasks involved in accessibility](tasks)
+* For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](decision-tree)**
 
-First, decide if you want to use the example [role definitions](roles), or use different roles for your project team.
+## Accessibility is about people
 
-Next, for each success criteria or accessibility task, walk through the steps in 'Deciding who is responsible' to assign responsibilities.
+While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](https://www.w3.org/WAI/people/) and to [include people with disabilities in your project](https://www.w3.org/WAI/planning/involving-users/).
+
+## Draft review
+{::nomarkdown}
+{% include box.html type="start" title="We particularly welcome your input on these questions:" icon="comments"%}
+{:/}
+
+- Do you have input on the [Role descriptions](roles)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
+- Please review the tasks in the role(s) that you know best — [UX Designer](user-experience), [Visual Designer](visual-designer), [Content Author](content-author), [Front-End Developer](front-end). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
+- How would you like to use this resource?
+  - Are you comfortable downloading the CVS files and using spreadsheet or other software to sort and filter it for your needs?
+  - How might we make this resource more useful for you?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}

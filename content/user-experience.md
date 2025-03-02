@@ -2,10 +2,14 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "User Experience (UX) Designer Responsibilities Mapping"
+title: "User Experience (UX) Designer Responsibilities"
 nav_title: "UX Designer"
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
+doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+
+parent_in_h1:
+  - ref: /planning/arrm/
+    name: nav_title
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -22,11 +26,6 @@ github:
   path: content/user-experience.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /planning/arrm/user-experience/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
-# NEW: 3 navigation lines below are only needed for multi-page resources where you have previous and next at the bottom. If so, un-comment them; otherwise delete these lines.
-# navigation:
-  # previous: /path/to/previous/file/
-  # next: /path/to/next/file/
-
 ref: /planning/arrm/user-experience/    # Translators, do not change this
 # changelog: /@@/changelog/
 acknowledgements: /planning/arrm/acknowledgements/
@@ -36,7 +35,7 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
@@ -45,7 +44,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-@@ summary
+This page lists some digital accessibility tasks that are usually the responsibility of UX designers.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -76,26 +75,20 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 <dd>User Experience (UX) Designer, Product Designer, Web Designer, Service Designer</dd>
 </dl>
 
-## Activities Starter List
+## Tasks to get started
 
-Below is a list of tasks for UX designers to get started. If these design tasks aren't met, your design can cause significant barriers to users with disabilities.
+Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-@@ This list is taken from the full list of UX Designtasks.
-
-For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Task Activity Full List</a>]. 
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 <table>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th>WCAG</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -109,10 +102,6 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
-          <td>{{ row["Primary Ownership"] }}</td>
-          <td>{{ row["Secondary Ownership"] }}</td>
-          <td>{{ row["Contributor"] }}</td>
         </tr>
       {% endif %}
     {% endfor %}
@@ -120,9 +109,9 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
 </table>
 
 
-## Case Study: How to use the Starter List
+## Case study: How to use the tasks
 
-A good way to get familiar with the tasks is to do a short case study.  Think about how you might tackle the task in your role. 
+A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role. 
 
 Then, think of how meeting this task impacts an end user. 
 
@@ -132,7 +121,7 @@ NAV-024: Setting the focus to a new element doesn't automatically trigger a cont
 
 ### Primary Role: UX Designer
 
-"As the primary owner of this task, I will add annotations to my design document(s).  They will identify which elements on the page receive keyboard focus.
+"As the primary owner of this task, I will add annotations to my design document(s). They will identify which elements on the page receive keyboard focus.
 
 I will include this instruction for Front-end developers: implement the interactive elements in a way that, when the element receives focus, it doesn't automatically trigger a context change on the page."
 
@@ -153,7 +142,26 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 
 Read [Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
 
-### Resources
+## Additional resources
 
 * Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started
 * See the [WAI Tutorials](https://www.w3.org/WAI/tutorials/) for common web components and how to make them accessible
+
+## Draft review questions
+
+{::nomarkdown}
+{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
+{:/}
+
+For the later iterations of this page, we could:
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide all the tasks, in addition to the tasks to get started
+- Provide filters to select what to show
+
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
