@@ -77,7 +77,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 
 **This is not a complete, definitive, or official list of accessibility tasks.** It offers a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) success criteria.
 
-This information is also available to download as a [single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+This information is also available to download as a [single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/aarrm-all-tasks.csv).
 
 ## Images and Graphs
 
@@ -96,7 +96,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "IMG-" %}
