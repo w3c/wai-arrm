@@ -63,6 +63,22 @@ This page lists some digital accessibility tasks that are usually the responsibi
 {% include_cached toc.html type="end" %}
 {:/}
 
+
+{::nomarkdown}
+{% include box.html type="start" title="Draft notes" icon="comments" h="2" %}
+{:/}
+
+For the later iterations of this page, we could:
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ...like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide all the tasks, in addition to the tasks to get started
+- Provide filters to select what to show
+
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software?
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
 ## Role summary
 
 UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
@@ -79,9 +95,9 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-You can get the full list of [Tasks Involved in Accessibility as a web page](tasks) or [CSV file download](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
-<table>
+<table class="dense">
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
@@ -106,7 +122,6 @@ You can get the full list of [Tasks Involved in Accessibility as a web page](tas
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -117,7 +132,7 @@ You can get the full list of [Tasks Involved in Accessibility as a web page](tas
 </table>
 
 
-## Case Study: How to use the tasks
+## Case study: How to use the tasks
 
 A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role. 
 
