@@ -97,7 +97,7 @@ Below is a list of tasks for UX designers to get started making your work more a
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
-<table class="dense">
+<table>
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
@@ -105,7 +105,6 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
