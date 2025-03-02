@@ -112,9 +112,9 @@ ARRM includes guidance for customizing accessibility roles and responsibilities 
 
 While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](https://www.w3.org/WAI/people/) and to [include people with disabilities in your project](https://www.w3.org/WAI/planning/involving-users/).
 
-## Draft review questions
+## Draft review
 {::nomarkdown}
-{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
+{% include box.html type="start" title="We particularly welcome your input on these questions:" icon="comments"%}
 {:/}
 
 - Do you have input on the [Role descriptions](roles)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
