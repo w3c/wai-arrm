@@ -56,7 +56,7 @@ This page shows what roles have primary (P), secondary (S), or contributor (C) r
 You can download this as a [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-wcag-sc.csv).
 
 <table>
-  {% for row in site.data.arrm-matrix %}
+  {% for row in site.data.arrm-wcag-sc %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
