@@ -26,7 +26,7 @@ github:
   path: content/tasks.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 permalink: /planning/arrm/tasks/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
-ref: /planning/arrm/tasls/    # Translators, do not change this
+ref: /planning/arrm/tasks/    # Translators, do not change this
 # changelog: /@@/changelog/
 acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
