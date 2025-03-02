@@ -51,36 +51,22 @@ inline_css: |
 
 ---
 
+This page shows what roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines (WCAG) 2.1 success criteria (SC). A later iteration will include new WCAG 2.2 success criteria.
+
+You can download this as a [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-wcag-sc.csv).
+
 <table>
-  <thead>
+  {% for row in site.data.arrm-matrix %}
+    {% if forloop.first %}
     <tr>
-      <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th>WCAG SC</th>
-      <th>Level</th>
-      <th>Task</th>
-      <th>Main Role</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
     </tr>
-  </thead>
-  <tbody>
-    {% for row in site.data.arrm-full-checklist %}
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      {% assign starter = row["Starter List"] %}
-      {% if starter and starter != "" %}
-        <tr>
-          <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }}</td>
-          <td>{{ row["Level"] }}</td>
-          <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
-          <td>{{ row["Primary Ownership"] }}</td>
-          <td>{{ row["Secondary Ownership"] }}</td>
-          <td>{{ row["Contributor"] }}</td>
-        </tr>
-      {% endif %}
-    {% endfor %}
-  </tbody>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
 </table>
