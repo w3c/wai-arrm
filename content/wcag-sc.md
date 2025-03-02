@@ -38,17 +38,6 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
-inline_css: | 
-  .sidenav { 
-    display: none; 
-  } 
-  #main { 
-    grid-column: navigation-start / content-end; 
-  }
-  #main > *:not(table, header) {
-    /* max-width: 50em; */
-  }   
-
 ---
 
 This page shows what roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines (WCAG) 2.1 success criteria (SC). A later iteration will include new WCAG 2.2 success criteria.
