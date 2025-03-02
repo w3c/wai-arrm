@@ -40,9 +40,9 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 ---
 
-This page shows what roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines (WCAG) 2.1 success criteria (SC). A later iteration will include new WCAG 2.2 success criteria.
+This page shows what roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) 2.1 success criteria. A later iteration will include the success criteria added in WCAG 2.2.
 
-You can download this as a [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-wcag-sc.csv).
+You can download the information from the table as a [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-wcag-sc.csv).
 
 <table>
   {% for row in site.data.arrm-wcag-sc %}

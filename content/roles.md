@@ -242,3 +242,22 @@ Unlike most other administrative roles, governance is not part of an individual 
 <dt>Example job titles for this role:</dt>
 <dd>Legal, procurement, conformance, administrative, governance, branding</dd>
 </dl>
+
+## Draft review
+
+{::nomarkdown}
+{% include box.html type="start" title="We welcome your input" icon="comments"%}
+{:/}
+
+We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world. For example:
+
+- Do these role groups and role descriptions work for most project teams?
+- Do you have suggestions for other examples of key deliverables, tasks, or job titles that might be important to include?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
+
+
