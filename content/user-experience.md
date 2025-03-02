@@ -79,7 +79,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 <table>
   <thead>
@@ -89,9 +89,6 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
     </tr>
   </thead>
   <tbody>
@@ -105,9 +102,6 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Primary Ownership"] }}</td>
-          <td>{{ row["Secondary Ownership"] }}</td>
-          <td>{{ row["Contributor"] }}</td>
         </tr>
       {% endif %}
     {% endfor %}
@@ -160,11 +154,11 @@ Read [Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/s
 {:/}
 
 For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ...like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
 - Provide all the tasks, in addition to the tasks to get started
 - Provide filters to select what to show
 
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software?
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
 
 We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
 
