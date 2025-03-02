@@ -75,7 +75,9 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 
 ## Important introduction
 
-**This is not a complete, definitive, or official list of accessibility tasks.** It offers a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) success criteria.
+**This is not a complete, definitive, or official list of accessibility tasks.**
+
+It offers a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) success criteria.
 
 This information is also available to download as a [single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/aarrm-all-tasks.csv).
 
@@ -132,7 +134,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SEM-" %}
@@ -168,7 +170,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "INP-" %}
@@ -204,7 +206,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "FRM-" %}
@@ -240,7 +242,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "CSS-" %}
@@ -277,7 +279,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "NAV-" %}
@@ -314,7 +316,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "TAB-" %}
@@ -351,7 +353,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "ANM-" %}
@@ -388,7 +390,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SCT-" %}
@@ -425,7 +427,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-full-checklist %}
+    {% for row in site.data.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "DYN-" %}
