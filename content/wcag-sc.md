@@ -45,17 +45,37 @@ This page provides an approach for assigning which roles have primary (P), secon
 You can download the information from the table as a [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-wcag-sc.csv).
 
 <table>
-  {% for row in site.data.arrm-wcag-sc %}
-    {% if forloop.first %}
+  <thead>
     <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
+      <!-- Only include specific columns in the header - exclude: Starter List -->
+      <th>WCAG SC</th>
+      <th>Level</th>
+      <th>Business</th>
+      <th>Content Authoring</th>
+      <th>Visual Design</th>
+      <th>User Experience (UX) Design</th>
+      <th>Front-End Development</th>
     </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
-  {% endfor %}
+  </thead>
+  <tbody>
+    {% for row in site.data.arrm-all-tasks %}
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+      {% assign primary = row["Primary Ownership"] %}
+      {% if starter and starter != "" and primary == "Visual Design" %}
+        <tr>
+          <td>{{ row["WCAG SC"] }}</td>
+          <td>{{ row["Level"] }}</td>
+          <td>{{ row["Business"] }}</td>
+          <td>{{ row["Content Authoring"] }}</td>
+          <td>{{ row["Visual Design"] }}</td>
+          <td>{{ row["User Experience (UX) Design"] }}</td>
+          <td>{{ row["Front-End Development"] }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
 </table>
+
+
+

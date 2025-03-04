@@ -91,13 +91,13 @@ Responsible for creating all text presented by the deliverable in all forms (HTM
 
 ### Content Authoring
 
-Content Creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
+Content creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
 
-Content Creation extends to roles specific audio and video media production. These begin with the writing of scripts but can extend to the production of the media files or support of live streaming content.
+Content creation extends to roles specific audio and video media production. These begin with the writing of scripts but can extend to the production of the media files or support of live streaming content.
 
 <dl>
 <dt>Key deliverable examples:</dt>
-<dd>Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video</dd>
+<dd>Body copy, managed content, scripts, taxonomies, writing guidelines, media files including PDF, audio and video</dd>
 <dt>Tasks include:</dt>
 <dd>Content authoring, media and documentation creation, content strategies definition</dd><dt>Example job titles for this role:</dt>
 <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host</dd></dl>
@@ -121,7 +121,7 @@ Content Publishers may perform some tasks that are a part of the front end web d
 
 This group includes user research, user experience (UX), and presentation decisions.
 
-Some roles within this group define the user experience of a product, designing its behaviours and interactions with the end user and/or their assistive technologies. Some roles provide the general "look and feel" of the products and features, covering presentation, fonts and colors. Others outline the functionality of features, and their operation through assistive technologies (ATs). They translate input from business roles into user stories, requirements, specifications, documentation, and guidelines used by other roles (mainly Development) to build the finished product.
+Some roles within this group define the user experience of a product, designing its behaviors and interactions with the end user and/or their assistive technologies. Some roles provide the general "look and feel" of the products and features, covering presentation, fonts and colors. Others outline the functionality of features, and their operation through assistive technologies (ATs). They translate input from business roles into user stories, requirements, specifications, documentation, and guidelines used by other roles (mainly Development) to build the finished product.
 
 This includes applying user research that has been conducted and an understanding of the intended audiences for a quality experience.
 
@@ -151,7 +151,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 ### Visual Design
 
-Visual Designers focus largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
+Visual Designers focus largely on the look and feel of an product, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
 <dl>
 <dt>Key deliverable examples:</dt>
@@ -168,7 +168,7 @@ Oversees the creation, coding and delivery of the product based upon the require
 
 ### Front-End Development
 
-Front end development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
+Front-end development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front-end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
 
 <dl>
 <dt>Key deliverable examples:</dt>
@@ -179,7 +179,7 @@ Front end development typically builds the parts of a product that will be inter
 
 ### Back-End Development
 
-Back end developers have a smaller, more indirect involvement with accessibility work, but still play a critical role in delivering accessible products, as the underlying product architecture can inform accessibility solutions. It’s important for back end developers to be involved in accessibility discussions so that any potential issues stemming from how the database is organized can be caught and fixed, or better yet, avoided altogether.
+Back-end developers have a smaller, more indirect involvement with accessibility work, but still play a critical role in delivering accessible products, as the underlying product architecture can inform accessibility solutions. It’s important for back-end developers to be involved in accessibility discussions so that any potential issues stemming from how the database is organized can be caught and fixed, or better yet, avoided altogether.
 
 <dl>
 <dt>Example job titles for this role:</dt>

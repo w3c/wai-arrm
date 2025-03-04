@@ -108,10 +108,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
   </thead>
   <tbody>
@@ -125,10 +122,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
-          <td>{{ row["Primary Ownership"] }}</td>
-          <td>{{ row["Secondary Ownership"] }}</td>
-          <td>{{ row["Contributor"] }}</td>
+          <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
       {% endif %}
     {% endfor %}
@@ -163,12 +157,12 @@ The secondary owner of the task is the UX Designer. They design the page layout,
 
 The UX designer should support the Visual Designer when they create both the visual representation of data and the text alternative.   They ensure that all users can access both through navigation.
 
-### End user persona: Lee, an online shopper who is colorblind
-Lee is colorblind and encounters barriers when shopping online. He has one of the most common visual disabilities that affect men: red and green color blindness. Lee frequently shops online and sometimes encounters problems on websites and with apps where the color contrast of text and images is not adequate and where color alone is used to indicate required fields and sale prices. 
+### End user persona: Lexie, an online shopper who is colorblind
+Lexie is colorblind and encounters barriers when shopping online. He has one of the most common visual disabilities that affect men: red and green color blindness. Lexie frequently shops online and sometimes encounters problems on websites and with apps where the color contrast of text and images is not adequate and where color alone is used to indicate required fields and sale prices. 
 
-When red and green color combinations are used, Lee cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
+When red and green color combinations are used, Lexie cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
 
-<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/people-use-web/user-stories/#shopper">Read Lees's full story</a> and learn about other design tasks that benefit users like him.
+[Read Lexie's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
 
 ### Resources
 * Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.

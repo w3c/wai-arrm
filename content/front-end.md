@@ -106,10 +106,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
   </thead>
   <tbody>
@@ -123,10 +120,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
-          <td>{{ row["Primary Ownership"] }}</td>
-          <td>{{ row["Secondary Ownership"] }}</td>
-          <td>{{ row["Contributor"] }}</td>
+          <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
       {% endif %}
     {% endfor %}
@@ -151,25 +145,19 @@ As a front-end developer, I will code all functionality of the content, on a web
 
 As the UX designer in support of the Front-end Developer, I will ensure to annotate my designs, wireframes and prototypes to clearly define the functionality of components on the page and the expected reading order to allow a keyboard user access to the page content.
 
-### End User persona 1: Kaseem, teenager who is deaf and blind
+### End User persona 1: Marta, a marketing assistant who is deaf and blind
 
-Kaseem is a teenager who is deaf and recently became legally blind too, which means she can see only small portions of a screen and read text when it is significantly enlarged. She uses screen magnification software to enlarge the text on websites to a suitable font size, displays text on a refreshable Braille device and a large computer screen with high resolution and high luminosity (brightness).
+Marta is a marketing assistant who is deaf and recently became legally blind too, which means she can see only small portions of a screen and read text when it is significantly enlarged. She uses screen magnification software to enlarge the text on websites to a suitable font size, displays text on a refreshable Braille device and a large computer screen with high resolution and high luminosity (brightness).
 
 The viewport, or area that Kaseem sees when the screen is magnified, is very small. So the focus must be in or very close to that 'viewport' at all times. Shifting it unexpectedly to a completely different areas of the screen makes it very difficult to find and then move to that area, especially if she has no idea where the focus has landed. The focus could move to another area on the page, or to a completely new page.
 
-### End user persona 2: Alex, reporter with repetitive stress injury
+### End user persona 2: Lakshmi, senior accountant who is blind
 
-Alex has worked as a reporter for more than 20 years and has developed a repetitive strain injury that makes it painful to use a mouse and to type for extended periods of time. Alex encounters problems when websites and other online content cannot be navigated by keyboard commands alone.
+Lakshmi is blind. She is a semopr accountant at an insurance company that uses web-based documents and forms over a corporate intranet and like many other blind computer users, she does not read Braille.
 
-If when navigating the web page, if the keyboard focus shifts unexpectedly, can Alex get back to the task he was doing?
+Lakshmi relies on the screen reader assistive technology to let her know where she is on the web page. Moving the focus unexpectedly breaks the context of the page and her mental map or perception of the page.
 
-### End user persona 3: Ilya, senior staff member who is blind
-
-Ilya is blind. She is the chief accountant at an insurance company that uses web-based documents and forms over a corporate intranet and like many other blind computer users, she does not read Braille.
-
-Ilya relies on the screen reader assistive technology to let her know where she is on the web page. Moving the focus unexpectedly breaks the context of the page and her mental map or perception of the page.
-
-[Read the full user stories](https://www.w3.org/WAI/people-use-web/user-stories/#reporter)
+[Read the full user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
 
 ### Resources
 

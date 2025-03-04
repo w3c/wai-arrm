@@ -96,7 +96,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
-      {% if starter and starter != "" and primary == "UX Design" %}
+      {% if starter and starter != "" and primary == "User Experience (UX) Design" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
@@ -111,11 +111,9 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
 
 ## Case study: How to use the tasks
 
-A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role. 
+A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role. Then, think of how meeting this task impacts an end user. 
 
-Then, think of how meeting this task impacts an end user. 
-
-### Task:
+### Task
 
 NAV-024: Setting the focus to a new element doesn't automatically trigger a context change, such as content updates or the opening of new windows.
 
@@ -133,7 +131,7 @@ Explain the behaviour and functionality that you intend as the UX Designer and p
 
 Collaborating on the design together ensures that it's optimized for multiple end users.
 
-### End user persona: Lakshmi, a senior staff member who is blind
+### End user persona: Lakshmi, a senior accountant member who is blind
 Lakshmi is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design task ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page. 
 
 The intent of the task is to ensure that functionality is predictable as visitors navigate their way through a document.

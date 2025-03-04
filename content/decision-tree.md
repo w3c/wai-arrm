@@ -57,7 +57,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/).
 
-## Ownership levels
+## Ownership Levels
 
 The role-based decision tree is a framework to help anyone define a Responsibility Mapping of their own within their organization. It is a process to help teams define and distribute ownership and responsibility of accessibility requirements in the project lifecycle. Using this framework, a team should more easily define who ultimately owns specific requirements and who else is actively involved (those that contribute to the successful implementation of the tasks in the lifecycle).
 
@@ -80,7 +80,7 @@ Ownership role levels are very similar to the RACI responsibility roles. For tho
 
 Since all accessibility ownership roles provide some input to the design they are “informed.”
 
-## STEP 1. Primary Ownership
+## Step 1. Primary Ownership
 
 ### Can this role be involved as a Primary Owner?
 
@@ -90,7 +90,7 @@ It is vital that in determining primary ownership, the team either ensures that 
 
 ### Decision tree framework for primary ownership
 
-The steps in the decision tree assume evaluation of tasks used to evaluate the accessibility of an existing product. In such cases, many design decisions have already been made, possibly documented and implemented. There are significant ownership differences when assigning ownership when reviewing design documents or even WCAG success criteria.
+The steps in the decision tree assume evaluation of tasks used to evaluate the accessibility of an existing product. In such cases, many design decisions have already been made, possibly documented and implemented. There are significant ownership differences when assigning ownership when reviewing design documents or even Web Content Accessibility Guideline (WCAG) success criteria.
 
 <h4>Step A.</h4>
   <p>Is this task driven by <a href="@@Fix-LinkRole_definition_document#Business_Analysis" title="Role definition document">Business</a> or non-functional requirements?</p>
@@ -103,7 +103,7 @@ The steps in the decision tree assume evaluation of tasks used to evaluate the a
 <li>Providing functional business requirements and features,</li>
 <li>Specifying additional technical requirements (legal, financial, security, etc.),</li>
 <li>Administering branding guidance and standards,</li>
-<li>Defining core features and high-level product functionalities,</li>
+<li>Defining core features and high-level product functionalities.</li>
 </ul>
 
 <p><span style="font-weight: bold;">Business Analysis as Primary Owner</span><br>The Business Analyst role is the primary owner for items dictated by business requirements including branding guidance, core features and high-level product functionality, and contractual or legal requirements. After initiating the project, the role is typically hands-off.</p>
@@ -150,8 +150,8 @@ The steps in the decision tree assume evaluation of tasks used to evaluate the a
 <ul>
 <li>Making presentation choices such as color, font, layout, spacing, etc.,</li>
 <li>Adapting branding guidelines and related brand variations,</li>
-<li>Documenting and defining presentation through styleguides,</li>
-<li>Designing hi-fidelity mock ups and comprehensive layouts (comps),</li>
+<li>Documenting and defining presentation through style guides,</li>
+<li>Designing hi-fidelity mock ups and comprehensive layouts (comps).</li>
 </ul>
 
 <p><span style="font-weight: bold;">Visual Design as Primary Owner</span><br>Nearly any decision about final presentation design is likely to have the visual designer as a primary owner. The more they purely design (such as color selection), the more likely they are to be the primary owner. The most overlap for primary ownership tends to be with the UX Designer. In such cases, the final choice should be made on how essential the visual aspect is to the task.</p>
@@ -166,7 +166,7 @@ The steps in the decision tree assume evaluation of tasks used to evaluate the a
 <ul>
 <li>Making document structure decisions related to HTML and the use of WAI-ARIA,</li>
 <li>Defining visual content layout, related to the use of CSS presentation,</li>
-<li>Scripting interaction behaviors related to features and functionalities,</li>
+<li>Scripting interaction behaviors related to features and functionalities.</li>
 </ul>
 
 <p><span style="font-weight: bold;">Front-End Development as Primary Owner</span><br>Front-End Developers are typically the primary owners when the tasks relate to implementation or the coding of the page. They typically are not primary owners when they follow instructions defined in requirements created by other stakeholders in early design phases.</p> 
@@ -239,9 +239,9 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 -   If the answer is "yes," to either question, add the role as a Contributor.
 -   If the answer is "no", then the role may not be involved at all.
 
-<p><span style="font-weight: bold;">Business Analysis as a Contributor</span><br>In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.</p>
+<p><span style="font-weight: bold;">Business Analysis as a contributor</span><br>In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.</p>
 
-<p><span style="font-weight: bold;">Content Authoring as a Contributor</span><br>When not a primary or secondary owner, Content Authors are usually not involved. The few cases where they might be an impact owner and need to be informed about decisions are in tasks where the management or presentation of text changes.</p>
+<p><span style="font-weight: bold;">Content Authoring as a contributor</span><br>When not a primary or secondary owner, Content Authors are usually not involved. The few cases where they might be an impact owner and need to be informed about decisions are in tasks where the management or presentation of text changes.</p>
 
 <p><span style="font-weight: bold;">UX Design as a Contributor</span><br>Due to the UX Designer's typical involvement in overseeing the overarching design and structure of a project or product to ensure the final design meets the intended goals, it is rarer, though possible, for UX Designers to find themsleves involved as Contributors. One such example might be video content, where the UX Designer might be critical in defining the page structure and features of the video player, but would not be much involved in the content itself.</p>
 
