@@ -35,12 +35,12 @@ ARRM is being refined through the [ARRM Community Group](https://www.w3.org/comm
 Editors and recent contributors (in alphabetical order):
 * Denis Boudreau
 * Jennifer Chadwick
+* Mike Gifford
+* Karen Hawkins
 * Sean Kelly
 * Michael Mistak
-* Bill Tyler
-* Karen Hawkins
-* Mike Gifford
 * Lewis Phillips
+* Bill Tyler
 * Frankie Wolf
 
 Past contributors:
