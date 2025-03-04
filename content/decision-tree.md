@@ -63,11 +63,11 @@ The role-based decision tree is a framework to help anyone define a Responsibili
 
 The framework defines three levels of ownership for accessibility requirements, based on commonly agreed upon [RACI (responsible, accountable, consulted, and informed) matrix principles](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix#Key_responsibility_roles_(RACI_model)):
 
-1.  **[Primary ownership](#Can_this_role_be_involved_as_a_Primary_Owner.3F "Role-Based Decision Tree")**  
+1.  **[Primary ownership](#step-1-primary-ownership)**  
     Those who are **accountable** for an accessibility task. Primary owners typically drive the decision-making process, have direct interaction with the secondary owner(s) discussing issues, delegate the work to other roles or team members (as needed), lead the task to completion, have final sign-off authority (if/when used), and are ultimately accountable for the outcome of task or design decisions regardless of when they occur in the process. The last few points emphasize that the primary role is ultimately accountable. This is why there can only be **one primary owner for each task**.
-2.  **[Secondary ownership](#Can_this_role_be_involved_as_a_Secondary_Owner.3F "Role-Based Decision Tree")**  
+2.  **[Secondary ownership](#step-2-secondary-ownership)**  
     Those who are **responsible** to help complete an accessibility task. Secondary owners typically directly support the primary owner, are actively involved in the decision-making process, have active interest and participation in the outcomes, may work to complete the task, but ultimately defer final decisions to the primary owner.
-3.  **[Contributors](#Can_this_role_be_involved_as_a_Contributor.3F "Role-Based Decision Tree")**  
+3.  **[Contributors](#step-3-contributor")**  
     Those who need to be **consulted** in order to successfully complete an accessibility task. Contributors are typically not actively involved in the decision-making process, will typically provide initial input or requirements, and may be asked to provide additional information as needed to ensure successful task completion. Contributors may have limited participation by providing initial design input (such as branding guidance or business requirements) with little or no subsequent interaction. In those cases, the communication may be input only with little or no concern of being kept "informed" of the result (relying on the expertise of other owners).
 
 ### Ownership to RACI Role Mapping
