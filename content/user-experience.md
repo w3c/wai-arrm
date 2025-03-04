@@ -77,7 +77,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 ## Tasks to get started
 
-Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
+Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
