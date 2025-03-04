@@ -44,7 +44,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-This page defines typical roles that have responsibilities for ensuring accessibility. 
+This page describes typical roles that have responsibilities for ensuring accessibility. 
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -64,7 +64,7 @@ This page defines typical roles that have responsibilities for ensuring accessib
 
 ## Introduction
 
-This page defines typical roles that have responsibilities for ensuring accessibility. These role descriptions are generalized on purpose. An individual may fulfill more than one role.
+This page describes typical roles that have responsibilities for ensuring accessibility. These role descriptions are generalized on purpose. An individual may fulfill more than one role.
 
 Each role description includes areas of focus in decision making, decision ownership, notes on the primary tasks of that role, a shortlist of common job titles, and a general description of the accessibility responsibilities of that role.
 
