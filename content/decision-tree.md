@@ -84,7 +84,7 @@ Since all accessibility ownership roles provide some input to the design they ar
 
 ### Can this role be involved as a Primary Owner?
 
-Since there must be one (and only one) primary owner for all tasks, picking them is a key first step. This section identifies a 7-step process through which a team can identify which role should be the primary owner for each of the tasks defined in the [Tasks Involved in Accessibility](/WAI/planning/arrm/tasks). This section identifies the steps in identifying those roles who may be involved with each task as primary owners.
+Since there must be one (and only one) primary owner for all tasks, picking them is a key first step. This section identifies a 7-step process through which a team can identify which role should be the primary owner for each of the tasks defined in the [Tasks Involved in Accessibility](/planning/arrm/tasks). This section identifies the steps in identifying those roles who may be involved with each task as primary owners.
 
 It is vital that in determining primary ownership, the team either ensures that someone for each of the required roles can act as primary owner. As an example, if a project team exists without actively engaged UX professionals this is the opportunity to make sure that said individuals are in place for potential work ahead or that some other mechanism is in place to handle tasks owned by such individuals. Similarly, if some tasks are provided by resources outside of the primary team, the project should potentially revisit ownership or consider adjustments to team makeup. This avoids bottlenecks caused by relying on individuals not directly accountable to the primary team working on this effort.
 
@@ -94,7 +94,7 @@ The steps in the decision tree assume evaluation of tasks used to evaluate the a
 
 #### Step A.
 
-Is this task driven by [Business](/WAI/planning/arrm/roles#1-business-role-group) or non-functional requirements?
+Is this task driven by [Business](/planning/arrm/roles#1-business-role-group) or non-functional requirements?
 
 *   If **"Yes"**, then primary ownership should be **Business** - Business Analysis
 *   If **"No"**, then move on to step B.
@@ -111,7 +111,7 @@ The Business Analyst role is the primary owner for items dictated by business re
 
 #### Step B.
 
-Is this task about [Content Authoring](/WAI/planning/arrm/content-author)?
+Is this task about [Content Authoring](/planning/arrm/content-author)?
 
 *   If **"Yes"**, then primary ownership of this task should be **Design** - Content Authoring
 *   If **"No"**, then move on to step C.
@@ -128,7 +128,7 @@ Content Authors are involved any time there is text or text-based content. This 
 
 #### Step C.
 
-Is this task about [UX Design](/WAI/planning/arrm/user-experience)?
+Is this task about [UX Design](/planning/arrm/user-experience)?
 
 *   If **"Yes"**, then primary ownership of this task should be **Design** - User Experience Design
 *   If **"No"**, then move on to step D.
@@ -145,7 +145,7 @@ UX Designers are often primary owners for accessibility tasks that relate to int
 
 #### Step D.
 
-Is this task about [Visual Design](/WAI/planning/arrm/visual-designer)?
+Is this task about [Visual Design](/planning/arrm/visual-designer)?
 
 *   If **"Yes"**, then primary ownership of this task should be **Design** - Visual Design
 *   If **"No"**, then move on to step E.
@@ -162,7 +162,7 @@ Nearly any decision about final presentation design is likely to have the visual
 
 #### Step E.
 
-Is this task about [Development](/WAI/planning/arrm/front-end)?
+Is this task about [Development](/planning/arrm/front-end)?
 
 *   If **"Yes"**, then primary ownership of this task should be **Development** - Front-End Development
 *   If **"No"**, then move on to step F.
@@ -180,7 +180,7 @@ It's a frequent misconception that front-end developers should own most, if not 
 
 #### Step F.
 
-Is this task about [Testing](/WAI/planning/arrm/roles#5-testing-role-group)?
+Is this task about [Testing](/planning/arrm/roles#5-testing-role-group)?
 
 *   If **"Yes"**, confirm that one or more of the following is true before assigning to the tester:
     *   task is about running testing tools,
@@ -202,7 +202,7 @@ QA Testers are not typically part of the design or implementation process. Thoug
 
 #### Step G.
 
-IF NONE OF THE ABOVE, then it escalates to an [Administrative](/WAI/planning/arrm/roles#6-administration-role-group) concern.
+IF NONE OF THE ABOVE, then it escalates to an [Administrative](/planning/arrm/roles#6-administration-role-group) concern.
 
 If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the task and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
 
@@ -213,10 +213,10 @@ Business Administration is not a role that makes or owns decisions that directly
 
 To understand how to apply the steps in the decision tree, examples are helpful. The following are step-by-step examples using the Decision Tree framework to assign primary ownership for several tasks for two roles:
 
--   Implementation - [Front-End Development examples](/WAI/planning/arrm/front-end/#case-study-how-to-use-the-starter-list)
--   Design - [Content authors examples](/WAI/planning/arrm/content-author/#content-author-tasks-starter-list)
+-   Implementation - [Front-End Development examples](/planning/arrm/front-end/#case-study-how-to-use-the-starter-list)
+-   Design - [Content authors examples](/planning/arrm/content-author/#content-author-tasks-starter-list)
 
-The resulting body of ownership guidance using this framework can then compiled in a role-specific master list, for all three levels of ownership (primary, secondary, contributor). This, in turn, can help create accessibility roles and responsibility mappings that can better help teams break down accessibility by roles. For an example, see this [Accessibility Task List](Content authors examples](/WAI/planning/arrm/tasks).
+The resulting body of ownership guidance using this framework can then compiled in a role-specific master list, for all three levels of ownership (primary, secondary, contributor). This, in turn, can help create accessibility roles and responsibility mappings that can better help teams break down accessibility by roles. For an example, see this [Accessibility Task List](Content authors examples](/planning/arrm/tasks).
 
 ## STEP 2: Secondary ownership
 
