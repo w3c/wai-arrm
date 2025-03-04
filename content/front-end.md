@@ -7,7 +7,11 @@ title_html: "Front-End Developer <br><span style='font-size:75%'>Responsibilitie
 nav_title: "Front-End Developer"
 
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
+doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+
+parent_in_h1:
+  - ref: /planning/arrm/
+    name: nav_title
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2022-02-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -38,7 +42,7 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</strong></p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
@@ -48,7 +52,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-@@ summary
+This page lists some digital accessibility tasks that are usually the responsibility of [@@role].
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -127,7 +131,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
   </tbody>
 </table>
 
-## Case Study: How to use the Starter List
+## Case study: How to use the tasks
 
 A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role.
 
@@ -159,8 +163,25 @@ Lakshmi relies on the screen reader assistive technology to let her know where s
 
 [Read the full user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
 
-### Resources
+### Additional Resources
 
 *   Use the [WAI Tips for Developing](https://www.w3.org/WAI/tips/developing/) to get started.
 *   See the [WAI Tutorials](https://www.w3.org/WAI/tutorials/) for menus, tables, forms and more.
 *   Review the [WAI-ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) for keyboard functionality for ARIA components.
+
+{::nomarkdown}
+{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
+{:/}
+
+For the later iterations of this page, we could:
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide all the tasks, in addition to the tasks to get started
+- Provide filters to select what to show
+
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
