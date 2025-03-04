@@ -50,11 +50,12 @@ defaults:
       path: ""
     values:
       layout: "default"
-#  -
-#    scope:
-#      path: "_business-case"
-#    values:
-#      layout: "sidenav"
+  -
+    scope:
+      path: "content/"
+    values:
+      feedbackmail: public-arrm@w3.org
+
 
 plugins:
   - jekyll-seo-tag
