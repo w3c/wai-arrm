@@ -108,10 +108,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
-      <th>Primary Ownership</th>
-      <th>Secondary Ownership</th>
-      <th>Contributor</th>
+      <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
   </thead>
   <tbody>
@@ -125,10 +122,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
-          <td>{{ row["Primary Ownership"] }}</td>
-          <td>{{ row["Secondary Ownership"] }}</td>
-          <td>{{ row["Contributor"] }}</td>
+          <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
       {% endif %}
     {% endfor %}
