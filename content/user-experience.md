@@ -96,7 +96,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
-      {% if starter and starter != "" and primary == "UX Design" %}
+      {% if starter and starter != "" and primary == "User Experience (UX) Design" %}
         <tr>
           <td>{{ row["ID"] }}</td>
           <td>{{ row["WCAG SC"] }}</td>
