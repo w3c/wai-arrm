@@ -99,7 +99,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -115,7 +114,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -135,7 +133,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -151,7 +148,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -171,7 +167,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -187,7 +182,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -207,7 +201,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -223,7 +216,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -243,7 +235,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -259,7 +250,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -280,7 +270,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -296,7 +285,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -317,7 +305,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -333,7 +320,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -354,7 +340,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -370,7 +355,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -391,7 +375,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -407,7 +390,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
@@ -428,7 +410,6 @@ This information is also available to download as a [single CSV file](https://ra
       <th>WCAG SC</th>
       <th>Level</th>
       <th>Task</th>
-      <th>Main Role</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
       <th>Contributor</th>
@@ -444,7 +425,6 @@ This information is also available to download as a [single CSV file](https://ra
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
           <td>{{ row["Task"] }}</td>
-          <td>{{ row["Main Role"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
