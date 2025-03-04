@@ -92,17 +92,13 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 
 **Example job titles for this role**
 
-Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer
+Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer.
 
-  
+## Tasks to get started
 
-## Visual Design Tasks: Starter List
+Below is a list of tasks for visual designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-Here is a list of tasks for Visual designers to get started. If these design tasks aren't met, your design can cause significant barriers to users.
-
-This list is taken from the full list of Visual Design tasks
-
-For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 <table>
   <thead>
