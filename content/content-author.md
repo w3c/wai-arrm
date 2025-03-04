@@ -91,17 +91,13 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 **Example job titles for this role**
 
-Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer
+Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.
 
-  
+## Tasks to get started
 
-## Content Author Tasks: Starter List
+Below is a list of tasks for Content Authors designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-Here is a list of tasks for Content Authors to get started. If these design tasks aren't met, your content - and lack of accessible content like alt text, captions, transcripts etc. - can cause significant barriers to users.
-
-This list is taken from the full list of Content Author tasks.
-
-For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 <table>
   <thead>
