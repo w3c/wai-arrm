@@ -111,11 +111,9 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
 
 ## Case study: How to use the tasks
 
-A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role. 
+A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role. Then, think of how meeting this task impacts an end user. 
 
-Then, think of how meeting this task impacts an end user. 
-
-### Task:
+### Task
 
 NAV-024: Setting the focus to a new element doesn't automatically trigger a context change, such as content updates or the opening of new windows.
 
