@@ -52,7 +52,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of [@@role].
+This page lists some digital accessibility tasks that are usually the responsibility of visual designers.
 
 {::nomarkdown}
 {% include box.html type="end" %}
