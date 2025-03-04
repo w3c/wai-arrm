@@ -81,11 +81,11 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 
 **This is not a complete, definitive, or official list of accessibility tasks.**
 
-It offers a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) success criteria.
-
 {::nomarkdown}
 {% include box.html type="end" %}
 {:/}
+
+These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)) 2.1 success criteria. A later iteration will include the success criteria added in WCAG 2.2.
 
 This information is also available to download as a [single CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/aarrm-all-tasks.csv).
 
