@@ -106,7 +106,8 @@ Is this task driven by [Business](/planning/arrm/roles#1-business-role-group) or
 *   Administering branding guidance and standards,
 *   Defining core features and high-level product functionalities.
 
-Business Analysis as Primary Owner  
+**Business Analysis as Primary Owner**
+
 The Business Analyst role is the primary owner for items dictated by business requirements including branding guidance, core features and high-level product functionality, and contractual or legal requirements. After initiating the project, the role is typically hands-off.
 
 #### Step B.
@@ -123,7 +124,8 @@ Is this task about [Content Authoring](/planning/arrm/content-author)?
 *   Defining static content such as taxonomy or labels and main body copy,
 *   Writing multimedia alternatives such as text transcripts, captions, descriptive audio, etc.
 
-Content Authoring as Primary Owner  
+**Content Authoring as Primary Owner**
+
 Content Authors are involved any time there is text or text-based content. This includes the spoken part of a video or audio media as well as downloadable documents. This often includes tasks derived from writing guidelines and standards, taxonomies and terminology, translations and body copy.
 
 #### Step C.
@@ -140,7 +142,8 @@ Is this task about [UX Design](/planning/arrm/user-experience)?
 *   Define general page regions such as header, navigation, footer, etc.,
 *   Improving interactions based on usability testing with users with disabilities,
 
-UX Design as Primary Owner  
+**UX Design as Primary Owner**
+
 UX Designers are often primary owners for accessibility tasks that relate to interactions since they define many of the features and operation of the product. Interaction-related tasks that come before implementation typically live within the UX Designers' set of responsibilities.
 
 #### Step D.
@@ -157,7 +160,8 @@ Is this task about [Visual Design](/planning/arrm/visual-designer)?
 *   Documenting and defining presentation through style guides,
 *   Designing hi-fidelity mock ups and comprehensive layouts (comps).
 
-Visual Design as Primary Owner  
+**Visual Design as Primary Owner**
+
 Nearly any decision about final presentation design is likely to have the visual designer as a primary owner. The more they purely design (such as color selection), the more likely they are to be the primary owner. The most overlap for primary ownership tends to be with the UX Designer. In such cases, the final choice should be made on how essential the visual aspect is to the task.
 
 #### Step E.
@@ -173,7 +177,8 @@ Is this task about [Development](/planning/arrm/front-end)?
 *   Defining visual content layout, related to the use of CSS presentation,
 *   Scripting interaction behaviors related to features and functionalities.
 
-Front-End Development as Primary Owner  
+**Front-End Development as Primary Owner**
+
 Front-End Developers are typically the primary owners when the tasks relate to implementation or the coding of the page. They typically are not primary owners when they follow instructions defined in requirements created by other stakeholders in early design phases.
 
 It's a frequent misconception that front-end developers should own most, if not all tasks. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input.
@@ -194,10 +199,12 @@ Is this task about [Testing](/planning/arrm/roles#5-testing-role-group)?
 *   Running standard QA or feature testing to dive deeper into accessibility issues,
 *   Executing test scripts and protocols to validate accessibility conformance.
 
-**Note:**  
+**Note:**
+
 Testing is not a role that makes or owns decisions that directly impact accessibility in the delivered product. The testing role is meant to confirm that the design or implementation meets accessibility requirements; however, the tester could be defined as a Contributor since they are responsible for providing the outcomes from validation of a design or implementation that takes place through testing.
 
 **QA Testing as Primary Owner**
+
 QA Testers are not typically part of the design or implementation process. Though they are essential or key to returning findings or feedback to respective owners for remediation, they are not likely to be identified as primary owners for any specific accessibility task, except actual testing.
 
 #### Step G.
@@ -207,6 +214,7 @@ IF NONE OF THE ABOVE, then it escalates to an [Administrative](/planning/arrm/ro
 If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the task and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
 
 **Note:**  
+
 Business Administration is not a role that makes or owns decisions that directly impact accessibility in the delivered product, but is meant to oversee the delivery process and that the product meets accessibility requirements.
 
 ### Decision tree application examples
@@ -228,21 +236,27 @@ This section identifies the steps in identifying those roles who, after the prim
 -   If the answer is "no," consider this role as a potential Contributor to the task (covered in Step 3.)
 
 **Business Analysis as Secondary Owner**
+
 Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. After initiating the project, the role is typically hands-off.
 
 **Content Authoring as Secondary Owner**
+
 Unless they are already involved on a given task as primary owners, it is fair to assume that whenever text is involved, Content Authors will be identified as secondary owners to support in that capacity. This typically occurs when the Visual or UX Designers are the primary owners, but need considerable input from the Content Author.
 
 **UX Design as Secondary Owner**
+
 As a secondary owner, the UX Designer may be needed by the primary owner to answer questions about the intended use or purpose of items in the requirements, specifications, user stories or other documentation provided. Since UX Designers oversee the entire design, they are likely to want to review any decisions that may affect the final experience.
 
 **Visual Design as Secondary Owner**
+
 It's rare for Visual Designers to be a secondary owner as they are typically involved as primary owners of presentation tasks, or simply informed about any variations to their work. This typically occurs when the UX Designer is the primary owner, but needs considerable input from the Visual Designer.
 
 **Front-End Development as Secondary Owner**
+
 In early design phases Developers are most likely to be secondary owners working with the primary to identify what is possible to implement (when the requirements are vague or challenging). In testing and remediation work this situation may reoccur where the primary owner needs to work with Development to identify which implementations are possible to make a final decision. As a result, it's not uncommon for the Developer role to be a secondary owner.
 
 **QA Testing as Secondary Owner**
+
 QA Testers are not typically part of the design or implementation processes. This extends to secondary ownership, where secondary ownership might apply if testing is tightly integrated into the design or implementation processes.
 
 ## STEP 3: Contributor
@@ -255,19 +269,25 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 -   If the answer is "no", then the role may not be involved at all.
 
 **Business Analysis as a contributor**
+
 In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.
 
 **Content Authoring as a contributor**
+
 When not a primary or secondary owner, Content Authors are usually not involved. The few cases where they might be an impact owner and need to be informed about decisions are in tasks where the management or presentation of text changes.
 
 **UX Design as a Contributor**
+
 Due to the UX Designer's typical involvement in overseeing the overarching design and structure of a project or product to ensure the final design meets the intended goals, it is rarer, though possible, for UX Designers to find themsleves involved as Contributors. One such example might be video content, where the UX Designer might be critical in defining the page structure and features of the video player, but would not be much involved in the content itself.
 
 **Visual Design as a Contributor**
+
 A Visual Designer is likely to want to know the outcomes of decisions that impact the final presentation when they are not the primary owner. Examples of this are when simple text or operation changes lead to cases not be clearly covered in style guides or comps.
 
 **Front-End Development as a Contributor**
+
 Since Developers are so integral to the final delivered product they are typically primary and secondary owners. There are fewer cases where the Developer is an impact owner. These cases are where a decision may require additional information beyond the standard updated requirements, user stories or specifications.
 
 **QA Testing as a Contributor**
+
 Many teams will view QA Testers as obvious Contributors on every requirement since they are so deeply involved with all aspects of validating the deliverable. However, if the details affecting accessibility are fully covered with other stakeholders in the lifecycle, they are likely to simply be identified as an additional step in the process, beyond the scope of the roles and responsibility mapping. QA Testers are likely to still be identified as Contributors when it comes to testing tool capabilities, testing protocols and methodologies, or changes to the details needed by the QA tester to complete the tests.
