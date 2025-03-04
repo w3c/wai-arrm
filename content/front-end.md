@@ -92,15 +92,13 @@ Front end development typically builds the parts of a product that will be inter
 
 **Example job titles for this role**
 
-Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer
+Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer.
 
-## Front-End Development Tasks – Starter List
+## Tasks to get started
 
-Here is a list of tasks for front-end developers and engineers to get started. If these tasks aren't met, your code can cause significant barriers to users.
+Below is a list of tasks for front-end developers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-This list is taken from the full list of Front-end Development tasks.
-
-For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 <table>
   <thead>
