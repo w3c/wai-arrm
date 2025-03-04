@@ -116,7 +116,7 @@ While ARRM focuses on meeting WCAG, it is important to first [understand the peo
 {:/}
 
 - Do you have input on the [Role descriptions](roles)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
-- Please review the tasks in the role(s) that you know best — [UX Designer](user-experience), [Visual Designer](visual-designer), [Content Author](content-author), [Front-End Developer](front-end). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
+- Please review the tasks in the role(s) that you know best — [User Experience (UX) Desiger](user-experience), [Visual Designer](visual-designer), [Content Author](content-author), [Front-End Developer](front-end). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
 - How would you like to use this resource?
   - Are you comfortable downloading the CSV files and using spreadsheet or other software to sort and filter it for your needs?
   - How might we make this resource more useful for you?
