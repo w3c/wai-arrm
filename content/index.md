@@ -68,7 +68,7 @@ When accessibility is left until late in a project, the responsibility often fal
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps you meet Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)). ARRM defines which roles have responsibilities for meeting which aspects of WCAG.
+Accessibility Roles and Responsibilities Mapping (ARRM) helps your team meet Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)). ARRM provides guidance on which roles you can assign responsibilities for accessibility.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Here is a simplified example." class="simple" %}
@@ -83,17 +83,15 @@ Roles that contribute to meeting WCAG requirements for headings:
 {% include_cached box.html type="end" %}
 {:/}
 
-ARRM includes a high-level table of WCAG requirements — called "success criteria" — and a list of tasks that address the WCAG success criteria. It defines primary, secondary, and contributor responsibilities.
-
-You can use the ARRM roles and tasks as is. Or you can customize it for your project.
+ARRM includes a high-level table of WCAG requirements — called "success criteria" — and a table of tasks that address the WCAG success criteria. The tables include primary, secondary, and contributor responsibilities.
 
 ## Typical roles and responsibilities
 
 ARRM provides one approach for defining roles, tasks, and responsibilities. You can use these as they are, without any work to customize them.
 
 * **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria](wcag-sc)** is a table of roles with primary, secondary, and contributor responsibilities
-* **[Tasks Involved in Accessibility](tasks)** lists tasks to meet WCAG and role responsibilities<br>— a subset of the tasks are listed in these role pages:
+* **[WCAG Success Criteria](wcag-sc)** shows role responsibilities
+* **[Tasks Involved in Accessibility](tasks)** shows tasks to meet WCAG and role responsibilities<br>— a subset of the tasks are listed in these role pages:
   * [User Experience (UX) Designer Responsibilities](user-experience)
   * [Visual Designer Responsibilities](visual-designer)
   * [Content Author Responsibilities](content-author)
@@ -101,11 +99,11 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
 
 ## Customizing ARRM for your situation
 
-ARRM includes guidance for customizing accessibility roles and responsibilities mapping based on considerations in your project and organization.
+Optionally, you can create accessibility roles and responsibilities based on your project and organization.
 
-* You can define different roles for your project team or use the example [role definitions](roles)
+* You can define different roles for your project team or use the typical [role definitions](roles)
 * You can assign responsibilities at the success criteria level or at the task level
-	* If at the task level, you can define different tasks or use the example [tasks involved in accessibility](tasks)
+	* If at the task level, you can define different tasks or use the typical [tasks involved in accessibility](tasks)
 * For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](decision-tree)**
 
 ## Accessibility is about people
