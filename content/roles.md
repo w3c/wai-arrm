@@ -243,7 +243,7 @@ Unlike most other administrative roles, governance is not part of an individual 
 <dd>Legal, procurement, conformance, administrative, governance, branding</dd>
 </dl>
 
-## Draft review
+## Draft Review
 
 {::nomarkdown}
 {% include box.html type="start" title="We welcome your input" icon="comments"%}
