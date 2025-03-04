@@ -97,7 +97,7 @@ Content creation extends to roles specific audio and video media production. The
 
 <dl>
 <dt>Key deliverable examples:</dt>
-<dd>Body copy, managed content, scripts, taxonomies, writing guidelines, media files, including PDF, audio and video</dd>
+<dd>Body copy, managed content, scripts, taxonomies, writing guidelines, media files including PDF, audio and video</dd>
 <dt>Tasks include:</dt>
 <dd>Content authoring, media and documentation creation, content strategies definition</dd><dt>Example job titles for this role:</dt>
 <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Script Writer, Video Producer, Podcast Host</dd></dl>
