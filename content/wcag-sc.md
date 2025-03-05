@@ -58,11 +58,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm.arrm-all-tasks %}
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      {% assign starter = row["Starter List"] %}
-      {% assign primary = row["Primary Ownership"] %}
-      {% if starter and starter != "" and primary == "Visual Design" %}
+    {% for row in site.data.arrm.arrm-wcag-sc %}
         <tr>
           <td>{{ row["WCAG SC"] }}</td>
           <td>{{ row["Level"] }}</td>
@@ -72,7 +68,6 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
           <td>{{ row["User Experience (UX) Design"] }}</td>
           <td>{{ row["Front-End Development"] }}</td>
         </tr>
-      {% endif %}
     {% endfor %}
   </tbody>
 </table>
