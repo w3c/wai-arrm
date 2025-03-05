@@ -105,7 +105,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "IMG-" %}
@@ -139,7 +139,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SEM-" %}
@@ -173,7 +173,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "INP-" %}
@@ -207,7 +207,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "FRM-" %}
@@ -241,7 +241,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "CSS-" %}
@@ -276,7 +276,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "NAV-" %}
@@ -311,7 +311,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "TAB-" %}
@@ -346,7 +346,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "ANM-" %}
@@ -381,7 +381,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SCT-" %}
@@ -416,7 +416,7 @@ This information is also available to download as a [single CSV file](https://ra
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% if content_type contains "DYN-" %}

@@ -110,7 +110,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     </tr>
   </thead>
   <tbody>
-    {% for row in site.data.arrm-all-tasks %}
+    {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
