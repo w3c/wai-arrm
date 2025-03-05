@@ -164,7 +164,7 @@ When red and green color combinations are used, Lexie cannot distinguish between
 
 [Read Lexie's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
 
-### Additional Resources
+### Additional resources
 * Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.
 * Use the [Resources for Designers](https://www.w3.org/WAI/roles/designers/).
 
