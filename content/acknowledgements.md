@@ -23,7 +23,7 @@ ref: /planning/arrm/acknowledgements/
 
 ---
 
-ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](https://www.w3.org/WAI/about/groups/eowg/)).
+ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](/about/groups/eowg/)).
 
 ## Editors and contributors through March 2025
 

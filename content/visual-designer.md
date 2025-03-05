@@ -91,7 +91,7 @@ Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer.
 
 Below is a list of tasks for visual designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
-You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
 <table>
   <thead>
@@ -155,11 +155,11 @@ Lexie is colorblind and encounters barriers when shopping online. He has one of 
 
 When red and green color combinations are used, Lexie cannot distinguish between the two, since both look brown to him. It is also very difficult for him to make product choices when color swatches are not labeled with the name of the color.
 
-[Read Lexie's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
+[Read Lexie's full story](/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
 
 ## Additional resources
-* Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.
-* Use the [Resources for Designers](https://www.w3.org/WAI/roles/designers/).
+* Use the [Tips for Designing](/tips/designing/) to get started.
+* Use the [Resources for Designers](/roles/designers/).
 
 ## Draft review questions
 
@@ -168,11 +168,11 @@ When red and green color combinations are used, Lexie cannot distinguish between
 {:/}
 
 For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/planning/arrm/tasks/)
 - Provide all the tasks, in addition to the tasks to get started
 - Provide filters to select what to show
 
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}) and using your spreadsheet software to see what you want?
 
 We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
 

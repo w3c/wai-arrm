@@ -68,7 +68,7 @@ When accessibility is left until late in a project, the responsibility often fal
 
 ## What is ARRM
 
-Accessibility Roles and Responsibilities Mapping (ARRM) helps your team meet Web Content Accessibility Guidelines ([WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)). ARRM provides guidance on which roles you can assign responsibilities for accessibility.
+Accessibility Roles and Responsibilities Mapping (ARRM) helps your team meet Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)). ARRM provides guidance on which roles you can assign responsibilities for accessibility.
 
 {::nomarkdown}
 {% include_cached box.html type="start" title="Here is a simplified example" class="simple" %}
@@ -108,7 +108,7 @@ Optionally, you can create accessibility roles and responsibilities based on you
 
 ## Accessibility is about people
 
-While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](https://www.w3.org/WAI/people/) and to [include people with disabilities in your project](https://www.w3.org/WAI/planning/involving-users/).
+While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
 
 ## Draft review
 {::nomarkdown}

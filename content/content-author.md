@@ -90,7 +90,7 @@ Content Strategist, Content Creator, Content Designer, Content Author, Digital C
 
 Below is a list of tasks for content authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
 
-You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
 <table>
   <thead>
@@ -151,13 +151,13 @@ The intent of the task is to ensure that functionality is predictable as visitor
 
 This task helps people with visual disabilities, cognitive limitations, and motor impairments by reducing the chance that a change of context will occur unexpectedly.
 
-[Read Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
+[Read Lakshmi's full story](/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
 
 ## Additional resources
 
-*   Use the [Alt Text Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) to help decide if an image needs a description.
-*   Use the [Tips for Writing](https://www.w3.org/WAI/tips/writing/) to get started.
-*   Review the [Images Tutorial](https://www.w3.org/WAI/tutorials/images/) for guidance on different types of images.
+*   Use the [Alt Text Decision Tree](/tutorials/images/decision-tree/) to help decide if an image needs a description.
+*   Use the [Tips for Writing](/tips/writing/) to get started.
+*   Review the [Images Tutorial](/tutorials/images/) for guidance on different types of images.
 
 ## Draft review questions
 
@@ -166,11 +166,11 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 {:/}
 
 For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/planning/arrm/tasks/)
 - Provide all the tasks, in addition to the tasks to get started
 - Provide filters to select what to show
 
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}) and using your spreadsheet software to see what you want?
 
 We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
 

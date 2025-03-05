@@ -91,7 +91,7 @@ Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaS
 
 Below is a list of tasks for front-end developers to get started making your work more accessible to disabled people. If these tasks aren't met, your code can create barriers to users with disabilities.
 
-You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
 <table>
   <thead>
@@ -152,12 +152,12 @@ Lakshmi is blind. She is a semopr accountant at an insurance company that uses w
 
 Lakshmi relies on the screen reader assistive technology to let her know where she is on the web page. Moving the focus unexpectedly breaks the context of the page and her mental map or perception of the page.
 
-[Read the full user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
+[Read the full user stories](/people-use-web/user-stories/)
 
 ## Additional resources
 
-*   Use the [WAI Tips for Developing](https://www.w3.org/WAI/tips/developing/) to get started.
-*   See the [WAI Tutorials](https://www.w3.org/WAI/tutorials/) for menus, tables, forms and more.
+*   Use the [WAI Tips for Developing](/tips/developing/) to get started.
+*   See the [WAI Tutorials](/tutorials/) for menus, tables, forms and more.
 *   Review the [WAI-ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) for keyboard functionality for ARIA components.
 
 ## Draft review questions
@@ -167,11 +167,11 @@ Lakshmi relies on the screen reader assistive technology to let her know where s
 {:/}
 
 For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/planning/arrm/tasks/)
 - Provide all the tasks, in addition to the tasks to get started
 - Provide filters to select what to show
 
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}) and using your spreadsheet software to see what you want?
 
 We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
 
