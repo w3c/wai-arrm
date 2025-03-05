@@ -160,7 +160,7 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 
 [Read Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
 
-### Additional Resources
+### Additional resources
 
 *   Use the [Alt Text Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) to help decide if an image needs a description.
 *   Use the [Tips for Writing](https://www.w3.org/WAI/tips/writing/) to get started.
