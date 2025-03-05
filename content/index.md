@@ -83,7 +83,7 @@ Roles that contribute to meeting WCAG requirements for headings:
 {% include_cached box.html type="end" %}
 {:/}
 
-ARRM includes a table of high-level WCAG requirements — called "success criteria" — and a table of tasks that address the WCAG success criteria. The tables include primary, secondary, and contributor responsibilities.
+ARRM includes a table of WCAG requirements — called "success criteria" — and a table of tasks that address the WCAG success criteria. The tables include primary, secondary, and contributor responsibilities.
 
 ## Typical roles and responsibilities
 
