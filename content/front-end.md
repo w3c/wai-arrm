@@ -161,7 +161,7 @@ Lakshmi relies on the screen reader assistive technology to let her know where s
 
 [Read the full user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
 
-### Additional Resources
+### Additional resources
 
 *   Use the [WAI Tips for Developing](https://www.w3.org/WAI/tips/developing/) to get started.
 *   See the [WAI Tutorials](https://www.w3.org/WAI/tutorials/) for menus, tables, forms and more.
