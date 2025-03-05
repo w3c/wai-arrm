@@ -21,10 +21,6 @@ ref: /planning/arrm/acknowledgements/
 # description:  @@ a 150ish-character-description for social media   # translate the description
 # image: @@ /content-images/wai-arrm/social.png
 
-footer: > 
-   <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
-
 ---
 
 ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](https://www.w3.org/WAI/about/groups/eowg/)).
