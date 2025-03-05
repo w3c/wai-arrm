@@ -79,7 +79,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 {% include box.html type="start" title="Important" icon="warning" %}
 {:/}
 
-**This is not a complete, definitive, or official list of accessibility tasks.**
+This is not a definitive or complete list of accessibility tasks.
 
 {::nomarkdown}
 {% include box.html type="end" %}

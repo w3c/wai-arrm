@@ -2,10 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Front-End Developer Responsibilities Mapping"
-title_html: "Front-End Developer <br><span style='font-size:75%'>Responsibilities Mapping</span>"
+title: "Front-End Developer Responsibilities"
 nav_title: "Front-End Developer"
-
 doc-note-type: draft
 doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
 
@@ -161,11 +159,13 @@ Lakshmi relies on the screen reader assistive technology to let her know where s
 
 [Read the full user stories](https://www.w3.org/WAI/people-use-web/user-stories/)
 
-### Additional resources
+## Additional resources
 
 *   Use the [WAI Tips for Developing](https://www.w3.org/WAI/tips/developing/) to get started.
 *   See the [WAI Tutorials](https://www.w3.org/WAI/tutorials/) for menus, tables, forms and more.
 *   Review the [WAI-ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/) for keyboard functionality for ARIA components.
+
+## Draft review questions
 
 {::nomarkdown}
 {% include box.html type="start" title="How do you want to use this page?" icon="comments"%}

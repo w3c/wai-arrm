@@ -2,10 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Visual Designer Responsibilities Mapping"
-title_html: "Visual Designer <br><span style='font-size:75%'>Responsibilities Mapping</span>"
+title: "Visual Designer Responsibilities"
 nav_title: "Visual Designer"
-
 doc-note-type: draft
 doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
 
@@ -164,9 +162,11 @@ When red and green color combinations are used, Lexie cannot distinguish between
 
 [Read Lexie's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
 
-### Additional resources
+## Additional resources
 * Use the [Tips for Designing](https://www.w3.org/WAI/tips/designing/) to get started.
 * Use the [Resources for Designers](https://www.w3.org/WAI/roles/designers/).
+
+## Draft review questions
 
 {::nomarkdown}
 {% include box.html type="start" title="How do you want to use this page?" icon="comments"%}

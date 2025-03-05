@@ -2,10 +2,8 @@
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
-title: "Content Author Responsibilities Mapping"
-title_html: "Content Author <br><span style='font-size:75%'>Responsibilities Mapping</span>"
+title: "Content Author Responsibilities"
 nav_title: "Content Author"
-
 doc-note-type: draft
 doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
 
@@ -160,11 +158,13 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 
 [Read Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
 
-### Additional resources
+## Additional resources
 
 *   Use the [Alt Text Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) to help decide if an image needs a description.
 *   Use the [Tips for Writing](https://www.w3.org/WAI/tips/writing/) to get started.
 *   Review the [Images Tutorial](https://www.w3.org/WAI/tutorials/images/) for guidance on different types of images.
+
+## Draft review questions
 
 {::nomarkdown}
 {% include box.html type="start" title="How do you want to use this page?" icon="comments"%}

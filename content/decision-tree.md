@@ -57,7 +57,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 
 This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/).
 
-## Ownership Levels
+## Ownership levels
 
 The role-based decision tree is a framework to help anyone define a Responsibility Mapping of their own within their organization. It is a process to help teams define and distribute ownership and responsibility of accessibility requirements in the project lifecycle. Using this framework, a team should more easily define who ultimately owns specific requirements and who else is actively involved (those that contribute to the successful implementation of the tasks in the lifecycle).
 
@@ -80,7 +80,7 @@ Ownership role levels are very similar to the RACI responsibility roles. For tho
 
 Since all accessibility ownership roles provide some input to the design they are “informed.”
 
-## Step 1. Primary Ownership
+## Step 1. Primary ownership
 
 ### Can this role be involved as a Primary Owner?
 
@@ -226,7 +226,7 @@ To understand how to apply the steps in the decision tree, examples are helpful.
 
 The resulting body of ownership guidance using this framework can then compiled in a role-specific master list, for all three levels of ownership (primary, secondary, contributor). This, in turn, can help create accessibility roles and responsibility mappings that can better help teams break down accessibility by roles. For an example, see this [Accessibility Task List](Content authors examples](/planning/arrm/tasks).
 
-## STEP 2: Secondary ownership
+## Step 2: Secondary ownership
 
 ### Can this role be involved as a Secondary Owner?
 
@@ -259,7 +259,7 @@ In early design phases Developers are most likely to be secondary owners working
 
 QA Testers are not typically part of the design or implementation processes. This extends to secondary ownership, where secondary ownership might apply if testing is tightly integrated into the design or implementation processes.
 
-## STEP 3: Contributor
+## Step 3: Contributor
 
 ### Can this role be involved as a Contributor?
 
