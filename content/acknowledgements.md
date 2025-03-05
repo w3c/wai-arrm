@@ -27,41 +27,38 @@ footer: >
 
 ---
 
-Accessibility Roles and Responsibilities Mapping (ARRM) was initially developed in a sub-group of the Accessibility Education and Outeach Working Group ([EOWG](https://www.w3.org/WAI/about/groups/eowg/)).
-ARRM is being refined through the [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C.
+ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](https://www.w3.org/WAI/about/groups/eowg/)).
 
-## Editors and major contributors
+## Editors and contributors through March 2025
 
-Editors and recent contributors (in alphabetical order):
-* Denis Boudreau
+### Project leads
+* **Denis Boudreau**
+* **Bill Tyler**
+
+### Project team
 * Jennifer Chadwick
+* Stéphane Deschamps
+* Caitlin Geier
 * Mike Gifford
 * Karen Hawkins
 * Sean Kelly
 * Michael Mistak
 * Lewis Phillips
-* Bill Tyler
+* Julianna Rowsell
 * Frankie Wolf
 
-Past contributors:
-* Stéphane Deschamps
-* Caitlin Geier
-* Julianna Rowsell
-
 ### Additional contributors
-
 * Shawn Lawton Henry
 * Sharron Rush
-* Kevin White
 * [EOWG participants](https://www.w3.org/groups/wg/eowg/former-participants/)
 
-Additional contributors may be be listed in the [ARRM Community Group participants list](https://www.w3.org/groups/cg/arrm/participants/) or have contributed through the [ARRM GitHub repository](https://github.com/w3c/wai-arrm).
-
-## EOWG leadership
-
+### EOWG leadership
 EOWG Co-Chairs:
 * Sharron Rush, Knowbility
 * Brent Bakken, Pearson
- 
 W3C Staff Contact for EOWG:
 * Shawn Lawton Henry, W3C WAI
+
+## New contributors
+
+Additional contributors may be be listed in the [ARRM Community Group participants list](https://www.w3.org/groups/cg/arrm/participants/) or have contributed through the [ARRM GitHub repository](https://github.com/w3c/wai-arrm).
