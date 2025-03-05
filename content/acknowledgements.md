@@ -32,10 +32,12 @@ ARRM is being developed through the Accessibility Roles and Responsibilities Map
 ## Editors and contributors through March 2025
 
 ### Project leads
+
 * **Denis Boudreau**
 * **Bill Tyler**
 
 ### Project team
+
 * Jennifer Chadwick
 * Stéphane Deschamps
 * Caitlin Geier
@@ -48,14 +50,17 @@ ARRM is being developed through the Accessibility Roles and Responsibilities Map
 * Frankie Wolf
 
 ### Additional contributors
+
 * Shawn Lawton Henry
 * Sharron Rush
 * [EOWG participants](https://www.w3.org/groups/wg/eowg/former-participants/)
 
 ### EOWG leadership
+
 EOWG Co-Chairs:
 * Sharron Rush, Knowbility
 * Brent Bakken, Pearson
+
 W3C Staff Contact for EOWG:
 * Shawn Lawton Henry, W3C WAI
 
