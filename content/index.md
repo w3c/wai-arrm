@@ -91,7 +91,7 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
 
 * **[Roles Involved in Accessibility](roles)**
 * **[WCAG Success Criteria](wcag-sc)** shows role responsibilities
-* **[Tasks Involved in Accessibility](tasks)** shows tasks you can do to help meet WCAG and role responsibilities — subsets of the tasks are listed for the different roles:
+* **[Tasks Involved in Accessibility](tasks)** shows tasks you can use to help meet WCAG and their role responsibilities — subsets of the tasks are listed for these roles:
   * [User Experience (UX) Designer Responsibilities](user-experience)
   * [Visual Designer Responsibilities](visual-designer)
   * [Content Author Responsibilities](content-author)
