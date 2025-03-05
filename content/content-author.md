@@ -7,7 +7,11 @@ title_html: "Content Author <br><span style='font-size:75%'>Responsibilities Map
 nav_title: "Content Author"
 
 doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome comments via GitHub or email from the [links below](#helpimprove).
+doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
+
+parent_in_h1:
+  - ref: /planning/arrm/
+    name: nav_title
 
 lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
 last_updated: 2025-02-24   # Put the date of this translation YYYY-MM-DD (with month in the middle)
@@ -38,7 +42,7 @@ license: creative-commons
 # image: @@ /content-images/wai-arrm/social.png
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
-   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</p>
+   <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</strong></p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 ---
@@ -47,7 +51,7 @@ footer: >   # Translate words below, including "Date:" and "Editor:" Translate t
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-@@ summary
+This page lists some digital accessibility tasks that are usually the responsibility of content authors.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -87,17 +91,13 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 **Example job titles for this role**
 
-Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer
+Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.
 
-  
+## Tasks to get started
 
-## Content Author Tasks: Starter List
+Below is a list of tasks for content authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
 
-Here is a list of tasks for Content Authors to get started. If these design tasks aren't met, your content - and lack of accessible content like alt text, captions, transcripts etc. - can cause significant barriers to users.
-
-This list is taken from the full list of Content Author tasks.
-
-For all role tasks, see the [<a rel="nofollow" class="external text" href="https://www.w3.org/WAI/EO/wiki/Accessibility_Checkpoint_Full_List%7CAccessibility">Tasks Full List</a>]. 
+You can also get the full list of [Tasks Involved in Accessibility as a web page](/WAI/planning/arrm/tasks) with other roles, or download the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv).
 
 <table>
   <thead>
@@ -128,7 +128,7 @@ For all role tasks, see the [<a rel="nofollow" class="external text" href="https
   </tbody>
 </table>
 
-## Case Study: How to use the Starter List
+## Case study: How to use the tasks
 
 A good way to get familiar with the tasks is to do a short case study. Think about how you might tackle the task in your role.
 
@@ -160,8 +160,25 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 
 [Read Lakshmi's full story](https://www.w3.org/WAI/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
 
-### Resources
+### Additional resources
 
 *   Use the [Alt Text Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) to help decide if an image needs a description.
 *   Use the [Tips for Writing](https://www.w3.org/WAI/tips/writing/) to get started.
 *   Review the [Images Tutorial](https://www.w3.org/WAI/tutorials/images/) for guidance on different types of images.
+
+{::nomarkdown}
+{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
+{:/}
+
+For the later iterations of this page, we could:
+- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/WAI/planning/arrm/tasks)
+- Provide all the tasks, in addition to the tasks to get started
+- Provide filters to select what to show
+
+Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file](https://raw.githubusercontent.com/w3c/wai-arrm/refs/heads/master/_data/arrm-full-checklist.csv) and using your spreadsheet software to see what you want?
+
+We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
+
+{::nomarkdown}
+{% include_cached box.html type="end" %}
+{:/}
