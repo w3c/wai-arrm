@@ -63,7 +63,7 @@ Each role description includes areas of focus in decision making, decision owner
 
 You are welcome to use this information as is, or change it for your situation.
 
-## 1\. Business Role Group
+## 1\. Business Role Group {#business-role-group}
 
 Writes business requirements and/or initial user stories, are concerned with ensuring that the project delivers the agreed-upon business benefits.
 
@@ -76,7 +76,7 @@ Business analysts are involved in the design or modification of business systems
 <dd>Business Analyst, Client Sponsor</dd>
 </dl>
 
-## 2\. Author Role Group
+## 2\. Author Role Group {#author-role-group}
 
 This role includes content strategy and content authoring, including audio/video production.
 
@@ -110,7 +110,7 @@ Content Publishers may perform some tasks that are a part of the front end web d
 <dd>Content Strategist, Content Producer, Content Publisher, Publishing Technology Specialist, Content Designer, Video Editor, Accessible Materials Specialist, Information Developer, Content Developer, Publishing Implementation Manager</dd>
 </dl>
 
-## 3\. Design Role Group
+## 3\. Design Role Group {#design-role-group}
 
 This group includes user research, user experience (UX), and presentation decisions.
 
@@ -155,7 +155,7 @@ Visual Designers focus largely on the look and feel of an product, as an end use
 <dd>Visual Designer, User Interface (UI) Designer, Interaction Designer, Graphic Designer</dd>
 </dl>
 
-## 4\. Development Role Group
+## 4\. Development Role Group {#development-role-group}
 
 Oversees the creation, coding and delivery of the product based upon the requirements provided. Responsible for all user-facing and supporting systems, along with all related infrastructure selection, setup and deployment.
 
@@ -179,7 +179,7 @@ Back-end developers have a smaller, more indirect involvement with accessibility
 <dd>Back-End Developer, Middleware Developer, Database Architect, Data Engineer</dd>
 </dl>
 
-## 5\. Testing Role Group
+## 5\. Testing Role Group {#testing-role-group}
 
 QA Testers run automated test frameworks or manually test products to confirm correct operation based upon provided requirement.
 
@@ -205,7 +205,7 @@ Quality Assurance Testers responsible for manual testing will typically handle t
 <dd>QA Analyst, QA Specialist, User Acceptance Tester, Functional Tester</dd>
 </dl>
 
-## 6\. Administration Role Group
+## 6\. Administration Role Group {#administration-role-group}
 
 The roles in this section cover managing the product and project, as well as other bureaucratic functions of the broader organization that often have a larger mandate than any individual project. Most administrative roles, as defined in this resource, have very little, if anything, to do with the design, the implementation, or the testing of accessibility principles to create more inclusive applications and websites. These roles, however, are still instrumental in ensuring that the team members who are actively taking part in making content accessible and conformant with WCAG can be successful at doing so. This begins with project managers and product owners working hand in hand with the design, development and testing teams, but also other governance roles contributing to steering the organization's culture in a direction that is aligned with the goals pursued by accessibility guidelines.
 

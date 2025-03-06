@@ -82,22 +82,22 @@ ARRM includes a table of WCAG requirements — called "success criteria" — and
 
 ARRM provides one approach for defining roles, tasks, and responsibilities. You can use these as they are, without any work to customize them.
 
-* **[Roles Involved in Accessibility](roles)**
-* **[WCAG Success Criteria](wcag-sc)** shows role responsibilities
-* **[Tasks Involved in Accessibility](tasks)** shows tasks you can use to help meet WCAG and their role responsibilities — subsets of the tasks are listed for these roles:
-  * [User Experience (UX) Designer Responsibilities](user-experience)
-  * [Visual Designer Responsibilities](visual-designer)
-  * [Content Author Responsibilities](content-author)
-  * [Front-End Developer Responsibilities](front-end)
+* **[Roles Involved in Accessibility](/planning/arrm/roles/)**
+* **[WCAG Success Criteria](/planning/arrm/wcag-sc/)** shows role responsibilities
+* **[Tasks Involved in Accessibility](/planning/arrm/tasks/)** shows tasks you can use to help meet WCAG and their role responsibilities — subsets of the tasks are listed for these roles:
+  * [User Experience (UX) Designer Responsibilities](/planning/arrm/user-experience/)
+  * [Visual Designer Responsibilities](/planning/arrm/visual-designer/)
+  * [Content Author Responsibilities](/planning/arrm/content-author/)
+  * [Front-End Developer Responsibilities](/planning/arrm/front-end/)
 
 ## Customizing ARRM for your situation
 
 Optionally, you can create accessibility roles and responsibilities based on your project and organization.
 
-* You can define different roles for your project team or use the typical [role definitions](roles).
+* You can define different roles for your project team or use the typical [role definitions](/planning/arrm/roles/).
 * You can assign responsibilities at the success criteria level or at the task level.
-	* If at the task level, you can define different tasks or use the typical [tasks involved in accessibility](tasks).
-* For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](decision-tree)**.
+	* If at the task level, you can define different tasks or use the typical [tasks involved in accessibility](/planning/arrm/tasks/).
+* For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](/planning/arrm/decision-tree/)**.
 
 ## Accessibility is about people
 
@@ -108,8 +108,8 @@ While ARRM focuses on meeting WCAG, it is important to first [understand the peo
 {% include box.html type="start" title="We particularly welcome your input on these questions:" icon="comments"%}
 {:/}
 
-- Do you have input on the [Role descriptions](roles)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
-- Please review the tasks in the role(s) that you know best — [User Experience (UX) Desiger](user-experience), [Visual Designer](visual-designer), [Content Author](content-author), [Front-End Developer](front-end). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
+- Do you have input on the [Role descriptions](/planning/arrm/roles/)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
+- Please review the tasks in the role(s) that you know best — [User Experience (UX) Designer](/planning/arrm/user-experience/), [Visual Designer](/planning/arrm/visual-designer/), [Content Author](/planning/arrm/content-author/), [Front-End Developer](/planning/arrm/front-end/). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
 - How would you like to use this resource?
   - Are you comfortable downloading the CSV files and using spreadsheet or other software to sort and filter it for your needs?
   - How might we make this resource more useful for you?

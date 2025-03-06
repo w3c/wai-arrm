@@ -116,7 +116,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
 </table>
 
 
-## Case study: How to use the tasks
+## Case study: How to use the tasks {#how-to-use-the-tasks}
 A good way to get familiar with the tasks is to do a short case study.  Think about how you might tackle the task in your role. 
 
 Then, think of how meeting this task impacts an end user. 

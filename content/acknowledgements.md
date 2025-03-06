@@ -61,4 +61,4 @@ W3C Staff Contact for EOWG:
 
 ## New contributors
 
-Additional contributors may be be listed in the [ARRM Community Group participants list](https://www.w3.org/groups/cg/arrm/participants/) or have contributed through the [ARRM GitHub repository](https://github.com/w3c/wai-arrm).
+Additional contributors may be be listed in the [ARRM Community Group participants list](https://www.w3.org/groups/cg/arrm/participants/) or have contributed through the [ARRM GitHub repository {% include external.html %}](https://github.com/w3c/wai-arrm).
