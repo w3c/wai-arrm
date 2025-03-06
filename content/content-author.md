@@ -22,7 +22,7 @@ github:
   path: content/content-author.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
 permalink: /planning/arrm/content-author/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /planning/arrm/user-experience/    # Do not change this
+ref: /planning/arrm/content-author/    # Do not change this
 
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
