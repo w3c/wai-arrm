@@ -1,26 +1,25 @@
 ---
-# Translation note: Do not translate this page.
-
+# Do not translate this page
 title: "Acknowledgements for ARRM"
 nav_title: "Acknowledgements"
+lang: en
+last_updated: 2025-03-06
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-lang: en
-last_updated: 2025-03-06
-
 github:
-  repository: w3c/wai-arrm
-  path: content/acknowledgements.md 
+  path: content/acknowledgements.md
+
 permalink: /planning/arrm/acknowledgements/
+ref: /planning/arrm/acknowledgements/   
 
-ref: /planning/arrm/acknowledgements/
-
-# description:  @@ a 150ish-character-description for social media   # translate the description
-# image: @@ /content-images/wai-arrm/social.png
-
+# Ignore default values in _config.yml
+doc-note-type: false
+doc-note-message-md: false
+acknowledgements: false
+license: false
 ---
 
 ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](/about/groups/eowg/)).

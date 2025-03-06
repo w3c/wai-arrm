@@ -4,11 +4,8 @@
 
 title: "Accessibility Roles and Responsibilities Mapping (ARRM)"
 nav_title: "Roles and Responsibilities (ARRM)"
-doc-note-type: draft
-doc-note-message-md: This is an in-progress draft. We welcome your comments via GitHub or email from the links below under [Help improve this page](#helpimprove). You are also welcome to join the [ARRM Community Group](https://www.w3.org/community/arrm/) to contribute.
-
-lang: en   # Change "en" to the translated-language shortcode from https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry
-last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with month in the middle)
+lang: en   # Change "en" to the translated-language shortcode
+last_updated: 2025-03-06    # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -18,24 +15,18 @@ last_updated: 2025-03-06   # Put the date of this translation YYYY-MM-DD (with m
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  repository: w3c/wai-arrm
   path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at end, for example: /planning/arrm/fr
 
-ref: /planning/arrm/    # Translators, do not change this
-# changelog: /@@/changelog/
-acknowledgements: /planning/arrm/acknowledgements/
-license: creative-commons
+permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
+ref: /planning/arrm/    # Do not change this
 
-description: ARRM helps you assign responsibilities for digital accessibility to appropriate roles (UX designer, content creator, developer) early in projects.   # translate the description
-image:
-  path: /content-images/wai-arrm/arrm-social.png
-  alt: Accessibility Roles and Responsibilities Mapping (ARRM). W3C Web Accessibility Initiative (WAI). icons of hand, eye, brain, ear, speech, body.
-
-footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
+# In the footer below:
+# Do not translate ACKNOWLEDGEMENTS
+# Translate the other words, including "Editors and contributors:"
+# Translate the Community Group and Working Group names. Leave the acronyms in English.
+footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
-
 ---
 
 {::nomarkdown}
