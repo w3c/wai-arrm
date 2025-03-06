@@ -19,7 +19,7 @@ parent_in_h1:
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 github:
-  path: content/table.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
+  path: content/wcag-sc.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
 
 permalink: /planning/arrm/wcag-sc/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /planning/arrm/wcag-sc/    # Do not change this
