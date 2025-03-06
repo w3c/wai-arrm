@@ -12,8 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
   The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
 baseurl: "/wai-arrm" # the subpath of your site, e.g. /blog
 url: "https://w3c.github.io" # the base hostname & protocol for your site
-twitter:
-  username: w3c_wai
 author: w3c_wai
 exclude:
   - "_external"
@@ -24,7 +22,7 @@ exclude:
 
 # Build settings
 markdown: kramdown
-kramwdown:
+kramdown:
   toc_levels: 2..3
   input: GFM
   syntax_highlighter: rouge
@@ -32,17 +30,6 @@ highlighter: rouge
 repository: w3c/wai-arrm
 
 remote_theme: w3c/wai-website-theme
-
-collections:
-#  business-case:
-#    area: "Plan & Manage"
-#    name: "Business Case"
-#    shortname: "Business Case"
-#    icon: "book" # TODO
-#    repostitory: w3c/wai-bcase
-#    output: true
-#    acknowledgements: false
-#    permalink: /:collection/:path/
 
 defaults:
   -
