@@ -27,8 +27,10 @@ ref: /planning/arrm/    # Translators, do not change this
 acknowledgements: /planning/arrm/acknowledgements/
 license: creative-commons
 
-# description:  @@ a 150ish-character-description for social media   # translate the description
-# image: @@ /content-images/wai-arrm/social.png
+description: ARRM helps you assign responsibilities for digital accessibility to appropriate roles (UX designer, content creator, developer) early in projects.   # translate the description
+image:
+  path: /content-images/wai-arrm/arrm-social.png
+  alt: Accessibility Roles and Responsibilities Mapping (ARRM). W3C Web Accessibility Initiative (WAI). icons of hand, eye, brain, ear, speech, body.
 
 footer: >   # Translate words below, including "Date:" and "Editor:" Translate the Working Group name. Leave the Working Group acronym in English. Do *not* change the dates in the footer below.
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
