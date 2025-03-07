@@ -1,2 +1,4 @@
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+warning_message: >
+  This is a preview of a work-in-progress draft that might include content that is not yet approved. The published version is at <a href="https://www.w3.org/WAI/planning/arrm/">w3.org/WAI/planning/arrm/</a>.
