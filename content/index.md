@@ -79,7 +79,7 @@ Roles that contribute to meeting WCAG requirements for headings:
 ARRM includes a table of WCAG requirements — called "success criteria" — and a table of tasks that address the WCAG success criteria. The tables include primary, secondary, and contributor responsibilities. They are explained more in the Decision Tree page, [Ownership levels section](/planning/arrm/decision-tree/#ownership-levels).
 * Primary — accountable for an accessibility task
 * Secondary — responsible to help complete an accessibility task
-* Contributors — should be consulted to successfully complete an accessibility task
+* Contributor — should be consulted to successfully complete an accessibility task
 
 ## Typical roles and responsibilities
 
