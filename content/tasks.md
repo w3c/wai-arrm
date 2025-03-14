@@ -5,7 +5,7 @@
 title: "Tasks Involved in Accessibility"
 nav_title: "Tasks"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06   # Keep the date of the English version
+last_updated: 2025-03-18   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -54,8 +54,6 @@ inline_css: |
   }
 ---
 
-{% include showhidebutton.html showtext="show navigation" hidetext="hide navigation" target=".sidenav" default="show" %}
-
 {::nomarkdown}
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
@@ -93,6 +91,8 @@ This is not a definitive or complete list of accessibility tasks.
 These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.1 success criteria (SC). A later iteration will include the success criteria added in WCAG 2.2.
 
 This information is also available to download as a [single CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
+
+{% include showhidebutton.html showtext="Show navigation" hidetext="Show tables full width, hide navigation" target=".sidenav" default="show" %}
 
 ## Images and Graphs
 
