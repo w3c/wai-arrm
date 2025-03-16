@@ -5,7 +5,7 @@
 title: "WCAG Success Criteria"
 nav_title: "WCAG Success Criteria"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06   # Keep the date of the English version
+last_updated: 2025-03-15   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -33,7 +33,7 @@ footer: >
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 ---
 
-This page provides an approach for assigning which roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.1 success criteria. A later iteration will include the success criteria added in WCAG 2.2.
+This page provides an approach for assigning which roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.1 success criteria (SC). A later iteration will include the success criteria added in WCAG 2.2.
 
 You can download the information from the table as a [CSV file]({{ "/content-assets/wai-arrm/arrm-wcag-sc.csv" | relative_url }}).
 
