@@ -5,7 +5,7 @@
 title: "Tasks Involved in Accessibility"
 nav_title: "Tasks"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06   # Keep the date of the English version
+last_updated: 2025-03-15   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -33,14 +33,24 @@ footer: >
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
 
 inline_css: | 
-  .sidenav { 
-    display: none; 
-  } 
-  #main { 
-    grid-column: navigation-start / content-end; 
+  /* Only display navigation toggle at breakpoints where navigation appears */
+  .showhidebutton[data-target=".sidenav"] {
+    display: none;
   }
-  #main > *:not(table, header) {
-    /* max-width: 50em; */
+  
+  @media (min-width: 60em) {
+    .showhidebutton[data-target=".sidenav"] {
+      display: inline;
+    }
+
+    /* Only widen main content when sidenav is hidden */
+    body:has(.sidenav[hidden]) #main {
+      grid-column: navigation-start / content-end;
+    }
+    .sidenav[hidden] {
+      /* Override breakpoint's display: block */
+      display: none;
+    }
   }
 ---
 
@@ -81,6 +91,8 @@ This is not a definitive or complete list of accessibility tasks.
 These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.1 success criteria (SC). A later iteration will include the success criteria added in WCAG 2.2.
 
 This information is also available to download as a [single CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
+
+{% include showhidebutton.html showtext="Show navigation" hidetext="Show tables full width, hide navigation" target=".sidenav" default="show" %}
 
 ## Images and Graphs
 
