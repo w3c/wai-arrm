@@ -5,7 +5,7 @@
 title: "Accessibility Roles and Responsibilities Mapping (ARRM)"
 nav_title: "Roles and Responsibilities (ARRM)"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06    # Keep the date of the English version
+last_updated: 2025-03-17    # Keep the date of the English version
 
 # translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -76,7 +76,10 @@ Roles that contribute to meeting WCAG requirements for headings:
 {% include_cached box.html type="end" %}
 {:/}
 
-ARRM includes a table of WCAG requirements — called "success criteria" — and a table of tasks that address the WCAG success criteria. The tables include primary, secondary, and contributor responsibilities.
+ARRM includes a table of WCAG requirements — called "success criteria" — and a table of tasks that address the WCAG success criteria. The tables include primary, secondary, and contributor responsibilities. They are explained more in the Decision Tree page, [Ownership levels section](/planning/arrm/decision-tree/#ownership-levels).
+* Primary — accountable for an accessibility task
+* Secondary — responsible to help complete an accessibility task
+* Contributor — should be consulted to successfully complete an accessibility task
 
 ## Typical roles and responsibilities
 
