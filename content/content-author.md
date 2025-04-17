@@ -1,4 +1,4 @@
----
+6---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
@@ -60,13 +60,9 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Content Creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
 
-**Key Deliverables**
+**Key deliverable examples:**
 
-*   Body copy, managed content, scripts
-*   Taxonomies
-*   Writing guidelines
-*   Media files, including PDF, audio and video
-*   Etc.
+Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.
 
 **Tasks include**
 
