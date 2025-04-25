@@ -41,7 +41,7 @@ SEM-014,1.3.1,A,Page contains a level 1 heading that describes the page content.
 SEM-015,1.3.1,A,Whitespace or pre-formatted text is not used to render content to appear as multiple columns or tabular information.,Development,,Front-End Development,none,none
 SEM-016,1.3.1,A,"Use of native, semantic HTML elements are prioritized over other methods.",Development,,Front-End Development,User Experience (UX) Design,none
 SEM-017,1.3.2,A,The source code (or DOM) order matches the suggested visual order of the design.,Development,x,Front-End Development,User Experience (UX) Design,none
-SEM-018,2.4.1,A,"iFrames displaying content are provided with a clear, informative title attribute value.",Design,x,User Experience (UX) Design,Content Authoring,none
+SEM-018,2.4.1,A,"iFrames displaying content are provided with a clear, informative title attribute value.",Design,,User Experience (UX) Design,Content Authoring,none
 SEM-019,2.4.2,A,Page title text matches the level 1 heading text.,Author,,Content Authoring,none,none
 SEM-020,2.4.2,A,Pages are described using unique and descriptive page title values.,Author,x,Content Authoring,none,none
 SEM-021,2.4.3,A,The tab order logically and predictably follows the expected interaction order of the visual design.,Development,,Front-End Development,User Experience (UX) Design,none
@@ -144,7 +144,7 @@ CSS-022,2.4.7,AA,The CSS outline property of objects that receive keyboard focus
 CSS-023,2.5.5,AAA,"Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.",Design,,Visual Design,none,none
 NAV-001,1.3.1,A,Active objects and other calls to action are visually identifiable as such.,Design,x,Visual Design,none,none
 NAV-002,1.3.3,A,"Instructions are conveyed through more than shape, size, position, or sound alone.",Author,,Content Authoring,User Experience (UX) Design,none
-NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,x,User Experience (UX) Design,"Visual Design 
+NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,,User Experience (UX) Design,"Visual Design 
 Content Authoring",none
 NAV-004,2.2.1,A,Users are notified when time limits are about to expire.,Design,,User Experience (UX) Design,Business,none
 NAV-005,2.2.1,A,"Options to extend, or even turn off time limits are provided.",Design,,User Experience (UX) Design,Business,none
