@@ -1,7 +1,7 @@
-ID,WCAG SC,Level,Task,Main Role,Starter List,Primary Ownership,Secondary Ownership,Contributor
+ID,WCAG SC,Level,Task,"Main Role","Starter List","Primary Ownership","Secondary Ownership",Contributor
 IMG-001,1.1.1,A,"Informative alternate text is provided for images (i.e. not ""spacer"" or image file name).",Author,,"Content Authoring","User Experience (UX) Design",none
-IMG-002,1.1.1,A,Informative images are described with a clear and meaningful text equivalent (alt attribute or other equivalent means).,Author,x,"Content Authoring",none,none
-IMG-003,1.1.1,A,Purely decorative images are provided with null alt attribute values (or other equivalent means).,Development,,"Front-End Development","Content Authoring",none
+IMG-002,1.1.1,A,"Informative images are described with a clear and meaningful text equivalent (alt attribute or other equivalent means).",Author,x,"Content Authoring",none,none
+IMG-003,1.1.1,A,"Purely decorative images are provided with null alt attribute values (or other equivalent means).",Development,,"Front-End Development","Content Authoring",none
 IMG-004,1.1.1,A,Null alt attribute values are used for images that are already described in text in adjacent page content.,Development,,"Front-End Development","Content Authoring",none
 IMG-005,1.1.1,A,Adjacent linked images and text links pointing the same URL are combined into single links.,Development,,"Front-End Development","User Experience (UX) Design",none
 IMG-006,1.1.1,A,Alt text used for images of text include all relevant text found in the image.,Author,,"Content Authoring",none,none
