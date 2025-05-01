@@ -222,8 +222,8 @@ ANM-027,1.4.7,AAA,Prerecorded audio-only background sounds can be controlled by 
 ANM-028,1.4.7,AAA,"Prerecorded audio-only speeches contain no background sound, or if they do, must be at least 20 decibels lower than the foreground speech content.",Author,,"Content Authoring",none,none
 ANM-029,2.1.1,A,Multimedia player controls can be fully operated using only the keyboard.,Development,,Front-End Developer,"User Experience (UX) Design",none
 ANM-030,2.2.2,A,Multimedia player controls are provided to pause or play the multimedia file.,Design,,"User Experience (UX) Design",none,none
-ANM-031,2.2.3,AAA,Timing is not an essential part of the event or activity presented by the content.,Design,,"User Experience (UX) Design",Content Author,Business
-ANM-032,2.2.6,AAA,Users are warned that more than 20 hours of inactivity could lead to data loss.,Design,,"User Experience (UX) Design",Content Author,none
+ANM-031,2.2.3,AAA,Timing is not an essential part of the event or activity presented by the content.,Design,,"User Experience (UX) Design","Content Author",Business
+ANM-032,2.2.6,AAA,Users are warned that more than 20 hours of inactivity could lead to data loss.,Design,,"User Experience (UX) Design","Content Author",none
 ANM-033,2.3.1,A,"Content on the screen does not flash or blink more than three times in any one-second period, or the flash is below the general flash and red flash thresholds.",Design,,"Visual Design",none,none
 ANM-034,2.3.2,AAA,Content on the screen does not flash or blink at a rate that is higher than three times in any one-second period.,Design,,"Visual Design",none,none
 ANM-035,2.3.3,AAA,Animation features that create the illusion of movement are defined so that users can disable them.,Design,,"User Experience (UX) Design",Front-End Developement,none
@@ -235,7 +235,7 @@ SCT-003,1.3.1,A,"Proper markup is used to render emphasized, bolded text and oth
 SCT-004,1.3.1,A,"Proper markup is used to structure quotes, blockquotes and citations.",Development,,"Front-End Development","Content Authoring",none
 SCT-005,1.3.1,A,Heading markup is only used for text which acts as a section heading.,Development,,"Front-End Development","User Experience (UX) Design",none
 SCT-006,1.3.1,A,Heading markup is not used for formatting effects.,Development,,"Front-End Development",none,none
-SCT-007,1.3.1,A,The headings used in a page provide a logical outline for the document.,Author,x,Content Author,"User Experience (UX) Design",none
+SCT-007,1.3.1,A,The headings used in a page provide a logical outline for the document.,Author,x,"Content Author","User Experience (UX) Design",none
 SCT-008,1.3.2,A,The intended reading order of the content remains logical when CSS and images are turned off.,Development,,"Front-End Development",User Experience (UX) Design,none
 SCT-009,1.3.2,A,The source code order reflects the intended reading order of the document.,Development,,"Front-End Development","User Experience (UX) Design",none
 SCT-010,1.3.3,A,"Site supports internationalization with multiple languages, including right-to-left languages.",Business,,"Business Analysis","User Experience (UX) Design","Content Authoring
