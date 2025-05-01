@@ -236,9 +236,9 @@ SCT-004,1.3.1,A,"Proper markup is used to structure quotes, blockquotes and cita
 SCT-005,1.3.1,A,Heading markup is only used for text which acts as a section heading.,Development,,"Front-End Development","User Experience (UX) Design",none
 SCT-006,1.3.1,A,Heading markup is not used for formatting effects.,Development,,"Front-End Development",none,none
 SCT-007,1.3.1,A,The headings used in a page provide a logical outline for the document.,Author,x,Content Author,"User Experience (UX) Design",none
-SCT-008,1.3.2,A,The intended reading order of the content remains logical when CSS and images are turned off.,Development,,"Front-End Development",User Experience (UX) Design ,none
-SCT-009,1.3.2,A,The source code order reflects the intended reading order of the document.,Development,,"Front-End Development",User Experience (UX) Design ,none
-SCT-010,1.3.3,A,"Site supports internationalization with multiple languages, including right-to-left languages.",Business,,Business Analysis,User Experience (UX) Design ,"Content Authoring
+SCT-008,1.3.2,A,The intended reading order of the content remains logical when CSS and images are turned off.,Development,,"Front-End Development",User Experience (UX) Design,none
+SCT-009,1.3.2,A,The source code order reflects the intended reading order of the document.,Development,,"Front-End Development","User Experience (UX) Design",none
+SCT-010,1.3.3,A,"Site supports internationalization with multiple languages, including right-to-left languages.",Business,,"Business Analysis","User Experience (UX) Design","Content Authoring
 Visual Design"
 SCT-011,1.3.3,A,"Text direction is properly marked up as such, especially for right-to-left languages.",Development,,"Front-End Development",none,none
 SCT-012,1.3.3,A,Objects that rely on shape to be properly perceived are supported with additional text information.,Design,,"User Experience (UX) Design","Visual Design",Content Authoring
