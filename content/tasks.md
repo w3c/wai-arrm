@@ -101,7 +101,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -115,7 +115,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% if content_type contains "IMG-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td  style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -133,7 +133,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -147,7 +147,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% if content_type contains "SEM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td  style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -165,7 +165,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -179,7 +179,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% if content_type contains "INP-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td  style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -197,7 +197,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -229,7 +229,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -262,7 +262,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -295,7 +295,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -328,7 +328,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -361,7 +361,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
@@ -394,7 +394,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
       <th>Secondary Ownership</th>
