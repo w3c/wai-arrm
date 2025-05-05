@@ -114,7 +114,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "IMG-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -146,7 +146,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SEM-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -178,7 +178,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "INP-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -210,7 +210,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "FRM-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -242,7 +242,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "CSS-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -275,7 +275,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "NAV-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -308,7 +308,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "TAB-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -341,7 +341,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "ANM-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -374,7 +374,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "SCT-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
@@ -407,7 +407,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign content_type = row["ID"] %}
       {% if content_type contains "DYN-" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
