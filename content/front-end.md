@@ -90,7 +90,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th style="white-space:nowrap;">ID</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
@@ -103,8 +103,8 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       {% assign primary = row["Primary Ownership"] %}
       {% if starter and starter != "" and primary == "Front-End Development" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>{{ row["ID"] }}</td>
+          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
