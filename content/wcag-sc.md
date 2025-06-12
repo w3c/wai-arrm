@@ -53,7 +53,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
     {% for row in site.data.arrm.arrm-wcag-sc %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
         <tr>
-          <td>
+          <td style="white-space:nowrap;>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
