@@ -112,10 +112,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "IMG-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -144,10 +151,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SEM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -176,10 +190,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "INP-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -208,10 +229,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "FRM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -240,10 +268,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "CSS-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -273,10 +308,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "NAV-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -306,10 +348,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "TAB-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -339,10 +388,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "ANM-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -372,10 +428,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SCT-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
@@ -405,10 +468,17 @@ This information is also available to download as a [single CSV file]({{ "/conte
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "DYN-" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
