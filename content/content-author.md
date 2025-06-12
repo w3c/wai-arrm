@@ -103,8 +103,8 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if starter and starter != "" and primary == "Content Authoring" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})
+          <td>{{ row["ID"] }}</td>
+          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
