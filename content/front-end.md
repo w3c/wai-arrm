@@ -61,22 +61,15 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Front end development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
 
-**Key Deliverables**
+**Key deliverable examples:**
 
-*   HTML and CSS files
-*   Client-side scripting
-*   JavaScript libraries and frameworks
-*   Etc.
+HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.
 
-**Tasks include**
+**Tasks include:**
 
-*   Pattern libraries and prototypes
-*   Template functionalities
-*   Semantically-rich HTML document structures and widgets
-*   Use and adapt frameworks and content management systems
-*   Etc.
+Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems,etc.
 
-**Example job titles for this role**
+**Example job titles for this role:**
 
 Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer.
 
