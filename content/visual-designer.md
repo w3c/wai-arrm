@@ -61,22 +61,14 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
-**Key Deliverables include**
+**Key deliverable examples:**
 
-*   Style guides
-*   Page comps
-*   Design mockups
-*   Image files
-*   Etc.
+Style guides, page comps, design mockups, image files, etc.
 
-**Tasks include**
+**Tasks include:**
+Visual styling, logos and branding, animation and iconography design, etc.
 
-*   Visual styling
-*   Logos and branding
-*   Animation and iconography design
-*   Etc.
-
-**Example job titles for this role**
+**Example job titles for this role:**
 
 Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer.
 
