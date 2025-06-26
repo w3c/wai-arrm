@@ -83,7 +83,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th style="white-space:nowrap;">ID</th>
+      <th>ID</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
@@ -94,10 +94,17 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if starter and starter != "" and primary == "Front-End Development" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
