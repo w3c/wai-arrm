@@ -73,6 +73,7 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 *   Content authoring
 *   Media and documentation creation
 *   Content strategies definition
+*   Plain language writing and editing
 *   Etc.
 
 **Example job titles for this role**
