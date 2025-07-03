@@ -59,6 +59,7 @@ This page lists some digital accessibility tasks that are usually the responsibi
 ## Role summary
 
 Content Creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
+
 <dl>
   <dt>Key deliverable examples:</dt>
   <dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.</dd>
@@ -80,9 +81,8 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
-      <th>WCAG SC</th>
-      <th>Level</th>
+      <th style="white-space:nowrap;">ID</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
@@ -95,8 +95,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       {% if starter and starter != "" and primary == "Content Authoring" %}
         <tr>
           <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }}</td>
-          <td>{{ row["Level"] }}</td>
+          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
           <td>{{ row["Task"] }}</td>
           <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
