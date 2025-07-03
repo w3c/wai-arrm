@@ -60,13 +60,16 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Content Creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
 <dl>
-<dt>Key deliverable examples:</dt>
-<dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.</dd>
-<dt>Tasks include</dt>
-<dd>Content authoring, Media and documentation creation, Content strategies definition</dd>
-<dt>Example job titles for this role</dt>
-<dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.</dd>
+  <dt>Key deliverable examples:</dt>
+  <dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.</dd>
+
+  <dt>Tasks include</dt>
+  <dd>Content authoring, Media and documentation creation, Content strategies definition</dd>
+
+  <dt>Example job titles for this role</dt>
+  <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.</dd>
 </dl>
+
 ## Tasks to get started
 
 Below is a list of tasks for content authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
