@@ -1,4 +1,4 @@
----
+6---
 # Translation instructions are after the "#" character in this first section. They are comments that do not show up in the web page. You do not need to translate the instructions after #.
 # In this first section, do not translate the words before a colon. For example, do not translate "title:". Do translate the text after "title:".
 
@@ -60,25 +60,16 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Content Creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
 
-**Key Deliverables**
+<dl>
+  <dt>Key deliverable examples:</dt>
+  <dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.</dd>
 
-*   Body copy, managed content, scripts
-*   Taxonomies
-*   Writing guidelines
-*   Media files, including PDF, audio and video
-*   Etc.
+  <dt>Tasks include</dt>
+  <dd>Content authoring, Media and documentation creation, Content strategies definition</dd>
 
-**Tasks include**
-
-*   Content authoring
-*   Media and documentation creation
-*   Content strategies definition
-*   Plain language writing and editing
-*   Etc.
-
-**Example job titles for this role**
-
-Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.
+  <dt>Example job titles for this role</dt>
+  <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.</dd>
+</dl>
 
 ## Tasks to get started
 
