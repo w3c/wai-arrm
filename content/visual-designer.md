@@ -141,6 +141,7 @@ When red and green color combinations are used, Lexie cannot distinguish between
 [Read Lexie's full story](/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
 
 ## Additional resources
+
 * Use the [Tips for Designing](/tips/designing/) to get started.
 * Use the [Resources for Designers](/roles/designers/).
 
