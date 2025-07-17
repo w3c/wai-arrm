@@ -60,24 +60,16 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Content Creation is often used in marketing, but can also be a task assigned to a role within a product team. Content creation involves defining a content strategy, the writing or creation of the content or media for a product. The person who authors the content is responsible for making sure that content is accessible to people with disabilities.
 
-**Key Deliverables**
+<dl>
+  <dt>Key deliverable examples:</dt>
+  <dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.</dd>
 
-*   Body copy, managed content, scripts
-*   Taxonomies
-*   Writing guidelines
-*   Media files, including PDF, audio and video
-*   Etc.
+  <dt>Tasks include</dt>
+  <dd>Content authoring, Media and documentation creation, Content strategies definition</dd>
 
-**Tasks include**
-
-*   Content authoring
-*   Media and documentation creation
-*   Content strategies definition
-*   Etc.
-
-**Example job titles for this role**
-
-Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.
+  <dt>Example job titles for this role</dt>
+  <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.</dd>
+</dl>
 
 ## Tasks to get started
 
@@ -90,8 +82,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th>WCAG SC</th>
-      <th>Level</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
@@ -101,11 +92,17 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if starter and starter != "" and primary == "Content Authoring" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }}</td>
-          <td>{{ row["Level"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
