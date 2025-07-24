@@ -5,7 +5,7 @@
 title: "WCAG Success Criteria"
 nav_title: "WCAG Success Criteria"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-17   # Keep the date of the English version
+last_updated: 2025-07-24   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
