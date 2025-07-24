@@ -5,7 +5,7 @@
 title: "Visual Designer Responsibilities"
 nav_title: "Visual Designer"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06   # Keep the date of the English version
+last_updated: 2025-07-24   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -61,24 +61,14 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
 
-**Key Deliverables include**
-
-*   Style guides
-*   Page comps
-*   Design mockups
-*   Image files
-*   Etc.
-
-**Tasks include**
-
-*   Visual styling
-*   Logos and branding
-*   Animation and iconography design
-*   Etc.
-
-**Example job titles for this role**
-
-Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer.
+<dl>
+<dt>Key deliverable examples:</dt>
+<dd>Style guides, page comps, design mockups, image files, etc.</dd>
+<dt>Tasks include:</dt>
+<dd>Visual styling, logos and branding, animation and iconography design, etc.</dd>
+<dt>Example job titles for this role:</dt>
+<dd>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer.</dd>
+</dl>
 
 ## Tasks to get started
 
@@ -101,10 +91,17 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if starter and starter != "" and primary == "Visual Design" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td style="white-space:nowrap;">
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
@@ -149,6 +146,7 @@ When red and green color combinations are used, Lexie cannot distinguish between
 [Read Lexie's full story](/people-use-web/user-stories/story-four/) and learn about other design tasks that benefit users like him.
 
 ## Additional resources
+
 * Use the [Tips for Designing](/tips/designing/) to get started.
 * Use the [Resources for Designers](/roles/designers/).
 

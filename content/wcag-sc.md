@@ -5,7 +5,7 @@
 title: "WCAG Success Criteria"
 nav_title: "WCAG Success Criteria"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-17   # Keep the date of the English version
+last_updated: 2025-07-24   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -41,8 +41,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>WCAG SC</th>
-      <th>Level</th>
+      <th style="white-space:nowrap;">WCAG SC</th>
       <th>Business</th>
       <th>Content Authoring</th>
       <th>Visual Design</th>
@@ -52,9 +51,15 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
   </thead>
   <tbody>
     {% for row in site.data.arrm.arrm-wcag-sc %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
         <tr>
-          <td>{{ row["WCAG SC"] }}</td>
-          <td>{{ row["Level"] }}</td>
+          <td style="white-space:nowrap;">
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Business"] }}</td>
           <td>{{ row["Content Authoring"] }}</td>
           <td>{{ row["Visual Design"] }}</td>

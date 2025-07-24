@@ -14,7 +14,7 @@ IMG-012,1.1.1,A,The full explanation of complex images is provided through the l
 IMG-013,1.1.1,A,"Images primarily conveying function use alternative text to describe their purpose, rather than what they look like.",Author,,"Content Authoring","User Experience (UX) Design",none
 IMG-014,1.1.1,A,Text alternatives of static and linked images do not replicate any information that is already being conveyed by screen reader technology.,Author,,"Content Authoring","Front End Development",none
 IMG-015,1.1.1,A,Text alternatives of dynamically updated images are simultaneously updated as the images change.,Development,,"Front-End Development","User Experience (UX) Design","Content Authoring"
-IMG-016,1.1.1,A,"Alternate means of accessing CAPTCHA information are provided, such as audio CAPTCHA, logical question, or other equivalent means.",Design,x,"User Experience (UX) Design","Business Analyst",none
+IMG-016,1.1.1,A,"Alternate means of accessing CAPTCHA information are provided, such as audio CAPTCHA, logical question, or other equivalent means.",Design,x,"Business Analyst","User Experience (UX) Design",none
 IMG-017,1.1.1,A,Images which do not convey information are defined as decorative.,Author,,"Content Authoring",none,none
 IMG-018,1.1.1,A,"Charts, graphs, infographics and other visual representations of information don't rely on color alone to convey information.",Design,x,"Visual Design","User Experience (UX) Design",none
 IMG-019,1.4.5,AA,Text content that conveys information is not part of images.,Design,,"User Experience (UX) Design","Visual Design","Content Authoring"
@@ -41,7 +41,7 @@ SEM-014,1.3.1,A,"Page contains a level 1 heading that describes the page content
 SEM-015,1.3.1,A,"Whitespace or pre-formatted text is not used to render content to appear as multiple columns or tabular information.",Development,,"Front-End Development",none,none
 SEM-016,1.3.1,A,"Use of native, semantic HTML elements are prioritized over other methods.",Development,,"Front-End Development","User Experience (UX) Design",none
 SEM-017,1.3.2,A,"The source code (or DOM) order matches the suggested visual order of the design.",Development,x,"Front-End Development","User Experience (UX) Design",none
-SEM-018,2.4.1,A,"iFrames displaying content are provided with a clear, informative title attribute value.",Design,,"User Experience (UX) Design","Content Authoring",none
+SEM-018,2.4.1,A,"iFrames displaying content are provided with a clear, informative title attribute value.",Design,x,"User Experience (UX) Design","Content Authoring",none
 SEM-019,2.4.2,A,Page title text matches the level 1 heading text.,Author,,"Content Authoring",none,none
 SEM-020,2.4.2,A,Pages are described using unique and descriptive page title values.,Author,x,"Content Authoring",none,none
 SEM-021,2.4.3,A,The tab order logically and predictably follows the expected interaction order of the visual design.,Development,,"Front-End Development","User Experience (UX) Design",none
@@ -60,7 +60,7 @@ INP-004,2.1.1,A,"All actionable elements can be reached, using only the keyboard
 INP-005,2.1.1,A,"All active elements can be triggered, using only the keyboard.",Development,x,"Front-End Development","User Experience (UX) Design",none
 INP-006,2.1.1,A,Device-specific programmatic event handlers are not used as the only way to trigger interactions.,Development,,"Front-End Development",none,none
 INP-007,2.1.1,A,Behaviors for hover and focus states are planned and included with the design assets.,Design,x,"User Experience (UX) Design","Visual Design",none
-INP-008,2.1.1,A,Keyboard focus states are planned for every active element.,Design,x,"User Experience (UX) Design","Visual Design",none
+INP-008,2.1.1,A,Keyboard focus states are planned for every active element.,Design,,"User Experience (UX) Design","Visual Design",none
 INP-009,2.1.1,A,Keyboard focus is not applied to non-active or static elements.,Development,,"Front-End Development","User Experience (UX) Design",none
 INP-010,2.1.1,A,Custom active elements replicate all inherent keyboard behaviors of native active HTML elements.,Development,,"Front-End Development","User Experience (UX) Design",none
 INP-011,2.1.1,A,Non-interactive elements are not assigned JavaScript event handlers.,Development,,"Front-End Development",none,none
@@ -129,7 +129,7 @@ CSS-008,1.3.4,AA,"Content is viewable in both portrait and landscape orientation
 CSS-009,1.4.1,A,"Color is never used as the only way to convey information, context, indicate selection or the presence of errors.",Design,x,"Visual Design","User Experience (UX) Design",Content Authoring
 CSS-010,1.4.1,A,"For a link that is not underlined and in a paragraph text, its text color is sufficiently contrasted by providing a luminosity ratio of at least 3:1 against its surrounding text.",Design,x,"Visual Design",none,none
 CSS-011,1.4.3,AA,"Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.",Design,x,"Visual Design",none,none
-CSS-012,1.4.3,AA,"Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 3:1.",Design,x,"Visual Design",none,none
+CSS-012,1.4.3,AA,"Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 3:1.",Design,,"Visual Design",none,none
 CSS-013,1.4.4,AA,Users can resize the text on the page up to 200% without any loss of content or functionality.,Design,x,"Visual Design","Front End Development",User Experience (UX) Design
 CSS-014,1.4.4,AA,"CSS techniques are used to ensure that content doesn't overflow, overlap or get truncated as a result of increasing the text size.",Development,x,"Front-End Development","Visual Design",User Experience (UX) Design
 CSS-015,1.4.5,AA,"CSS background sprites don't include images of text, unless equivalent text alternatives are also provided as part of the HTML.",Development,,"Front-End Development","Content Authoring
@@ -138,13 +138,13 @@ CSS-016,1.4.6,AAA,"Regular-sized text is sufficiently contrasted against its bac
 CSS-017,1.4.6,AAA,"Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.",Design,,"Visual Design",none,none
 CSS-018,1.4.10,AA,The design makes it possible for end users to enlarge the text so that it reflows into a single column without any loss of information or functionality.,Design,,"Visual Design","User Experience (UX) Design",none
 CSS-019,1.4.10,AA,Displaying content on narrower screens or magnifying it does not cause multidirectional scrolling.,Design,x,"Visual Design","Front-End Development",User Experience (UX) Design
-CSS-020,1.4.11,AA,"All non-text user interface components and graphical objects are sufficiently contrasted against their background, with a luminosity ratio of at least 3:1.",Design,,"Visual Design",none,none
+CSS-020,1.4.11,AA,"All non-text user interface components and graphical objects are sufficiently contrasted against their background, with a luminosity ratio of at least 3:1.",Design,x,"Visual Design",none,none
 CSS-021,1.4.12,AA,"Adjusting spacing between letters, words, or paragraphs, or adjusting line height does not cause a loss of content or functionality.",Design,,"Visual Design","Front-End Development",none
 CSS-022,2.4.7,AA,The CSS outline property of objects that receive keyboard focus are not set to zero or none.,Development,,"Front-End Development","Visual Design",none
-CSS-023,2.5.5,AAA,"Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.",Design,,"Visual Design",none,none
+CSS-023,2.5.5,AAA,"Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.",Design,x,"Visual Design",none,none
 NAV-001,1.3.1,A,Active objects and other calls to action are visually identifiable as such.,Design,x,"Visual Design",none,none
 NAV-002,1.3.3,A,"Instructions are conveyed through more than shape, size, position, or sound alone.",Author,,"Content Authoring","User Experience (UX) Design",none
-NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,,"User Experience (UX) Design","Visual Design 
+NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,x,"User Experience (UX) Design","Visual Design 
 Content Authoring",none
 NAV-004,2.2.1,A,Users are notified when time limits are about to expire.,Design,,"User Experience (UX) Design",Business,none
 NAV-005,2.2.1,A,"Options to extend, or even turn off time limits are provided.",Design,,"User Experience (UX) Design",Business,none
@@ -213,22 +213,22 @@ ANM-018,1.2.7,AAA,Extended audio description is provided for all prerecorded syn
 ANM-019,1.2.8,AAA,Text alternatives are provided for all prerecorded audio and video files.,Author,,"Content Authoring","User Experience (UX) Design",none
 ANM-020,1.2.8,AAA,Brief descriptions summarizing multimedia content are provided in close proximity to the audio and video files.,Design,,"User Experience (UX) Design","Content Authoring",none
 ANM-021,1.2.9,AAA,Live transcripts are provided for all audio content happening in real-time.,Author,,"Content Authoring","User Experience (UX) Design",none
-ANM-022,1.4.2,A,Multimedia player controls are provided to turn sound on and off.,Design,x,"User Experience (UX) Design",none,none
-ANM-023,1.4.2,A,Volume controls for page-level multimedia files are independent from general computer audio controls.,Development,,Front-End Developer,"User Experience (UX) Design",none
+ANM-022,1.4.2,A,Multimedia player controls are provided to turn sound on and off.,Design,,"User Experience (UX) Design",none,none
+ANM-023,1.4.2,A,Volume controls for page-level multimedia files are independent from general computer audio controls.,Development,,Front-End Development,"User Experience (UX) Design",none
 ANM-024,1.4.2,A,Volume controls for page-level multimedia files are visually located at the top of the page.,Design,,"User Experience (UX) Design",none,none
-ANM-025,1.4.2,A,Audio content that automatically starts on page load lasts no longer than 3 seconds.,Development,,Front-End Developer,"User Experience (UX) Design",none
+ANM-025,1.4.2,A,Audio content that automatically starts on page load lasts no longer than 3 seconds.,Development,,Front-End Development,"User Experience (UX) Design",none
 ANM-026,1.4.2,A,Prerecorded or live video content is not set to auto-play.,Design,,"User Experience (UX) Design",none,none
-ANM-027,1.4.7,AAA,Prerecorded audio-only background sounds can be controlled by the user.,Design,,"User Experience (UX) Design",Front-End Developer,none
+ANM-027,1.4.7,AAA,Prerecorded audio-only background sounds can be controlled by the user.,Design,,"User Experience (UX) Design",Front-End Development,none
 ANM-028,1.4.7,AAA,"Prerecorded audio-only speeches contain no background sound, or if they do, must be at least 20 decibels lower than the foreground speech content.",Author,,"Content Authoring",none,none
-ANM-029,2.1.1,A,Multimedia player controls can be fully operated using only the keyboard.,Development,,Front-End Developer,"User Experience (UX) Design",none
+ANM-029,2.1.1,A,Multimedia player controls can be fully operated using only the keyboard.,Development,,Front-End Development,"User Experience (UX) Design",none
 ANM-030,2.2.2,A,Multimedia player controls are provided to pause or play the multimedia file.,Design,,"User Experience (UX) Design",none,none
 ANM-031,2.2.3,AAA,Timing is not an essential part of the event or activity presented by the content.,Design,,"User Experience (UX) Design","Content Authoring",Business
 ANM-032,2.2.6,AAA,Users are warned that more than 20 hours of inactivity could lead to data loss.,Design,,"User Experience (UX) Design","Content Authoring",none
 ANM-033,2.3.1,A,"Content on the screen does not flash or blink more than three times in any one-second period, or the flash is below the general flash and red flash thresholds.",Design,,"Visual Design",none,none
 ANM-034,2.3.2,AAA,"Content on the screen does not flash or blink at a rate that is higher than three times in any one-second period.",Design,,"Visual Design",none,none
 ANM-035,2.3.3,AAA,"Animation features that create the illusion of movement are defined so that users can disable them.",Design,,"User Experience (UX) Design",Front-End Developement,none
-ANM-036,2.3.3,AAA,"Animation features that create the illusion of movement support prefers-reduced-motion (or other equivalent means).",Development,,Front-End Developer,"User Experience (UX) Design",none
-ANM-037,4.1.2,A,"Information conveyed by multimedia player controls are programmatically announced through assistive technologies.",Development,,Front-End Developer,"User Experience (UX) Design",none
+ANM-036,2.3.3,AAA,"Animation features that create the illusion of movement support prefers-reduced-motion (or other equivalent means).",Development,,Front-End Development,"User Experience (UX) Design",none
+ANM-037,4.1.2,A,"Information conveyed by multimedia player controls are programmatically announced through assistive technologies.",Development,,Front-End Development,"User Experience (UX) Design",none
 SCT-001,1.1.1,A,"Emoticons, emojis, ASCII art, and other non-markup language constructs are supported with equivalent text alternatives and conveyed to assistive technologies.",Design,,"User Experience (UX) Design","Content Authoring",Front-End Development
 SCT-002,1.3.1,A,"Emoticons, emojis, ASCII art, and other non-markup language constructs are not used as the only way to structure content or convey information.",Design,,"User Experience (UX) Design","Front-End Development",none
 SCT-003,1.3.1,A,"Proper markup is used to render emphasized, bolded text and other stylistic or presentational effects.",Development,,"Front-End Development",none,none
@@ -255,7 +255,7 @@ SCT-022,3.1.2,AA,Content passages that differ from the default are identified wi
 SCT-023,3.1.3,AAA,"Unusual words, phrases, and abbreviations are organized into a glossary.",Design,,"User Experience (UX) Design","Content Authoring",none
 SCT-024,3.1.3,AAA,Unusual words found in the content are linked to their definitions in a glossary.,Design,,"User Experience (UX) Design","Content Authoring",none
 SCT-025,3.1.4,AAA,Abbreviations are programmatically associated with their definition.,Development,,"Front-End Development",none,none
-SCT-026,3.1.5,AAA,"Content is written in plain language using everyday words, to help users with different literacy levels and access needs.",Author,,"Content Authoring",none,none
+SCT-026,3.1.5,AAA,"Content is written in plain language using everyday words, to help users with different literacy levels and access needs.",Author,x,"Content Authoring",none,none
 SCT-027,3.1.5,AAA,"Ideas conveyed through text are supported with illustrations or other visuals.",Design,,"Visual Design","User Experience (UX) Design 
 Content Authoring",none
 SCT-028,3.1.5,AAA,"Content is displayed and structured in a way that makes it easier to read.",Design,,"User Experience (UX) Design","Visual Design",none

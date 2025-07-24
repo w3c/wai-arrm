@@ -5,7 +5,7 @@
 title: "Front-End Developer Responsibilities"
 nav_title: "Front-End Developer"
 lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06    # Keep the date of the English version
+last_updated: 2025-07-24   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -61,24 +61,16 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 Front end development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
 
-**Key Deliverables**
+<dl>
+  <dt>Key deliverable examples:</dt>
+  <dd>HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.</dd>
 
-*   HTML and CSS files
-*   Client-side scripting
-*   JavaScript libraries and frameworks
-*   Etc.
+  <dt>Tasks include:</dt>
+  <dd>Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.</dd>
 
-**Tasks include**
-
-*   Pattern libraries and prototypes
-*   Template functionalities
-*   Semantically-rich HTML document structures and widgets
-*   Use and adapt frameworks and content management systems
-*   Etc.
-
-**Example job titles for this role**
-
-Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer.
+  <dt>Example job titles for this role:</dt>
+  <dd>Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer.</dd>
+</dl>
 
 ## Tasks to get started
 
@@ -90,7 +82,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th style="white-space:nowrap;">ID</th>
+      <th>ID</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
@@ -101,10 +93,17 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if starter and starter != "" and primary == "Front-End Development" %}
         <tr>
-          <td>{{ row["ID"] }}</td>
-          <td>{{ row["WCAG SC"] }} ({{ row["Level"] }})</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
           <td>{{ row["Task"] }}</td>
           <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
         </tr>
