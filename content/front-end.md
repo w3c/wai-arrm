@@ -63,13 +63,13 @@ Front end development typically builds the parts of a product that will be inter
 
 <dl>
   <dt>Key deliverable examples:</dt>
-  <dd>HTML and CSS files, client-side scripting, JavaScript libraries and frameworks, etc.</dd>
+  <dd>HTML and CSS files, client-side scripting, JavaScript libraries, and frameworks</dd>
 
   <dt>Tasks include:</dt>
-  <dd>Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks and content management systems, etc.</dd>
+  <dd>Pattern libraries and prototypes, template functionalities, semantically-rich HTML document structures and widgets, use and adapt frameworks, and content management systems</dd>
 
   <dt>Example job titles for this role:</dt>
-  <dd>Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, UI/UX Engineer.</dd>
+  <dd>Front End Developer, Web Developer, Full-Stack Developer, UI/UX Developer, JavaScript Developer, and UI/UX Engineer</dd>
 </dl>
 
 ## Tasks to get started
