@@ -24,6 +24,12 @@ license: false
 
 ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](/about/groups/eowg/)).
 
+## Origins of ARRM
+
+ARRM traces back to independent work by Denis Boudreau and me over a decade ago, each exploring role-based approaches to accessibility. We met in person at CSUN 2017, where the alignment in our thinking sparked what became the foundation of ARRM.
+
+In the years that followed, we formed a working group within W3C’s Education and Outreach Working Group (EOWG) to refine the concept. This collaborative effort matured into a formal project, culminating in the release of ARRM’s first draft under W3C guidance in 2025.
+
 ## Editors and contributors through March 2025
 
 ### Project leads
