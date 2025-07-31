@@ -62,10 +62,11 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 <dl>
 <dt>Key deliverable examples:</dt>
-<dd>User journeys, wireframes, prototypes, interaction guidelines, information architecture</dd><dt>Tasks include:</dt>
-<dd>User workflow / process maps, designing user experiences, user task and workflow mapping, creating and maintaining user personas</dd>
+<dd>User journeys, wireframes, prototypes, interaction guidelines, and information architecture</dd>
+<dt>Tasks include:</dt>
+<dd>User workflow / process maps, designing user experiences, user task and workflow mapping, creating, and maintaining user personas</dd>
 <dt>Example job titles for this role:</dt>
-<dd>User Experience (UX) Designer, Product Designer, Web Designer, Service Designer</dd>
+<dd>User Experience (UX) Designer, Product Designer, Web Designer, and Service Designer</dd>
 </dl>
 
 ## Tasks to get started
