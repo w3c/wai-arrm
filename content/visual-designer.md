@@ -63,11 +63,11 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 
 <dl>
 <dt>Key deliverable examples:</dt>
-<dd>Style guides, page comps, design mockups, image files, etc.</dd>
+<dd>Style guides, page comps, design mockups, and image files</dd>
 <dt>Tasks include:</dt>
-<dd>Visual styling, logos and branding, animation and iconography design, etc.</dd>
+<dd>Visual styling, logos and branding, animation, and iconography design</dd>
 <dt>Example job titles for this role:</dt>
-<dd>Visual Designer, Web Designer, User Interface (UI) Designer, Graphic Designer.</dd>
+<dd>Visual Designer, Web Designer, User Interface (UI) Designer, and Graphic Designer</dd>
 </dl>
 
 ## Tasks to get started

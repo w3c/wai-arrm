@@ -62,13 +62,13 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 <dl>
   <dt>Key deliverable examples:</dt>
-  <dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio and video, etc.</dd>
+  <dd>Body copy, managed content, scripts, taxonomies, written guidelines, media files, including PDF, audio, and video</dd>
 
   <dt>Tasks include:</dt>
-  <dd>Content authoring, Media and documentation creation, Content strategies definition</dd>
+  <dd>Content authoring, Media and documentation creation, and Content strategies definition</dd>
 
   <dt>Example job titles for this role:</dt>
-  <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, Content Developer.</dd>
+  <dd>Content Strategist, Content Creator, Content Designer, Content Author, Digital Copywriter, UX Writer, Content Producer, Technical Writer, Information Developer, and Content Developer</dd>
 </dl>
 
 ## Tasks to get started
