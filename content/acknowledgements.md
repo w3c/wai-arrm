@@ -9,9 +9,6 @@ parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-github:
-  path: content/acknowledgements.md
-
 permalink: /planning/arrm/acknowledgements/
 ref: /planning/arrm/acknowledgements/   
 
