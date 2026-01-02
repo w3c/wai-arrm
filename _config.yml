@@ -11,8 +11,8 @@ description: >
   The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
 warning_message: >
   This is a local preview of ARRM. The published version is at <a href="https://www.w3.org/WAI/planning/arrm/">w3.org/WAI/planning/arrm/</a>.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://w3c.github.io" # the base hostname & protocol for your site
+baseurl: "/wai-arrm" # the subpath of your site (for GitHub Pages)
+url: "https://w3c.github.io" # the base hostname & protocol for your site (for GitHub Pages)
 author: w3c_wai
 exclude:
   - "_external"
