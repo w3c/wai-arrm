@@ -2,6 +2,37 @@
 
 This repository is used by the [ARRM W3C Community Group](https://www.w3.org/community/arrm/) to work on the Accessibility Roles and Responsibilities Mapping (ARRM).
 
+## Build locally
+
+Before you begin, make sure you have the following installed:
+
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) version 3.4.8 or higher\
+    Check your Ruby version using `ruby -v`
+- [Bundler](https://bundler.io/)
+
+1. Install  Ruby dependencies
+
+    ```bash
+    bundle install
+    ```
+
+2. Use the latest version of the `wai-website-theme` and `wai-website-plugin` dependencies (optional)
+
+    By default, the project will use the versions of the theme and plugin set in the `Gemfile.lock` file. To use the latest versions, run:
+    
+    ```bash
+    bundle update wai-website-theme --conservative
+    bundle update wai-website-plugin --conservative
+    ```
+
+    **Note:** Make sure to include the `--conservative` flag to avoid updating the gems the theme and plugin depend on.
+
+3. Serve and preview
+
+    ```bash
+    bundle exec jekyll serve
+    ```
+
 ## Published draft
 
 ARRM is published as a draft at https://www.w3.org/WAI/planning/arrm/
