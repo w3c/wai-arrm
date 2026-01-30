@@ -7,13 +7,12 @@
 
 # Site settings
 title: "Web Accessibility Initiative (WAI)"
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   The Website of the World Wide Web Consortium’s Web Accessibility Initiative.
 warning_message: >
   This is a local preview of ARRM. The published version is at <a href="https://www.w3.org/WAI/planning/arrm/">w3.org/WAI/planning/arrm/</a>.
-baseurl: "/wai-arrm" # the subpath of your site, e.g. /blog
-url: "https://w3c.github.io" # the base hostname & protocol for your site
+baseurl: "/wai-arrm" # the subpath of your site (for GitHub Pages)
+url: "https://w3c.github.io" # the base hostname & protocol for your site (for GitHub Pages)
 author: w3c_wai
 exclude:
   - "_external"
@@ -21,6 +20,9 @@ exclude:
   - "Gemfile.lock"
   - "README.md"
   - "w3c.json"
+  - "node_modules"
+repository: w3c/wai-arrm
+branch: draft
 
 # Build settings
 markdown: kramdown
@@ -29,9 +31,8 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 highlighter: rouge
-repository: w3c/wai-arrm
 
-remote_theme: w3c/wai-website-theme
+theme: wai-website-theme
 
 defaults:
   -
@@ -55,12 +56,3 @@ defaults:
       image:
         path: /content-images/wai-arrm/arrm-social.png
         alt: Accessibility Roles and Responsibilities Mapping (ARRM). W3C Web Accessibility Initiative (WAI). icons of hand, eye, brain, ear, speech, body.
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-include-cache
-  - jekyll-paginate
-  - jekyll-remote-theme
-  - wai-website-plugin
