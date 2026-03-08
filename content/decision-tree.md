@@ -171,7 +171,7 @@ Is this task about [Development](/planning/arrm/front-end/)?
 
 Front-End Developers are typically the primary owners when the tasks relate to implementation or the coding of the page. They typically are not primary owners when they follow instructions defined in requirements created by other stakeholders in early design phases.
 
-It's a frequent misconception that front-end developers should own most, if not all tasks. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input.
+It’s a frequent [misconception](#misconception) that front-end developers should own most, if not all tasks. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input. These are situations where developers have unique technical knowledge needed as input to come to a final decision that can be implemented. Otherwise, developers might be needlessly involved in most or all decision making when they have no valuable input to provide.
 
 #### Step F.
 
