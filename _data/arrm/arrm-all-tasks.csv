@@ -21,8 +21,8 @@ IMG-019,1.4.5,AA,Text content that conveys information is not part of images.,De
 IMG-020,1.4.5,AA,Text that is placed on top of an image is handled semantically through HTML and CSS instead.,Development,,"Front-End Development","User Experience (UX) Design",none
 IMG-021,1.4.5,AA,"Unless a particular presentation of text is essential to the information being conveyed, all images that contain text are only used for purely decorative purposes.",Design,x,"Visual Design","User Experience (UX) Design",none
 IMG-022,1.4.9,AAA,"With the exception of logos, all images that contain text are only used for purely decorative purposes.",Design,,"Visual Design","Content Authoring",none
-SEM-001,1.3.1,A,Informative content is provided through HTML markup.,Development,,"Front-End Development","User Experience (UX) Design", "Content Authoring",none
-SEM-002,1.3.1,A,HTML elements are used according to the HTML specification.,Development,x,"Front-End Development","User Experience (UX) Design",none
+SEM-001,1.3.1,A,"Informative content is provided through HTML markup.",Development,,"Front-End Development","User Experience (UX) Design", "Content Authoring",none
+SEM-002,1.3.1,A,"HTML elements are used according to the HTML specification.",Development,x,"Front-End Development","User Experience (UX) Design",none
 SEM-003,1.3.1,A,Navigation groupings are marked up using HTML list or nav elements (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
 SEM-004,1.3.1,A,Header sections are marked up using HTML header elements (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
 SEM-005,1.3.1,A,The main section of a page is marked up using a HTML main element (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
