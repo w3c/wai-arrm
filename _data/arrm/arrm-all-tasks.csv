@@ -7,12 +7,12 @@ IMG-005,1.1.1,A,Adjacent linked images and text links pointing the same URL are 
 IMG-006,1.1.1,A,Alt text used for images of text include all relevant text found in the image.,Author,,"Content Authoring",none,none
 IMG-007,1.1.1,A,"Informative images are marked up as foreground images, and not embedded as part of the CSS.",Development,,"Front-End Development","Content Authoring",none
 IMG-008,1.1.1,A,The purpose or function of complex images is accurately described in text.,Author,x,"Content Authoring","User Experience (UX) Design",none
-IMG-009,1.1.1,A,"The purpose or function of complex images is conveyed using a text description, via an alt attribute.",Development,,"Front-End Development","Content Authoring",User Experience (UX) Design
+IMG-009,1.1.1,A,"The purpose or function of complex images is conveyed using a text description, via an alt attribute.",Development,,"Front-End Development","Content Authoring","User Experience (UX) Design"
 IMG-010,1.1.1,A,The full explanation of complex images is accurately described in text.,Author,x,"Content Authoring",none,none
 IMG-011,1.1.1,A,A mechanism that conveys the way through which the full explanation of complex images is defined.,Design,,"User Experience (UX) Design",none,none
 IMG-012,1.1.1,A,The full explanation of complex images is provided through the longdesc attribute (or other equivalent means).,Development,,"Front-End Development",none,none
 IMG-013,1.1.1,A,"Images primarily conveying function use alternative text to describe their purpose, rather than what they look like.",Author,,"Content Authoring","User Experience (UX) Design",none
-IMG-014,1.1.1,A,Text alternatives of static and linked images do not replicate any information that is already being conveyed by screen reader technology.,Author,,"Content Authoring",Front End Development,none
+IMG-014,1.1.1,A,Text alternatives of static and linked images do not replicate any information that is already being conveyed by screen reader technology.,Author,,"Content Authoring","Front-End Development",none
 IMG-015,1.1.1,A,Text alternatives of dynamically updated images are simultaneously updated as the images change.,Development,,"Front-End Development","User Experience (UX) Design",Content Authoring
 IMG-016,1.1.1,A,"Alternate means of accessing CAPTCHA information are provided, such as audio CAPTCHA, logical question, or other equivalent means.",Design,x,Business Analyst,"User Experience (UX) Design",none
 IMG-017,1.1.1,A,Images which do not convey information are defined as decorative.,Author,,"Content Authoring",none,none
@@ -73,9 +73,9 @@ INP-020,2.5.2,A,"Non-essential single pointer functionality is not triggered on 
 INP-021,2.5.3,A,Text or images of text that is usually included in a user interface control is part of its accessible name.,Author,,"Content Authoring","User Experience (UX) Design",none
 INP-022,2.5.4,A,All non-essential motion-related functionalities have alternative user interface controls that allow for equivalent actions.,Design,,"User Experience (UX) Design",none,none
 INP-023,2.5.4,A,All non-essential motion-related functionality can be turned off to prevent accidental actuation.,Design,,"User Experience (UX) Design",none,none
-INP-024,3.2.2,A,Keyboard focus does not move automatically from one form control to the next.,Design,x,"User Experience (UX) Design",Front End Development,none
-INP-025,2.5.7,AA,All functionality requiring dragging movements can also be operated using single-pointer alternatives.,Design,,UX Designer,none,none
-INP-026,2.5.8,AA,Any programmatic grouping of controls has a target area of at least 24 by 24 CSS pixels.,Development,,Front-End Developer,Visual Designer,UX Designer
+INP-024,3.2.2,A,Keyboard focus does not move automatically from one form control to the next.,Design,x,"User Experience (UX) Design","Front-End Development",none
+INP-025,2.5.7,AA,All functionality requiring dragging movements can also be operated using single-pointer alternatives.,Design,,"User Experience (UX) Design",none,none
+INP-026,2.5.8,AA,Any programmatic grouping of controls has a target area of at least 24 by 24 CSS pixels.,Development,,Front-End Developer,"Visual Design",UX Designer
 FRM-001,1.3.1,A,Text labels are marked up using the label element or other equivalent means.,Development,x,"Front-End Development",none,none
 FRM-002,1.3.1,A,"Text labels and form controls are programmatically associated (using the FOR and ID attributes, or equivalent means).",Development,,"Front-End Development","User Experience (UX) Design",none
 FRM-003,1.3.1,A,"Submit buttons in forms rely on a submit input type, a button element, or other equivalent means.",Development,,"Front-End Development",none,none
@@ -103,9 +103,9 @@ FRM-024,3.3.1,A,Error messages are grouped as a list at the top of the form.,Des
 FRM-025,3.3.2,A,Radio buttons and checkbox labels are positioned to the right of their respective form controls (for left-to-right languages).,Design,,"User Experience (UX) Design",none,none
 FRM-026,3.3.2,A,Related form controls and their respective labels are grouped together visually.,Design,,"User Experience (UX) Design","Visual Design",none
 FRM-027,3.3.2,A,Instructions are in close visual proximity to their related controls.,Design,,"User Experience (UX) Design",none,none
-FRM-028,3.3.2,A,Form controls are coded to have persistent visual labels.,Development,,"Front-End Development","User Experience (UX) Design",Visual Design
+FRM-028,3.3.2,A,Form controls are coded to have persistent visual labels.,Development,,"Front-End Development","User Experience (UX) Design","Visual Design"
 FRM-029,3.3.2,A,Form controls are designed to have persistent visual labels.,Design,x,"User Experience (UX) Design","Visual Design",none
-FRM-030,3.3.2,A,Clear text-based instructions are provided on how to use the form controls.,Author,,"Content Authoring","User Experience (UX) Design",Visual Design
+FRM-030,3.3.2,A,Clear text-based instructions are provided on how to use the form controls.,Author,,"Content Authoring","User Experience (UX) Design","Visual Design"
 FRM-031,3.3.2,A,Instructions provided in forms are displayed in a clear and unambiguous way.,Design,x,"Visual Design","User Experience (UX) Design",none
 FRM-032,3.3.2,A,Placeholder text is not used in lieu of regular text label elements.,Design,,"User Experience (UX) Design",none,none
 FRM-033,3.3.3,AA,Error messages returned provide clear instructions on how to fix them.,Author,,"Content Authoring","User Experience (UX) Design",none
@@ -115,9 +115,9 @@ FRM-036,3.3.4,AA,"Users are provided with means to prevent and correct form erro
 FRM-037,3.3.4,AA,"When legal, financial, or data information is involved, confirmation screens are provided prior to any final form submission.",Design,,"User Experience (UX) Design",Business,Front-End Development
 FRM-038,3.3.5,AAA,Context-sensitive help text is available.,Design,,"User Experience (UX) Design","Content Authoring",none
 FRM-039,3.3.6,AAA,Users are provided with means to prevent and correct form errors.,Design,,"User Experience (UX) Design",Business,none
-FRM-040,3.3.7,A,"Except when it is essential for users to re-enter information in the same session, previously entered information is made available through auto-population or user selection.",Design,,UX Designer,Front-End Developer,none
-FRM-041,3.3.8,AA,Cognitive function tests that do not rely on object recognition or personal content must provide an alternative non-cognitive method or an assistive mechanism.,Design,,UX Designer,Front-End Developer,Business
-FRM-042,3.3.9,AAA,A cognitive function test during authentication is not required unless an alternative non-cognitive method or an assistive mechanism is provided.,Design,,UX Designer,Front-End Developer,Business
+FRM-040,3.3.7,A,"Except when it is essential for users to re-enter information in the same session, previously entered information is made available through auto-population or user selection.",Design,,"User Experience (UX) Design",Front-End Developer,none
+FRM-041,3.3.8,AA,Cognitive function tests that do not rely on object recognition or personal content must provide an alternative non-cognitive method or an assistive mechanism.,Design,,"User Experience (UX) Design",Front-End Developer,Business
+FRM-042,3.3.9,AAA,A cognitive function test during authentication is not required unless an alternative non-cognitive method or an assistive mechanism is provided.,Design,,"User Experience (UX) Design",Front-End Developer,Business
 CSS-001,1.1.1,A,Icon fonts used to convey information are provided with a text equivalent.,Design,,"User Experience (UX) Design","Content Authoring",none
 CSS-002,1.1.1,A,The meaning of icon fonts is determined programmatically using the aria-label attribute (or other equivalent means).,Development,,"Front-End Development","Content Authoring",none
 CSS-003,1.1.1,A,"Icon fonts whose default accessible name do not represent what the icon is, are overwritten using an aria-hidden attribute (or other equivalent means).",Development,,"Front-End Development",none,none
@@ -130,7 +130,7 @@ CSS-009,1.4.1,A,"Color is never used as the only way to convey information, cont
 CSS-010,1.4.1,A,"For a link that is not underlined and in a paragraph text, its text color is sufficiently contrasted by providing a luminosity ratio of at least 3:1 against its surrounding text.",Design,x,"Visual Design",none,none
 CSS-011,1.4.3,AA,"Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 4.5:1.",Design,x,"Visual Design",none,none
 CSS-012,1.4.3,AA,"Large-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 3:1.",Design,,"Visual Design",none,none
-CSS-013,1.4.4,AA,Users can resize the text on the page up to 200% without any loss of content or functionality.,Design,x,"Visual Design",Front End Development,User Experience (UX) Design
+CSS-013,1.4.4,AA,Users can resize the text on the page up to 200% without any loss of content or functionality.,Design,x,"Visual Design","Front-End Development",User Experience (UX) Design
 CSS-014,1.4.4,AA,"CSS techniques are used to ensure that content doesn't overflow, overlap or get truncated as a result of increasing the text size.",Development,x,"Front-End Development","Visual Design",User Experience (UX) Design
 CSS-015,1.4.5,AA,"CSS background sprites don't include images of text, unless equivalent text alternatives are also provided as part of the HTML.",Development,,"Front-End Development","Content Authoring","Visual Design",none
 CSS-016,1.4.6,AAA,"Regular-sized text is sufficiently contrasted against its background, with a luminosity ratio of at least 7:1.",Design,,"Visual Design",none,none
@@ -141,16 +141,16 @@ CSS-020,1.4.11,AA,"All non-text user interface components and graphical objects 
 CSS-021,1.4.12,AA,"Adjusting spacing between letters, words, or paragraphs, or adjusting line height does not cause a loss of content or functionality.",Design,,"Visual Design","Front-End Development",none
 CSS-022,2.4.7,AA,The CSS outline property of objects that receive keyboard focus are not set to zero or none.,Development,,"Front-End Development","Visual Design",none
 CSS-023,2.5.5,AAA,"Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.",Design,x,"Visual Design",none,none
-CSS-024,2.4.11,AA,"Elements that receive keyboard focus are at least partially visible in the viewport, without being covered by other content.",Design,,UX Designer,Front-End Developer,Visual Designer
-CSS-025,2.4.12,AAA,"Elements that receive keyboard focus are fully visible within the viewport, without being covered by other content.",Design,,UX Designer,Front-End Developer,Visual Designer
-CSS-026,2.4.13,AAA,"The keyboard focus indicator is clearly visible and has a minimum area equivalent to a 2 CSS pixel thick border around the focused element, except situations where no visible change is required.",Design,,Visual Designer,none,UX Designer
-CSS-027,2.4.13,AAA,The focus indicator has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.,Design,,Visual Designer,none,none
-CSS-028,2.5.8,AA,A minimum height and width of 24 CSS pixels is provided for each interactive target that is not an inline link or control.,Design,,Visual Designer,none,none
-CSS-029,2.5.8,AA,"For any control that is less than 24 by 24 CSS pixels, add padding so that the target area is at least 24 by 24 CSS pixels.",Design,,Visual Designer,none,none
-CSS-030,2.5.8,AA,Controls with the same functionality or destination are combined within a single target area that is at least 24 by 24 CSS pixels.,Design,,UX Designer,Visual Designer,Front-End Developer
+CSS-024,2.4.11,AA,"Elements that receive keyboard focus are at least partially visible in the viewport, without being covered by other content.",Design,,"User Experience (UX) Design",Front-End Developer,"Visual Design"
+CSS-025,2.4.12,AAA,"Elements that receive keyboard focus are fully visible within the viewport, without being covered by other content.",Design,,"User Experience (UX) Design",Front-End Developer,"Visual Design"
+CSS-026,2.4.13,AAA,"The keyboard focus indicator is clearly visible and has a minimum area equivalent to a 2 CSS pixel thick border around the focused element, except situations where no visible change is required.",Design,,"Visual Design",none,UX Designer
+CSS-027,2.4.13,AAA,The focus indicator has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.,Design,,"Visual Design",none,none
+CSS-028,2.5.8,AA,A minimum height and width of 24 CSS pixels is provided for each interactive target that is not an inline link or control.,Design,,"Visual Design",none,none
+CSS-029,2.5.8,AA,"For any control that is less than 24 by 24 CSS pixels, add padding so that the target area is at least 24 by 24 CSS pixels.",Design,,"Visual Design",none,none
+CSS-030,2.5.8,AA,Controls with the same functionality or destination are combined within a single target area that is at least 24 by 24 CSS pixels.,Design,,"User Experience (UX) Design","Visual Design",Front-End Developer
 NAV-001,1.3.1,A,Active objects and other calls to action are visually identifiable as such.,Design,x,"Visual Design",none,none
 NAV-002,1.3.3,A,"Instructions are conveyed through more than shape, size, position, or sound alone.",Author,,"Content Authoring","User Experience (UX) Design",none
-NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,x,"User Experience (UX) Design","Visual Design ","Content Authoring",none
+NAV-003,1.4.1,A,Additional visual and/or textual cues are provided when color is used to convey information.,Design,x,"User Experience (UX) Design","Visual Design","Content Authoring",none
 NAV-004,2.2.1,A,Users are notified when time limits are about to expire.,Design,,"User Experience (UX) Design",Business,none
 NAV-005,2.2.1,A,"Options to extend, or even turn off time limits are provided.",Design,,"User Experience (UX) Design",Business,none
 NAV-006,2.2.2,A,"Users are given means to pause, stop or hide content that automatically updates.",Design,x,"User Experience (UX) Design",none,none
@@ -160,7 +160,7 @@ NAV-009,2.4.1,A,Users can bypass blocks of content using skip links or similar m
 NAV-010,2.4.1,A,Skip links (and similar mechanisms) for main content and navigation are provided at the most effective location in the interface (such as the very first tab stop).,Design,,"User Experience (UX) Design",none,none
 NAV-011,2.4.1,A,The functionality and expected destination of skip links and similar mechanisms is clearly defined.,Design,,"User Experience (UX) Design","Content Authoring",none
 NAV-012,2.4.1,A,Skip links and similar mechanisms point to the expected destination.,Development,x,"Front-End Development","User Experience (UX) Design",none
-NAV-013,2.4.3,A,All active elements receive focus in a logical and predictable order that is prescribed by the visual presentation.,Development,,"Front-End Development","User Experience (UX) Design","User Experience (UX) Design, Visual Design"
+NAV-013,2.4.3,A,All active elements receive focus in a logical and predictable order that is prescribed by the visual presentation.,Development,,"Front-End Development","User Experience (UX) Design","Visual Design"
 NAV-014,2.4.3,A,A logical and predictable focus order is defined for complex interactions.,Design,x,"User Experience (UX) Design",none,none
 NAV-015,2.4.3,A,Objects that are not actionable are not part of the tabbing order.,Development,,"Front-End Development","User Experience (UX) Design",none
 NAV-016,2.4.3,A,Focus is sent back to the initiating point when modal dialogs and controls are dismissed.,Development,,"Front-End Development","User Experience (UX) Design",none
@@ -179,7 +179,7 @@ NAV-028,3.2.4,AA,The accessible name of user interface components used across th
 NAV-029,3.2.4,AA,Users can consistently distinguish between links internal to a page and links going to different locations.,Design,,"Visual Design",none,none
 NAV-030,3.2.5,AAA,Links that open new windows visually indicate they will do so.,Design,,"User Experience (UX) Design","Visual Design",none
 NAV-031,3.2.5,AAA,"Links that open new windows indicate they will do so, either as part of the link text, or using aria-label or equivalent means.",Development,,"Front-End Development","Content Authoring",none
-NAV-032,3.2.6,A,Help mechanisms are repeated consistently throughout the site or application in the same relative order.,Design,,UX Designer,Visual Designer,none
+NAV-032,3.2.6,A,Help mechanisms are repeated consistently throughout the site or application in the same relative order.,Design,,"User Experience (UX) Design","Visual Design",none
 TAB-001,1.3.1,A,Tables are only to be used to lay out tabular information or data.,Development,,"Front-End Development","User Experience (UX) Design",none
 TAB-002,1.3.1,A,Table row and/or column headers provide context for data within the table.,Design,,"User Experience (UX) Design",none,none
 TAB-003,1.3.1,A,Data table structure is appropriate for the data being included.,Design,,"User Experience (UX) Design",none,none
@@ -231,7 +231,7 @@ ANM-031,2.2.3,AAA,Timing is not an essential part of the event or activity prese
 ANM-032,2.2.6,AAA,Users are warned that more than 20 hours of inactivity could lead to data loss.,Design,,"User Experience (UX) Design","Content Authoring",none
 ANM-033,2.3.1,A,"Content on the screen does not flash or blink more than three times in any one-second period, or the flash is below the general flash and red flash thresholds.",Design,,"Visual Design",none,none
 ANM-034,2.3.2,AAA,Content on the screen does not flash or blink at a rate that is higher than three times in any one-second period.,Design,,"Visual Design",none,none
-ANM-035,2.3.3,AAA,Animation features that create the illusion of movement are defined so that users can disable them.,Design,,"User Experience (UX) Design",Front-End Developement,none
+ANM-035,2.3.3,AAA,Animation features that create the illusion of movement are defined so that users can disable them.,Design,,"User Experience (UX) Design","Front-End Development",none
 ANM-036,2.3.3,AAA,Animation features that create the illusion of movement support prefers-reduced-motion (or other equivalent means).,Development,,"Front-End Development","User Experience (UX) Design",none
 ANM-037,4.1.2,A,Information conveyed by multimedia player controls are programmatically announced through assistive technologies.,Development,,"Front-End Development","User Experience (UX) Design",none
 SCT-001,1.1.1,A,"Emoticons, emojis, ASCII art, and other non-markup language constructs are supported with equivalent text alternatives and conveyed to assistive technologies.",Design,,"User Experience (UX) Design","Content Authoring",Front-End Development
@@ -266,5 +266,5 @@ SCT-029,3.1.6,AAA,Ambiguous words are supported by a mechanism that helps users 
 DYN-001,4.1.3,AA,Information conveyed by multimedia player controls are programmatically announced through assistive technologies.,Development,,"Front-End Development","User Experience (UX) Design",none
 DYN-002,4.1.3,AA,Status messages are announced by assistive technologies without affecting the focus.,Design,x,"User Experience (UX) Design","Front-End Development",none
 DYN-003,4.1.3,AA,"Status, toast, or similar messages are programmatically determined through WAI-ARIA roles or properties, so they can be presented to assistive technology users without receiving focus.",Development,x,"Front-End Development","User Experience (UX) Design",none
-DYN-004,2.4.11,AA,Fixed-position content does not fully cover focused elements.,Design,,UX Designer,Front-End Developer,Visual Designer
-DYN-005,2.4.12,AAA,Fixed-position content does not cover any part of focused elements.,Content,,UX Designer,Front-End Developer,Visual Designer
+DYN-004,2.4.11,AA,Fixed-position content does not fully cover focused elements.,Design,,"User Experience (UX) Design",Front-End Developer,"Visual Design"
+DYN-005,2.4.12,AAA,Fixed-position content does not cover any part of focused elements.,Content,,"User Experience (UX) Design",Front-End Developer,"Visual Design"
