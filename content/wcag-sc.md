@@ -46,26 +46,42 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
       <th>Front-End Development</th>
     </tr>
   </thead>
-  <tbody>
+<tbody>
+  {% capture padded_rows %}
     {% for row in site.data.arrm.arrm-wcag-sc %}
-      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
-        <tr>
-          <td style="white-space:nowrap;">
-            {%- if wcag_entry -%}
-              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
-            {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
-            {%- if wcag_entry -%}</a>{%- endif %}
-          </td>
-          <td>{{ row["Business"] }}</td>
-          <td>{{ row["Content Authoring"] }}</td>
-          <td>{{ row["Visual Design"] }}</td>
-          <td>{{ row["User Experience (UX) Design"] }}</td>
-          <td>{{ row["Front-End Development"] }}</td>
-        </tr>
+      {% comment %} 
+        Split SC '2.4.11' into [2, 4, 11], pad with zeros to '02.04.11', 
+        then prepend it to the loop index to ensure a unique, sortable string.
+      {% endcomment %}
+      {% assign parts = row["WCAG SC"] | split: "." %}
+      {% capture sortable_sc %}{% for part in parts %}{{ part | prepend: "00" | slice: -2, 2 }}.{% endfor %}{% endcapture %}
+      {{ sortable_sc }}|{{ forloop.index0 }}{% unless forloop.last %}^{% endunless %}
     {% endfor %}
-  </tbody>
-</table>
+  {% endcapture %}
+
+  {% assign sorted_indices = padded_rows | split: "^" | sort %}
+
+  {% for item in sorted_indices %}
+    {% assign index = item | split: "|" | last | plus: 0 %}
+    {% assign row = site.data.arrm.arrm-wcag-sc[index] %}
+    {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
+    
+    <tr>
+      <td style="white-space:nowrap;">
+        {% if wcag_entry %}
+          <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+        {% endif %}
+        {{ row["WCAG SC"] }} ({{ row["Level"] }})
+        {% if wcag_entry %}</a>{% endif %}
+      </td>
+      <td>{{ row["Business"] }}</td>
+      <td>{{ row["Content Authoring"] }}</td>
+      <td>{{ row["Visual Design"] }}</td>
+      <td>{{ row["User Experience (UX) Design"] }}</td>
+      <td>{{ row["Front-End Development"] }}</td>
+    </tr>
+  {% endfor %}
+</tbody>
 
 
 
