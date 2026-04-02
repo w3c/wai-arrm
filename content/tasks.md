@@ -85,7 +85,7 @@ This is not a definitive or complete list of accessibility tasks.
 {% include box.html type="end" %}
 {:/}
 
-These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.1 success criteria (SC). A later iteration will include the success criteria added in WCAG 2.2.
+These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.2 success criteria (SC). 
 
 This information is also available to download as a [single CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
