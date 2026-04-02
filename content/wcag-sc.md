@@ -47,6 +47,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
     </tr>
   </thead>
   <tbody>
+    {% assign sorted_rows = site.data.arrm.arrm-wcag-sc | sort: "WCAG SC" %}
     {% for row in site.data.arrm.arrm-wcag-sc %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
         <tr>
