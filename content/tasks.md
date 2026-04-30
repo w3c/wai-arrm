@@ -97,7 +97,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -112,7 +112,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "IMG-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -136,7 +136,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -151,7 +151,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SEM-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -175,7 +175,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -190,7 +190,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "INP-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -214,7 +214,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -229,7 +229,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "FRM-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -253,7 +253,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -268,7 +268,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "CSS-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -293,7 +293,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -308,7 +308,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "NAV-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -333,7 +333,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -348,7 +348,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "TAB-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -373,7 +373,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -388,7 +388,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "ANM-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -413,7 +413,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -428,7 +428,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SCT-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
@@ -453,7 +453,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>ID</th>
+      <th>ID / Status</th>
       <th style="white-space:nowrap;">WCAG SC</th>
       <th>Task</th>
       <th>Primary Ownership</th>
@@ -468,7 +468,7 @@ This information is also available to download as a [single CSV file]({{ "/conte
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "DYN-" %}
         <tr>
-          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td style="white-space:nowrap;">{{ row["ID"] }} <br />{{ row["Status"] }}</td>
           <td style="white-space:nowrap;">
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
