@@ -34,7 +34,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of content authors.
+This page lists some digital accessibility tasks that are usually the responsibility of Content Authors.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -70,7 +70,7 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 ## Tasks to get started
 
-Below is a list of tasks for content authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
+Below is a list of tasks for Content Authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
