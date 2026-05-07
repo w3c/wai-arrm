@@ -126,7 +126,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
-          <td>Firstname</th>>{{ row["Primary Ownership"] }}</td>
+          <td>{{ row["Primary Ownership"] }}</td>
           <td>{{ row["Secondary Ownership"] }}</td>
           <td>{{ row["Contributor"] }}</td>
         </tr>
