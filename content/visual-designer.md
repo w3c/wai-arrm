@@ -35,7 +35,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of visual designers.
+This page lists some digital accessibility tasks that are usually the responsibility of Visual Designers.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -56,7 +56,7 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 ## Role summary
 
-Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX design is focused on how something works, visual design is focused on how it looks and feels.
+Visual Design focuses largely on the look and feel of an application, as an end user would experience it, visually or otherwise. This includes specifying original design of interface elements and layout, choosing fonts and colors, and more. While UX Design is focused on how something works, Visual Design is focused on how it looks and feels.
 
 <dl>
 <dt>Key deliverable examples:</dt>
@@ -69,7 +69,7 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 
 ## Tasks to get started
 
-Below is a list of tasks for visual designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
+Below is a list of tasks for Visual Designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -123,7 +123,7 @@ IMG-018: Charts, graphs, infographics and other visual representations of inform
 
 I will work with the content author or stakeholder to ensure there's an alternative way of perceiving the data and relationships between the data sets. This could be a matrix/ table, or bullet list, or simple text format. 
 
-The secondary owner here is the UX designer, who will assist me in ensuring there is space for both the visual representation (also known as "complex images") on the page along with the text alternative, which should be adjacent to the visual design so it's accessed easily.
+The secondary owner here is the UX Designer, who will assist me in ensuring there is space for both the visual representation (also known as "complex images") on the page along with the text alternative, which should be adjacent to the Visual Design so it's accessed easily.
 
 At the same time, the visual representation is ideally not navigable by keyboard and screen reader, as it is likely not linear.  A good practice is to make the visual - a pie chart, bar graph, line graph, etc. an image and add a short description to it to summarize it.  Example: "Graph showing the most downloaded songs between January and December 2022". 
 
@@ -133,7 +133,7 @@ Then the text alternative for the data will provide full details."
 ### Secondary Role: UX Designer
 The secondary owner of the task is the UX Designer. They design the page layout, functionality and interactions with the content on the web page or screen. 
 
-The UX designer should support the Visual Designer when they create both the visual representation of data and the text alternative.   They ensure that all users can access both through navigation.
+The UX Designer should support the Visual Designer when they create both the visual representation of data and the text alternative.   They ensure that all users can access both through navigation.
 
 ### End user persona: Lexie, an online shopper who is colorblind
 Lexie is colorblind and encounters barriers when shopping online. He has one of the most common visual disabilities that affect men: red and green color blindness. Lexie frequently shops online and sometimes encounters problems on websites and with apps where the color contrast of text and images is not adequate and where color alone is used to indicate required fields and sale prices. 
