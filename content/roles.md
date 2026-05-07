@@ -66,7 +66,7 @@ Writes business requirements and/or initial user stories, are concerned with ens
 
 ### Business Analysis
 
-Business analysts are involved in the design or modification of business systems or IT systems. They interact with business stakeholders and subject matter experts in order to understand their problems and needs. They gather, document and analyze business needs and requirements to help steer the team towards an end result that meets the organization's needs and expectations.
+Business Analysts are involved in the design or modification of business systems or IT systems. They interact with business stakeholders and subject matter experts in order to understand their problems and needs. They gather, document and analyze business needs and requirements to help steer the team towards an end result that meets the organization's needs and expectations.
 
 <dl>
 <dt>Example job titles for this role:</dt>
