@@ -143,7 +143,7 @@
 "CSS-023","2.4.11","AA","Elements that receive keyboard focus are at least partially visible in the viewport, without being covered by other content.","Design",,"User Experience (UX) Design","Front-End Development","Visual Design",TBD
 "CSS-024","2.4.12","AAA","Elements that receive keyboard focus are fully visible within the viewport, without being covered by other content.","Design",,"User Experience (UX) Design","Front-End Development","Visual Design",TBD
 "CSS-025","2.4.13","AAA","The keyboard focus indicator is clearly visible and has a minimum area equivalent to a 2 CSS pixel thick border around the focused element, except situations where no visible change is required.","Design",,"Visual Design",,"User Experience (UX) Design, Front-End Development",TBD
-"CSS-026","2.4.13","AAA","The focus indicator has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.,"Design",,"Visual Design","none","none",TBD
+"CSS-026","2.4.13","AAA","The focus indicator has a contrast ratio of at least 3:1 between the same pixels in the focused and unfocused states.","Design",,"Visual Design","none","none",TBD
 "CSS-027","2.5.5","AAA","Unless the interactive element is part of a sentence or a block of text, its size must be at least 44 x 44 pixels.","Design","x","Visual Design","none","none","Requirement"
 "CSS-028","2.5.8","AA","A minimum height and width of 24 CSS pixels is provided for each interactive target that is not an inline link or control.",Design,,"Visual Design","none","none",TBD
 "CSS-029","2.5.8","AA","For any control that is less than 24 by 24 CSS pixels, add padding so that the target area is at least 24 by 24 CSS pixels.",Design,,"Visual Design","none","none",TBD
