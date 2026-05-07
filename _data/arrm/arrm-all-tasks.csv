@@ -179,7 +179,7 @@
 "NAV-029","3.2.4","AA","Users can consistently distinguish between links internal to a page and links going to different locations.","Design","","Visual Design","none","none","Requirement"
 "NAV-030","3.2.5","AAA","Links that open new windows visually indicate they will do so.","Design","","User Experience (UX) Design","Visual Design","none","Best Practice"
 "NAV-031","3.2.5","AAA","Links that open new windows indicate they will do so, either as part of the link text, or using aria-label or equivalent means.","Development","","Front-End Development","Content Authoring","none","Requirement"
-"NAV-032","3.2.6","AAA","Help mechanisms are repeated consistently throughout the site or application in the same relative order.","Design","User Experience (UX) Design","Visual Design","none",TBD
+"NAV-032","3.2.6","AAA","Help mechanisms are repeated consistently throughout the site or application in the same relative order.","Design",,"User Experience (UX) Design","Visual Design","none",TBD
 "TAB-001","1.3.1","A","Tables are only to be used to lay out tabular information or data.","Development","","Front-End Development","User Experience (UX) Design","none","Requirement"
 "TAB-002","1.3.1","A","Table row and/or column headers provide context for data within the table.","Design","","User Experience (UX) Design","none","none","Requirement"
 "TAB-003","1.3.1","A","Data table structure is appropriate for the data being included.","Design","","User Experience (UX) Design","none","none","Requirement"
