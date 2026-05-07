@@ -74,8 +74,8 @@
 "INP-022","2.5.4","A","All non-essential motion-related functionalities have alternative user interface controls that allow for equivalent actions.","Design","","User Experience (UX) Design","none","none","Requirement"
 "INP-023","2.5.4","A","All non-essential motion-related functionality can be turned off to prevent accidental actuation.","Design","","User Experience (UX) Design","none","none","Requirement"
 "INP-024","2.5.7","AA","All functionality requiring dragging movements can also be operated using single-pointer alternatives.","Design",,"User Experience (UX) Design","none","none",TBD
-"INP-025","2.5.8","AA","Any programmatic grouping of controls has a target area of at least 24 by 24 CSS pixels.,"Development",,"Front-End Development","Visual Design","User Experience (UX) Design",TBD
-"INP-025","3.2.2","A","Keyboard focus does not move automatically from one form control to the next.","Design","x","User Experience (UX) Design","Front End Development","none","Requirement"
+"INP-025","2.5.8","AA","Any programmatic grouping of controls has a target area of at least 24 by 24 CSS pixels.","Development",,"Front-End Development","Visual Design","User Experience (UX) Design",TBD
+"INP-026","3.2.2","A","Keyboard focus does not move automatically from one form control to the next.","Design","x","User Experience (UX) Design","Front End Development","none","Requirement"
 "FRM-001","1.3.1","A","Text labels are marked up using the label element or other equivalent means.","Development","x","Front-End Development","none","none","Requirement"
 "FRM-002","1.3.1","A","Text labels and form controls are programmatically associated (using the FOR and ID attributes, or equivalent means).","Development","","Front-End Development","User Experience (UX) Design","none","Requirement"
 "FRM-003","1.3.1","A","Submit buttons in forms rely on a submit input type, a button element, or other equivalent means.","Development","","Front-End Development","none","none","Best Practice"
