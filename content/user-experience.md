@@ -34,7 +34,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of UX designers.
+This page lists some digital accessibility tasks that are usually the responsibility of UX Designers.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -55,7 +55,7 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 ## Role summary
 
-UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
+UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial Front-end Development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
 
 <dl>
 <dt>Key deliverable examples:</dt>
@@ -68,7 +68,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 ## Tasks to get started
 
-Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
+Below is a list of tasks for UX Designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
