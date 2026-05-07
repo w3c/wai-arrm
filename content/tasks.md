@@ -102,9 +102,9 @@ This information is also available to download as a [CSV file]({{ "/content-asse
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th style="width:15%">ID / Status</th>
-      <th style="white-space:nowrap;  width:10%">WCAG SC</th>
-      <th style="width:30%">Task</th>
+      <th style="width:13%">ID / Status</th>
+      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
       <th style="width:15%">Contributor</th>
