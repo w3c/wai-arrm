@@ -35,7 +35,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of developers.
+This page lists some digital accessibility tasks that are usually the responsibility of Front-End Developers.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -56,7 +56,7 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 ## Role summary
 
-Front end development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
+Front-End Development typically builds the parts of a product that will be interacted with by the user - specifically, the user interface. For the purpose of this resource, front end development refers to the implementation or codification of the design in functional templates for a product using technologies such as HTML, CSS and JavaScript.
 
 <dl>
   <dt>Key deliverable examples:</dt>
@@ -71,7 +71,7 @@ Front end development typically builds the parts of a product that will be inter
 
 ## Tasks to get started
 
-Below is a list of tasks for front-end developers to get started making your work more accessible to disabled people. If these tasks aren't met, your code can create barriers to users with disabilities.
+Below is a list of tasks for Front-End Developers to get started making your work more accessible to disabled people. If these tasks aren't met, your code can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -119,13 +119,13 @@ Then, think of how meeting this task impacts an end user.
 
 INP-004: All actionable elements can be reached, using only the keyboard.
 
-### Primary Role: Front-end Developer
+### Primary Role: Front-End Developer
 
-As a front-end developer, I will code all functionality of the content, on a web page and/or within individual components and elements, to ensure it is operable through a keyboard interface only. This also allows switch control systems to operate.
+As a Front-End Developer, I will code all functionality of the content, on a web page and/or within individual components and elements, to ensure it is operable through a keyboard interface only. This also allows switch control systems to operate.
 
 ### Secondary Role: UX Designer
 
-As the UX designer in support of the Front-end Developer, I will ensure to annotate my designs, wireframes and prototypes to clearly define the functionality of components on the page and the expected reading order to allow a keyboard user access to the page content.
+As the UX Designer in support of the Front-End Developer, I will ensure to annotate my designs, wireframes and prototypes to clearly define the functionality of components on the page and the expected reading order to allow a keyboard user access to the page content.
 
 ### End User persona 1: Marta, a marketing assistant who is deaf and blind
 
