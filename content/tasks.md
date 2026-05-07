@@ -105,7 +105,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       <th style="width:15%">ID / Status</th>
       <th style="white-space:nowrap;  width:15%">WCAG SC</th>
       <th style="width:15%">Task</th>
-      <th >Primary Ownership</th>
+      <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
       <th style="width:15%">Contributor</th>
     </tr>
