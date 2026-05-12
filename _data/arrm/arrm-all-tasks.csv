@@ -69,7 +69,7 @@
 "INP-017","2.4.7","AA","Every element that receives keyboard focus is designed to display a visible focus indicator.","Design","x","Visual Design","User Experience (UX) Design","none","Requirement"
 "INP-018","2.4.7","AA","Every element that receives keyboard focus displays a visible focus indicator.","Development","x","Front-End Development","Visual Design","none","Requirement"
 "INP-019","2.5.1","A","Non-essential multipoint, path- or gesture-based functions have single-pointer alternatives.","Design","","User Experience (UX) Design","none","none","Requirement"
-"INP-020","2.5.2","A","Non-essential single pointer functionality is not triggered on down events, unless the functionality can be canceled, undone, or reversed.","Design","","User Experience (UX) Design","Front-End Development","none","Requirement"
+"INP-020","2.5.2","A","Non-essential single-pointer functionality is not triggered on down events, unless the functionality can be canceled, undone, or reversed.","Design","","User Experience (UX) Design","Front-End Development","none","Requirement"
 "INP-021","2.5.3","A","Text or images of text that is usually included in a user interface control is part of its accessible name.","Author","","Content Authoring","User Experience (UX) Design","none","Requirement"
 "INP-022","2.5.4","A","All non-essential motion-related functionalities have alternative user interface controls that allow for equivalent actions.","Design","","User Experience (UX) Design","none","none","Requirement"
 "INP-023","2.5.4","A","All non-essential motion-related functionality can be turned off to prevent accidental actuation.","Design","","User Experience (UX) Design","none","none","Requirement"
