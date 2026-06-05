@@ -4,14 +4,14 @@
 
 title: "Roles Involved in Accessibility"
 nav_title: "Roles"
-lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-06   # Keep the date of the English version
+lang: en                   # Change "en" to the translated-language shortcode
+last_updated: 2025-06-05   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -19,7 +19,7 @@ parent_in_h1:
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 permalink: /planning/arrm/roles/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /planning/arrm/roles/    # Do not change this
+ref: /planning/arrm/roles/        # Do not change this
 
 custom_changelog: /planning/arrm/changelog/
 
