@@ -17,6 +17,8 @@ last_updated: 2025-07-24   # Keep the date of the English version
 permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /planning/arrm/    # Do not change this
 
+custom_changelog: /planning/arrm/changelog/
+
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Editors and contributors:"
