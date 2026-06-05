@@ -21,6 +21,8 @@ parent_in_h1:
 permalink: /planning/arrm/tasks/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /planning/arrm/tasks/    # Do not change this
 
+custom_changelog: /planning/arrm/changelog/
+
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Editors and contributors:"
