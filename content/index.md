@@ -102,20 +102,3 @@ Optionally, you can create accessibility roles and responsibilities based on you
 ## Accessibility is about people
 
 While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
-
-## Draft review
-{::nomarkdown}
-{% include box.html type="start" title="We particularly welcome your input on these questions:" icon="comments"%}
-{:/}
-
-- Do you have input on the [Role descriptions](/planning/arrm/roles/)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
-- Please review the tasks in the role(s) that you know best — [User Experience (UX) Designer](/planning/arrm/user-experience/), [Visual Designer](/planning/arrm/visual-designer/), [Content Author](/planning/arrm/content-author/), [Front-End Developer](/planning/arrm/front-end/). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
-- How would you like to use this resource?
-  - Are you comfortable downloading the CSV files and using spreadsheet or other software to sort and filter it for your needs?
-  - How might we make this resource more useful for you?
-
-We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
