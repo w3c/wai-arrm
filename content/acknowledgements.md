@@ -3,7 +3,7 @@
 title: "Acknowledgements for ARRM"
 nav_title: "Acknowledgements"
 lang: en
-last_updated: 2025-06-05
+last_updated: 2026-06-05
 
 parent_in_h1:
   - ref: /planning/arrm/
