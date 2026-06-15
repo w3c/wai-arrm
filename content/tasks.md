@@ -144,7 +144,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -159,7 +159,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "SEM-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -183,7 +183,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -198,7 +198,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "INP-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -222,7 +222,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -237,7 +237,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "FRM-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -261,7 +261,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -276,7 +276,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "CSS-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -301,7 +301,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -316,7 +316,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "NAV-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -341,7 +341,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -356,7 +356,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "TAB-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -381,7 +381,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -396,7 +396,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "ANM-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -421,7 +421,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -436,7 +436,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "SCT-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
@@ -461,7 +461,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
-      <th style="white-space:nowrap;  width:8%">WCAG SC</th>
+      <th style="width:8%">WCAG SC</th>
       <th style="width:34%">Task</th>
       <th style="width:15%">Primary Ownership</th>
       <th style="width:15%">Secondary Ownership</th>
@@ -476,7 +476,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% if content_type contains "DYN-" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
