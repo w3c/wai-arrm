@@ -99,7 +99,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
