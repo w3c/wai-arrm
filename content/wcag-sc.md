@@ -30,11 +30,40 @@ custom_changelog: /planning/arrm/changelog/
 footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
    <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+
+
+inline_css: | 
+  /* Only display navigation toggle at breakpoints where navigation appears */
+  .showhidebutton[data-target=".sidenav"] {
+    display: none;
+  }
+
+  .task-status {
+    color: var(--dk-grey);
+    font-size: 0.85em;
+  }
+  
+  @media (min-width: 60em) {
+    .showhidebutton[data-target=".sidenav"] {
+      display: inline;
+    }
+
+    /* Only widen main content when sidenav is hidden */
+    body:has(.sidenav[hidden]) #main {
+      grid-column: navigation-start / content-end;
+    }
+    .sidenav[hidden] {
+      /* Override breakpoint's display: block */
+      display: none;
+    }
+  }
 ---
 
 This page provides an approach for assigning which roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.2 success criteria (SC).
 
 You can download the information from the table as a [CSV file]({{ "/content-assets/wai-arrm/arrm-wcag-sc.csv" | relative_url }}).
+
+{% include showhidebutton.html showtext="Show navigation" hidetext="Show tables full width, hide navigation" target=".sidenav" default="show" %}
 
 <table>
   <thead>
