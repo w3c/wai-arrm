@@ -73,7 +73,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
         {% if wcag_entry %}
           <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
         {% endif %}
-        {{ row["WCAG SC"] }} ({{ row["Level"] }})
+        {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
         {% if wcag_entry %}</a>{% endif %}
       </td>
       <td>{{ row["Business"] }}</td>
