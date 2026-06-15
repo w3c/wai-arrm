@@ -124,7 +124,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -163,7 +163,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -202,7 +202,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -241,7 +241,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -280,7 +280,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -320,7 +320,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -360,7 +360,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -400,7 +400,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -440,7 +440,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -480,7 +480,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
