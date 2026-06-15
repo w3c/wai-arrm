@@ -40,7 +40,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th style="white-space:nowrap;">WCAG SC</th>
+      <th>WCAG SC</th>
       <th>Business</th>
       <th>Content Authoring</th>
       <th>Visual Design</th>
@@ -69,7 +69,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
     {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
     
     <tr>
-      <td style="white-space:nowrap;">
+      <td>
         {% if wcag_entry %}
           <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
         {% endif %}
