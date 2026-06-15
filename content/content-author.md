@@ -81,7 +81,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
+      <th>WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
@@ -95,7 +95,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       {% if starter and starter != "" and primary == "Content Authoring" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
