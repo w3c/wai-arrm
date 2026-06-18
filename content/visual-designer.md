@@ -87,11 +87,21 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
   </thead>
   <tbody>
     {% for row in site.data.arrm.arrm-all-tasks %}
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
-      {% if starter and starter != "" and primary == "Visual Design" %}
+
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+
+      {% comment %}
+        To limit to Starter List items, add:
+
+          starter and starter != ""
+
+        which will ensure that only the starter list is displayed.
+      {% endcomment %}
+    
+      {% if primary == "Visual Design" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td>
