@@ -68,9 +68,12 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 <dd>User Experience (UX) Designer, Product Designer, Web Designer, and Service Designer</dd>
 </dl>
 
-## Tasks to get started
+## Tasks
+
+### Tasks to get started
 
 Below is a list of tasks for UX Designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
+
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -106,6 +109,53 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     {% endfor %}
   </tbody>
 </table>
+
+{::nomarkdown}
+{% include excol.html type="start" id="other-tasks" %}
+{:/}
+
+### Other tasks
+
+{::nomarkdown}
+{% include excol.html type="middle" %}
+{:/}
+
+<table>
+  <thead>
+    <tr>
+      <!-- Only include specific columns in the header - exclude: Starter List -->
+      <th>ID</th>
+      <th>WCAG SC</th>
+      <th>Task</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in site.data.arrm.arrm-all-tasks %}
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+      {% assign primary = row["Primary Ownership"] %}
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
+      {% if starter and starter == "" and primary == "User Experience (UX) Design" %}
+        <tr>
+          <td style="white-space:nowrap;">{{ row["ID"] }}</td>
+          <td>
+            {%- if wcag_entry -%}
+              <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
+            {%- endif -%}
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
+            {%- if wcag_entry -%}</a>{%- endif %}
+          </td>
+          <td>{{ row["Task"] }}</td>
+          <!-- <td>{{ row["Main Role"] }}</td><td>{{ row["Primary Ownership"] }}</td><td>{{ row["Secondary Ownership"] }}</td><td>{{ row["Contributor"] }}</td> -->
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+{::nomarkdown}
+{% include excol.html type="end" %}
+{:/}
 
 
 ## Case study: How to use the tasks {#how-to-use-the-tasks}
