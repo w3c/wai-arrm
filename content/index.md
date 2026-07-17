@@ -92,6 +92,16 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
   * [Content Author Responsibilities](/planning/arrm/content-author/)
   * [Front-End Developer Responsibilities](/planning/arrm/front-end/)
 
+{::nomarkdown}
+{% include box.html type="start" title="Important" icon="warning" %}
+{:/}
+
+ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 ## Customizing ARRM for your situation
 
 Optionally, you can create accessibility roles and responsibilities based on your project and organization.
