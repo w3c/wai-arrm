@@ -29,7 +29,7 @@ custom_changelog: /planning/arrm/changelog/
 # Translate the Community Group and Working Group names. Leave the acronyms in English.
 footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
 
 
 inline_css: | 
