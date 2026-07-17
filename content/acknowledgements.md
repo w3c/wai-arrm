@@ -3,14 +3,16 @@
 title: "Acknowledgements for ARRM"
 nav_title: "Acknowledgements"
 lang: en
-last_updated: 2025-03-06
+last_updated: 2026-06-05
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
 permalink: /planning/arrm/acknowledgements/
-ref: /planning/arrm/acknowledgements/   
+ref: /planning/arrm/acknowledgements/
+
+custom_changelog: /planning/arrm/changelog/
 
 # Ignore default values in _config.yml
 doc-note-type: false

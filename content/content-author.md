@@ -4,14 +4,14 @@
 
 title: "Content Author Responsibilities"
 nav_title: "Content Author"
-lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-07-24   # Keep the date of the English version
+lang: en                   # Change "en" to the translated-language shortcode
+last_updated: 2026-06-05   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -21,20 +21,22 @@ parent_in_h1:
 permalink: /planning/arrm/content-author/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /planning/arrm/content-author/    # Do not change this
 
+custom_changelog: /planning/arrm/changelog/
+
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Editors and contributors:"
 # Translate the Community Group and Working Group names. Leave the acronyms in English.
 footer: >
    <p><strong>Editors and contributors: See ACKNOWLEDGEMENTS.</strong></p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
 ---
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of content authors.
+This page lists some digital accessibility tasks that are usually the responsibility of Content Authors.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -70,7 +72,17 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 ## Tasks to get started
 
-Below is a list of tasks for content authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
+{::nomarkdown}
+{% include box.html type="start" title="Important" icon="warning" %}
+{:/}
+
+ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+Below is a list of tasks for Content Authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -79,25 +91,34 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
+      <th>WCAG SC</th>
       <th>Task</th>
       <!-- <th>Main Role</th><th>Primary Ownership</th><th>Secondary Ownership</th><th>Contributor</th> -->
     </tr>
   </thead>
   <tbody>
     {% for row in site.data.arrm.arrm-all-tasks %}
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
-      {% if starter and starter != "" and primary == "Content Authoring" %}
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+
+      {% comment %}
+        To limit to Starter List items, add:
+
+          starter and starter != ""
+
+        which will ensure that only the starter list is displayed.
+      {% endcomment %}
+    
+      {% if primary == "Content Authoring" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>

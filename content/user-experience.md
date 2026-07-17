@@ -4,14 +4,14 @@
 
 title: "User Experience (UX) Designer Responsibilities"
 nav_title: "UX Designer"
-lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-07-24   # Keep the date of the English version
+lang: en                   # Change "en" to the translated-language shortcode
+last_updated: 2026-06-05   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -19,7 +19,9 @@ parent_in_h1:
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
 permalink: /planning/arrm/user-experience/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /planning/arrm/user-experience/    # Do not change this
+ref: /planning/arrm/user-experience/        # Do not change this
+
+custom_changelog: /planning/arrm/changelog/
 
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
@@ -27,14 +29,14 @@ ref: /planning/arrm/user-experience/    # Do not change this
 # Translate the Community Group and Working Group names. Leave the acronyms in English.
 footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
 ---
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of UX designers.
+This page lists some digital accessibility tasks that are usually the responsibility of UX Designers.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -55,7 +57,7 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 ## Role summary
 
-UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
+UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial Front-end Development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
 
 <dl>
 <dt>Key deliverable examples:</dt>
@@ -68,7 +70,17 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 
 ## Tasks to get started
 
-Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
+{::nomarkdown}
+{% include box.html type="start" title="Important" icon="warning" %}
+{:/}
+
+ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
+Below is a list of tasks for UX Designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -77,24 +89,34 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
+      <th>WCAG SC</th>
       <th>Task</th>
     </tr>
   </thead>
   <tbody>
     {% for row in site.data.arrm.arrm-all-tasks %}
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
-      {% if starter and starter != "" and primary == "User Experience (UX) Design" %}
+
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+
+      {% comment %}
+        To limit to Starter List items, add:
+
+          starter and starter != ""
+
+        which will ensure that only the starter list is displayed.
+      {% endcomment %}
+    
+      {% if primary == "User Experience (UX) Design" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>

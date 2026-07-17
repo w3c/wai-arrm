@@ -4,14 +4,14 @@
 
 title: "Decision Tree"
 nav_title: "Decision Tree"
-lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-03-17   # Keep the date of the English version
+lang: en                   # Change "en" to the translated-language shortcode
+last_updated: 2026-06-05   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
@@ -21,13 +21,15 @@ parent_in_h1:
 permalink: /planning/arrm/decision-tree/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
 ref: /planning/arrm/decision-tree/    # Do not change this
 
+custom_changelog: /planning/arrm/changelog/
+
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
 # Translate the other words, including "Editors and contributors:"
 # Translate the Community Group and Working Group names. Leave the acronyms in English.
 footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
 ---
 
 
@@ -76,7 +78,7 @@ Since all accessibility ownership roles provide some input to the design they ar
 
 Since there must be one (and only one) primary owner for all tasks, picking them is a key first step. This section identifies a 7-step process through which a team can identify which role should be the primary owner for each of the tasks defined in the [Tasks Involved in Accessibility](/planning/arrm/tasks/). This section identifies the steps in identifying those roles who may be involved with each task as primary owners.
 
-It is vital that in determining primary ownership, the team either ensures that someone for each of the required roles can act as primary owner. As an example, if a project team exists without actively engaged UX professionals this is the opportunity to make sure that said individuals are in place for potential work ahead or that some other mechanism is in place to handle tasks owned by such individuals. Similarly, if some tasks are provided by resources outside of the primary team, the project should potentially revisit ownership or consider adjustments to team makeup. This avoids bottlenecks caused by relying on individuals not directly accountable to the primary team working on this effort.
+It is vital that in determining primary ownership, the team either ensures that someone for each of the required roles can act as primary owner. As an example, if a project team exists without actively engaged user experience (UX) professionals this is the opportunity to make sure that said individuals are in place for potential work ahead or that some other mechanism is in place to handle tasks owned by such individuals. Similarly, if some tasks are provided by resources outside of the primary team, the project should potentially revisit ownership or consider adjustments to team makeup. This avoids bottlenecks caused by relying on individuals not directly accountable to the primary team working on this effort.
 
 ### Decision tree framework for primary ownership
 
@@ -130,7 +132,7 @@ Is this task about [UX Design](/planning/arrm/user-experience/)?
 *   Design lo-fidelity wireframes and structural decisions related to templates, data visualizations, etc.,
 *   Making decisions related to UI component interactions and product features,
 *   Define general page regions such as header, navigation, footer, etc.,
-*   Improving interactions based on usability testing with users with disabilities,
+*   Improving interactions based on usability testing with users with disabilities.
 
 **UX Design as Primary Owner**
 
@@ -152,7 +154,7 @@ Is this task about [Visual Design](/planning/arrm/visual-designer/)?
 
 **Visual Design as Primary Owner**
 
-Nearly any decision about final presentation design is likely to have the visual designer as a primary owner. The more they purely design (such as color selection), the more likely they are to be the primary owner. The most overlap for primary ownership tends to be with the UX Designer. In such cases, the final choice should be made on how essential the visual aspect is to the task.
+Nearly any decision about final presentation design is likely to have the Visual Designer as a primary owner. The more they purely design (such as color selection), the more likely they are to be the primary owner. The most overlap for primary ownership tends to be with the UX Designer. In such cases, the final choice should be made on how essential the visual aspect is to the task.
 
 #### Step E.
 
@@ -171,7 +173,7 @@ Is this task about [Development](/planning/arrm/front-end/)?
 
 Front-End Developers are typically the primary owners when the tasks relate to implementation or the coding of the page. They typically are not primary owners when they follow instructions defined in requirements created by other stakeholders in early design phases.
 
-It’s a frequent [misconception](#misconception) that front-end developers should own most, if not all tasks. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input. These are situations where developers have unique technical knowledge needed as input to come to a final decision that can be implemented. Otherwise, developers might be needlessly involved in most or all decision making when they have no valuable input to provide.
+It’s a frequent [misconception](#misconception) that Front-End Developers should own most, if not all tasks. But since most of the decisions that impact accessibility take place earlier in the process, other roles will have already made the decisions. Developers should only be an owner when they have direct decision-making input. These are situations where developers have unique technical knowledge needed as input to come to a final decision that can be implemented. Otherwise, developers might be needlessly involved in most or all decision making when they have no valuable input to provide.
 
 #### Step F.
 
@@ -280,4 +282,4 @@ Since Developers are so integral to the final delivered product they are typical
 
 **QA Testing as a Contributor**
 
-Many teams will view QA Testers as obvious Contributors on every requirement since they are so deeply involved with all aspects of validating the deliverable. However, if the details affecting accessibility are fully covered with other stakeholders in the lifecycle, they are likely to simply be identified as an additional step in the process, beyond the scope of the roles and responsibility mapping. QA Testers are likely to still be identified as Contributors when it comes to testing tool capabilities, testing protocols and methodologies, or changes to the details needed by the QA tester to complete the tests.
+Many teams will view QA Testers as obvious Contributors on every requirement since they are so deeply involved with all aspects of validating the deliverable. However, if the details affecting accessibility are fully covered with other stakeholders in the lifecycle, they are likely to simply be identified as an additional step in the process, beyond the scope of the roles and responsibility mapping. QA Testers are likely to still be identified as Contributors when it comes to testing tool capabilities, testing protocols and methodologies, or changes to the details needed by the QA Tester to complete the tests.
