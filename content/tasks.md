@@ -86,7 +86,7 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 {% include box.html type="start" title="Important" icon="warning" %}
 {:/}
 
-This is not a definitive or complete list of accessibility tasks.
+This is not a definitive or complete list of accessibility tasks. ARRM is a practical implementation resource, not a normative interpretation of WCAG. Its tasks are intended to help teams move closer to WCAG conformance by translating success criteria into actionable activities and highlighting recommended best practices. They do not replace the normative WCAG specification or the informative Understanding WCAG documents, nor should they be interpreted as definitive or exhaustive requirements. While each task is associated with a relevant success criterion, some associations are stronger than others. In some cases, a task reflects a recommended practice that supports accessibility rather than a direct requirement of the referenced success criterion. When questions arise, WCAG and its supporting documentation remain the authoritative source.
 
 {::nomarkdown}
 {% include box.html type="end" %}
