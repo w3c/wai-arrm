@@ -73,6 +73,16 @@ Front-End Development typically builds the parts of a product that will be inter
 
 ## Tasks to get started
 
+{::nomarkdown}
+{% include box.html type="start" title="Important" icon="warning" %}
+{:/}
+
+ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
+
+{::nomarkdown}
+{% include box.html type="end" %}
+{:/}
+
 Below is a list of tasks for Front-End Developers to get started making your work more accessible to disabled people. If these tasks aren't met, your code can create barriers to users with disabilities.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
