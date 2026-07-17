@@ -74,7 +74,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 {% include box.html type="start" title="Important" icon="warning" %}
 {:/}
 
-ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, see the disclaimer.
+ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
 
 {::nomarkdown}
 {% include box.html type="end" %}
