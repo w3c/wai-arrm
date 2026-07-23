@@ -114,10 +114,10 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Images and Graphs
 
-<div class="arrm-task-list arrm-show-starter-only" id="ux-task-table">
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-img">
 <table>
   <thead>
-    <tr class="{% if starter and starter != "" %}starter-task{% else %}non-starter-task{% endif %}">
+    <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
       <th style="width:8%">WCAG SC</th>
@@ -133,7 +133,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% assign content_type = row["ID"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "IMG-" %}
-        <tr>
+        <tr class="{% if starter and starter != "" %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -156,12 +156,14 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 <button type="button"
   class="arrm-toggle-tasks"
   aria-expanded="false"
-  aria-controls="ux-task-table">
-  Show all UX tasks
+  aria-controls="task-table-img"
+  data-section-name="Images and Graphs tasks">
+  Show all Images and Graphs tasks
 </button>
 
 ## Semantic Structure
 
+<div class="arrm-task-list arrm-show-starter-only" id="task-semantic">
 <table>
   <thead>
     <tr>
@@ -180,7 +182,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       {% assign content_type = row["ID"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SEM-" %}
-        <tr>
+        <tr class="{% if starter and starter != "" %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -198,6 +200,15 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-semantic"
+  data-section-name="Semantic Structure tasks">
+  Show all Semantic Structure tasks
+</button>
 
 ## Input Modalities
 
