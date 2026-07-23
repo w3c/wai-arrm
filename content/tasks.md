@@ -181,12 +181,12 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 <button type="button"
   class="arrm-toggle-tasks"
   aria-expanded="false"
-  aria-controls="task-semantic"
+  aria-controls="task-table-semantic"
   data-section-name="Semantic Structure tasks">
   Show all Semantic Structure tasks
 </button>
 
-<div class="arrm-task-list arrm-show-starter-only" id="task-semantic">
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-semantic">
 <table>
   <thead>
     <tr>
@@ -230,13 +230,22 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 <button type="button"
   class="arrm-toggle-tasks"
   aria-expanded="false"
-  aria-controls="task-semantic"
+  aria-controls="task-table-semantic"
   data-section-name="Semantic Structure tasks">
   Show all Semantic Structure tasks
 </button>
 
 ## Input Modalities
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-input"
+  data-section-name="Input Modalities">
+  Show all Input Modalities tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-input">
 <table>
   <thead>
     <tr>
@@ -253,9 +262,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "INP-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -273,9 +284,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-input"
+  data-section-name="Input Modalities">
+  Show all Input Modalities tasks
+</button>
 
 ## Form Interactions
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-form"
+  data-section-name="Form Interactions">
+  Show all Form Interactions tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-form">
 <table>
   <thead>
     <tr>
@@ -292,9 +321,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "FRM-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -312,9 +343,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-form"
+  data-section-name="Form Interactions">
+  Show all Form Interactions tasks
+</button>
 
 ## CSS and Presentation
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-css"
+  data-section-name="CSS and Presentation">
+  Show all CSS and Presentation tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-css">
 <table>
   <thead>
     <tr>
@@ -331,9 +380,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "CSS-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -351,10 +402,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-css"
+  data-section-name="CSS and Presentation">
+  Show all CSS and Presentation tasks
+</button>
 
 ## Navigation
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-navigation"
+  data-section-name="Navigation">
+  Show all Navigation tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-navigation">
 <table>
   <thead>
     <tr>
@@ -371,9 +439,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "NAV-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -391,10 +461,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-navigation"
+  data-section-name="Navigation">
+  Show all Navigation tasks
+</button>
 
 ## Data Tables
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-data"
+  data-section-name="Data Tables">
+  Show all Data Tables tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-data">
 <table>
   <thead>
     <tr>
@@ -411,9 +498,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "TAB-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -431,10 +520,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-data"
+  data-section-name="Data Tables">
+  Show all Data Tables tasks
+</button>
 
 ## Animation and Movement
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-animation"
+  data-section-name="Animation and Movement">
+  Show all Animation and Movement tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-animation">
 <table>
   <thead>
     <tr>
@@ -451,9 +557,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "ANM-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -471,10 +579,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-animation"
+  data-section-name="Animation and Movement">
+  Show all Animation and Movement tasks
+</button>
 
 ## Static Content
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-static"
+  data-section-name="Static Content">
+  Show all Static Content tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-static">
 <table>
   <thead>
     <tr>
@@ -491,9 +616,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SCT-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -511,10 +638,27 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-static"
+  data-section-name="Static Content">
+  Show all Static Content tasks
+</button>
 
 ## Dynamic Interactions
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-dynamic"
+  data-section-name="Dynamic Interactions">
+  Show all Dynamic Interactions tasks
+</button>
+
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-dynamic">
 <table>
   <thead>
     <tr>
@@ -531,9 +675,11 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "DYN-" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -551,6 +697,15 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-dynamic"
+  data-section-name="Dynamic Interactions">
+  Show all Dynamic Interactions tasks
+</button>
 
 <script>
 (function () {
