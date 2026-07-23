@@ -42,14 +42,18 @@ inline_css: |
     font-size: 0.85em;
   }
 
-  /* Hide non-starter tasks ONLY if JS is enabled and the toggle class is present */
-  .js .arrm-show-starter-only .non-starter-task { 
-    display: none; 
+  /* 1. Hide the toggle button by default (no-JS fallback) */
+  .arrm-toggle-tasks {
+    display: none;
   }
 
-  /* Hide the toggle button entirely if JS is disabled */
-  .no-js .arrm-toggle-tasks { 
-    display: none; 
+  /* 2. When JS is enabled, show the button and hide non-starter tasks */
+  .js .arrm-toggle-tasks {
+    display: inline-block;
+  }
+
+  .js .arrm-show-starter-only tr.non-starter-task {
+    display: none;
   }
 
   @media (min-width: 60em) {
@@ -527,4 +531,43 @@ This information is also available to download as a [CSV file]({{ "/content-asse
   </tbody>
 </table>
 
-{% include task-toggle.html %}
+<script>
+(function () {
+  function initToggleTasks() {
+    document.querySelectorAll('.arrm-toggle-tasks').forEach((button) => {
+      // Prevent attaching duplicate event listeners
+      if (button.dataset.initialized) return;
+      button.dataset.initialized = 'true';
+
+      const targetId = button.getAttribute('aria-controls');
+      const tableWrapper = document.getElementById(targetId);
+
+      if (!tableWrapper) return;
+
+      const sectionName = button.dataset.sectionName || 'tasks';
+
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        
+        // Toggle class on table container
+        const showingStarterOnly = tableWrapper.classList.toggle('arrm-show-starter-only');
+
+        // Update ARIA expanded state
+        button.setAttribute('aria-expanded', String(!showingStarterOnly));
+
+        // Update button text
+        button.textContent = showingStarterOnly
+          ? `Show all ${sectionName}`
+          : `Show starter ${sectionName} only`;
+      });
+    });
+  }
+
+  // If DOM is already ready, run immediately; otherwise wait for DOMContentLoaded
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initToggleTasks);
+  } else {
+    initToggleTasks();
+  }
+})();
+</script>
