@@ -41,7 +41,17 @@ inline_css: |
     color: var(--dk-grey);
     font-size: 0.85em;
   }
-  
+
+  /* Hide non-starter tasks ONLY if JS is enabled and the toggle class is present */
+  .js .arrm-show-starter-only .non-starter-task { 
+    display: none; 
+  }
+
+  /* Hide the toggle button entirely if JS is disabled */
+  .no-js .arrm-toggle-tasks { 
+    display: none; 
+  }
+
   @media (min-width: 60em) {
     .showhidebutton[data-target=".sidenav"] {
       display: inline;
@@ -104,9 +114,10 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Images and Graphs
 
+<div class="arrm-task-list arrm-show-starter-only" id="ux-task-table">
 <table>
   <thead>
-    <tr>
+    <tr class="{% if starter and starter != "" %}starter-task{% else %}non-starter-task{% endif %}">
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th style="width:13%">ID / Status</th>
       <th style="width:8%">WCAG SC</th>
@@ -140,6 +151,14 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+</div>
+
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="ux-task-table">
+  Show all UX tasks
+</button>
 
 ## Semantic Structure
 
@@ -496,3 +515,5 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% endfor %}
   </tbody>
 </table>
+
+{% include task-toggle.html %}
