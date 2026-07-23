@@ -166,6 +166,14 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </table>
 </div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-img"
+  data-section-name="Images and Graphs tasks">
+  Show all Images and Graphs tasks
+</button>
+
 ## Semantic Structure
 
 <button type="button"
