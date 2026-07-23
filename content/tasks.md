@@ -48,11 +48,11 @@ inline_css: |
   }
 
   /* 2. When JS is enabled, show the button and hide non-starter tasks */
-  .js .arrm-toggle-tasks {
+  arrm-js .arrm-toggle-tasks {
     display: inline-block;
   }
 
-  .js .arrm-show-starter-only tr.non-starter-task {
+  .arrm-js .arrm-show-starter-only tr.non-starter-task {
     display: none;
   }
 
@@ -143,6 +143,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "IMG-" %}
         <tr class="{% if starter != blank %}starter-task{% else %}non-starter-task{% endif %}">
@@ -192,6 +193,7 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     {% for row in site.data.arrm.arrm-all-tasks %}
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
+      {% assign starter = row["Starter List"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SEM-" %}
         <tr class="{% if starter %}starter-task{% else %}non-starter-task{% endif %}">
@@ -542,8 +544,10 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 <script>
 (function () {
   function initToggleTasks() {
+    // Flag that JS is active so CSS un-hides buttons & hides non-starter rows
+    document.documentElement.classList.add('arrm-js');
+
     document.querySelectorAll('.arrm-toggle-tasks').forEach((button) => {
-      // Prevent attaching duplicate event listeners
       if (button.dataset.initialized) return;
       button.dataset.initialized = 'true';
 
@@ -557,13 +561,9 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       button.addEventListener('click', (e) => {
         e.preventDefault();
         
-        // Toggle class on table container
         const showingStarterOnly = tableWrapper.classList.toggle('arrm-show-starter-only');
 
-        // Update ARIA expanded state
         button.setAttribute('aria-expanded', String(!showingStarterOnly));
-
-        // Update button text
         button.textContent = showingStarterOnly
           ? `Show all ${sectionName}`
           : `Show starter ${sectionName} only`;
@@ -571,7 +571,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     });
   }
 
-  // If DOM is already ready, run immediately; otherwise wait for DOMContentLoaded
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initToggleTasks);
   } else {
