@@ -54,6 +54,7 @@ inline_css: |
 
   .arrm-js .arrm-show-starter-only tr.non-starter-task {
     display: none;
+    display: none !important;
   }
 
   @media (min-width: 60em) {
