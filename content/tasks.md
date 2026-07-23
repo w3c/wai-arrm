@@ -48,7 +48,7 @@ inline_css: |
   }
 
   /* 2. When JS is enabled, show the button and hide non-starter tasks */
-  arrm-js .arrm-toggle-tasks {
+  .arrm-js .arrm-toggle-tasks {
     display: inline-block;
   }
 
