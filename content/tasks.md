@@ -144,9 +144,10 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "IMG-" %}
-        <tr class="{% if starter != blank %}starter-task{% else %}non-starter-task{% endif %}">
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
@@ -202,9 +203,10 @@ This information is also available to download as a [CSV file]({{ "/content-asse
       <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign content_type = row["ID"] %}
       {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
       {% if content_type contains "SEM-" %}
-        <tr class="{% if starter %}starter-task{% else %}non-starter-task{% endif %}">
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }} <br /><span class="notes task-status">{{ row["Status"] }}</span></td>
           <td>
             {%- if wcag_entry -%}
