@@ -118,6 +118,14 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Images and Graphs
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-img"
+  data-section-name="Images and Graphs tasks">
+  Show all Images and Graphs tasks
+</button>
+
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-img">
 <table>
   <thead>
@@ -157,15 +165,15 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </table>
 </div>
 
+## Semantic Structure
+
 <button type="button"
   class="arrm-toggle-tasks"
   aria-expanded="false"
-  aria-controls="task-table-img"
-  data-section-name="Images and Graphs tasks">
-  Show all Images and Graphs tasks
+  aria-controls="task-semantic"
+  data-section-name="Semantic Structure tasks">
+  Show all Semantic Structure tasks
 </button>
-
-## Semantic Structure
 
 <div class="arrm-task-list arrm-show-starter-only" id="task-semantic">
 <table>
