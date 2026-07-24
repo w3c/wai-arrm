@@ -707,11 +707,29 @@ This information is also available to download as a [CSV file]({{ "/content-asse
   Show all Dynamic Interactions tasks
 </button>
 
+
 <script>
 (function () {
+  // 1. Inject styles dynamically so we don't need external CSS edits
+  const style = document.createElement('style');
+  style.innerHTML = `
+    /* Use !important to guarantee overriding any existing display rules */
+    tr.arrm-row-hidden { display: none !important; }
+    /* Bolding for starter rows so they stand out */
+    tr.arrm-starter-bold,
+    tr.arrm-starter-bold td,
+    tr.arrm-starter-bold th { font-weight: bold !important; }
+  `;
+  document.head.appendChild(style);
+
   function initToggleTasks() {
-    // Flag that JS is active so CSS un-hides buttons & hides non-starter rows
+    // Flag that JS is active
     document.documentElement.classList.add('arrm-js');
+
+    // IMPORTANT: Update this variable to exactly match the class 
+    // your HTML uses to identify a starter row (e.g., 'starter', 'arrm-starter', etc.)
+    const STARTER_CLASS = 'arrm-starter'; 
+    const MIN_ROWS_TOTAL = 15;
 
     document.querySelectorAll('.arrm-toggle-tasks').forEach((button) => {
       if (button.dataset.initialized) return;
@@ -724,13 +742,74 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
       const sectionName = button.dataset.sectionName || 'tasks';
 
+      // Keep track of the toggle state locally
+      let isCondensedView = false;
+
       button.addEventListener('click', (e) => {
         e.preventDefault();
         
-        const showingStarterOnly = tableWrapper.classList.toggle('arrm-show-starter-only');
+        isCondensedView = !isCondensedView;
 
-        button.setAttribute('aria-expanded', String(!showingStarterOnly));
-        button.textContent = showingStarterOnly
+        // You can keep toggling this for the table wrapper if it handles border/background styling,
+        // but row visibility is now strictly handled by JS adding/removing 'arrm-row-hidden'.
+        tableWrapper.classList.toggle('arrm-show-starter-only', isCondensedView);
+
+        // Get all rows in the table body
+        const tbody = tableWrapper.querySelector('tbody');
+        if (!tbody) return;
+        
+        const allRows = Array.from(tbody.querySelectorAll('tr'));
+        
+        if (isCondensedView) {
+          // Identify the starter rows
+          const starterRows = allRows.filter(row => row.classList.contains(STARTER_CLASS));
+          
+          // Calculate how many non-starter rows we need to show to hit exactly 15 rows
+          let neededNonStarters = MIN_ROWS_TOTAL - starterRows.length;
+          if (neededNonStarters < 0) neededNonStarters = 0; // If >= 15 starters, we don't need padding
+          
+          let shownNonStarters = 0;
+          
+          // Loop through all rows sequentially to preserve their natural DOM order
+          allRows.forEach(row => {
+            const isStarter = row.classList.contains(STARTER_CLASS);
+
+            if (isStarter) {
+              // Rule 1: Always show ALL starter rows and make them bold
+              row.classList.remove('arrm-row-hidden');
+              row.classList.add('arrm-starter-bold');
+            } else {
+              // Rule 2: Non-starters are never bold
+              row.classList.remove('arrm-starter-bold');
+              
+              // Rule 3: Show non-starters only until we hit our 15 total quota
+              if (shownNonStarters < neededNonStarters) {
+                row.classList.remove('arrm-row-hidden');
+                shownNonStarters++;
+              } else {
+                row.classList.add('arrm-row-hidden');
+              }
+            }
+          });
+        } else {
+          // "Show All" View
+          allRows.forEach(row => {
+            // Remove the hidden class so everything shows
+            row.classList.remove('arrm-row-hidden');
+            
+            // We'll keep starter rows bold in the expanded view as well, 
+            // per the requirement to make them stand out.
+            if (row.classList.contains(STARTER_CLASS)) {
+              row.classList.add('arrm-starter-bold');
+            } else {
+              row.classList.remove('arrm-starter-bold');
+            }
+          });
+        }
+
+        // Update Button attributes and text
+        button.setAttribute('aria-expanded', String(isCondensedView));
+        button.textContent = isCondensedView
           ? `Show all ${sectionName}`
           : `Show starter ${sectionName} only`;
       });
