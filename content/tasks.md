@@ -52,11 +52,6 @@ inline_css: |
     display: inline-block;
   }
 
-  .arrm-js .arrm-show-starter-only tr.non-starter-task {
-    display: none;
-    display: none !important;
-  }
-
   @media (min-width: 60em) {
     .showhidebutton[data-target=".sidenav"] {
       display: inline;
@@ -628,10 +623,16 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </button>
 
 
+
 {::nomarkdown}
 <style>
   /* Ensure hidden rows stay hidden */
   tr.arrm-row-hidden { display: none !important; }
+  
+  /* CRITICAL: Override the theme CSS to allow JS to show non-starter rows up to 15 */
+  .arrm-show-starter-only tr.non-starter-task:not(.arrm-row-hidden) {
+    display: table-row !important;
+  }
   
   /* Bold starter rows to make them stand out */
   tr.arrm-starter-bold,
@@ -647,7 +648,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
     // Flag that JS is active
     document.documentElement.classList.add('arrm-js');
 
-    // Use the existing HTML class from tasks.md
     const STARTER_CLASS = 'starter-task'; 
     const MIN_ROWS_TOTAL = 15;
 
@@ -670,12 +670,14 @@ This information is also available to download as a [CSV file]({{ "/content-asse
         const starterRows = allRows.filter(row => row.classList.contains(STARTER_CLASS));
 
         if (isCondensedView) {
+          tableWrapper.classList.add('arrm-show-starter-only');
+
           // 1. Calculate how many non-starters are needed to reach 15 total rows
           const startersCount = starterRows.length;
           let nonStartersNeeded = Math.max(0, MIN_ROWS_TOTAL - startersCount);
           let nonStartersShown = 0;
 
-          // 2. Loop sequentially through all rows to preserve DOM order
+          // 2. Loop sequentially through all rows to preserve natural DOM order
           allRows.forEach(row => {
             const isStarter = row.classList.contains(STARTER_CLASS);
 
@@ -693,6 +695,8 @@ This information is also available to download as a [CSV file]({{ "/content-asse
             }
           });
         } else {
+          tableWrapper.classList.remove('arrm-show-starter-only');
+
           // Show all rows, keeping starter rows bold
           allRows.forEach(row => {
             row.classList.remove('arrm-row-hidden');
@@ -711,9 +715,9 @@ This information is also available to download as a [CSV file]({{ "/content-asse
           : `Show starter ${sectionName} only`;
       }
 
-      // Initial execution on load: Default to condensed view (15-row max fill)
-      const isExpandedOnLoad = button.getAttribute('aria-expanded') === 'true';
-      updateTableVisibility(!isExpandedOnLoad);
+      // Initial execution on load: Default to condensed view (15-row fill)
+      const startInCondensedView = button.getAttribute('aria-expanded') !== 'true';
+      updateTableVisibility(startInCondensedView);
 
       // Click handler
       button.addEventListener('click', (e) => {
