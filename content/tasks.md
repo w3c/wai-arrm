@@ -614,15 +614,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </table>
 </div>
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-dynamic"
-  data-section-name="Dynamic Interactions">
-  Show all Dynamic Interactions tasks
-</button>
-
-
 
 {::nomarkdown}
 <style>
