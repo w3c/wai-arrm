@@ -179,6 +179,9 @@ Would that be particulalry useful to you? Or, are you comfortable downloading th
 
 We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
 
+{% include arrm-toggle-script.html %}
+
 {::nomarkdown}
 {% include_cached box.html type="end" %}
+{% include_cached toggle-script.html %}
 {:/}
