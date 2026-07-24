@@ -84,14 +84,6 @@ Below is a list of tasks for UX Designers to get started making your work more a
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-ux"
-  data-section-name="UX tasks">
-  Show Starter UX tasks
-</button>
-
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-ux">
 <table>
   <thead>
@@ -136,6 +128,13 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
 </table>
 </div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-ux"
+  data-section-name="UX tasks">
+  Show Starter UX tasks
+</button>
 
 ## Case study: How to use the tasks {#how-to-use-the-tasks}
 
