@@ -119,14 +119,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Images and Graphs
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-img"
-  data-section-name="Images and Graphs tasks">
-  Show all Images and Graphs tasks
-</button>
-
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-img">
 <table>
   <thead>
@@ -177,14 +169,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </button>
 
 ## Semantic Structure
-
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-semantic"
-  data-section-name="Semantic Structure tasks">
-  Show all Semantic Structure tasks
-</button>
 
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-semantic">
 <table>
@@ -237,14 +221,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Input Modalities
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-input"
-  data-section-name="Input Modalities">
-  Show all Input Modalities tasks
-</button>
-
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-input">
 <table>
   <thead>
@@ -295,14 +271,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </button>
 
 ## Form Interactions
-
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-form"
-  data-section-name="Form Interactions">
-  Show all Form Interactions tasks
-</button>
 
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-form">
 <table>
@@ -355,14 +323,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## CSS and Presentation
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-css"
-  data-section-name="CSS and Presentation">
-  Show all CSS and Presentation tasks
-</button>
-
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-css">
 <table>
   <thead>
@@ -413,14 +373,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </button>
 
 ## Navigation
-
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-navigation"
-  data-section-name="Navigation">
-  Show all Navigation tasks
-</button>
 
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-navigation">
 <table>
@@ -473,14 +425,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Data Tables
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-data"
-  data-section-name="Data Tables">
-  Show all Data Tables tasks
-</button>
-
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-data">
 <table>
   <thead>
@@ -531,14 +475,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </button>
 
 ## Animation and Movement
-
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-animation"
-  data-section-name="Animation and Movement">
-  Show all Animation and Movement tasks
-</button>
 
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-animation">
 <table>
@@ -591,14 +527,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 
 ## Static Content
 
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-static"
-  data-section-name="Static Content">
-  Show all Static Content tasks
-</button>
-
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-static">
 <table>
   <thead>
@@ -649,14 +577,6 @@ This information is also available to download as a [CSV file]({{ "/content-asse
 </button>
 
 ## Dynamic Interactions
-
-<button type="button"
-  class="arrm-toggle-tasks"
-  aria-expanded="false"
-  aria-controls="task-table-dynamic"
-  data-section-name="Dynamic Interactions">
-  Show all Dynamic Interactions tasks
-</button>
 
 <div class="arrm-task-list arrm-show-starter-only" id="task-table-dynamic">
 <table>
