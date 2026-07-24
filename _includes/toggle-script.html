@@ -1,0 +1,98 @@
+<style>
+  /* Ensure hidden rows stay hidden regardless of external CSS specificity */
+  tr.arrm-row-hidden { display: none !important; }
+  
+  /* Bold starter rows to make them stand out */
+  tr.arrm-starter-bold,
+  tr.arrm-starter-bold td,
+  tr.arrm-starter-bold th { 
+    font-weight: bold !important; 
+  }
+</style>
+
+<script>
+(function () {
+  function initToggleTasks() {
+    // Flag that JS is active so CSS can respond if needed
+    document.documentElement.classList.add('arrm-js');
+
+    // Update this class to match how starter rows are identified in your HTML
+    const STARTER_CLASS = 'arrm-starter'; 
+    const MIN_ROWS_TOTAL = 15;
+
+    document.querySelectorAll('.arrm-toggle-tasks').forEach((button) => {
+      if (button.dataset.initialized) return;
+      button.dataset.initialized = 'true';
+
+      const targetId = button.getAttribute('aria-controls');
+      const tableWrapper = document.getElementById(targetId);
+
+      if (!tableWrapper) return;
+
+      const sectionName = button.dataset.sectionName || 'tasks';
+
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        // Determine next state
+        const isCurrentlyExpanded = button.getAttribute('aria-expanded') === 'true';
+        const isCondensedView = isCurrentlyExpanded; // Toggle direction
+
+        tableWrapper.classList.toggle('arrm-show-starter-only', isCondensedView);
+
+        const tbody = tableWrapper.querySelector('tbody');
+        if (!tbody) return;
+
+        const allRows = Array.from(tbody.querySelectorAll('tr'));
+
+        if (isCondensedView) {
+          const starterRows = allRows.filter(row => row.classList.contains(STARTER_CLASS));
+          
+          // Calculate remaining non-starter rows needed to hit 15 total rows
+          let neededNonStarters = Math.max(0, MIN_ROWS_TOTAL - starterRows.length);
+          let shownNonStarters = 0;
+
+          // Preserve natural table order
+          allRows.forEach(row => {
+            const isStarter = row.classList.contains(STARTER_CLASS);
+
+            if (isStarter) {
+              row.classList.remove('arrm-row-hidden');
+              row.classList.add('arrm-starter-bold');
+            } else {
+              row.classList.remove('arrm-starter-bold');
+              if (shownNonStarters < neededNonStarters) {
+                row.classList.remove('arrm-row-hidden');
+                shownNonStarters++;
+              } else {
+                row.classList.add('arrm-row-hidden');
+              }
+            }
+          });
+        } else {
+          // Expanded view: Show all rows
+          allRows.forEach(row => {
+            row.classList.remove('arrm-row-hidden');
+            if (row.classList.contains(STARTER_CLASS)) {
+              row.classList.add('arrm-starter-bold');
+            } else {
+              row.classList.remove('arrm-starter-bold');
+            }
+          });
+        }
+
+        button.setAttribute('aria-expanded', String(!isCondensedView));
+        button.textContent = isCondensedView
+          ? `Show all ${sectionName}`
+          : `Show starter ${sectionName} only`;
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initToggleTasks);
+  } else {
+    initToggleTasks();
+  }
+})();
+</script>
