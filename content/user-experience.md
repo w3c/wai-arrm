@@ -87,12 +87,12 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
 <button type="button"
   class="arrm-toggle-tasks"
   aria-expanded="false"
-  aria-controls="task-table-img"
-  data-section-name="All">
-  Show all Images and Graphs tasks
+  aria-controls="task-table-ux"
+  data-section-name="Starter list">
+  Show full UX list
 </button>
 
-<div class="arrm-task-list arrm-show-starter-only" id="task-table-img">
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-ux">
 <table>
   <thead>
     <tr>
