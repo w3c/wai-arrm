@@ -84,6 +84,7 @@ Below is a list of tasks for UX Designers to get started making your work more a
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
+<div class="arrm-task-list arrm-show-starter-only" id="task-table-ux">
 <table>
   <thead>
     <tr>
@@ -96,10 +97,9 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
   <tbody>
     {% for row in site.data.arrm.arrm-all-tasks %}
       {% assign primary = row["Primary Ownership"] %}
-      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
-
-      <!-- Only display rows where 'Starter List' is not null or empty -->
       {% assign starter = row["Starter List"] %}
+      {% assign starter_flag = row["Starter List"] | downcase | strip %}    
+      {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
 
       {% comment %}
         To limit to Starter List items, add:
@@ -110,7 +110,7 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
       {% endcomment %}
     
       {% if primary == "User Experience (UX) Design" %}
-        <tr>
+        <tr class="{% if starter_flag == 'x' %}starter-task{% else %}non-starter-task{% endif %}">
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
           <td>
             {%- if wcag_entry -%}
@@ -126,7 +126,15 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<button type="button"
+  class="arrm-toggle-tasks"
+  aria-expanded="false"
+  aria-controls="task-table-ux"
+  data-section-name="UX tasks">
+  Show Starter UX tasks
+</button>
 
 ## Case study: How to use the tasks {#how-to-use-the-tasks}
 
@@ -181,4 +189,5 @@ We welcome your input by email or GitHub from the links below [Help improve this
 
 {::nomarkdown}
 {% include_cached box.html type="end" %}
+{% include_cached toggle-script.html %}
 {:/}

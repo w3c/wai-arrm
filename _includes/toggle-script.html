@@ -1,0 +1,113 @@
+<style>
+  /* 1. Hide the toggle button by default (no-JS fallback) */
+  .arrm-toggle-tasks {
+    display: none;
+  }
+
+  /* 2. When JS is active, display the button */
+  .arrm-js .arrm-toggle-tasks {
+    display: inline-block;
+    margin-bottom: 1em;
+  }
+
+  /* Ensure hidden rows stay hidden */
+  tr.arrm-row-hidden { 
+    display: none !important; 
+  }
+
+  /* Bold starter rows to make them stand out */
+  tr.arrm-starter-bold,
+  tr.arrm-starter-bold td,
+  tr.arrm-starter-bold th { 
+    font-weight: bold !important; 
+  }
+</style>
+
+<script>
+(function () {
+  function initToggleTasks() {
+    // Flag that JS is enabled
+    document.documentElement.classList.add('arrm-js');
+
+    const STARTER_CLASS = 'arrm-starter'; 
+    const MIN_ROWS_TOTAL = 15;
+
+    document.querySelectorAll('.arrm-toggle-tasks').forEach((button) => {
+      if (button.dataset.initialized) return;
+      button.dataset.initialized = 'true';
+
+      const targetId = button.getAttribute('aria-controls');
+      const tableWrapper = document.getElementById(targetId);
+      if (!tableWrapper) return;
+
+      const sectionName = button.dataset.sectionName || 'tasks';
+
+      function updateVisibility(isCondensed) {
+        tableWrapper.classList.toggle('arrm-show-starter-only', isCondensed);
+
+        const tbody = tableWrapper.querySelector('tbody');
+        if (tbody) {
+          const allRows = Array.from(tbody.querySelectorAll('tr'));
+          const starterRows = allRows.filter(row => row.classList.contains(STARTER_CLASS));
+
+          if (isCondensed) {
+            let neededNonStarters = Math.max(0, MIN_ROWS_TOTAL - starterRows.length);
+            let shownNonStarters = 0;
+
+            allRows.forEach(row => {
+              const isStarter = row.classList.contains(STARTER_CLASS);
+
+              if (isStarter) {
+                row.classList.remove('arrm-row-hidden');
+                row.classList.add('arrm-starter-bold');
+              } else {
+                row.classList.remove('arrm-starter-bold');
+                if (shownNonStarters < neededNonStarters) {
+                  row.classList.remove('arrm-row-hidden');
+                  shownNonStarters++;
+                } else {
+                  row.classList.add('arrm-row-hidden');
+                }
+              }
+            });
+          } else {
+            // Full expanded view
+            allRows.forEach(row => {
+              row.classList.remove('arrm-row-hidden');
+              if (row.classList.contains(STARTER_CLASS)) {
+                row.classList.add('arrm-starter-bold');
+              } else {
+                row.classList.remove('arrm-starter-bold');
+              }
+            });
+          }
+        }
+
+        // Accessibility ARIA state:
+        // aria-expanded="false" = Condensed / Starter view
+        // aria-expanded="true"  = Expanded / All tasks view
+        button.setAttribute('aria-expanded', String(!isCondensed));
+        button.textContent = isCondensed
+          ? `Show all ${sectionName}`
+          : `Show starter ${sectionName} only`;
+      }
+
+      // --- Force default to Starter List view on initial load ---
+      updateVisibility(true);
+
+      // Handle user toggle clicks
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const currentlyCondensed = tableWrapper.classList.contains('arrm-show-starter-only');
+        updateVisibility(!currentlyCondensed);
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initToggleTasks);
+  } else {
+    initToggleTasks();
+  }
+})();
+</script>
