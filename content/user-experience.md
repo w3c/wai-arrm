@@ -74,7 +74,7 @@ UX Designers can potentially cover numerous related areas, from conceptualizing 
 {% include box.html type="start" title="Important" icon="warning" %}
 {:/}
 
-ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
+This is not a definitive list of accessibility tasks. It is not an interpretation of WCAG. Some tasks directly apply to the success criterion requirements. Some tasks are recommended practice that are **not** required by the referenced success criterion. For definitive information, see the [normative WCAG standard](https://www.w3.org/TR/WCAG22/) and the informative [WCAG Understanding Documents](https://www.w3.org/WAI/WCAG22/Understanding/).
 
 {::nomarkdown}
 {% include box.html type="end" %}
