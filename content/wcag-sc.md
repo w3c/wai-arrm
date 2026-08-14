@@ -61,7 +61,7 @@ inline_css: |
   }
 ---
 
-This page provides an approach for assigning which roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.2 success criteria (SC).
+This page provides an approach for assigning which roles have primary (P), secondary (S), or contributor (C) responsibilities for meeting Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.2 success criteria.
 
 You can download the information from the table as a [CSV file]({{ "/content-assets/wai-arrm/arrm-wcag-sc.csv" | relative_url }}).
 
@@ -71,7 +71,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>WCAG SC</th>
+      <th>WCAG success criterion</th>
       <th>Business</th>
       <th>Content Authoring</th>
       <th>Visual Design</th>
