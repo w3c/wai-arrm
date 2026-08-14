@@ -5,7 +5,7 @@
 title: "User Experience (UX) Designer Responsibilities"
 nav_title: "UX Designer"
 lang: en                   # Change "en" to the translated-language shortcode
-last_updated: 2026-06-05   # Keep the date of the English version
+last_updated: 2026-08-14   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/

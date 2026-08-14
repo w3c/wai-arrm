@@ -5,7 +5,7 @@
 title: "Accessibility Roles and Responsibilities Mapping (ARRM)"
 nav_title: "Roles and Responsibilities (ARRM)"
 lang: en                   # Change "en" to the translated-language shortcode
-last_updated: 2026-06-05   # Keep the date of the English version
+last_updated: 2026-08-14   # Keep the date of the English version
 doc-note-type: draft
 
 # translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
