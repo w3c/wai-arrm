@@ -84,10 +84,12 @@ This page provides an approach to addressing accessibility requirements in WCAG 
 
 ## Introduction
 
+The following accessibility tasks offer a starting point for assigning responsibilities for digital accessibility to appropriate roles.
 
+For each task, the tables identify which role typically has primary, secondary, and contributor responsibilities. For more information on levels, see [Ownership levels](/planning/arrm/decision-tree/#ownership-levels). 
 
+Each task also includes the WCAG success criterion it relates to.
 
-These tasks offer a starting point for a role-based approach to addressing Web Content Accessibility Guidelines ([WCAG](/standards-guidelines/wcag/)) 2.2 success criteria (SC). 
 <p>{% include_cached icon.html name="warning" %} <strong>Important notes:</strong></p>
 - These tasks are **not required** to meet WCAG.
 - This is not a definitive list of accessibility tasks.
