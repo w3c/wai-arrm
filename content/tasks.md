@@ -64,7 +64,7 @@ inline_css: |
 {% include box.html type="start" title="Summary" class="" %}
 {:/}
 
-This page provides an approach to addressing accessibility requirements in WCAG as tasks for specific roles.
+This page provides a list of tasks involved in accessibility. It gives you an idea of which roles are typically responsible for implementing different aspects of accessibility.
 
 {::nomarkdown}
 {% include box.html type="end" %}
