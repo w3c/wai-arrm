@@ -37,7 +37,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of Visual Designers.
+This page lists some tasks to help visual designers get started making digital content more accessible to people with disabilities.
 
 {::nomarkdown}
 {% include box.html type="end" %}
