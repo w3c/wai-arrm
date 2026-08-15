@@ -161,22 +161,3 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 *   Use the [Alt Text Decision Tree](/tutorials/images/decision-tree/) to help decide if an image needs a description.
 *   Use the [Tips for Writing](/tips/writing/) to get started.
 *   Review the [Images Tutorial](/tutorials/images/) for guidance on different types of images.
-
-## Draft review questions
-
-{::nomarkdown}
-{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
-{:/}
-
-For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/planning/arrm/tasks/)
-- Provide all the tasks, in addition to the tasks to get started
-- Provide filters to select what to show
-
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}) and using your spreadsheet software to see what you want?
-
-We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
