@@ -5,7 +5,7 @@
 title: "Content Author Responsibilities"
 nav_title: "Content Author"
 lang: en                   # Change "en" to the translated-language shortcode
-last_updated: 2026-06-05   # Keep the date of the English version
+last_updated: 2026-08-14   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -36,7 +36,7 @@ footer: >
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of Content Authors.
+This page lists some tasks to help content authors get started making digital content more accessible to people with disabilities.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -72,17 +72,12 @@ Content Creation is often used in marketing, but can also be a task assigned to 
 
 ## Tasks to get started
 
-{::nomarkdown}
-{% include box.html type="start" title="Important" icon="warning" %}
-{:/}
-
-ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
-
 Below is a list of tasks for Content Authors to get started making your work more accessible to disabled people. If these tasks aren't met, your content can create barriers to users with disabilities.
+
+<p>{% include_cached icon.html name="warning" %} <strong>Important notes:</strong></p>
+- These tasks are **not required** to meet WCAG.
+- This is not a definitive list of accessibility tasks.
+- Some tasks support accessibility beyond what WCAG requires.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -166,22 +161,3 @@ This task helps people with visual disabilities, cognitive limitations, and moto
 *   Use the [Alt Text Decision Tree](/tutorials/images/decision-tree/) to help decide if an image needs a description.
 *   Use the [Tips for Writing](/tips/writing/) to get started.
 *   Review the [Images Tutorial](/tutorials/images/) for guidance on different types of images.
-
-## Draft review questions
-
-{::nomarkdown}
-{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
-{:/}
-
-For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/planning/arrm/tasks/)
-- Provide all the tasks, in addition to the tasks to get started
-- Provide filters to select what to show
-
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}) and using your spreadsheet software to see what you want?
-
-We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}

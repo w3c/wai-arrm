@@ -5,7 +5,8 @@
 title: "Accessibility Roles and Responsibilities Mapping (ARRM)"
 nav_title: "Roles and Responsibilities (ARRM)"
 lang: en                   # Change "en" to the translated-language shortcode
-last_updated: 2026-06-05   # Keep the date of the English version
+last_updated: 2026-08-14   # Keep the date of the English version
+doc-note-type: draft
 
 # translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
@@ -92,15 +93,10 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
   * [Content Author Responsibilities](/planning/arrm/content-author/)
   * [Front-End Developer Responsibilities](/planning/arrm/front-end/)
 
-{::nomarkdown}
-{% include box.html type="start" title="Important" icon="warning" %}
-{:/}
-
-ARRM is a practical implementation resource, not a normative interpretation of WCAG. For important guidance on how to use this resource, <a href="/planning/arrm/tasks/#important">see the disclaimer</a>.
-
-{::nomarkdown}
-{% include box.html type="end" %}
-{:/}
+<p>{% include_cached icon.html name="warning" %} <strong>Important notes about ARRM tasks:</strong></p>
+- These tasks are **not required** to meet WCAG.
+- This is not a definitive list of accessibility tasks.
+- Some tasks support accessibility beyond what WCAG requires.
 
 ## Customizing ARRM for your situation
 
@@ -111,6 +107,8 @@ Optionally, you can create accessibility roles and responsibilities based on you
 	* If at the task level, you can define different tasks or use the typical [tasks involved in accessibility](/planning/arrm/tasks/).
 * For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](/planning/arrm/decision-tree/)**.
 
-## Accessibility is about people
+## Learn more
 
-While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
+To learn more about implementing accessibility throughout your organization and projects, see [Planning and Managing Web Accessibility](/planning-and-managing/).
+
+Accessibility is about people. While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).

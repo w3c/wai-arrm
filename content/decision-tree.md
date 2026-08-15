@@ -6,6 +6,7 @@ title: "Decision Tree"
 nav_title: "Decision Tree"
 lang: en                   # Change "en" to the translated-language shortcode
 last_updated: 2026-06-05   # Keep the date of the English version
+doc-note-type: draft
 
 parent_in_h1:
   - ref: /planning/arrm/
