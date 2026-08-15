@@ -69,7 +69,7 @@ You can download the information from the table as a [CSV file]({{ "/content-ass
   <thead>
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
-      <th>WCAG success criterion</th>
+      <th>WCAG Success Criteria</th>
       <th>Business</th>
       <th>Content Authoring</th>
       <th>Visual Design</th>
