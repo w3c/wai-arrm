@@ -107,6 +107,8 @@ Optionally, you can create accessibility roles and responsibilities based on you
 	* If at the task level, you can define different tasks or use the typical [tasks involved in accessibility](/planning/arrm/tasks/).
 * For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](/planning/arrm/decision-tree/)**.
 
-## Accessibility is about people
+## Learn more
 
-While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
+To learn more about implementing accessibility throughout your organization and projects, see [Planning and Managing Web Accessibility](/planning-and-managing/).
+
+Accessibility is about people. While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
