@@ -76,7 +76,7 @@ Front-End Development typically builds the parts of a product that will be inter
 Below is a list of tasks for Front-End Developers to get started making your work more accessible to disabled people. If these tasks aren't met, your code can create barriers to users with disabilities.
 
 <p>{% include_cached icon.html name="warning" %} <strong>Important notes:</strong></p>
-- These tasks are **not required** to meet WCAG.
+- This resource does not set requirements to meet WCAG.
 - This is not a definitive list of accessibility tasks.
 - Some tasks support accessibility beyond what WCAG requires.
 

@@ -94,7 +94,7 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
   * [Front-End Developer Responsibilities](/planning/arrm/front-end/)
 
 <p>{% include_cached icon.html name="warning" %} <strong>Important notes about ARRM tasks:</strong></p>
-- These tasks are **not required** to meet WCAG.
+- This resource does not set requirements to meet WCAG.
 - This is not a definitive list of accessibility tasks.
 - Some tasks support accessibility beyond what WCAG requires.
 

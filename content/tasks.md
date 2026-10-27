@@ -89,7 +89,7 @@ For each task, the tables identify which role typically has primary, secondary, 
 Each task also includes the WCAG success criterion it relates to.
 
 <p>{% include_cached icon.html name="warning" %} <strong>Important notes:</strong></p>
-- These tasks are **not required** to meet WCAG.
+- This resource does not set requirements to meet WCAG.
 - This is not a definitive list of accessibility tasks.
 - Some tasks support accessibility beyond what WCAG requires.
 

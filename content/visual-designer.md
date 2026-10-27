@@ -74,7 +74,7 @@ Visual Design focuses largely on the look and feel of an application, as an end 
 Below is a list of tasks for Visual Designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your design can create barriers to users with disabilities.
 
 <p>{% include_cached icon.html name="warning" %} <strong>Important notes:</strong></p>
-- These tasks are **not required** to meet WCAG.
+- This resource does not set requirements to meet WCAG.
 - This is not a definitive list of accessibility tasks.
 - Some tasks support accessibility beyond what WCAG requires.
 
