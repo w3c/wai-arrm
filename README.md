@@ -33,19 +33,17 @@ Before you begin, make sure you have the following installed:
     bundle exec jekyll serve
     ```
 
-## Published draft
+## Published version
 
-ARRM is published as a draft at https://www.w3.org/WAI/planning/arrm/
+ARRM is available at https://www.w3.org/WAI/planning/arrm/
 
-Feedback is welcome. See [ARRM Draft review](https://www.w3.org/WAI/planning/arrm/#draft-review).
+Feedback is welcome. See [Help improve this page](https://www.w3.org/WAI/planning/arrm/#helpimprove).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/31182ad4-b21a-4063-a33e-2b7b7da44a1e/deploy-status?branch=main)](https://app.netlify.com/sites/wai-arrm/deploys?branch=main&filter=main)
 
 ## Work-in-progress (WIP) draft
 
-The `draft` branch hosts the latest version of the work-in-progress draft. 
-
-This draft is used by the ARRM CG to work on future iterations of the published draft.
+The `draft` branch hosts the latest version of the work-in-progress draft. This draft is used by the ARRM CG to work on future iterations of ARRM.
 
 A preview is available at https://draft--wai-arrm.netlify.app/planning/arrm/.
 
