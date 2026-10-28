@@ -1,7 +1,7 @@
 ---
 # Do not translate this
 title: "Changelog for Accessibility Roles and Responsibilities Mapping (ARRM)"
-title_html: "Changelog for <a href='/WAI/planning/arrm/changelog/'>Accessibility Roles and Responsibilities Mapping (ARRM)</a>"
+title_html: "Changelog for <a href='/WAI/planning/arrm/'>Accessibility Roles and Responsibilities Mapping (ARRM)</a>"
 nav_title: "Changelog"
 lang: en
 
