@@ -14,11 +14,15 @@ ref: /planning/arrm/changelog/
 feedbackmail: public-arrm@w3.org 
 ---
 
-## June 15
+## 28 October 2026
 
-- Updates ARRM from WCAG 2.1 to WCAG 2.2 across the site’s data and content pages.
-- Changes 13 files with 580 additions and 497 deletions, mainly updating task/SC mappings, role pages, and WCAG references.
-- Biggest changes are in the CSV data and task tables, adding new 2.2 success criteria plus a new Status field for tasks.
-- Refreshes content wording, standardizes role naming/capitalization, and updates last_updated dates.
-- Adds a new changelog page was added, and several pages now link to it with custom_changelog.
-- It’s large overall, but the intent is straightforward: bring ARRM content/resources in line with WCAG 2.2.
+- In the [Typical roles and responsibilities](/planning/arrm/#typical-roles-and-responsibilities) section, we added "Important notes about ARRM tasks".
+- In [WCAG Success Criteria Responsibilities](/planning/arrm/wcag-sc/):
+  - We added the WCAG 2.2 success criteria.
+  - We updated the role responsibilities for 1.3.3 Sensory Characteristics and 4.1.3 Status Messages.
+- In [Tasks](/planning/arrm/tasks/):
+  - We updated the Introduction section and added "Important notes".
+  - We updated "Form Interactions", "CSS and Presentation", "Navigation", "Static Content", and "Dynamic Interactions" tasks.
+- In [UX Designer](/planning/arrm/user-experience/), [Visual Designer](/planning/arrm/visual-designer/), [Content Author](/planning/arrm/content-author/), and [Front-End Developer](/planning/arrm/front-end/):
+  - We updated the "Tasks to get started" section and added "Important notes".
+  - We updated the list of tasks.
