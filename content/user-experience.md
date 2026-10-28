@@ -4,25 +4,24 @@
 
 title: "User Experience (UX) Designer Responsibilities"
 nav_title: "UX Designer"
-lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-07-24   # Keep the date of the English version
+lang: en                   # Change "en" to the translated-language shortcode
+last_updated: 2026-10-28   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
-github:
-  path: content/user-experience.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-
 permalink: /planning/arrm/user-experience/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /planning/arrm/user-experience/    # Do not change this
+ref: /planning/arrm/user-experience/        # Do not change this
+
+custom_changelog: /planning/arrm/changelog/
 
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
@@ -30,14 +29,14 @@ ref: /planning/arrm/user-experience/    # Do not change this
 # Translate the Community Group and Working Group names. Leave the acronyms in English.
 footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
 ---
 
 {::nomarkdown}
 {% include box.html type="start" h="2" title="Summary" class="full" %}
 {:/}
 
-This page lists some digital accessibility tasks that are usually the responsibility of UX designers.
+This page lists some tasks to help UX designers get started making digital content more accessible to people with disabilities.
 
 {::nomarkdown}
 {% include box.html type="end" %}
@@ -58,19 +57,25 @@ This page lists some digital accessibility tasks that are usually the responsibi
 
 ## Role summary
 
-UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial front-end development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
+UX Designers can potentially cover numerous related areas, from conceptualizing the user journey to partial Front-end Development. For the purposes of this resource, UX Design is defined by its core responsibilities, such as information architecture, creating wireframes (low fidelity screen mockups), and creating prototypes that define interactions.
 
 <dl>
 <dt>Key deliverable examples:</dt>
-<dd>User journeys, wireframes, prototypes, interaction guidelines, information architecture</dd><dt>Tasks include:</dt>
-<dd>User workflow / process maps, designing user experiences, user task and workflow mapping, creating and maintaining user personas</dd>
+<dd>User journeys, wireframes, prototypes, interaction guidelines, and information architecture</dd>
+<dt>Tasks include:</dt>
+<dd>User workflow / process maps, designing user experiences, user task and workflow mapping, creating, and maintaining user personas</dd>
 <dt>Example job titles for this role:</dt>
-<dd>User Experience (UX) Designer, Product Designer, Web Designer, Service Designer</dd>
+<dd>User Experience (UX) Designer, Product Designer, Web Designer, and Service Designer</dd>
 </dl>
 
 ## Tasks to get started
 
-Below is a list of tasks for UX designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
+Below is a list of tasks for UX Designers to get started making your work more accessible to disabled people. If these design tasks aren't met, your designs can create barriers to users with disabilities.
+
+<p>{% include_cached icon.html name="warning" %} <strong>Important notes:</strong></p>
+- This resource does not set requirements to meet WCAG.
+- This is not a definitive list of accessibility tasks.
+- Some tasks support accessibility beyond what WCAG requires.
 
 You can also get the full list of [Tasks Involved in Accessibility as a web page](/planning/arrm/tasks/) with other roles, or download the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}).
 
@@ -79,24 +84,34 @@ You can also get the full list of [Tasks Involved in Accessibility as a web page
     <tr>
       <!-- Only include specific columns in the header - exclude: Starter List -->
       <th>ID</th>
-      <th style="white-space:nowrap;">WCAG SC</th>
+      <th>WCAG SC</th>
       <th>Task</th>
     </tr>
   </thead>
   <tbody>
     {% for row in site.data.arrm.arrm-all-tasks %}
-      <!-- Only display rows where 'Starter List' is not null or empty -->
-      {% assign starter = row["Starter List"] %}
       {% assign primary = row["Primary Ownership"] %}
       {% assign wcag_entry = site.data.wcag22.successcriteria | find: "num", row["WCAG SC"] %}
-      {% if starter and starter != "" and primary == "User Experience (UX) Design" %}
+
+      <!-- Only display rows where 'Starter List' is not null or empty -->
+      {% assign starter = row["Starter List"] %}
+
+      {% comment %}
+        To limit to Starter List items, add:
+
+          starter and starter != ""
+
+        which will ensure that only the starter list is displayed.
+      {% endcomment %}
+    
+      {% if primary == "User Experience (UX) Design" %}
         <tr>
           <td style="white-space:nowrap;">{{ row["ID"] }}</td>
-          <td style="white-space:nowrap;">
+          <td>
             {%- if wcag_entry -%}
               <a href="https://www.w3.org/WAI/WCAG22/Understanding/{{ wcag_entry.id }}">
             {%- endif -%}
-            {{ row["WCAG SC"] }} ({{ row["Level"] }})
+            {{ row["WCAG SC"] }} {{ wcag_entry.handle }} ({{ row["Level"] }})
             {%- if wcag_entry -%}</a>{%- endif %}
           </td>
           <td>{{ row["Task"] }}</td>
@@ -143,22 +158,3 @@ Read [Lakshmi's full story](/people-use-web/user-stories/story-three/) and learn
 
 * Use the [Tips for Designing](/tips/designing/) to get started
 * See the [WAI Tutorials](/tutorials/) for common web components and how to make them accessible
-
-## Draft review questions
-
-{::nomarkdown}
-{% include box.html type="start" title="How do you want to use this page?" icon="comments"%}
-{:/}
-
-For the later iterations of this page, we could:
-- Provide the 'Tasks to get started' as separate tables by content type — images and graphs, semantic structure, ... like the full [Tasks page](/planning/arrm/tasks/)
-- Provide all the tasks, in addition to the tasks to get started
-- Provide filters to select what to show
-
-Would that be particulalry useful to you? Or, are you comfortable downloading the [CSV file]({{ "/content-assets/wai-arrm/arrm-all-tasks.csv" | relative_url }}) and using your spreadsheet software to see what you want?
-
-We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}

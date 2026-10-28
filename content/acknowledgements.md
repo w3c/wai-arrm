@@ -3,17 +3,16 @@
 title: "Acknowledgements for ARRM"
 nav_title: "Acknowledgements"
 lang: en
-last_updated: 2025-03-06
+last_updated: 2026-06-05
 
 parent_in_h1:
   - ref: /planning/arrm/
     name: nav_title
 
-github:
-  path: content/acknowledgements.md
-
 permalink: /planning/arrm/acknowledgements/
-ref: /planning/arrm/acknowledgements/   
+ref: /planning/arrm/acknowledgements/
+
+custom_changelog: /planning/arrm/changelog/
 
 # Ignore default values in _config.yml
 doc-note-type: false
@@ -22,7 +21,13 @@ acknowledgements: false
 license: false
 ---
 
-ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C. It was initially developed with the W3C Accessibility Education and Outreach Working Group ([EOWG](/about/groups/eowg/)).
+ARRM is being developed through the Accessibility Roles and Responsibilities Mapping [ARRM Community Group](https://www.w3.org/community/arrm/) at W3C.
+
+## Origins of ARRM
+
+ARRM traces back to independent work by Denis Boudreau and Bill Tyler over 15 years ago, each exploring role-based approaches to accessibility. In 2012, Denis posted the [Accessibility Responsibility Breakdown](https://www.w3.org/community/wai-engage/wiki/Accessibility_Responsibility_Breakdown) on a W3C Community Group page. Denis and Bill met in person with Sean Kelly at the 2017 CSUN conference, where the alignment in their thinking sparked the foundation of ARRM work.
+
+A group of dedicated volunteers worked to refine the concept under W3C’s Accessibility Education and Outreach Working Group (EOWG). In 2025, the [Accessibility Roles and Responsibilities Mapping (ARRM) Community Group](https://www.w3.org/community/arrm/) formed to continue this work. This collaborative effort culminated in the release of ARRM’s first draft under W3C guidance in 2025. 
 
 ## Editors and contributors through March 2025
 

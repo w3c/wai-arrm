@@ -4,21 +4,21 @@
 
 title: "Accessibility Roles and Responsibilities Mapping (ARRM)"
 nav_title: "Roles and Responsibilities (ARRM)"
-lang: en   # Change "en" to the translated-language shortcode
-last_updated: 2025-07-24   # Keep the date of the English version
+lang: en                   # Change "en" to the translated-language shortcode
+last_updated: 2026-10-28   # Keep the date of the English version
+doc-note-type: draft
 
-# translators:    # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
+# translators:        # remove from the beginning of this line and the lines below: "# " (the hash sign and the space)
 # - name: "Jan Doe"   # Replace Jan Doe with translator name
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple translators
 # contributors:
 # - name: "Jan Doe"   # Replace Jan Doe with contributor name, or delete this line if none
 # - name: "Jan Doe"   # Replace Jan Doe with name, or delete this line if not multiple contributors
 
-github:
-  path: content/index.md    # Add the language shortcode to the middle of the filename, for example: content/index.fr.md
-
 permalink: /planning/arrm/  # Add the language shortcode to the end, with no slash at the end. For example /path/to/file/fr
-ref: /planning/arrm/    # Do not change this
+ref: /planning/arrm/        # Do not change this
+
+custom_changelog: /planning/arrm/changelog/
 
 # In the footer below:
 # Do not translate ACKNOWLEDGEMENTS
@@ -26,7 +26,7 @@ ref: /planning/arrm/    # Do not change this
 # Translate the Community Group and Working Group names. Leave the acronyms in English.
 footer: >
    <p><strong>Editors and contributors:</strong> See ACKNOWLEDGEMENTS.</p>
-   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>).</p>
+   <p>Developed through the <a href="https://www.w3.org/community/arrm/">Accessibility Roles and Responsibilities Mapping (ARRM) Community Group</a> at W3C. Initially developed with the Accessibility Education and Outreach Working Group (<a href="https://www.w3.org/WAI/about/groups/eowg/">EOWG</a>). You are also welcome to join the <a href="https://www.w3.org/community/arrm/">ARRM Community Group</a> to contribute.</p>
 ---
 
 {::nomarkdown}
@@ -93,6 +93,11 @@ ARRM provides one approach for defining roles, tasks, and responsibilities. You 
   * [Content Author Responsibilities](/planning/arrm/content-author/)
   * [Front-End Developer Responsibilities](/planning/arrm/front-end/)
 
+<p>{% include_cached icon.html name="warning" %} <strong>Important notes about ARRM tasks:</strong></p>
+- This resource does not set requirements to meet WCAG.
+- This is not a definitive list of accessibility tasks.
+- Some tasks support accessibility beyond what WCAG requires.
+
 ## Customizing ARRM for your situation
 
 Optionally, you can create accessibility roles and responsibilities based on your project and organization.
@@ -102,23 +107,8 @@ Optionally, you can create accessibility roles and responsibilities based on you
 	* If at the task level, you can define different tasks or use the typical [tasks involved in accessibility](/planning/arrm/tasks/).
 * For each success criteria or task, walk through the steps for deciding who is responsible using the **[ARRM Decision Tree](/planning/arrm/decision-tree/)**.
 
-## Accessibility is about people
+## Learn more
 
-While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
+To learn more about implementing accessibility throughout your organization and projects, see [Planning and Managing Web Accessibility](/planning-and-managing/).
 
-## Draft review
-{::nomarkdown}
-{% include box.html type="start" title="We particularly welcome your input on these questions:" icon="comments"%}
-{:/}
-
-- Do you have input on the [Role descriptions](/planning/arrm/roles/)? We are particularly interested in feedback to better cover roles in a wide range of organizations throughout the world.
-- Please review the tasks in the role(s) that you know best — [User Experience (UX) Designer](/planning/arrm/user-experience/), [Visual Designer](/planning/arrm/visual-designer/), [Content Author](/planning/arrm/content-author/), [Front-End Developer](/planning/arrm/front-end/). Can the wording of the tasks be improved to better align with how your colleagues refer to things?
-- How would you like to use this resource?
-  - Are you comfortable downloading the CSV files and using spreadsheet or other software to sort and filter it for your needs?
-  - How might we make this resource more useful for you?
-
-We welcome your input by email or GitHub from the links below [Help improve this page](#helpimprove)
-
-{::nomarkdown}
-{% include_cached box.html type="end" %}
-{:/}
+Accessibility is about people. While ARRM focuses on meeting WCAG, it is important to first [understand the people aspects of accessibility](/people/) and to [include people with disabilities in your project](/planning/involving-users/).
