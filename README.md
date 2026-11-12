@@ -6,7 +6,7 @@ This repository is used by the [ARRM W3C Community Group](https://www.w3.org/com
 
 Before you begin, make sure you have the following installed:
 
-- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) version 3.4.8 or higher\
+- [Ruby](https://www.ruby-lang.org/en/documentation/installation/) version 3.4.12 or higher\
     Check your Ruby version using `ruby -v`
 - [Bundler](https://bundler.io/)
 
