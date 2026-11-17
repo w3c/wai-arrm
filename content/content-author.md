@@ -148,15 +148,11 @@ There is no additional contributor for this task.
 
 ### End user persona: Lakshmi, a senior accountant who is blind
 
-Lakshmi is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design task ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page.
+Lakshmi is blind and uses a screen reader that announces web content and interface information through synthesized speech. She uses a keyboard to navigate web pages and interact with controls. She uses websites daily for research and financial transactions. This design task ensures she isn’t confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page.
 
-The intent of the task is to ensure that functionality is predictable as visitors navigate their way through a document.
+Providing clear, meaningful text alternatives allows Lakshmi to access information that would otherwise be available only visually. This helps her understand documents and presentations and perform her work independently.
 
-This task helps people with visual disabilities, cognitive limitations, and motor impairments by reducing the chance that a change of context will occur unexpectedly.
-
-[Read Lakshmi's full story](/people-use-web/user-stories/story-three/) and learn about other design tasks that benefit users like her.
-
-## Additional resources
+[Read Lakshmi's full story](/people-use-web/user-stories/story-three/)  and learn about other accessibility tasks that benefit users like her.
 
 *   Use the [Alt Text Decision Tree](/tutorials/images/decision-tree/) to help decide if an image needs a description.
 *   Use the [Tips for Writing](/tips/writing/) to get started.

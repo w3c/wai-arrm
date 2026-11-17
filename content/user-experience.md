@@ -146,7 +146,8 @@ Explain the behaviour and functionality that you intend as the UX Designer and p
 Collaborating on the design together ensures that it's optimized for multiple end users.
 
 ### End user persona: Lakshmi, a senior accountant member who is blind
-Lakshmi is blind and uses a screen reader (speech-to-text software) and keyboard to navigate web pages. She uses websites daily for research and financial transactions. This design task ensures she isn't confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page. 
+
+Lakshmi is blind and uses a screen reader that announces web content and interface information through synthesized speech. She uses a keyboard to navigate web pages and interact with controls. She uses websites daily for research and financial transactions. This design task ensures she isn’t confused by an unexpected behaviour, i.e., when her keyboard focus lands on a button for the first time and content is announced automatically or the button automatically opens another page.
 
 The intent of the task is to ensure that functionality is predictable as visitors navigate their way through a document.
 
