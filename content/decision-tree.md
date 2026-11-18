@@ -247,7 +247,7 @@ This section identifies the steps in identifying those roles who, after the prim
 
 **Business Analysis as Secondary Owner**
 
-Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. Business Analysts may continue to serve as secondary owners when requirements need clarification, review, or modification throughout the product lifecycle.
+Business Analysts may serve as secondary owners when accessibility tasks involve business requirements or decisions requiring their input. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. Business Analysts may continue to serve as secondary owners when requirements need clarification, review, or modification throughout the product lifecycle.
 
 **Content Authoring as Secondary Owner**
 
