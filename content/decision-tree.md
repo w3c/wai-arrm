@@ -219,15 +219,13 @@ QA Testers are not typically part of the design or implementation process. Thoug
 
 IF NONE OF THE ABOVE, then it escalates to an [Administrative](/planning/arrm/roles/#administration-role-group) concern.
 
-If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the task and last_updated: 2026-06-05assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
-
+If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined or were not assigned in an earlier step. Management should review the task and assign ownership as appropriate, based on the roles on the team and the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
 
 **Note:**
 
 Administrative roles, including Product Ownership and Project Management, help ensure that accessibility requirements are planned, resourced, prioritized, and addressed during delivery. These roles may influence decisions about accessibility, but their involvement does not automatically make them primary owners of individual design, development, or testing tasks.
 
 When no clear primary owner can be identified, the relevant roles should work together to clarify responsibility using the decision tree.
-requirements.
 
 ### Decision tree application examples
 
@@ -249,7 +247,7 @@ This section identifies the steps in identifying those roles who, after the prim
 
 **Business Analysis as Secondary Owner**
 
-Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. After initiating the project, the role is typically hands-off.
+Business Analysts are not typically secondary owners. The role might be a secondary owner if there are active discussions that need review and approval for changes to items that are part of the requirements, variation to branding guidance, core features and high-level product functionality, or contractual or legal requirements and review determined by them as primary owners. Business Analysts may continue to serve as secondary owners when requirements need clarification, review, or modification throughout the product lifecycle.
 
 **Content Authoring as Secondary Owner**
 
@@ -282,7 +280,7 @@ If the roles do not qualify as primary or secondary owners, then consider the in
 
 **Business Analysis as a contributor**
 
-In practice business typically more of an contributor by providing key additional initial requirements or documentation (such as brand guidelines) but little little else. As mentioned earlier, this role the role is typically hands-off after initiating the project.
+Business Analysts may contribute by providing business requirements, supporting documentation, and guidance, such as branding standards or contractual requirements. They may also be consulted when decisions affect previously established requirements or when new business needs emerge. Their level of involvement depends on the product, organization, and nature of the accessibility task.
 
 **Content Authoring as a contributor**
 
