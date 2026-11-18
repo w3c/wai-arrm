@@ -5,7 +5,7 @@
 title: "Decision Tree"
 nav_title: "Decision Tree"
 lang: en                   # Change "en" to the translated-language shortcode
-last_updated: 2026-06-05   # Keep the date of the English version
+last_updated: 2026-11-18  # Keep the date of the English version
 doc-note-type: draft
 
 parent_in_h1:
@@ -51,6 +51,11 @@ footer: >
 This tool guides organizations that want to customize their own accessibility roles and responsibilities mapping, based on considerations in their organizations. For background and context on this decision tree, see [ARRM: Accessibility Roles and Responsibilities Mapping main page](/planning/arrm/).
 
 The role-based decision tree is a framework to help anyone define a Responsibility Mapping of their own within their organization. It is a process to help teams define and distribute ownership and responsibility of accessibility requirements in the project lifecycle. Using this framework, a team should more easily define who ultimately owns specific requirements and who else is actively involved (those that contribute to the successful implementation of the tasks in the lifecycle).
+
+The [Roles](/planning/arrm/roles/) page describes a broader range of roles involved in delivering accessible products, including Product Management and Product Ownership. These roles may have responsibilities for product strategy, prioritization, and delivery without necessarily having primary ownership of individual accessibility tasks.
+
+Accountability for overall product accessibility outcomes is distinct from ownership of specific accessibility tasks. The decision tree focuses on assigning responsibility for those tasks.
+
 
 ## Ownership levels
 
@@ -99,9 +104,19 @@ Is this task driven by [Business](/planning/arrm/roles/#business-role-group) or 
 *   Administering branding guidance and standards,
 *   Defining core features and high-level product functionalities.
 
+
 **Business Analysis as Primary Owner**
 
-The Business Analyst role is the primary owner for items dictated by business requirements including branding guidance, core features and high-level product functionality, and contractual or legal requirements. After initiating the project, the role is typically hands-off.
+Business Analysis is typically responsible for tasks involving business requirements, including branding guidance, core features, high-level product functionality, and contractual or legal requirements. Business Analysts may continue to be involved throughout the product lifecycle when requirements need clarification, review, or modification.
+
+**Product Management and Product Ownership**
+
+Product Managers establish product direction, priorities, and expected outcomes, including accessibility objectives. They work with Business Analysts and other roles to ensure that accessibility is reflected in product requirements and decisions throughout the product lifecycle.
+
+Product Owners help translate product priorities into delivery activities, including backlog management and acceptance criteria. They work with the roles responsible for design, development, and testing to ensure that accessibility requirements are addressed.
+
+These responsibilities do not automatically make Product Managers or Product Owners primary owners of individual accessibility tasks. Organizations should use the decision tree to identify the appropriate task owner, while recognizing that product-level accountability and delivery responsibilities may extend across multiple tasks and roles.
+
 
 #### Step B.
 
@@ -204,11 +219,15 @@ QA Testers are not typically part of the design or implementation process. Thoug
 
 IF NONE OF THE ABOVE, then it escalates to an [Administrative](/planning/arrm/roles/#administration-role-group) concern.
 
-If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the task and assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
+If one of the main roles has not been assigned, it's up to management to decide ownership. This should only happen when roles are not clearly defined, or were not assigned in an earlier step. Management should review the task and last_updated: 2026-06-05assign as seems appropriate, based upon the roles on the team, using the guidance above. Management should run the decision tree again and identify the closest fit for ownership.
 
-**Note:**  
 
-Business Administration is not a role that makes or owns decisions that directly impact accessibility in the delivered product, but is meant to oversee the delivery process and that the product meets accessibility requirements.
+**Note:**
+
+Administrative roles, including Product Ownership and Project Management, help ensure that accessibility requirements are planned, resourced, prioritized, and addressed during delivery. These roles may influence decisions about accessibility, but their involvement does not automatically make them primary owners of individual design, development, or testing tasks.
+
+When no clear primary owner can be identified, the relevant roles should work together to clarify responsibility using the decision tree.
+requirements.
 
 ### Decision tree application examples
 
