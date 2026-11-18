@@ -5,7 +5,7 @@
 title: "Roles Involved in Accessibility"
 nav_title: "Roles"
 lang: en                   # Change "en" to the translated-language shortcode
-last_updated: 2026-10-28   # Keep the date of the English version
+last_updated: 2026-11-18   # Keep the date of the English version
 
 parent_in_h1:
   - ref: /planning/arrm/
@@ -57,6 +57,8 @@ This page describes typical roles that have responsibilities for ensuring access
 ## Introduction
 
 This page describes typical roles that have responsibilities for ensuring accessibility. These role descriptions are generalized on purpose. An individual may fulfill more than one role.
+
+These role groups describe typical areas of responsibility rather than fixed organizational structures. Inclusion in a role group does not automatically assign ownership of individual accessibility tasks.
 
 Each role description includes areas of focus in decision making, decision ownership, notes on the primary tasks of that role, a shortlist of common job titles, and a general description of the accessibility responsibilities of that role.
 
@@ -230,7 +232,7 @@ These roles work with the Business, Author, Design, Development, and Testing rol
 
 Product Owners work with delivery teams to translate product goals and requirements into prioritized work. They help ensure that products are built and delivered in ways that meet business needs, user needs, and accessibility requirements.
 
-Product Owners are involved in managing the product backlog, clarifying requirements, defining acceptance criteria, and prioritizing accessibility-related work. They collaborate with Product Managers, Business Analysts, designers, developers, testers, and other roles to ensure that accessibility considerations are addressed throughout delivery.
+Product Owners are responsible for ensuring that the product backlog is managed effectively, clarifying requirements, defining acceptance criteria, and prioritizing accessibility-related work. They collaborate with Product Managers, Business Analysts, designers, developers, testers, and other roles to ensure that accessibility considerations are addressed throughout delivery.
 
 Product Owners may contribute to decisions about accessibility priorities and the acceptance of completed work, but they typically delegate specific design, implementation, and testing decisions to the appropriate roles. This does not automatically make them primary owners of individual accessibility tasks in the ARRM model.
 
