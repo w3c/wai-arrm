@@ -64,7 +64,22 @@ You are welcome to use this information as is, or change it for your situation.
 
 ## 1\. Business Role Group {#business-role-group}
 
-Writes business requirements and/or initial user stories, are concerned with ensuring that the project delivers the agreed-upon business benefits.
+This group defines product goals, business needs, requirements, and expected outcomes. These roles work with stakeholders, users, and delivery teams to identify priorities, establish accessibility expectations, and ensure that products deliver value throughout their lifecycle.
+
+
+### Product Management
+
+Product Managers guide the strategy, direction, and outcomes of a product throughout its lifecycle. They work with business stakeholders, users, and delivery teams to understand needs, define product goals, and establish priorities.
+
+Product Managers play an important role in ensuring that accessibility is considered in product strategy, requirements, prioritization, and measures of success. They help ensure that the needs of people with disabilities are represented in product decisions and that accessibility is treated as an ongoing product responsibility rather than an activity limited to testing or remediation.
+
+Product Managers collaborate with Business Analysts, Product Owners, designers, developers, testers, and other roles to deliver accessible products. While they may be accountable for overall product outcomes, they do not automatically assume primary ownership of individual accessibility design, development, or testing tasks.
+
+<dl>
+<dt>Example job titles for this role:</dt>
+<dd>Product Manager, Digital Product Manager, Product Lead</dd>
+</dl>
+
 
 ### Business Analysis
 
@@ -206,16 +221,26 @@ Quality Assurance Testers responsible for manual testing will typically handle t
 
 ## 6\. Administration Role Group {#administration-role-group}
 
-The roles in this section cover managing the product and project, as well as other bureaucratic functions of the broader organization that often have a larger mandate than any individual project. Most administrative roles, as defined in this resource, have very little, if anything, to do with the design, the implementation, or the testing of accessibility principles to create more inclusive applications and websites. These roles, however, are still instrumental in ensuring that the team members who are actively taking part in making content accessible and conformant with WCAG can be successful at doing so. This begins with project managers and product owners working hand in hand with the design, development and testing teams, but also other governance roles contributing to steering the organization's culture in a direction that is aligned with the goals pursued by accessibility guidelines.
+The roles in this group support product delivery, project management, and organizational governance. They help ensure that accessibility requirements are planned, prioritized, resourced, tracked, and incorporated into organizational processes.
+
+These roles work with the Business, Author, Design, Development, and Testing role groups to support accessible outcomes. While they may not directly carry out individual accessibility design, implementation, or testing tasks, they are important in ensuring that those responsibilities can be fulfilled successfully.
+
 
 ### Product Ownership
 
-Product owners own individual products and define their features and are key to defining the importance of accessibility on a project. It is their job to make sure that products are built and delivered in a way that meets business needs and user needs. They should have some basic understanding of the accessibility implications of the UI requirements they request, such as cost and required infrastructure. But, as with features in general, they delegate design and implementation decisions to other roles. As a result, they are typically not directly involved and do not have ownership in the ARRM model.
+Product Owners work with delivery teams to translate product goals and requirements into prioritized work. They help ensure that products are built and delivered in ways that meet business needs, user needs, and accessibility requirements.
+
+Product Owners are involved in managing the product backlog, clarifying requirements, defining acceptance criteria, and prioritizing accessibility-related work. They collaborate with Product Managers, Business Analysts, designers, developers, testers, and other roles to ensure that accessibility considerations are addressed throughout delivery.
+
+Product Owners may contribute to decisions about accessibility priorities and the acceptance of completed work, but they typically delegate specific design, implementation, and testing decisions to the appropriate roles. This does not automatically make them primary owners of individual accessibility tasks in the ARRM model.
+
+The responsibilities of Product Owners and Product Managers can overlap. In some organizations, one person performs both functions, while in others they are separate roles with distinct areas of accountability.
 
 <dl>
 <dt>Example job titles for this role:</dt>
-<dd>Product Manager, Product Owner, Release Manager, Business Owner</dd>
+<dd>Product Owner, Agile Product Owner</dd>
 </dl>
+
 
 ### Project Management
 
